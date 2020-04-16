@@ -1,0 +1,74 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        },
+        {
+            "Points": 1000,
+            "Faction": 1
+        },
+        {
+            "Points": 0,
+            "Faction": 2
+        },
+        {
+            "Points": 500,
+            "Faction": 3
+        },
+        {
+            "Points": 2000,
+            "Faction": 4
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "GLgele",
+    "QuestData": {
+        "CompletedQuests": [
+            {
+                "Quest": 2,
+                "Date": 2533571L
+            },
+            {
+                "Quest": 3,
+                "Date": 2533854L
+            },
+            {
+                "Quest": 4,
+                "Date": 2601804L
+            }
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "e5a61afc-c65f-39d7-a8ee-5aa192c49165",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+        {
+            "Dialog": 1
+        },
+        {
+            "Dialog": 5
+        },
+        {
+            "Dialog": 6
+        },
+        {
+            "Dialog": 7
+        },
+        {
+            "Dialog": 8
+        }
+    ]
+}
