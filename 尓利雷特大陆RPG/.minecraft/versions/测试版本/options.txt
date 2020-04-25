@@ -15,7 +15,7 @@ difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:[]
+resourcePacks:["mcmap.cc-[史诗冒险材质包][32x32].zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -100,7 +100,8 @@ key_key.minimap.togglefullscreen:45
 key_key.minimap.waypointhotkey:48
 key_key.minimap.togglemobs:0
 key_key.minimap.toggleingamewaypoints:0
-soundCategory_master:1.0
+key_key.portaitreposition:52
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

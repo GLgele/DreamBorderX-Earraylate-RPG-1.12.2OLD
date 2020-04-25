@@ -40,6 +40,9 @@
     "PlayerCompanionId": 0,
     "DialogData": [
         {
+            "Dialog": 6
+        },
+        {
             "Dialog": 8
         }
     ]
