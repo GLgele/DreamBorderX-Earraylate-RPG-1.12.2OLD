@@ -2812,12 +2812,6 @@
     },
     "done": true
   },
-  "earraylate:firstone": {
-    "criteria": {
-      "tick": "2020-05-24 16:17:42 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/green_banner": {
     "criteria": {
       "has_green_wool": "2020-04-25 17:18:15 +0800",
