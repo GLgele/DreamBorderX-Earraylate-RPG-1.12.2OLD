@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "variedcommodities:soldier_chest"
+      },
+      "title": {
+        "translate": "advancements.earraylate.soldier"
+      },
+      "description": {
+        "translate": "advancements.earraylate.soldier.desc"
+      },
+      "announce_to_chat": false
+    },
+    "parent":"earraylate:root",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+            {
+                "item": "variedcommodities:saber"
+            }
+        ]
+      }
+      
+    }
+  }

@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "earraylate",
+        "name": "Earraylate Mod",
+        "description": "Earraylate",
+        "version": "${version}",
+        "url": "https://glgele.github.io/DreamBorderX",
+        "authorList": ["DreamBorderX:GLgele"],
+        "credits": "DreamBorderX:GLgele",
+        "logoFile": "logo.png",
+        "screenshots": [],
+        "useDependencyInformation": true,
+        "requiredMods": [],
+        "dependencies": []
+    }
+]
