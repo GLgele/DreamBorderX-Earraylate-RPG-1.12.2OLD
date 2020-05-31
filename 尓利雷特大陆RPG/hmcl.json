@@ -9,7 +9,7 @@
   "proxyPort": 0,
   "theme": "#5c6bc0",
   "localization": "def",
-  "downloadType": "bmclapi",
+  "downloadType": "mcbbs",
   "configurations": {
     "Default": {
       "global": {
@@ -71,10 +71,10 @@
   "accounts": [
     {
       "serverBaseURL": "https://littleskin.cn/api/yggdrasil/",
-      "clientToken": "2a0a70555cf84e64851db8ba45447482",
+      "clientToken": "c81e75e9f02b4f949761733268ff1cad",
       "displayName": "GLgele",
       "userProperties": {},
-      "accessToken": "148b8f6a77294647a5c9ca97d12a3a31",
+      "accessToken": "f2975a706663492c871d161c668ebbbf",
       "profileProperties": {
         "textures": "eyJ0aW1lc3RhbXAiOjE1OTA4OTI2OTU1NzcsInByb2ZpbGVJZCI6Ijg0ZThkZThlZjZkOTQzNzE4MzViNjg0NGNiN2ZmMGU5IiwicHJvZmlsZU5hbWUiOiJHTGdlbGUiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL21jc2tpbi5saXR0bGVzZXJ2aWNlLmNuL3RleHR1cmVzLzM5OTY4M2RkMWVlYmJlY2Q4YjQyZGUwYTgzOGE0MjdkM2FjZDEyZDFjYjZjMjE3YWFkYzIxMWYxMDE3MTU1MGQifSwiQ0FQRSI6eyJ1cmwiOiJodHRwczovL21jc2tpbi5saXR0bGVzZXJ2aWNlLmNuL3RleHR1cmVzL2YyN2Q5M2ZlOTc2NTNiZjcxZTE4YzA2NGYzZTZiNDY5MzkxZDRjNzQ4MjcwNjRhMDhjZWI1YjVhZTk4NWM1N2UifX19"
       },
@@ -91,7 +91,7 @@
       "userProperties": {},
       "accessToken": "30f45561aac5439da5bef89c6dd04833",
       "profileProperties": {
-        "textures": "eyJ0aW1lc3RhbXAiOjE1ODkwODc5MzI4NzQsInByb2ZpbGVJZCI6IjYyNmQyZWRlODY5OTQyMWE4ZGQwODM5ZDhmZjhlODRkIiwicHJvZmlsZU5hbWUiOiJnZWxlMTc4IiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cHM6Ly9tY3NraW4ubGl0dGxlc2VydmljZS5jbi90ZXh0dXJlcy8zOTk2ODNkZDFlZWJiZWNkOGI0MmRlMGE4MzhhNDI3ZDNhY2QxMmQxY2I2YzIxN2FhZGMyMTFmMTAxNzE1NTBkIn0sIkNBUEUiOnsidXJsIjoiaHR0cHM6Ly9tY3NraW4ubGl0dGxlc2VydmljZS5jbi90ZXh0dXJlcy9mMjdkOTNmZTk3NjUzYmY3MWUxOGMwNjRmM2U2YjQ2OTM5MWQ0Yzc0ODI3MDY0YTA4Y2ViNWI1YWU5ODVjNTdlIn19fQ\u003d\u003d"
+        "textures": "eyJ0aW1lc3RhbXAiOjE1OTA4OTY2NTI2NDMsInByb2ZpbGVJZCI6IjYyNmQyZWRlODY5OTQyMWE4ZGQwODM5ZDhmZjhlODRkIiwicHJvZmlsZU5hbWUiOiJnZWxlMTc4IiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cHM6Ly9tY3NraW4ubGl0dGxlc2VydmljZS5jbi90ZXh0dXJlcy8zOTk2ODNkZDFlZWJiZWNkOGI0MmRlMGE4MzhhNDI3ZDNhY2QxMmQxY2I2YzIxN2FhZGMyMTFmMTAxNzE1NTBkIn0sIkNBUEUiOnsidXJsIjoiaHR0cHM6Ly9tY3NraW4ubGl0dGxlc2VydmljZS5jbi90ZXh0dXJlcy9mMjdkOTNmZTk3NjUzYmY3MWUxOGMwNjRmM2U2YjQ2OTM5MWQ0Yzc0ODI3MDY0YTA4Y2ViNWI1YWU5ODVjNTdlIn19fQ\u003d\u003d"
       },
       "type": "authlibInjector",
       "uuid": "626d2ede8699421a8dd0839d8ff8e84d",

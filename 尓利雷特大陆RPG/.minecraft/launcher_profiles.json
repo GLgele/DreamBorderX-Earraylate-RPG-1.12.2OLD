@@ -1,1 +1,14 @@
-{"selectedProfile": "(Default)","profiles": {"(Default)": {"name": "(Default)"}},"clientToken": "88888888-8888-8888-8888-888888888888"}
+{
+	"profiles": {
+		"LiteLoader 1.12.2": {
+			"name": "LiteLoader 1.12.2",
+			"lastVersionId": "1.12.2-LiteLoader1.12.2",
+			"useHopperCrashService": "false"
+		},
+		"(Default)": {
+			"name": "(Default)"
+		}
+	},
+	"selectedProfile": "(Default)",
+	"clientToken": "88888888-8888-8888-8888-888888888888"
+}
