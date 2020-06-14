@@ -1,0 +1,2987 @@
+// class version 52.0 (52)
+// access flags 0x21
+public class net/minecraft/client/renderer/chunk/RenderChunk {
+
+  // compiled from: RenderChunk.java
+  // access flags 0x9
+  public static INNERCLASS net/minecraft/util/math/BlockPos$MutableBlockPos net/minecraft/util/math/BlockPos a
+  // access flags 0x9
+  public static INNERCLASS net/minecraft/client/renderer/RenderGlobal$ContainerLocalRenderInformation net/minecraft/client/renderer/RenderGlobal a
+  // access flags 0x1
+  public INNERCLASS net/minecraft/client/renderer/BufferBuilder$State net/minecraft/client/renderer/BufferBuilder a
+  // access flags 0x4019
+  public final static enum INNERCLASS net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator a
+  // access flags 0x4019
+  public final static enum INNERCLASS net/minecraft/world/chunk/Chunk$EnumCreateEntityType net/minecraft/world/chunk/Chunk a
+  // access flags 0x4019
+  public final static enum INNERCLASS net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Type net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator b
+
+  // access flags 0x11
+  public final Lnet/minecraft/world/World; field_178588_d
+
+  // access flags 0x11
+  public final Lnet/minecraft/client/renderer/RenderGlobal; field_178589_e
+
+  // access flags 0x9
+  public static I field_178592_a
+
+  // access flags 0x1
+  public Lnet/minecraft/client/renderer/chunk/CompiledChunk; field_178590_b
+
+  // access flags 0x11
+  public final Ljava/util/concurrent/locks/ReentrantLock; field_178587_g
+
+  // access flags 0x11
+  public final Ljava/util/concurrent/locks/ReentrantLock; field_178598_h
+
+  // access flags 0x1
+  public Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator; field_178599_i
+
+  // access flags 0x11
+  // signature Ljava/util/Set<Lnet/minecraft/tileentity/TileEntity;>;
+  // declaration: java.util.Set<net.minecraft.tileentity.TileEntity>
+  public final Ljava/util/Set; field_181056_j
+
+  // access flags 0x11
+  public final I field_178596_j
+
+  // access flags 0x11
+  public final Ljava/nio/FloatBuffer; field_178597_k
+
+  // access flags 0x11
+  public final [Lnet/minecraft/client/renderer/vertex/VertexBuffer; field_178594_l
+
+  // access flags 0x1
+  public Lnet/minecraft/util/math/AxisAlignedBB; field_178591_c
+
+  // access flags 0x1
+  public I field_178595_m
+
+  // access flags 0x1
+  public Z field_178593_n
+
+  // access flags 0x11
+  public final Lnet/minecraft/util/math/BlockPos$MutableBlockPos; field_178586_f
+
+  // access flags 0x11
+  public final [Lnet/minecraft/util/math/BlockPos$MutableBlockPos; field_181702_p
+
+  // access flags 0x1
+  public Z field_188284_q
+
+  // access flags 0x19
+  public final static [Lnet/minecraft/util/BlockRenderLayer; ENUM_WORLD_BLOCK_LAYERS
+
+  // access flags 0x11
+  public final [Lnet/minecraft/util/BlockRenderLayer; blockLayersSingle
+
+  // access flags 0x11
+  public final Z isMipmaps
+
+  // access flags 0x11
+  public final Z fixBlockLayer
+
+  // access flags 0x1
+  public Z playerUpdate
+
+  // access flags 0x1
+  public I regionX
+
+  // access flags 0x1
+  public I regionZ
+
+  // access flags 0x11
+  public final [Lnet/minecraft/client/renderer/chunk/RenderChunk; renderChunksOfset16
+
+  // access flags 0x1
+  public Z renderChunksOffset16Updated
+
+  // access flags 0x1
+  public Lnet/minecraft/world/chunk/Chunk; chunk
+
+  // access flags 0x1
+  public [Lnet/minecraft/client/renderer/chunk/RenderChunk; renderChunkNeighbours
+
+  // access flags 0x1
+  public [Lnet/minecraft/client/renderer/chunk/RenderChunk; renderChunkNeighboursValid
+
+  // access flags 0x1
+  public Z renderChunkNeighboursUpated
+
+  // access flags 0x1
+  public Lnet/minecraft/client/renderer/RenderGlobal$ContainerLocalRenderInformation; renderInfo
+
+  // access flags 0x1
+  public Lnet/optifine/render/AabbFrame; boundingBoxParent
+
+  // access flags 0x1
+  public <init>(Lnet/minecraft/world/World;Lnet/minecraft/client/renderer/RenderGlobal;I)V
+   L0
+    LINENUMBER 103 L0
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+   L1
+    LINENUMBER 59 L1
+    ALOAD 0
+    GETSTATIC net/minecraft/client/renderer/chunk/CompiledChunk.field_178502_a : Lnet/minecraft/client/renderer/chunk/CompiledChunk;
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178590_b : Lnet/minecraft/client/renderer/chunk/CompiledChunk;
+   L2
+    LINENUMBER 60 L2
+    ALOAD 0
+    NEW java/util/concurrent/locks/ReentrantLock
+    DUP
+    INVOKESPECIAL java/util/concurrent/locks/ReentrantLock.<init> ()V
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+   L3
+    LINENUMBER 61 L3
+    ALOAD 0
+    NEW java/util/concurrent/locks/ReentrantLock
+    DUP
+    INVOKESPECIAL java/util/concurrent/locks/ReentrantLock.<init> ()V
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178598_h : Ljava/util/concurrent/locks/ReentrantLock;
+   L4
+    LINENUMBER 63 L4
+    ALOAD 0
+    INVOKESTATIC com/google/common/collect/Sets.newHashSet ()Ljava/util/HashSet;
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181056_j : Ljava/util/Set;
+   L5
+    LINENUMBER 65 L5
+    ALOAD 0
+    BIPUSH 16
+    INVOKESTATIC net/minecraft/client/renderer/GLAllocation.func_74529_h (I)Ljava/nio/FloatBuffer;
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178597_k : Ljava/nio/FloatBuffer;
+   L6
+    LINENUMBER 66 L6
+    ALOAD 0
+    INVOKESTATIC net/minecraft/util/BlockRenderLayer.values ()[Lnet/minecraft/util/BlockRenderLayer;
+    ARRAYLENGTH
+    ANEWARRAY net/minecraft/client/renderer/vertex/VertexBuffer
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178594_l : [Lnet/minecraft/client/renderer/vertex/VertexBuffer;
+   L7
+    LINENUMBER 68 L7
+    ALOAD 0
+    ICONST_M1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178595_m : I
+   L8
+    LINENUMBER 69 L8
+    ALOAD 0
+    ICONST_1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178593_n : Z
+   L9
+    LINENUMBER 70 L9
+    ALOAD 0
+    NEW net/minecraft/util/math/BlockPos$MutableBlockPos
+    DUP
+    ICONST_M1
+    ICONST_M1
+    ICONST_M1
+    INVOKESPECIAL net/minecraft/util/math/BlockPos$MutableBlockPos.<init> (III)V
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+   L10
+    LINENUMBER 71 L10
+    ALOAD 0
+    BIPUSH 6
+    ANEWARRAY net/minecraft/util/math/BlockPos$MutableBlockPos
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181702_p : [Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+   L11
+    LINENUMBER 78 L11
+    ALOAD 0
+    ICONST_1
+    ANEWARRAY net/minecraft/util/BlockRenderLayer
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.blockLayersSingle : [Lnet/minecraft/util/BlockRenderLayer;
+   L12
+    LINENUMBER 80 L12
+    ALOAD 0
+    INVOKESTATIC Config.isMipmaps ()Z
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.isMipmaps : Z
+   L13
+    LINENUMBER 81 L13
+    ALOAD 0
+    GETSTATIC net/optifine/reflect/Reflector.BetterFoliageClient : Lnet/optifine/reflect/ReflectorClass;
+    INVOKEVIRTUAL net/optifine/reflect/ReflectorClass.exists ()Z
+    IFNE L14
+    ICONST_1
+    GOTO L15
+   L14
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk net/minecraft/world/World net/minecraft/client/renderer/RenderGlobal I] [net/minecraft/client/renderer/chunk/RenderChunk]
+    ICONST_0
+   L15
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk net/minecraft/world/World net/minecraft/client/renderer/RenderGlobal I] [net/minecraft/client/renderer/chunk/RenderChunk I]
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.fixBlockLayer : Z
+   L16
+    LINENUMBER 83 L16
+    ALOAD 0
+    ICONST_0
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.playerUpdate : Z
+   L17
+    LINENUMBER 88 L17
+    ALOAD 0
+    BIPUSH 6
+    ANEWARRAY net/minecraft/client/renderer/chunk/RenderChunk
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunksOfset16 : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+   L18
+    LINENUMBER 89 L18
+    ALOAD 0
+    ICONST_0
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunksOffset16Updated : Z
+   L19
+    LINENUMBER 93 L19
+    ALOAD 0
+    GETSTATIC net/minecraft/util/EnumFacing.field_82609_l : [Lnet/minecraft/util/EnumFacing;
+    ARRAYLENGTH
+    ANEWARRAY net/minecraft/client/renderer/chunk/RenderChunk
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+   L20
+    LINENUMBER 94 L20
+    ALOAD 0
+    GETSTATIC net/minecraft/util/EnumFacing.field_82609_l : [Lnet/minecraft/util/EnumFacing;
+    ARRAYLENGTH
+    ANEWARRAY net/minecraft/client/renderer/chunk/RenderChunk
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursValid : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+   L21
+    LINENUMBER 95 L21
+    ALOAD 0
+    ICONST_0
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursUpated : Z
+   L22
+    LINENUMBER 97 L22
+    ALOAD 0
+    NEW net/minecraft/client/renderer/RenderGlobal$ContainerLocalRenderInformation
+    DUP
+    ALOAD 0
+    ACONST_NULL
+    ICONST_0
+    INVOKESPECIAL net/minecraft/client/renderer/RenderGlobal$ContainerLocalRenderInformation.<init> (Lnet/minecraft/client/renderer/chunk/RenderChunk;Lnet/minecraft/util/EnumFacing;I)V
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderInfo : Lnet/minecraft/client/renderer/RenderGlobal$ContainerLocalRenderInformation;
+   L23
+    LINENUMBER 104 L23
+    ICONST_0
+    ISTORE 4
+   L24
+   FRAME APPEND [I]
+    ILOAD 4
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181702_p : [Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    ARRAYLENGTH
+    IF_ICMPGE L25
+   L26
+    LINENUMBER 106 L26
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181702_p : [Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    ILOAD 4
+    NEW net/minecraft/util/math/BlockPos$MutableBlockPos
+    DUP
+    INVOKESPECIAL net/minecraft/util/math/BlockPos$MutableBlockPos.<init> ()V
+    AASTORE
+   L27
+    LINENUMBER 104 L27
+    IINC 4 1
+    GOTO L24
+   L25
+    LINENUMBER 109 L25
+   FRAME CHOP 1
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178588_d : Lnet/minecraft/world/World;
+   L28
+    LINENUMBER 110 L28
+    ALOAD 0
+    ALOAD 2
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178589_e : Lnet/minecraft/client/renderer/RenderGlobal;
+   L29
+    LINENUMBER 111 L29
+    ALOAD 0
+    ILOAD 3
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178596_j : I
+   L30
+    LINENUMBER 113 L30
+    INVOKESTATIC net/minecraft/client/renderer/OpenGlHelper.func_176075_f ()Z
+    IFEQ L31
+   L32
+    LINENUMBER 115 L32
+    ICONST_0
+    ISTORE 4
+   L33
+   FRAME APPEND [I]
+    ILOAD 4
+    INVOKESTATIC net/minecraft/util/BlockRenderLayer.values ()[Lnet/minecraft/util/BlockRenderLayer;
+    ARRAYLENGTH
+    IF_ICMPGE L31
+   L34
+    LINENUMBER 117 L34
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178594_l : [Lnet/minecraft/client/renderer/vertex/VertexBuffer;
+    ILOAD 4
+    NEW net/minecraft/client/renderer/vertex/VertexBuffer
+    DUP
+    GETSTATIC net/minecraft/client/renderer/vertex/DefaultVertexFormats.field_176600_a : Lnet/minecraft/client/renderer/vertex/VertexFormat;
+    INVOKESPECIAL net/minecraft/client/renderer/vertex/VertexBuffer.<init> (Lnet/minecraft/client/renderer/vertex/VertexFormat;)V
+    AASTORE
+   L35
+    LINENUMBER 115 L35
+    IINC 4 1
+    GOTO L33
+   L31
+    LINENUMBER 120 L31
+   FRAME CHOP 1
+    RETURN
+   L36
+    LOCALVARIABLE i I L24 L25 4
+    LOCALVARIABLE j I L33 L31 4
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L36 0
+    LOCALVARIABLE worldIn Lnet/minecraft/world/World; L0 L36 1
+    LOCALVARIABLE renderGlobalIn Lnet/minecraft/client/renderer/RenderGlobal; L0 L36 2
+    LOCALVARIABLE indexIn I L0 L36 3
+    MAXSTACK = 6
+    MAXLOCALS = 5
+
+  // access flags 0x1
+  public func_178577_a(I)Z
+   L0
+    LINENUMBER 124 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178595_m : I
+    ILOAD 1
+    IF_ICMPNE L1
+   L2
+    LINENUMBER 126 L2
+    ICONST_0
+    IRETURN
+   L1
+    LINENUMBER 130 L1
+   FRAME SAME
+    ALOAD 0
+    ILOAD 1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178595_m : I
+   L3
+    LINENUMBER 131 L3
+    ICONST_1
+    IRETURN
+   L4
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L4 0
+    LOCALVARIABLE frameIndexIn I L0 L4 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public func_178565_b(I)Lnet/minecraft/client/renderer/vertex/VertexBuffer;
+   L0
+    LINENUMBER 137 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178594_l : [Lnet/minecraft/client/renderer/vertex/VertexBuffer;
+    ILOAD 1
+    AALOAD
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    LOCALVARIABLE layer I L0 L1 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public func_189562_a(III)V
+   L0
+    LINENUMBER 145 L0
+    ILOAD 1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos$MutableBlockPos.func_177958_n ()I
+    IF_ICMPNE L1
+    ILOAD 2
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos$MutableBlockPos.func_177956_o ()I
+    IF_ICMPNE L1
+    ILOAD 3
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos$MutableBlockPos.func_177952_p ()I
+    IF_ICMPEQ L2
+   L1
+    LINENUMBER 147 L1
+   FRAME SAME
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178585_h ()V
+   L3
+    LINENUMBER 148 L3
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    ILOAD 1
+    ILOAD 2
+    ILOAD 3
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos$MutableBlockPos.func_181079_c (III)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    POP
+   L4
+    LINENUMBER 150 L4
+    BIPUSH 8
+    ISTORE 4
+   L5
+    LINENUMBER 151 L5
+    ALOAD 0
+    ILOAD 1
+    ILOAD 4
+    ISHR
+    ILOAD 4
+    ISHL
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.regionX : I
+   L6
+    LINENUMBER 152 L6
+    ALOAD 0
+    ILOAD 3
+    ILOAD 4
+    ISHR
+    ILOAD 4
+    ISHL
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.regionZ : I
+   L7
+    LINENUMBER 154 L7
+    ALOAD 0
+    NEW net/minecraft/util/math/AxisAlignedBB
+    DUP
+    ILOAD 1
+    I2D
+    ILOAD 2
+    I2D
+    ILOAD 3
+    I2D
+    ILOAD 1
+    BIPUSH 16
+    IADD
+    I2D
+    ILOAD 2
+    BIPUSH 16
+    IADD
+    I2D
+    ILOAD 3
+    BIPUSH 16
+    IADD
+    I2D
+    INVOKESPECIAL net/minecraft/util/math/AxisAlignedBB.<init> (DDDDDD)V
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178591_c : Lnet/minecraft/util/math/AxisAlignedBB;
+   L8
+    LINENUMBER 156 L8
+    GETSTATIC net/minecraft/util/EnumFacing.field_82609_l : [Lnet/minecraft/util/EnumFacing;
+    ASTORE 5
+    ALOAD 5
+    ARRAYLENGTH
+    ISTORE 6
+    ICONST_0
+    ISTORE 7
+   L9
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk I I I I [Lnet/minecraft/util/EnumFacing; I I] []
+    ILOAD 7
+    ILOAD 6
+    IF_ICMPGE L10
+    ALOAD 5
+    ILOAD 7
+    AALOAD
+    ASTORE 8
+   L11
+    LINENUMBER 158 L11
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181702_p : [Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    ALOAD 8
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    AALOAD
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos$MutableBlockPos.func_189533_g (Lnet/minecraft/util/math/Vec3i;)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    ALOAD 8
+    BIPUSH 16
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos$MutableBlockPos.func_189534_c (Lnet/minecraft/util/EnumFacing;I)Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    POP
+   L12
+    LINENUMBER 156 L12
+    IINC 7 1
+    GOTO L9
+   L10
+    LINENUMBER 162 L10
+   FRAME CHOP 3
+    ALOAD 0
+    ICONST_0
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunksOffset16Updated : Z
+   L13
+    LINENUMBER 164 L13
+    ALOAD 0
+    ICONST_0
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursUpated : Z
+   L14
+    LINENUMBER 166 L14
+    ICONST_0
+    ISTORE 5
+   L15
+   FRAME APPEND [I]
+    ILOAD 5
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ARRAYLENGTH
+    IF_ICMPGE L16
+   L17
+    LINENUMBER 168 L17
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 5
+    AALOAD
+    ASTORE 6
+   L18
+    LINENUMBER 169 L18
+    ALOAD 6
+    IFNULL L19
+   L20
+    LINENUMBER 170 L20
+    ALOAD 6
+    ICONST_0
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursUpated : Z
+   L19
+    LINENUMBER 166 L19
+   FRAME SAME
+    IINC 5 1
+    GOTO L15
+   L16
+    LINENUMBER 173 L16
+   FRAME CHOP 1
+    ALOAD 0
+    ACONST_NULL
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.chunk : Lnet/minecraft/world/chunk/Chunk;
+   L21
+    LINENUMBER 175 L21
+    ALOAD 0
+    ACONST_NULL
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.boundingBoxParent : Lnet/optifine/render/AabbFrame;
+   L22
+    LINENUMBER 178 L22
+    ALOAD 0
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.func_178567_n ()V
+   L2
+    LINENUMBER 180 L2
+   FRAME CHOP 1
+    RETURN
+   L23
+    LOCALVARIABLE enumfacing Lnet/minecraft/util/EnumFacing; L11 L12 8
+    LOCALVARIABLE neighbour Lnet/minecraft/client/renderer/chunk/RenderChunk; L18 L19 6
+    LOCALVARIABLE i I L15 L16 5
+    LOCALVARIABLE bits I L5 L2 4
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L23 0
+    LOCALVARIABLE x I L0 L23 1
+    LOCALVARIABLE y I L0 L23 2
+    LOCALVARIABLE z I L0 L23 3
+    MAXSTACK = 15
+    MAXLOCALS = 9
+
+  // access flags 0x1
+  public func_178570_a(FFFLnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V
+   L0
+    LINENUMBER 184 L0
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178544_c ()Lnet/minecraft/client/renderer/chunk/CompiledChunk;
+    ASTORE 5
+   L1
+    LINENUMBER 186 L1
+    ALOAD 5
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178487_c ()Lnet/minecraft/client/renderer/BufferBuilder$State;
+    IFNULL L2
+    ALOAD 5
+    GETSTATIC net/minecraft/util/BlockRenderLayer.TRANSLUCENT : Lnet/minecraft/util/BlockRenderLayer;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178491_b (Lnet/minecraft/util/BlockRenderLayer;)Z
+    IFNE L2
+   L3
+    LINENUMBER 189 L3
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178545_d ()Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;
+    GETSTATIC net/minecraft/util/BlockRenderLayer.TRANSLUCENT : Lnet/minecraft/util/BlockRenderLayer;
+    INVOKEVIRTUAL net/minecraft/client/renderer/RegionRenderCacheBuilder.func_179038_a (Lnet/minecraft/util/BlockRenderLayer;)Lnet/minecraft/client/renderer/BufferBuilder;
+    ASTORE 6
+   L4
+    LINENUMBER 191 L4
+    ALOAD 0
+    ALOAD 6
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178573_a (Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/util/math/BlockPos;)V
+   L5
+    LINENUMBER 193 L5
+    ALOAD 6
+    ALOAD 5
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178487_c ()Lnet/minecraft/client/renderer/BufferBuilder$State;
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.func_178993_a (Lnet/minecraft/client/renderer/BufferBuilder$State;)V
+   L6
+    LINENUMBER 195 L6
+    ALOAD 0
+    GETSTATIC net/minecraft/util/BlockRenderLayer.TRANSLUCENT : Lnet/minecraft/util/BlockRenderLayer;
+    FLOAD 1
+    FLOAD 2
+    FLOAD 3
+    ALOAD 6
+    ALOAD 5
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178584_a (Lnet/minecraft/util/BlockRenderLayer;FFFLnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/client/renderer/chunk/CompiledChunk;)V
+   L2
+    LINENUMBER 197 L2
+   FRAME APPEND [net/minecraft/client/renderer/chunk/CompiledChunk]
+    RETURN
+   L7
+    LOCALVARIABLE bufferTranslucent Lnet/minecraft/client/renderer/BufferBuilder; L4 L2 6
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L7 0
+    LOCALVARIABLE x F L0 L7 1
+    LOCALVARIABLE y F L0 L7 2
+    LOCALVARIABLE z F L0 L7 3
+    LOCALVARIABLE generator Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator; L0 L7 4
+    LOCALVARIABLE compiledchunk Lnet/minecraft/client/renderer/chunk/CompiledChunk; L1 L7 5
+    MAXSTACK = 7
+    MAXLOCALS = 7
+
+  // access flags 0x1
+  public func_178581_b(FFFLnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V
+    TRYCATCHBLOCK L0 L1 L2 null
+    TRYCATCHBLOCK L3 L4 L2 null
+    TRYCATCHBLOCK L2 L5 L2 null
+    TRYCATCHBLOCK L6 L7 L8 null
+    TRYCATCHBLOCK L8 L9 L8 null
+   L10
+    LINENUMBER 201 L10
+    NEW net/minecraft/client/renderer/chunk/CompiledChunk
+    DUP
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/CompiledChunk.<init> ()V
+    ASTORE 5
+   L11
+    LINENUMBER 202 L11
+    ICONST_1
+    ISTORE 6
+   L12
+    LINENUMBER 204 L12
+    NEW net/minecraft/util/math/BlockPos
+    DUP
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    INVOKESPECIAL net/minecraft/util/math/BlockPos.<init> (Lnet/minecraft/util/math/Vec3i;)V
+    ASTORE 7
+   L13
+    LINENUMBER 205 L13
+    ALOAD 7
+    BIPUSH 15
+    BIPUSH 15
+    BIPUSH 15
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177982_a (III)Lnet/minecraft/util/math/BlockPos;
+    ASTORE 8
+   L14
+    LINENUMBER 206 L14
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178540_f ()Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.lock ()V
+   L0
+    LINENUMBER 210 L0
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178546_a ()Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status;
+    GETSTATIC net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status.COMPILING : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status;
+    IF_ACMPEQ L3
+   L1
+    LINENUMBER 219 L1
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178540_f ()Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+   L15
+    LINENUMBER 212 L15
+    RETURN
+   L3
+    LINENUMBER 215 L3
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk F F F net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator net/minecraft/client/renderer/chunk/CompiledChunk I net/minecraft/util/math/BlockPos net/minecraft/util/math/BlockPos] []
+    ALOAD 4
+    ALOAD 5
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178543_a (Lnet/minecraft/client/renderer/chunk/CompiledChunk;)V
+   L4
+    LINENUMBER 219 L4
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178540_f ()Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+   L16
+    LINENUMBER 220 L16
+    GOTO L17
+   L2
+    LINENUMBER 219 L2
+   FRAME SAME1 java/lang/Throwable
+    ASTORE 9
+   L5
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178540_f ()Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+    ALOAD 9
+    ATHROW
+   L17
+    LINENUMBER 222 L17
+   FRAME SAME
+    NEW net/minecraft/client/renderer/chunk/VisGraph
+    DUP
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/VisGraph.<init> ()V
+    ASTORE 9
+   L18
+    LINENUMBER 223 L18
+    INVOKESTATIC com/google/common/collect/Sets.newHashSet ()Ljava/util/HashSet;
+    ASTORE 10
+   L19
+    LINENUMBER 226 L19
+    ALOAD 0
+    ALOAD 7
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.isChunkRegionEmpty (Lnet/minecraft/util/math/BlockPos;)Z
+    IFNE L20
+   L21
+    LINENUMBER 228 L21
+    GETSTATIC net/minecraft/client/renderer/chunk/RenderChunk.field_178592_a : I
+    ICONST_1
+    IADD
+    PUTSTATIC net/minecraft/client/renderer/chunk/RenderChunk.field_178592_a : I
+   L22
+    LINENUMBER 230 L22
+    ALOAD 0
+    ALOAD 7
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.makeChunkCacheOF (Lnet/minecraft/util/math/BlockPos;)Lnet/optifine/override/ChunkCacheOF;
+    ASTORE 11
+   L23
+    LINENUMBER 232 L23
+    ALOAD 11
+    INVOKEVIRTUAL net/optifine/override/ChunkCacheOF.renderStart ()V
+   L24
+    LINENUMBER 234 L24
+    GETSTATIC net/minecraft/client/renderer/chunk/RenderChunk.ENUM_WORLD_BLOCK_LAYERS : [Lnet/minecraft/util/BlockRenderLayer;
+    ARRAYLENGTH
+    NEWARRAY T_BOOLEAN
+    ASTORE 12
+   L25
+    LINENUMBER 235 L25
+    INVOKESTATIC net/minecraft/client/Minecraft.func_71410_x ()Lnet/minecraft/client/Minecraft;
+    INVOKEVIRTUAL net/minecraft/client/Minecraft.func_175602_ab ()Lnet/minecraft/client/renderer/BlockRendererDispatcher;
+    ASTORE 13
+   L26
+    LINENUMBER 237 L26
+    GETSTATIC net/optifine/reflect/Reflector.ForgeBlock_canRenderInLayer : Lnet/optifine/reflect/ReflectorMethod;
+    INVOKEVIRTUAL net/optifine/reflect/ReflectorMethod.exists ()Z
+    ISTORE 14
+   L27
+    LINENUMBER 238 L27
+    GETSTATIC net/optifine/reflect/Reflector.ForgeHooksClient_setRenderLayer : Lnet/optifine/reflect/ReflectorMethod;
+    INVOKEVIRTUAL net/optifine/reflect/ReflectorMethod.exists ()Z
+    ISTORE 15
+   L28
+    LINENUMBER 240 L28
+    ALOAD 7
+    ALOAD 8
+    INVOKESTATIC net/optifine/BlockPosM.getAllInBoxMutable (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;)Ljava/lang/Iterable;
+    INVOKEINTERFACE java/lang/Iterable.iterator ()Ljava/util/Iterator;
+    ASTORE 16
+   L29
+    LINENUMBER 241 L29
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk F F F net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator net/minecraft/client/renderer/chunk/CompiledChunk I net/minecraft/util/math/BlockPos net/minecraft/util/math/BlockPos net/minecraft/client/renderer/chunk/VisGraph java/util/HashSet net/optifine/override/ChunkCacheOF [Z net/minecraft/client/renderer/BlockRendererDispatcher I I java/util/Iterator] []
+    ALOAD 16
+    INVOKEINTERFACE java/util/Iterator.hasNext ()Z
+    IFEQ L30
+   L31
+    LINENUMBER 243 L31
+    ALOAD 16
+    INVOKEINTERFACE java/util/Iterator.next ()Ljava/lang/Object;
+    CHECKCAST net/optifine/BlockPosM
+    ASTORE 17
+   L32
+    LINENUMBER 246 L32
+    ALOAD 11
+    ALOAD 17
+    INVOKEVIRTUAL net/optifine/override/ChunkCacheOF.func_180495_p (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+    ASTORE 18
+   L33
+    LINENUMBER 247 L33
+    ALOAD 18
+    INVOKEINTERFACE net/minecraft/block/state/IBlockState.func_177230_c ()Lnet/minecraft/block/Block;
+    ASTORE 19
+   L34
+    LINENUMBER 249 L34
+    ALOAD 18
+    INVOKEINTERFACE net/minecraft/block/state/IBlockState.func_185914_p ()Z
+    IFEQ L35
+   L36
+    LINENUMBER 251 L36
+    ALOAD 9
+    ALOAD 17
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/VisGraph.func_178606_a (Lnet/minecraft/util/math/BlockPos;)V
+   L35
+    LINENUMBER 254 L35
+   FRAME APPEND [net/optifine/BlockPosM net/minecraft/block/state/IBlockState net/minecraft/block/Block]
+    ALOAD 18
+    INVOKESTATIC net/optifine/reflect/ReflectorForge.blockHasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+    IFEQ L37
+   L38
+    LINENUMBER 257 L38
+    ALOAD 11
+    ALOAD 17
+    GETSTATIC net/minecraft/world/chunk/Chunk$EnumCreateEntityType.CHECK : Lnet/minecraft/world/chunk/Chunk$EnumCreateEntityType;
+    INVOKEVIRTUAL net/optifine/override/ChunkCacheOF.getTileEntity (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/chunk/Chunk$EnumCreateEntityType;)Lnet/minecraft/tileentity/TileEntity;
+    ASTORE 20
+   L39
+    LINENUMBER 259 L39
+    ALOAD 20
+    IFNULL L37
+   L40
+    LINENUMBER 261 L40
+    GETSTATIC net/minecraft/client/renderer/tileentity/TileEntityRendererDispatcher.field_147556_a : Lnet/minecraft/client/renderer/tileentity/TileEntityRendererDispatcher;
+    ALOAD 20
+    INVOKEVIRTUAL net/minecraft/client/renderer/tileentity/TileEntityRendererDispatcher.func_147547_b (Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;
+    ASTORE 21
+   L41
+    LINENUMBER 263 L41
+    ALOAD 21
+    IFNULL L37
+   L42
+    LINENUMBER 267 L42
+    ALOAD 21
+    ALOAD 20
+    INVOKEVIRTUAL net/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer.func_188185_a (Lnet/minecraft/tileentity/TileEntity;)Z
+    IFEQ L43
+   L44
+    LINENUMBER 269 L44
+    ALOAD 10
+    ALOAD 20
+    INVOKEVIRTUAL java/util/HashSet.add (Ljava/lang/Object;)Z
+    POP
+    GOTO L37
+   L43
+    LINENUMBER 272 L43
+   FRAME APPEND [net/minecraft/tileentity/TileEntity net/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer]
+    ALOAD 5
+    ALOAD 20
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178490_a (Lnet/minecraft/tileentity/TileEntity;)V
+   L37
+    LINENUMBER 280 L37
+   FRAME CHOP 2
+    ILOAD 14
+    IFEQ L45
+   L46
+    LINENUMBER 283 L46
+    GETSTATIC net/minecraft/client/renderer/chunk/RenderChunk.ENUM_WORLD_BLOCK_LAYERS : [Lnet/minecraft/util/BlockRenderLayer;
+    ASTORE 20
+   L47
+    GOTO L48
+   L45
+    LINENUMBER 288 L45
+   FRAME SAME
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.blockLayersSingle : [Lnet/minecraft/util/BlockRenderLayer;
+    ASTORE 20
+   L49
+    LINENUMBER 289 L49
+    ALOAD 20
+    ICONST_0
+    ALOAD 19
+    INVOKEVIRTUAL net/minecraft/block/Block.func_180664_k ()Lnet/minecraft/util/BlockRenderLayer;
+    AASTORE
+   L48
+    LINENUMBER 292 L48
+   FRAME APPEND [[Lnet/minecraft/util/BlockRenderLayer;]
+    ICONST_0
+    ISTORE 21
+   L50
+   FRAME APPEND [I]
+    ILOAD 21
+    ALOAD 20
+    ARRAYLENGTH
+    IF_ICMPGE L51
+   L52
+    LINENUMBER 295 L52
+    ALOAD 20
+    ILOAD 21
+    AALOAD
+    ASTORE 22
+   L53
+    LINENUMBER 297 L53
+    ILOAD 14
+    IFEQ L54
+   L55
+    LINENUMBER 299 L55
+    ALOAD 19
+    GETSTATIC net/optifine/reflect/Reflector.ForgeBlock_canRenderInLayer : Lnet/optifine/reflect/ReflectorMethod;
+    ICONST_2
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 18
+    AASTORE
+    DUP
+    ICONST_1
+    ALOAD 22
+    AASTORE
+    INVOKESTATIC net/optifine/reflect/Reflector.callBoolean (Ljava/lang/Object;Lnet/optifine/reflect/ReflectorMethod;[Ljava/lang/Object;)Z
+    ISTORE 23
+   L56
+    LINENUMBER 300 L56
+    ILOAD 23
+    IFNE L54
+   L57
+    LINENUMBER 301 L57
+    GOTO L58
+   L54
+    LINENUMBER 304 L54
+   FRAME APPEND [net/minecraft/util/BlockRenderLayer]
+    ILOAD 15
+    IFEQ L59
+   L60
+    LINENUMBER 305 L60
+    GETSTATIC net/optifine/reflect/Reflector.ForgeHooksClient_setRenderLayer : Lnet/optifine/reflect/ReflectorMethod;
+    ICONST_1
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 22
+    AASTORE
+    INVOKESTATIC net/optifine/reflect/Reflector.callVoid (Lnet/optifine/reflect/ReflectorMethod;[Ljava/lang/Object;)V
+   L59
+    LINENUMBER 308 L59
+   FRAME SAME
+    ALOAD 0
+    ALOAD 18
+    ALOAD 22
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.fixBlockLayer (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/BlockRenderLayer;)Lnet/minecraft/util/BlockRenderLayer;
+    ASTORE 22
+   L61
+    LINENUMBER 311 L61
+    ALOAD 22
+    INVOKEVIRTUAL net/minecraft/util/BlockRenderLayer.ordinal ()I
+    ISTORE 23
+   L62
+    LINENUMBER 313 L62
+    ALOAD 19
+    INVOKEVIRTUAL net/minecraft/block/Block.func_176223_P ()Lnet/minecraft/block/state/IBlockState;
+    INVOKEINTERFACE net/minecraft/block/state/IBlockState.func_185901_i ()Lnet/minecraft/util/EnumBlockRenderType;
+    GETSTATIC net/minecraft/util/EnumBlockRenderType.INVISIBLE : Lnet/minecraft/util/EnumBlockRenderType;
+    IF_ACMPEQ L58
+   L63
+    LINENUMBER 315 L63
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178545_d ()Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;
+    ILOAD 23
+    INVOKEVIRTUAL net/minecraft/client/renderer/RegionRenderCacheBuilder.func_179039_a (I)Lnet/minecraft/client/renderer/BufferBuilder;
+    ASTORE 24
+   L64
+    LINENUMBER 317 L64
+    ALOAD 24
+    ALOAD 22
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.setBlockLayer (Lnet/minecraft/util/BlockRenderLayer;)V
+   L65
+    LINENUMBER 319 L65
+    ALOAD 24
+    ALOAD 18
+    ALOAD 17
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.getRenderEnv (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;)Lnet/optifine/render/RenderEnv;
+    ASTORE 25
+   L66
+    LINENUMBER 320 L66
+    ALOAD 25
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178545_d ()Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;
+    INVOKEVIRTUAL net/optifine/render/RenderEnv.setRegionRenderCacheBuilder (Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;)V
+   L67
+    LINENUMBER 322 L67
+    ALOAD 5
+    ALOAD 22
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178492_d (Lnet/minecraft/util/BlockRenderLayer;)Z
+    IFNE L68
+   L69
+    LINENUMBER 324 L69
+    ALOAD 5
+    ALOAD 22
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178493_c (Lnet/minecraft/util/BlockRenderLayer;)V
+   L70
+    LINENUMBER 325 L70
+    ALOAD 0
+    ALOAD 24
+    ALOAD 7
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178573_a (Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/util/math/BlockPos;)V
+   L68
+    LINENUMBER 328 L68
+   FRAME APPEND [I net/minecraft/client/renderer/BufferBuilder net/optifine/render/RenderEnv]
+    ALOAD 12
+    ILOAD 23
+    DUP2
+    BALOAD
+    ALOAD 13
+    ALOAD 18
+    ALOAD 17
+    ALOAD 11
+    ALOAD 24
+    INVOKEVIRTUAL net/minecraft/client/renderer/BlockRendererDispatcher.func_175018_a (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/client/renderer/BufferBuilder;)Z
+    IOR
+    BASTORE
+   L71
+    LINENUMBER 330 L71
+    ALOAD 25
+    INVOKEVIRTUAL net/optifine/render/RenderEnv.isOverlaysRendered ()Z
+    IFEQ L58
+   L72
+    LINENUMBER 332 L72
+    ALOAD 0
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178545_d ()Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;
+    ALOAD 5
+    ALOAD 12
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.postRenderOverlays (Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;Lnet/minecraft/client/renderer/chunk/CompiledChunk;[Z)V
+   L73
+    LINENUMBER 333 L73
+    ALOAD 25
+    ICONST_0
+    INVOKEVIRTUAL net/optifine/render/RenderEnv.setOverlaysRendered (Z)V
+   L58
+    LINENUMBER 292 L58
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk F F F net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator net/minecraft/client/renderer/chunk/CompiledChunk I net/minecraft/util/math/BlockPos net/minecraft/util/math/BlockPos net/minecraft/client/renderer/chunk/VisGraph java/util/HashSet net/optifine/override/ChunkCacheOF [Z net/minecraft/client/renderer/BlockRendererDispatcher I I java/util/Iterator net/optifine/BlockPosM net/minecraft/block/state/IBlockState net/minecraft/block/Block [Lnet/minecraft/util/BlockRenderLayer; I] []
+    IINC 21 1
+    GOTO L50
+   L51
+    LINENUMBER 340 L51
+   FRAME CHOP 1
+    ILOAD 15
+    IFEQ L74
+   L75
+    LINENUMBER 341 L75
+    GETSTATIC net/optifine/reflect/Reflector.ForgeHooksClient_setRenderLayer : Lnet/optifine/reflect/ReflectorMethod;
+    ICONST_1
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ACONST_NULL
+    AASTORE
+    INVOKESTATIC net/optifine/reflect/Reflector.callVoid (Lnet/optifine/reflect/ReflectorMethod;[Ljava/lang/Object;)V
+   L74
+    LINENUMBER 343 L74
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk F F F net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator net/minecraft/client/renderer/chunk/CompiledChunk I net/minecraft/util/math/BlockPos net/minecraft/util/math/BlockPos net/minecraft/client/renderer/chunk/VisGraph java/util/HashSet net/optifine/override/ChunkCacheOF [Z net/minecraft/client/renderer/BlockRendererDispatcher I I java/util/Iterator] []
+    GOTO L29
+   L30
+    LINENUMBER 345 L30
+   FRAME SAME
+    GETSTATIC net/minecraft/client/renderer/chunk/RenderChunk.ENUM_WORLD_BLOCK_LAYERS : [Lnet/minecraft/util/BlockRenderLayer;
+    ASTORE 17
+    ALOAD 17
+    ARRAYLENGTH
+    ISTORE 18
+    ICONST_0
+    ISTORE 19
+   L76
+   FRAME APPEND [[Lnet/minecraft/util/BlockRenderLayer; I I]
+    ILOAD 19
+    ILOAD 18
+    IF_ICMPGE L77
+    ALOAD 17
+    ILOAD 19
+    AALOAD
+    ASTORE 20
+   L78
+    LINENUMBER 347 L78
+    ALOAD 12
+    ALOAD 20
+    INVOKEVIRTUAL net/minecraft/util/BlockRenderLayer.ordinal ()I
+    BALOAD
+    IFEQ L79
+   L80
+    LINENUMBER 349 L80
+    ALOAD 5
+    ALOAD 20
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178486_a (Lnet/minecraft/util/BlockRenderLayer;)V
+   L79
+    LINENUMBER 352 L79
+   FRAME APPEND [net/minecraft/util/BlockRenderLayer]
+    ALOAD 5
+    ALOAD 20
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178492_d (Lnet/minecraft/util/BlockRenderLayer;)Z
+    IFEQ L81
+   L82
+    LINENUMBER 355 L82
+    INVOKESTATIC Config.isShaders ()Z
+    IFEQ L83
+   L84
+    LINENUMBER 356 L84
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178545_d ()Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;
+    ALOAD 20
+    INVOKEVIRTUAL net/minecraft/client/renderer/RegionRenderCacheBuilder.func_179038_a (Lnet/minecraft/util/BlockRenderLayer;)Lnet/minecraft/client/renderer/BufferBuilder;
+    INVOKESTATIC net/optifine/shaders/SVertexBuilder.calcNormalChunkLayer (Lnet/minecraft/client/renderer/BufferBuilder;)V
+   L83
+    LINENUMBER 358 L83
+   FRAME SAME
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178545_d ()Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;
+    ALOAD 20
+    INVOKEVIRTUAL net/minecraft/client/renderer/RegionRenderCacheBuilder.func_179038_a (Lnet/minecraft/util/BlockRenderLayer;)Lnet/minecraft/client/renderer/BufferBuilder;
+    ASTORE 21
+   L85
+    LINENUMBER 359 L85
+    ALOAD 0
+    ALOAD 20
+    FLOAD 1
+    FLOAD 2
+    FLOAD 3
+    ALOAD 21
+    ALOAD 5
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178584_a (Lnet/minecraft/util/BlockRenderLayer;FFFLnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/client/renderer/chunk/CompiledChunk;)V
+   L86
+    LINENUMBER 361 L86
+    ALOAD 21
+    GETFIELD net/minecraft/client/renderer/BufferBuilder.animatedSprites : Ljava/util/BitSet;
+    IFNULL L87
+   L88
+    LINENUMBER 362 L88
+    ALOAD 5
+    ALOAD 20
+    ALOAD 21
+    GETFIELD net/minecraft/client/renderer/BufferBuilder.animatedSprites : Ljava/util/BitSet;
+    INVOKEVIRTUAL java/util/BitSet.clone ()Ljava/lang/Object;
+    CHECKCAST java/util/BitSet
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.setAnimatedSprites (Lnet/minecraft/util/BlockRenderLayer;Ljava/util/BitSet;)V
+   L87
+    LINENUMBER 364 L87
+   FRAME SAME
+    GOTO L89
+   L81
+    LINENUMBER 367 L81
+   FRAME SAME
+    ALOAD 5
+    ALOAD 20
+    ACONST_NULL
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.setAnimatedSprites (Lnet/minecraft/util/BlockRenderLayer;Ljava/util/BitSet;)V
+   L89
+    LINENUMBER 345 L89
+   FRAME CHOP 1
+    IINC 19 1
+    GOTO L76
+   L77
+    LINENUMBER 371 L77
+   FRAME CHOP 3
+    ALOAD 11
+    INVOKEVIRTUAL net/optifine/override/ChunkCacheOF.renderFinish ()V
+   L20
+    LINENUMBER 375 L20
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk F F F net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator net/minecraft/client/renderer/chunk/CompiledChunk I net/minecraft/util/math/BlockPos net/minecraft/util/math/BlockPos net/minecraft/client/renderer/chunk/VisGraph java/util/HashSet] []
+    ALOAD 5
+    ALOAD 9
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/VisGraph.func_178607_a ()Lnet/minecraft/client/renderer/chunk/SetVisibility;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178488_a (Lnet/minecraft/client/renderer/chunk/SetVisibility;)V
+   L90
+    LINENUMBER 376 L90
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.lock ()V
+   L6
+    LINENUMBER 380 L6
+    ALOAD 10
+    INVOKESTATIC com/google/common/collect/Sets.newHashSet (Ljava/lang/Iterable;)Ljava/util/HashSet;
+    ASTORE 11
+   L91
+    LINENUMBER 381 L91
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181056_j : Ljava/util/Set;
+    INVOKESTATIC com/google/common/collect/Sets.newHashSet (Ljava/lang/Iterable;)Ljava/util/HashSet;
+    ASTORE 12
+   L92
+    LINENUMBER 382 L92
+    ALOAD 11
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181056_j : Ljava/util/Set;
+    INVOKEINTERFACE java/util/Set.removeAll (Ljava/util/Collection;)Z
+    POP
+   L93
+    LINENUMBER 383 L93
+    ALOAD 12
+    ALOAD 10
+    INVOKEINTERFACE java/util/Set.removeAll (Ljava/util/Collection;)Z
+    POP
+   L94
+    LINENUMBER 384 L94
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181056_j : Ljava/util/Set;
+    INVOKEINTERFACE java/util/Set.clear ()V
+   L95
+    LINENUMBER 385 L95
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181056_j : Ljava/util/Set;
+    ALOAD 10
+    INVOKEINTERFACE java/util/Set.addAll (Ljava/util/Collection;)Z
+    POP
+   L96
+    LINENUMBER 386 L96
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178589_e : Lnet/minecraft/client/renderer/RenderGlobal;
+    ALOAD 12
+    ALOAD 11
+    INVOKEVIRTUAL net/minecraft/client/renderer/RenderGlobal.func_181023_a (Ljava/util/Collection;Ljava/util/Collection;)V
+   L7
+    LINENUMBER 390 L7
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+   L97
+    LINENUMBER 391 L97
+    GOTO L98
+   L8
+    LINENUMBER 390 L8
+   FRAME SAME1 java/lang/Throwable
+    ASTORE 26
+   L9
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+    ALOAD 26
+    ATHROW
+   L98
+    LINENUMBER 392 L98
+   FRAME SAME
+    RETURN
+   L99
+    LOCALVARIABLE tileentityspecialrenderer Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer; L41 L37 21
+    // signature Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer<Lnet/minecraft/tileentity/TileEntity;>;
+    // declaration: net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer<net.minecraft.tileentity.TileEntity>
+    LOCALVARIABLE tileentity Lnet/minecraft/tileentity/TileEntity; L39 L37 20
+    LOCALVARIABLE blockLayers [Lnet/minecraft/util/BlockRenderLayer; L47 L45 20
+    LOCALVARIABLE canRenderInLayer Z L56 L54 23
+    LOCALVARIABLE bufferbuilder Lnet/minecraft/client/renderer/BufferBuilder; L64 L58 24
+    LOCALVARIABLE renderEnv Lnet/optifine/render/RenderEnv; L66 L58 25
+    LOCALVARIABLE blockrenderlayer1 Lnet/minecraft/util/BlockRenderLayer; L53 L58 22
+    LOCALVARIABLE j I L62 L58 23
+    LOCALVARIABLE ix I L50 L51 21
+    LOCALVARIABLE blockpos$mutableblockpos Lnet/optifine/BlockPosM; L32 L74 17
+    LOCALVARIABLE iblockstate Lnet/minecraft/block/state/IBlockState; L33 L74 18
+    LOCALVARIABLE block Lnet/minecraft/block/Block; L34 L74 19
+    LOCALVARIABLE blockLayers [Lnet/minecraft/util/BlockRenderLayer; L49 L74 20
+    LOCALVARIABLE bufferBuilder Lnet/minecraft/client/renderer/BufferBuilder; L85 L87 21
+    LOCALVARIABLE blockrenderlayer Lnet/minecraft/util/BlockRenderLayer; L78 L89 20
+    LOCALVARIABLE blockAccess Lnet/optifine/override/ChunkCacheOF; L23 L20 11
+    LOCALVARIABLE aboolean [Z L25 L20 12
+    LOCALVARIABLE blockrendererdispatcher Lnet/minecraft/client/renderer/BlockRendererDispatcher; L26 L20 13
+    LOCALVARIABLE forgeBlockCanRenderInLayerExists Z L27 L20 14
+    LOCALVARIABLE forgeHooksSetRenderLayerExists Z L28 L20 15
+    LOCALVARIABLE iterBlocks Ljava/util/Iterator; L29 L20 16
+    LOCALVARIABLE set Ljava/util/Set; L91 L7 11
+    // signature Ljava/util/Set<Lnet/minecraft/tileentity/TileEntity;>;
+    // declaration: java.util.Set<net.minecraft.tileentity.TileEntity>
+    LOCALVARIABLE set1 Ljava/util/Set; L92 L7 12
+    // signature Ljava/util/Set<Lnet/minecraft/tileentity/TileEntity;>;
+    // declaration: java.util.Set<net.minecraft.tileentity.TileEntity>
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L10 L99 0
+    LOCALVARIABLE x F L10 L99 1
+    LOCALVARIABLE y F L10 L99 2
+    LOCALVARIABLE z F L10 L99 3
+    LOCALVARIABLE generator Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator; L10 L99 4
+    LOCALVARIABLE compiledchunk Lnet/minecraft/client/renderer/chunk/CompiledChunk; L11 L99 5
+    LOCALVARIABLE i I L12 L99 6
+    LOCALVARIABLE blockpos Lnet/minecraft/util/math/BlockPos; L13 L99 7
+    LOCALVARIABLE blockpos1 Lnet/minecraft/util/math/BlockPos; L14 L99 8
+    LOCALVARIABLE lvt_9_1_ Lnet/minecraft/client/renderer/chunk/VisGraph; L18 L99 9
+    LOCALVARIABLE lvt_10_1_ Ljava/util/HashSet; L19 L99 10
+    MAXSTACK = 8
+    MAXLOCALS = 27
+
+  // access flags 0x4
+  protected func_178578_b()V
+    TRYCATCHBLOCK L0 L1 L2 null
+   L3
+    LINENUMBER 396 L3
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.lock ()V
+   L0
+    LINENUMBER 400 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    IFNULL L1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178546_a ()Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status;
+    GETSTATIC net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status.DONE : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status;
+    IF_ACMPEQ L1
+   L4
+    LINENUMBER 402 L4
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178542_e ()V
+   L5
+    LINENUMBER 403 L5
+    ALOAD 0
+    ACONST_NULL
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+   L1
+    LINENUMBER 408 L1
+   FRAME SAME
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+   L6
+    LINENUMBER 409 L6
+    GOTO L7
+   L2
+    LINENUMBER 408 L2
+   FRAME SAME1 java/lang/Throwable
+    ASTORE 1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+    ALOAD 1
+    ATHROW
+   L7
+    LINENUMBER 410 L7
+   FRAME SAME
+    RETURN
+   L8
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L3 L8 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public func_178579_c()Ljava/util/concurrent/locks/ReentrantLock;
+   L0
+    LINENUMBER 414 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public func_178574_d()Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    TRYCATCHBLOCK L0 L1 L2 null
+   L3
+    LINENUMBER 419 L3
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.lock ()V
+   L0
+    LINENUMBER 424 L0
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178578_b ()V
+   L4
+    LINENUMBER 425 L4
+    ALOAD 0
+    NEW net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator
+    DUP
+    ALOAD 0
+    GETSTATIC net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Type.REBUILD_CHUNK : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Type;
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_188280_f ()D
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.<init> (Lnet/minecraft/client/renderer/chunk/RenderChunk;Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Type;D)V
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+   L5
+    LINENUMBER 426 L5
+    ALOAD 0
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.func_189563_q ()V
+   L6
+    LINENUMBER 427 L6
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    ASTORE 1
+   L1
+    LINENUMBER 431 L1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+   L7
+    LINENUMBER 432 L7
+    GOTO L8
+   L2
+    LINENUMBER 431 L2
+   FRAME SAME1 java/lang/Throwable
+    ASTORE 2
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+    ALOAD 2
+    ATHROW
+   L8
+    LINENUMBER 434 L8
+   FRAME APPEND [net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator]
+    ALOAD 1
+    ARETURN
+   L9
+    LOCALVARIABLE chunkcompiletaskgenerator Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator; L1 L2 1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L3 L9 0
+    LOCALVARIABLE chunkcompiletaskgenerator Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator; L8 L9 1
+    MAXSTACK = 7
+    MAXLOCALS = 3
+
+  // access flags 0x2
+  private func_189563_q()V
+   L0
+    LINENUMBER 439 L0
+    ICONST_1
+    ISTORE 1
+   L1
+    LINENUMBER 442 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L2 0
+    LOCALVARIABLE i I L1 L2 1
+    MAXSTACK = 1
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public func_178582_e()Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+  @Ljavax/annotation/Nullable;()
+    TRYCATCHBLOCK L0 L1 L2 null
+    TRYCATCHBLOCK L3 L4 L2 null
+   L5
+    LINENUMBER 447 L5
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.lock ()V
+   L0
+    LINENUMBER 452 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    IFNULL L6
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178546_a ()Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status;
+    GETSTATIC net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status.PENDING : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status;
+    IF_ACMPEQ L3
+   L6
+    LINENUMBER 454 L6
+   FRAME SAME
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    IFNULL L7
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178546_a ()Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status;
+    GETSTATIC net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status.DONE : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status;
+    IF_ACMPEQ L7
+   L8
+    LINENUMBER 456 L8
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178542_e ()V
+   L9
+    LINENUMBER 457 L9
+    ALOAD 0
+    ACONST_NULL
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+   L7
+    LINENUMBER 460 L7
+   FRAME SAME
+    ALOAD 0
+    NEW net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator
+    DUP
+    ALOAD 0
+    GETSTATIC net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Type.RESORT_TRANSPARENCY : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Type;
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_188280_f ()D
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.<init> (Lnet/minecraft/client/renderer/chunk/RenderChunk;Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Type;D)V
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+   L10
+    LINENUMBER 461 L10
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178590_b : Lnet/minecraft/client/renderer/chunk/CompiledChunk;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.func_178543_a (Lnet/minecraft/client/renderer/chunk/CompiledChunk;)V
+   L11
+    LINENUMBER 462 L11
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178599_i : Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;
+    ASTORE 1
+   L12
+    LINENUMBER 463 L12
+    ALOAD 1
+    ASTORE 2
+   L1
+    LINENUMBER 470 L1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+   L13
+    LINENUMBER 463 L13
+    ALOAD 2
+    ARETURN
+   L3
+    LINENUMBER 466 L3
+   FRAME SAME
+    ACONST_NULL
+    ASTORE 1
+   L4
+    LINENUMBER 470 L4
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+   L14
+    LINENUMBER 471 L14
+    GOTO L15
+   L2
+    LINENUMBER 470 L2
+   FRAME SAME1 java/lang/Throwable
+    ASTORE 3
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178587_g : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+    ALOAD 3
+    ATHROW
+   L15
+    LINENUMBER 473 L15
+   FRAME APPEND [net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator]
+    ALOAD 1
+    ARETURN
+   L16
+    LOCALVARIABLE chunkcompiletaskgenerator Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator; L12 L3 1
+    LOCALVARIABLE chunkcompiletaskgenerator Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator; L4 L2 1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L5 L16 0
+    LOCALVARIABLE chunkcompiletaskgenerator Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator; L15 L16 1
+    MAXSTACK = 7
+    MAXLOCALS = 4
+
+  // access flags 0x4
+  protected func_188280_f()D
+   L0
+    LINENUMBER 478 L0
+    INVOKESTATIC net/minecraft/client/Minecraft.func_71410_x ()Lnet/minecraft/client/Minecraft;
+    GETFIELD net/minecraft/client/Minecraft.field_71439_g : Lnet/minecraft/client/entity/EntityPlayerSP;
+    ASTORE 1
+   L1
+    LINENUMBER 479 L1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178591_c : Lnet/minecraft/util/math/AxisAlignedBB;
+    GETFIELD net/minecraft/util/math/AxisAlignedBB.field_72340_a : D
+    LDC 8.0
+    DADD
+    ALOAD 1
+    GETFIELD net/minecraft/client/entity/EntityPlayerSP.field_70165_t : D
+    DSUB
+    DSTORE 2
+   L2
+    LINENUMBER 480 L2
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178591_c : Lnet/minecraft/util/math/AxisAlignedBB;
+    GETFIELD net/minecraft/util/math/AxisAlignedBB.field_72338_b : D
+    LDC 8.0
+    DADD
+    ALOAD 1
+    GETFIELD net/minecraft/client/entity/EntityPlayerSP.field_70163_u : D
+    DSUB
+    DSTORE 4
+   L3
+    LINENUMBER 481 L3
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178591_c : Lnet/minecraft/util/math/AxisAlignedBB;
+    GETFIELD net/minecraft/util/math/AxisAlignedBB.field_72339_c : D
+    LDC 8.0
+    DADD
+    ALOAD 1
+    GETFIELD net/minecraft/client/entity/EntityPlayerSP.field_70161_v : D
+    DSUB
+    DSTORE 6
+   L4
+    LINENUMBER 482 L4
+    DLOAD 2
+    DLOAD 2
+    DMUL
+    DLOAD 4
+    DLOAD 4
+    DMUL
+    DADD
+    DLOAD 6
+    DLOAD 6
+    DMUL
+    DADD
+    DRETURN
+   L5
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L5 0
+    LOCALVARIABLE entityplayersp Lnet/minecraft/client/entity/EntityPlayerSP; L1 L5 1
+    LOCALVARIABLE d0 D L2 L5 2
+    LOCALVARIABLE d1 D L3 L5 4
+    LOCALVARIABLE d2 D L4 L5 6
+    MAXSTACK = 6
+    MAXLOCALS = 8
+
+  // access flags 0x1
+  public func_178573_a(Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/util/math/BlockPos;)V
+   L0
+    LINENUMBER 487 L0
+    ALOAD 1
+    BIPUSH 7
+    GETSTATIC net/minecraft/client/renderer/vertex/DefaultVertexFormats.field_176600_a : Lnet/minecraft/client/renderer/vertex/VertexFormat;
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.func_181668_a (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V
+   L1
+    LINENUMBER 489 L1
+    INVOKESTATIC Config.isRenderRegions ()Z
+    IFEQ L2
+   L3
+    LINENUMBER 491 L3
+    BIPUSH 8
+    ISTORE 3
+   L4
+    LINENUMBER 492 L4
+    ALOAD 2
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177958_n ()I
+    ILOAD 3
+    ISHR
+    ILOAD 3
+    ISHL
+    ISTORE 4
+   L5
+    LINENUMBER 493 L5
+    ALOAD 2
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177956_o ()I
+    ILOAD 3
+    ISHR
+    ILOAD 3
+    ISHL
+    ISTORE 5
+   L6
+    LINENUMBER 494 L6
+    ALOAD 2
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177952_p ()I
+    ILOAD 3
+    ISHR
+    ILOAD 3
+    ISHL
+    ISTORE 6
+   L7
+    LINENUMBER 496 L7
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.regionX : I
+    ISTORE 4
+   L8
+    LINENUMBER 497 L8
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.regionZ : I
+    ISTORE 6
+   L9
+    LINENUMBER 499 L9
+    ALOAD 1
+    ILOAD 4
+    INEG
+    I2D
+    ILOAD 5
+    INEG
+    I2D
+    ILOAD 6
+    INEG
+    I2D
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.func_178969_c (DDD)V
+   L10
+    LINENUMBER 500 L10
+    GOTO L11
+   L2
+    LINENUMBER 503 L2
+   FRAME SAME
+    ALOAD 1
+    ALOAD 2
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177958_n ()I
+    INEG
+    I2D
+    ALOAD 2
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177956_o ()I
+    INEG
+    I2D
+    ALOAD 2
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177952_p ()I
+    INEG
+    I2D
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.func_178969_c (DDD)V
+   L11
+    LINENUMBER 504 L11
+   FRAME SAME
+    RETURN
+   L12
+    LOCALVARIABLE bits I L4 L10 3
+    LOCALVARIABLE dx I L5 L10 4
+    LOCALVARIABLE dy I L6 L10 5
+    LOCALVARIABLE dz I L7 L10 6
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L12 0
+    LOCALVARIABLE worldRendererIn Lnet/minecraft/client/renderer/BufferBuilder; L0 L12 1
+    LOCALVARIABLE pos Lnet/minecraft/util/math/BlockPos; L0 L12 2
+    MAXSTACK = 7
+    MAXLOCALS = 7
+
+  // access flags 0x1
+  public func_178584_a(Lnet/minecraft/util/BlockRenderLayer;FFFLnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/client/renderer/chunk/CompiledChunk;)V
+   L0
+    LINENUMBER 508 L0
+    ALOAD 1
+    GETSTATIC net/minecraft/util/BlockRenderLayer.TRANSLUCENT : Lnet/minecraft/util/BlockRenderLayer;
+    IF_ACMPNE L1
+    ALOAD 6
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178491_b (Lnet/minecraft/util/BlockRenderLayer;)Z
+    IFNE L1
+   L2
+    LINENUMBER 510 L2
+    ALOAD 5
+    FLOAD 2
+    FLOAD 3
+    FLOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.func_181674_a (FFF)V
+   L3
+    LINENUMBER 511 L3
+    ALOAD 6
+    ALOAD 5
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.func_181672_a ()Lnet/minecraft/client/renderer/BufferBuilder$State;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178494_a (Lnet/minecraft/client/renderer/BufferBuilder$State;)V
+   L1
+    LINENUMBER 514 L1
+   FRAME SAME
+    ALOAD 5
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.func_178977_d ()V
+   L4
+    LINENUMBER 515 L4
+    RETURN
+   L5
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L5 0
+    LOCALVARIABLE layer Lnet/minecraft/util/BlockRenderLayer; L0 L5 1
+    LOCALVARIABLE x F L0 L5 2
+    LOCALVARIABLE y F L0 L5 3
+    LOCALVARIABLE z F L0 L5 4
+    LOCALVARIABLE worldRendererIn Lnet/minecraft/client/renderer/BufferBuilder; L0 L5 5
+    LOCALVARIABLE compiledChunkIn Lnet/minecraft/client/renderer/chunk/CompiledChunk; L0 L5 6
+    MAXSTACK = 4
+    MAXLOCALS = 7
+
+  // access flags 0x2
+  private func_178567_n()V
+   L0
+    LINENUMBER 519 L0
+    INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179094_E ()V
+   L1
+    LINENUMBER 520 L1
+    INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179096_D ()V
+   L2
+    LINENUMBER 521 L2
+    LDC 1.000001
+    FSTORE 1
+   L3
+    LINENUMBER 522 L3
+    LDC -8.0
+    LDC -8.0
+    LDC -8.0
+    INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179109_b (FFF)V
+   L4
+    LINENUMBER 523 L4
+    LDC 1.000001
+    LDC 1.000001
+    LDC 1.000001
+    INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179152_a (FFF)V
+   L5
+    LINENUMBER 524 L5
+    LDC 8.0
+    LDC 8.0
+    LDC 8.0
+    INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179109_b (FFF)V
+   L6
+    LINENUMBER 525 L6
+    SIPUSH 2982
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178597_k : Ljava/nio/FloatBuffer;
+    INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179111_a (ILjava/nio/FloatBuffer;)V
+   L7
+    LINENUMBER 526 L7
+    INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179121_F ()V
+   L8
+    LINENUMBER 527 L8
+    RETURN
+   L9
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L9 0
+    LOCALVARIABLE f F L3 L9 1
+    MAXSTACK = 3
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public func_178572_f()V
+   L0
+    LINENUMBER 531 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178597_k : Ljava/nio/FloatBuffer;
+    INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179110_a (Ljava/nio/FloatBuffer;)V
+   L1
+    LINENUMBER 532 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L2 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public func_178571_g()Lnet/minecraft/client/renderer/chunk/CompiledChunk;
+   L0
+    LINENUMBER 536 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178590_b : Lnet/minecraft/client/renderer/chunk/CompiledChunk;
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public func_178580_a(Lnet/minecraft/client/renderer/chunk/CompiledChunk;)V
+    TRYCATCHBLOCK L0 L1 L2 null
+   L3
+    LINENUMBER 541 L3
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178598_h : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.lock ()V
+   L0
+    LINENUMBER 545 L0
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178590_b : Lnet/minecraft/client/renderer/chunk/CompiledChunk;
+   L1
+    LINENUMBER 549 L1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178598_h : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+   L4
+    LINENUMBER 550 L4
+    GOTO L5
+   L2
+    LINENUMBER 549 L2
+   FRAME SAME1 java/lang/Throwable
+    ASTORE 2
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178598_h : Ljava/util/concurrent/locks/ReentrantLock;
+    INVOKEVIRTUAL java/util/concurrent/locks/ReentrantLock.unlock ()V
+    ALOAD 2
+    ATHROW
+   L5
+    LINENUMBER 551 L5
+   FRAME SAME
+    RETURN
+   L6
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L3 L6 0
+    LOCALVARIABLE compiledChunkIn Lnet/minecraft/client/renderer/chunk/CompiledChunk; L3 L6 1
+    MAXSTACK = 2
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public func_178585_h()V
+   L0
+    LINENUMBER 555 L0
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178578_b ()V
+   L1
+    LINENUMBER 556 L1
+    ALOAD 0
+    GETSTATIC net/minecraft/client/renderer/chunk/CompiledChunk.field_178502_a : Lnet/minecraft/client/renderer/chunk/CompiledChunk;
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178590_b : Lnet/minecraft/client/renderer/chunk/CompiledChunk;
+   L2
+    LINENUMBER 557 L2
+    RETURN
+   L3
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L3 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public func_178566_a()V
+   L0
+    LINENUMBER 561 L0
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178585_h ()V
+   L1
+    LINENUMBER 564 L1
+    ICONST_0
+    ISTORE 1
+   L2
+   FRAME APPEND [I]
+    ILOAD 1
+    INVOKESTATIC net/minecraft/util/BlockRenderLayer.values ()[Lnet/minecraft/util/BlockRenderLayer;
+    ARRAYLENGTH
+    IF_ICMPGE L3
+   L4
+    LINENUMBER 566 L4
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178594_l : [Lnet/minecraft/client/renderer/vertex/VertexBuffer;
+    ILOAD 1
+    AALOAD
+    IFNULL L5
+   L6
+    LINENUMBER 568 L6
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178594_l : [Lnet/minecraft/client/renderer/vertex/VertexBuffer;
+    ILOAD 1
+    AALOAD
+    INVOKEVIRTUAL net/minecraft/client/renderer/vertex/VertexBuffer.func_177362_c ()V
+   L5
+    LINENUMBER 564 L5
+   FRAME SAME
+    IINC 1 1
+    GOTO L2
+   L3
+    LINENUMBER 571 L3
+   FRAME CHOP 1
+    RETURN
+   L7
+    LOCALVARIABLE i I L2 L3 1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L7 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public func_178568_j()Lnet/minecraft/util/math/BlockPos;
+   L0
+    LINENUMBER 575 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public func_178575_a(Z)V
+   L0
+    LINENUMBER 580 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178593_n : Z
+    IFEQ L1
+   L2
+    LINENUMBER 582 L2
+    ILOAD 1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_188284_q : Z
+    IOR
+    ISTORE 1
+   L1
+    LINENUMBER 585 L1
+   FRAME SAME
+    ALOAD 0
+    ICONST_1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178593_n : Z
+   L3
+    LINENUMBER 586 L3
+    ALOAD 0
+    ILOAD 1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_188284_q : Z
+   L4
+    LINENUMBER 588 L4
+    ALOAD 0
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.isWorldPlayerUpdate ()Z
+    IFEQ L5
+   L6
+    LINENUMBER 589 L6
+    ALOAD 0
+    ICONST_1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.playerUpdate : Z
+   L5
+    LINENUMBER 590 L5
+   FRAME SAME
+    RETURN
+   L7
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L7 0
+    LOCALVARIABLE immediate Z L0 L7 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public func_188282_m()V
+   L0
+    LINENUMBER 594 L0
+    ALOAD 0
+    ICONST_0
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178593_n : Z
+   L1
+    LINENUMBER 595 L1
+    ALOAD 0
+    ICONST_0
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_188284_q : Z
+   L2
+    LINENUMBER 597 L2
+    ALOAD 0
+    ICONST_0
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.playerUpdate : Z
+   L3
+    LINENUMBER 598 L3
+    RETURN
+   L4
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L4 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public func_178569_m()Z
+   L0
+    LINENUMBER 602 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178593_n : Z
+    IRETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public func_188281_o()Z
+   L0
+    LINENUMBER 607 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178593_n : Z
+    IFEQ L1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_188284_q : Z
+    IFEQ L1
+    ICONST_1
+    GOTO L2
+   L1
+   FRAME SAME
+    ICONST_0
+   L2
+   FRAME SAME1 I
+    IRETURN
+   L3
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L3 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public func_181701_a(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/math/BlockPos;
+   L0
+    LINENUMBER 612 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_181702_p : [Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    AALOAD
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    LOCALVARIABLE facing Lnet/minecraft/util/EnumFacing; L0 L1 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public func_188283_p()Lnet/minecraft/world/World;
+   L0
+    LINENUMBER 617 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178588_d : Lnet/minecraft/world/World;
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x2
+  private isWorldPlayerUpdate()Z
+   L0
+    LINENUMBER 623 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178588_d : Lnet/minecraft/world/World;
+    INSTANCEOF net/minecraft/client/multiplayer/WorldClient
+    IFEQ L1
+   L2
+    LINENUMBER 625 L2
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178588_d : Lnet/minecraft/world/World;
+    CHECKCAST net/minecraft/client/multiplayer/WorldClient
+    ASTORE 1
+   L3
+    LINENUMBER 626 L3
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/client/multiplayer/WorldClient.isPlayerUpdate ()Z
+    IRETURN
+   L1
+    LINENUMBER 629 L1
+   FRAME SAME
+    ICONST_0
+    IRETURN
+   L4
+    LOCALVARIABLE worldClient Lnet/minecraft/client/multiplayer/WorldClient; L3 L1 1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L4 0
+    MAXSTACK = 1
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public isPlayerUpdate()Z
+   L0
+    LINENUMBER 636 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.playerUpdate : Z
+    IRETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x2
+  private fixBlockLayer(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/BlockRenderLayer;)Lnet/minecraft/util/BlockRenderLayer;
+   L0
+    LINENUMBER 642 L0
+    INVOKESTATIC net/optifine/CustomBlockLayers.isActive ()Z
+    IFEQ L1
+   L2
+    LINENUMBER 644 L2
+    ALOAD 1
+    INVOKESTATIC net/optifine/CustomBlockLayers.getRenderLayer (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/BlockRenderLayer;
+    ASTORE 3
+   L3
+    LINENUMBER 645 L3
+    ALOAD 3
+    IFNULL L1
+   L4
+    LINENUMBER 646 L4
+    ALOAD 3
+    ARETURN
+   L1
+    LINENUMBER 649 L1
+   FRAME SAME
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.fixBlockLayer : Z
+    IFNE L5
+   L6
+    LINENUMBER 650 L6
+    ALOAD 2
+    ARETURN
+   L5
+    LINENUMBER 652 L5
+   FRAME SAME
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.isMipmaps : Z
+    IFEQ L7
+   L8
+    LINENUMBER 655 L8
+    ALOAD 2
+    GETSTATIC net/minecraft/util/BlockRenderLayer.CUTOUT : Lnet/minecraft/util/BlockRenderLayer;
+    IF_ACMPNE L9
+   L10
+    LINENUMBER 657 L10
+    ALOAD 1
+    INVOKEINTERFACE net/minecraft/block/state/IBlockState.func_177230_c ()Lnet/minecraft/block/Block;
+    ASTORE 3
+   L11
+    LINENUMBER 659 L11
+    ALOAD 3
+    INSTANCEOF net/minecraft/block/BlockRedstoneWire
+    IFEQ L12
+   L13
+    LINENUMBER 660 L13
+    ALOAD 2
+    ARETURN
+   L12
+    LINENUMBER 662 L12
+   FRAME APPEND [net/minecraft/block/Block]
+    ALOAD 3
+    INSTANCEOF net/minecraft/block/BlockCactus
+    IFEQ L14
+   L15
+    LINENUMBER 663 L15
+    ALOAD 2
+    ARETURN
+   L14
+    LINENUMBER 665 L14
+   FRAME SAME
+    GETSTATIC net/minecraft/util/BlockRenderLayer.CUTOUT_MIPPED : Lnet/minecraft/util/BlockRenderLayer;
+    ARETURN
+   L7
+    LINENUMBER 671 L7
+   FRAME CHOP 1
+    ALOAD 2
+    GETSTATIC net/minecraft/util/BlockRenderLayer.CUTOUT_MIPPED : Lnet/minecraft/util/BlockRenderLayer;
+    IF_ACMPNE L9
+   L16
+    LINENUMBER 674 L16
+    GETSTATIC net/minecraft/util/BlockRenderLayer.CUTOUT : Lnet/minecraft/util/BlockRenderLayer;
+    ARETURN
+   L9
+    LINENUMBER 677 L9
+   FRAME SAME
+    ALOAD 2
+    ARETURN
+   L17
+    LOCALVARIABLE layerCustom Lnet/minecraft/util/BlockRenderLayer; L3 L1 3
+    LOCALVARIABLE block Lnet/minecraft/block/Block; L11 L7 3
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L17 0
+    LOCALVARIABLE blockState Lnet/minecraft/block/state/IBlockState; L0 L17 1
+    LOCALVARIABLE layer Lnet/minecraft/util/BlockRenderLayer; L0 L17 2
+    MAXSTACK = 2
+    MAXLOCALS = 4
+
+  // access flags 0x2
+  private postRenderOverlays(Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;Lnet/minecraft/client/renderer/chunk/CompiledChunk;[Z)V
+   L0
+    LINENUMBER 683 L0
+    ALOAD 0
+    GETSTATIC net/minecraft/util/BlockRenderLayer.CUTOUT : Lnet/minecraft/util/BlockRenderLayer;
+    ALOAD 1
+    ALOAD 2
+    ALOAD 3
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.postRenderOverlay (Lnet/minecraft/util/BlockRenderLayer;Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;Lnet/minecraft/client/renderer/chunk/CompiledChunk;[Z)V
+   L1
+    LINENUMBER 684 L1
+    ALOAD 0
+    GETSTATIC net/minecraft/util/BlockRenderLayer.CUTOUT_MIPPED : Lnet/minecraft/util/BlockRenderLayer;
+    ALOAD 1
+    ALOAD 2
+    ALOAD 3
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.postRenderOverlay (Lnet/minecraft/util/BlockRenderLayer;Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;Lnet/minecraft/client/renderer/chunk/CompiledChunk;[Z)V
+   L2
+    LINENUMBER 685 L2
+    ALOAD 0
+    GETSTATIC net/minecraft/util/BlockRenderLayer.TRANSLUCENT : Lnet/minecraft/util/BlockRenderLayer;
+    ALOAD 1
+    ALOAD 2
+    ALOAD 3
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.postRenderOverlay (Lnet/minecraft/util/BlockRenderLayer;Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;Lnet/minecraft/client/renderer/chunk/CompiledChunk;[Z)V
+   L3
+    LINENUMBER 686 L3
+    RETURN
+   L4
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L4 0
+    LOCALVARIABLE regionRenderCacheBuilder Lnet/minecraft/client/renderer/RegionRenderCacheBuilder; L0 L4 1
+    LOCALVARIABLE compiledChunk Lnet/minecraft/client/renderer/chunk/CompiledChunk; L0 L4 2
+    LOCALVARIABLE layerFlags [Z L0 L4 3
+    MAXSTACK = 5
+    MAXLOCALS = 4
+
+  // access flags 0x2
+  private postRenderOverlay(Lnet/minecraft/util/BlockRenderLayer;Lnet/minecraft/client/renderer/RegionRenderCacheBuilder;Lnet/minecraft/client/renderer/chunk/CompiledChunk;[Z)V
+   L0
+    LINENUMBER 691 L0
+    ALOAD 2
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/client/renderer/RegionRenderCacheBuilder.func_179038_a (Lnet/minecraft/util/BlockRenderLayer;)Lnet/minecraft/client/renderer/BufferBuilder;
+    ASTORE 5
+   L1
+    LINENUMBER 692 L1
+    ALOAD 5
+    INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.isDrawing ()Z
+    IFEQ L2
+   L3
+    LINENUMBER 694 L3
+    ALOAD 3
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/CompiledChunk.func_178493_c (Lnet/minecraft/util/BlockRenderLayer;)V
+   L4
+    LINENUMBER 695 L4
+    ALOAD 4
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/util/BlockRenderLayer.ordinal ()I
+    ICONST_1
+    BASTORE
+   L2
+    LINENUMBER 697 L2
+   FRAME APPEND [net/minecraft/client/renderer/BufferBuilder]
+    RETURN
+   L5
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L5 0
+    LOCALVARIABLE layer Lnet/minecraft/util/BlockRenderLayer; L0 L5 1
+    LOCALVARIABLE regionRenderCacheBuilder Lnet/minecraft/client/renderer/RegionRenderCacheBuilder; L0 L5 2
+    LOCALVARIABLE compiledchunk Lnet/minecraft/client/renderer/chunk/CompiledChunk; L0 L5 3
+    LOCALVARIABLE layerFlags [Z L0 L5 4
+    LOCALVARIABLE bufferOverlay Lnet/minecraft/client/renderer/BufferBuilder; L1 L5 5
+    MAXSTACK = 3
+    MAXLOCALS = 6
+
+  // access flags 0x2
+  private makeChunkCacheOF(Lnet/minecraft/util/math/BlockPos;)Lnet/optifine/override/ChunkCacheOF;
+   L0
+    LINENUMBER 704 L0
+    ALOAD 1
+    ICONST_M1
+    ICONST_M1
+    ICONST_M1
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177982_a (III)Lnet/minecraft/util/math/BlockPos;
+    ASTORE 2
+   L1
+    LINENUMBER 705 L1
+    ALOAD 1
+    BIPUSH 16
+    BIPUSH 16
+    BIPUSH 16
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177982_a (III)Lnet/minecraft/util/math/BlockPos;
+    ASTORE 3
+   L2
+    LINENUMBER 706 L2
+    ALOAD 0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178588_d : Lnet/minecraft/world/World;
+    ALOAD 2
+    ALOAD 3
+    ICONST_1
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.createRegionRenderCache (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;I)Lnet/minecraft/world/ChunkCache;
+    ASTORE 4
+   L3
+    LINENUMBER 708 L3
+    GETSTATIC net/optifine/reflect/Reflector.MinecraftForgeClient_onRebuildChunk : Lnet/optifine/reflect/ReflectorMethod;
+    INVOKEVIRTUAL net/optifine/reflect/ReflectorMethod.exists ()Z
+    IFEQ L4
+   L5
+    LINENUMBER 709 L5
+    GETSTATIC net/optifine/reflect/Reflector.MinecraftForgeClient_onRebuildChunk : Lnet/optifine/reflect/ReflectorMethod;
+    ICONST_3
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178588_d : Lnet/minecraft/world/World;
+    AASTORE
+    DUP
+    ICONST_1
+    ALOAD 1
+    AASTORE
+    DUP
+    ICONST_2
+    ALOAD 4
+    AASTORE
+    INVOKESTATIC net/optifine/reflect/Reflector.call (Lnet/optifine/reflect/ReflectorMethod;[Ljava/lang/Object;)Ljava/lang/Object;
+    POP
+   L4
+    LINENUMBER 711 L4
+   FRAME APPEND [net/minecraft/util/math/BlockPos net/minecraft/util/math/BlockPos net/minecraft/world/ChunkCache]
+    NEW net/optifine/override/ChunkCacheOF
+    DUP
+    ALOAD 4
+    ALOAD 2
+    ALOAD 3
+    ICONST_1
+    INVOKESPECIAL net/optifine/override/ChunkCacheOF.<init> (Lnet/minecraft/world/ChunkCache;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;I)V
+    ASTORE 5
+   L6
+    LINENUMBER 713 L6
+    ALOAD 5
+    ARETURN
+   L7
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L7 0
+    LOCALVARIABLE posIn Lnet/minecraft/util/math/BlockPos; L0 L7 1
+    LOCALVARIABLE posFrom Lnet/minecraft/util/math/BlockPos; L1 L7 2
+    LOCALVARIABLE posTo Lnet/minecraft/util/math/BlockPos; L2 L7 3
+    LOCALVARIABLE chunkCache Lnet/minecraft/world/ChunkCache; L3 L7 4
+    LOCALVARIABLE chunkCacheOF Lnet/optifine/override/ChunkCacheOF; L6 L7 5
+    MAXSTACK = 6
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public getRenderChunkOffset16(Lnet/minecraft/client/renderer/ViewFrustum;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/client/renderer/chunk/RenderChunk;
+   L0
+    LINENUMBER 719 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunksOffset16Updated : Z
+    IFNE L1
+   L2
+    LINENUMBER 721 L2
+    ICONST_0
+    ISTORE 3
+   L3
+   FRAME APPEND [I]
+    ILOAD 3
+    GETSTATIC net/minecraft/util/EnumFacing.field_82609_l : [Lnet/minecraft/util/EnumFacing;
+    ARRAYLENGTH
+    IF_ICMPGE L4
+   L5
+    LINENUMBER 723 L5
+    GETSTATIC net/minecraft/util/EnumFacing.field_82609_l : [Lnet/minecraft/util/EnumFacing;
+    ILOAD 3
+    AALOAD
+    ASTORE 4
+   L6
+    LINENUMBER 724 L6
+    ALOAD 0
+    ALOAD 4
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_181701_a (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/math/BlockPos;
+    ASTORE 5
+   L7
+    LINENUMBER 725 L7
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunksOfset16 : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 3
+    ALOAD 1
+    ALOAD 5
+    INVOKEVIRTUAL net/minecraft/client/renderer/ViewFrustum.func_178161_a (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    AASTORE
+   L8
+    LINENUMBER 721 L8
+    IINC 3 1
+    GOTO L3
+   L4
+    LINENUMBER 727 L4
+   FRAME CHOP 1
+    ALOAD 0
+    ICONST_1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunksOffset16Updated : Z
+   L1
+    LINENUMBER 730 L1
+   FRAME SAME
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunksOfset16 : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ALOAD 2
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    AALOAD
+    ARETURN
+   L9
+    LOCALVARIABLE ef Lnet/minecraft/util/EnumFacing; L6 L8 4
+    LOCALVARIABLE posOffset16 Lnet/minecraft/util/math/BlockPos; L7 L8 5
+    LOCALVARIABLE i I L3 L4 3
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L9 0
+    LOCALVARIABLE viewFrustum Lnet/minecraft/client/renderer/ViewFrustum; L0 L9 1
+    LOCALVARIABLE facing Lnet/minecraft/util/EnumFacing; L0 L9 2
+    MAXSTACK = 4
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public getChunk()Lnet/minecraft/world/chunk/Chunk;
+   L0
+    LINENUMBER 737 L0
+    ALOAD 0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.getChunk (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/chunk/Chunk;
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x2
+  private getChunk(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/chunk/Chunk;
+   L0
+    LINENUMBER 745 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.chunk : Lnet/minecraft/world/chunk/Chunk;
+    ASTORE 2
+   L1
+    LINENUMBER 747 L1
+    ALOAD 2
+    IFNULL L2
+    ALOAD 2
+    INVOKEVIRTUAL net/minecraft/world/chunk/Chunk.func_177410_o ()Z
+    IFEQ L2
+   L3
+    LINENUMBER 748 L3
+    ALOAD 2
+    ARETURN
+   L2
+    LINENUMBER 750 L2
+   FRAME APPEND [net/minecraft/world/chunk/Chunk]
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178588_d : Lnet/minecraft/world/World;
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/world/World.func_175726_f (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/chunk/Chunk;
+    ASTORE 2
+   L4
+    LINENUMBER 752 L4
+    ALOAD 0
+    ALOAD 2
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.chunk : Lnet/minecraft/world/chunk/Chunk;
+   L5
+    LINENUMBER 754 L5
+    ALOAD 2
+    ARETURN
+   L6
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L6 0
+    LOCALVARIABLE posIn Lnet/minecraft/util/math/BlockPos; L0 L6 1
+    LOCALVARIABLE chunkLocal Lnet/minecraft/world/chunk/Chunk; L1 L6 2
+    MAXSTACK = 2
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public isChunkRegionEmpty()Z
+   L0
+    LINENUMBER 761 L0
+    ALOAD 0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178586_f : Lnet/minecraft/util/math/BlockPos$MutableBlockPos;
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.isChunkRegionEmpty (Lnet/minecraft/util/math/BlockPos;)Z
+    IRETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x2
+  private isChunkRegionEmpty(Lnet/minecraft/util/math/BlockPos;)Z
+   L0
+    LINENUMBER 771 L0
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177956_o ()I
+    ISTORE 2
+   L1
+    LINENUMBER 772 L1
+    ILOAD 2
+    BIPUSH 15
+    IADD
+    ISTORE 3
+   L2
+    LINENUMBER 773 L2
+    ALOAD 0
+    ALOAD 1
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.getChunk (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/world/chunk/Chunk;
+    ILOAD 2
+    ILOAD 3
+    INVOKEVIRTUAL net/minecraft/world/chunk/Chunk.func_76606_c (II)Z
+    IRETURN
+   L3
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L3 0
+    LOCALVARIABLE posIn Lnet/minecraft/util/math/BlockPos; L0 L3 1
+    LOCALVARIABLE yStart I L1 L3 2
+    LOCALVARIABLE yEnd I L2 L3 3
+    MAXSTACK = 3
+    MAXLOCALS = 4
+
+  // access flags 0x1
+  public setRenderChunkNeighbour(Lnet/minecraft/util/EnumFacing;Lnet/minecraft/client/renderer/chunk/RenderChunk;)V
+   L0
+    LINENUMBER 779 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    ALOAD 2
+    AASTORE
+   L1
+    LINENUMBER 780 L1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursValid : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    ALOAD 2
+    AASTORE
+   L2
+    LINENUMBER 781 L2
+    RETURN
+   L3
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L3 0
+    LOCALVARIABLE facing Lnet/minecraft/util/EnumFacing; L0 L3 1
+    LOCALVARIABLE neighbour Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L3 2
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public getRenderChunkNeighbour(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/client/renderer/chunk/RenderChunk;
+   L0
+    LINENUMBER 786 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursUpated : Z
+    IFNE L1
+   L2
+    LINENUMBER 787 L2
+    ALOAD 0
+    INVOKESPECIAL net/minecraft/client/renderer/chunk/RenderChunk.updateRenderChunkNeighboursValid ()V
+   L1
+    LINENUMBER 789 L1
+   FRAME SAME
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursValid : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    AALOAD
+    ARETURN
+   L3
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L3 0
+    LOCALVARIABLE facing Lnet/minecraft/util/EnumFacing; L0 L3 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public getRenderInfo()Lnet/minecraft/client/renderer/RenderGlobal$ContainerLocalRenderInformation;
+   L0
+    LINENUMBER 796 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderInfo : Lnet/minecraft/client/renderer/RenderGlobal$ContainerLocalRenderInformation;
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x2
+  private updateRenderChunkNeighboursValid()V
+   L0
+    LINENUMBER 803 L0
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178568_j ()Lnet/minecraft/util/math/BlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177958_n ()I
+    ISTORE 1
+   L1
+    LINENUMBER 804 L1
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178568_j ()Lnet/minecraft/util/math/BlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177952_p ()I
+    ISTORE 2
+   L2
+    LINENUMBER 806 L2
+    GETSTATIC net/minecraft/util/EnumFacing.NORTH : Lnet/minecraft/util/EnumFacing;
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    ISTORE 3
+   L3
+    LINENUMBER 807 L3
+    GETSTATIC net/minecraft/util/EnumFacing.SOUTH : Lnet/minecraft/util/EnumFacing;
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    ISTORE 4
+   L4
+    LINENUMBER 808 L4
+    GETSTATIC net/minecraft/util/EnumFacing.WEST : Lnet/minecraft/util/EnumFacing;
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    ISTORE 5
+   L5
+    LINENUMBER 809 L5
+    GETSTATIC net/minecraft/util/EnumFacing.EAST : Lnet/minecraft/util/EnumFacing;
+    INVOKEVIRTUAL net/minecraft/util/EnumFacing.ordinal ()I
+    ISTORE 6
+   L6
+    LINENUMBER 811 L6
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursValid : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 3
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 3
+    AALOAD
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178568_j ()Lnet/minecraft/util/math/BlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177952_p ()I
+    ILOAD 2
+    BIPUSH 16
+    ISUB
+    IF_ICMPNE L7
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 3
+    AALOAD
+    GOTO L8
+   L7
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk I I I I I I] [[Lnet/minecraft/client/renderer/chunk/RenderChunk; I]
+    ACONST_NULL
+   L8
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk I I I I I I] [[Lnet/minecraft/client/renderer/chunk/RenderChunk; I net/minecraft/client/renderer/chunk/RenderChunk]
+    AASTORE
+   L9
+    LINENUMBER 812 L9
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursValid : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 4
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 4
+    AALOAD
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178568_j ()Lnet/minecraft/util/math/BlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177952_p ()I
+    ILOAD 2
+    BIPUSH 16
+    IADD
+    IF_ICMPNE L10
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 4
+    AALOAD
+    GOTO L11
+   L10
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk I I I I I I] [[Lnet/minecraft/client/renderer/chunk/RenderChunk; I]
+    ACONST_NULL
+   L11
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk I I I I I I] [[Lnet/minecraft/client/renderer/chunk/RenderChunk; I net/minecraft/client/renderer/chunk/RenderChunk]
+    AASTORE
+   L12
+    LINENUMBER 813 L12
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursValid : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 5
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 5
+    AALOAD
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178568_j ()Lnet/minecraft/util/math/BlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177958_n ()I
+    ILOAD 1
+    BIPUSH 16
+    ISUB
+    IF_ICMPNE L13
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 5
+    AALOAD
+    GOTO L14
+   L13
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk I I I I I I] [[Lnet/minecraft/client/renderer/chunk/RenderChunk; I]
+    ACONST_NULL
+   L14
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk I I I I I I] [[Lnet/minecraft/client/renderer/chunk/RenderChunk; I net/minecraft/client/renderer/chunk/RenderChunk]
+    AASTORE
+   L15
+    LINENUMBER 814 L15
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursValid : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 6
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 6
+    AALOAD
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178568_j ()Lnet/minecraft/util/math/BlockPos;
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177958_n ()I
+    ILOAD 1
+    BIPUSH 16
+    IADD
+    IF_ICMPNE L16
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighbours : [Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    ILOAD 6
+    AALOAD
+    GOTO L17
+   L16
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk I I I I I I] [[Lnet/minecraft/client/renderer/chunk/RenderChunk; I]
+    ACONST_NULL
+   L17
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk I I I I I I] [[Lnet/minecraft/client/renderer/chunk/RenderChunk; I net/minecraft/client/renderer/chunk/RenderChunk]
+    AASTORE
+   L18
+    LINENUMBER 816 L18
+    ALOAD 0
+    ICONST_1
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.renderChunkNeighboursUpated : Z
+   L19
+    LINENUMBER 817 L19
+    RETURN
+   L20
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L20 0
+    LOCALVARIABLE x I L1 L20 1
+    LOCALVARIABLE z I L2 L20 2
+    LOCALVARIABLE north I L3 L20 3
+    LOCALVARIABLE south I L4 L20 4
+    LOCALVARIABLE west I L5 L20 5
+    LOCALVARIABLE east I L6 L20 6
+    MAXSTACK = 5
+    MAXLOCALS = 7
+
+  // access flags 0x1
+  public isBoundingBoxInFrustum(Lnet/minecraft/client/renderer/culling/ICamera;I)Z
+   L0
+    LINENUMBER 823 L0
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.getBoundingBoxParent ()Lnet/optifine/render/AabbFrame;
+    ALOAD 1
+    ILOAD 2
+    INVOKEVIRTUAL net/optifine/render/AabbFrame.isBoundingBoxInFrustumFully (Lnet/minecraft/client/renderer/culling/ICamera;I)Z
+    IFEQ L1
+   L2
+    LINENUMBER 824 L2
+    ICONST_1
+    IRETURN
+   L1
+    LINENUMBER 826 L1
+   FRAME SAME
+    ALOAD 1
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178591_c : Lnet/minecraft/util/math/AxisAlignedBB;
+    INVOKEINTERFACE net/minecraft/client/renderer/culling/ICamera.func_78546_a (Lnet/minecraft/util/math/AxisAlignedBB;)Z
+    IRETURN
+   L3
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L3 0
+    LOCALVARIABLE camera Lnet/minecraft/client/renderer/culling/ICamera; L0 L3 1
+    LOCALVARIABLE frameCount I L0 L3 2
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public getBoundingBoxParent()Lnet/optifine/render/AabbFrame;
+   L0
+    LINENUMBER 833 L0
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.boundingBoxParent : Lnet/optifine/render/AabbFrame;
+    IFNONNULL L1
+   L2
+    LINENUMBER 835 L2
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178568_j ()Lnet/minecraft/util/math/BlockPos;
+    ASTORE 1
+   L3
+    LINENUMBER 836 L3
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177958_n ()I
+    ISTORE 2
+   L4
+    LINENUMBER 837 L4
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177956_o ()I
+    ISTORE 3
+   L5
+    LINENUMBER 838 L5
+    ALOAD 1
+    INVOKEVIRTUAL net/minecraft/util/math/BlockPos.func_177952_p ()I
+    ISTORE 4
+   L6
+    LINENUMBER 841 L6
+    ICONST_5
+    ISTORE 5
+   L7
+    LINENUMBER 842 L7
+    ILOAD 2
+    ILOAD 5
+    ISHR
+    ILOAD 5
+    ISHL
+    ISTORE 6
+   L8
+    LINENUMBER 843 L8
+    ILOAD 3
+    ILOAD 5
+    ISHR
+    ILOAD 5
+    ISHL
+    ISTORE 7
+   L9
+    LINENUMBER 844 L9
+    ILOAD 4
+    ILOAD 5
+    ISHR
+    ILOAD 5
+    ISHL
+    ISTORE 8
+   L10
+    LINENUMBER 845 L10
+    ILOAD 6
+    ILOAD 2
+    IF_ICMPNE L11
+    ILOAD 7
+    ILOAD 3
+    IF_ICMPNE L11
+    ILOAD 8
+    ILOAD 4
+    IF_ICMPEQ L12
+   L11
+    LINENUMBER 847 L11
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk net/minecraft/util/math/BlockPos I I I I I I I] []
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178589_e : Lnet/minecraft/client/renderer/RenderGlobal;
+    NEW net/minecraft/util/math/BlockPos
+    DUP
+    ILOAD 6
+    ILOAD 7
+    ILOAD 8
+    INVOKESPECIAL net/minecraft/util/math/BlockPos.<init> (III)V
+    INVOKEVIRTUAL net/minecraft/client/renderer/RenderGlobal.getRenderChunk (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/client/renderer/chunk/RenderChunk;
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.getBoundingBoxParent ()Lnet/optifine/render/AabbFrame;
+    ASTORE 9
+   L13
+    LINENUMBER 849 L13
+    ALOAD 9
+    IFNULL L12
+    ALOAD 9
+    GETFIELD net/optifine/render/AabbFrame.field_72340_a : D
+    ILOAD 6
+    I2D
+    DCMPL
+    IFNE L12
+    ALOAD 9
+    GETFIELD net/optifine/render/AabbFrame.field_72338_b : D
+    ILOAD 7
+    I2D
+    DCMPL
+    IFNE L12
+    ALOAD 9
+    GETFIELD net/optifine/render/AabbFrame.field_72339_c : D
+    ILOAD 8
+    I2D
+    DCMPL
+    IFNE L12
+   L14
+    LINENUMBER 850 L14
+    ALOAD 0
+    ALOAD 9
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.boundingBoxParent : Lnet/optifine/render/AabbFrame;
+   L12
+    LINENUMBER 853 L12
+   FRAME SAME
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.boundingBoxParent : Lnet/optifine/render/AabbFrame;
+    IFNONNULL L1
+   L15
+    LINENUMBER 855 L15
+    ICONST_1
+    ILOAD 5
+    ISHL
+    ISTORE 9
+   L16
+    LINENUMBER 856 L16
+    ALOAD 0
+    NEW net/optifine/render/AabbFrame
+    DUP
+    ILOAD 6
+    I2D
+    ILOAD 7
+    I2D
+    ILOAD 8
+    I2D
+    ILOAD 6
+    ILOAD 9
+    IADD
+    I2D
+    ILOAD 7
+    ILOAD 9
+    IADD
+    I2D
+    ILOAD 8
+    ILOAD 9
+    IADD
+    I2D
+    INVOKESPECIAL net/optifine/render/AabbFrame.<init> (DDDDDD)V
+    PUTFIELD net/minecraft/client/renderer/chunk/RenderChunk.boundingBoxParent : Lnet/optifine/render/AabbFrame;
+   L1
+    LINENUMBER 859 L1
+   FRAME FULL [net/minecraft/client/renderer/chunk/RenderChunk] []
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.boundingBoxParent : Lnet/optifine/render/AabbFrame;
+    ARETURN
+   L17
+    LOCALVARIABLE bbp Lnet/optifine/render/AabbFrame; L13 L12 9
+    LOCALVARIABLE delta I L16 L1 9
+    LOCALVARIABLE pos Lnet/minecraft/util/math/BlockPos; L3 L1 1
+    LOCALVARIABLE x I L4 L1 2
+    LOCALVARIABLE y I L5 L1 3
+    LOCALVARIABLE z I L6 L1 4
+    LOCALVARIABLE bits I L7 L1 5
+    LOCALVARIABLE xp I L8 L1 6
+    LOCALVARIABLE yp I L9 L1 7
+    LOCALVARIABLE zp I L10 L1 8
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L17 0
+    MAXSTACK = 15
+    MAXLOCALS = 10
+
+  // access flags 0x1
+  public toString()Ljava/lang/String;
+   L0
+    LINENUMBER 866 L0
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "pos: "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ALOAD 0
+    INVOKEVIRTUAL net/minecraft/client/renderer/chunk/RenderChunk.func_178568_j ()Lnet/minecraft/util/math/BlockPos;
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    LDC ", frameIndex: "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ALOAD 0
+    GETFIELD net/minecraft/client/renderer/chunk/RenderChunk.field_178595_m : I
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x4
+  protected createRegionRenderCache(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;I)Lnet/minecraft/world/ChunkCache;
+   L0
+    LINENUMBER 884 L0
+    NEW net/minecraft/world/ChunkCache
+    DUP
+    ALOAD 1
+    ALOAD 2
+    ALOAD 3
+    ILOAD 4
+    INVOKESPECIAL net/minecraft/world/ChunkCache.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/BlockPos;I)V
+    ARETURN
+   L1
+    LOCALVARIABLE this Lnet/minecraft/client/renderer/chunk/RenderChunk; L0 L1 0
+    LOCALVARIABLE world Lnet/minecraft/world/World; L0 L1 1
+    LOCALVARIABLE from Lnet/minecraft/util/math/BlockPos; L0 L1 2
+    LOCALVARIABLE to Lnet/minecraft/util/math/BlockPos; L0 L1 3
+    LOCALVARIABLE subtract I L0 L1 4
+    MAXSTACK = 6
+    MAXLOCALS = 5
+
+  // access flags 0x8
+  static <clinit>()V
+   L0
+    LINENUMBER 76 L0
+    INVOKESTATIC net/minecraft/util/BlockRenderLayer.values ()[Lnet/minecraft/util/BlockRenderLayer;
+    PUTSTATIC net/minecraft/client/renderer/chunk/RenderChunk.ENUM_WORLD_BLOCK_LAYERS : [Lnet/minecraft/util/BlockRenderLayer;
+    RETURN
+    MAXSTACK = 1
+    MAXLOCALS = 0
+}

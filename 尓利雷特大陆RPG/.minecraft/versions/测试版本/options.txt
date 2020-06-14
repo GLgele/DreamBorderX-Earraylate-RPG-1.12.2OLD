@@ -92,6 +92,7 @@ key_Scene2 start/pause:80
 key_Scene3 start/pause:81
 key_Scene reset:82
 key_Quest Log:38
+key_keybind.baublesinventory:48
 key_WorldEdit Reference:210
 key_key.minimap.voxelmapmenu:50
 key_key.minimap.waypointmenu:0
@@ -101,7 +102,7 @@ key_key.minimap.waypointhotkey:48
 key_key.minimap.togglemobs:0
 key_key.minimap.toggleingamewaypoints:66
 key_key.portaitreposition:52
-soundCategory_master:1.0
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
