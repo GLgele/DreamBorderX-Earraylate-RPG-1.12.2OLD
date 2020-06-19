@@ -1,0 +1,134 @@
+[15:58:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:58:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:58:30] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineTweaker
+[15:58:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:58:30] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[15:58:30] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[15:58:30] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_102, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.8.0_102\jre
+[15:58:30] [main/DEBUG] [FML]: Java classpath at launch is:
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2847\forge-1.12.2-14.23.5.2847.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\optifine\launchwrapper-of\2.1\launchwrapper-of-2.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\optifine\OptiFine\1.12.2_HD_U_F5\OptiFine-1.12.2_HD_U_F5-installer.jar
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\versions\测试版本\测试版本.jar
+[15:58:30] [main/DEBUG] [FML]: Java library path at launch is:
+[15:58:30] [main/DEBUG] [FML]:     F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\versions\测试版本\测试版本-natives
+[15:58:30] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries
+[15:58:30] [main/DEBUG] [FML]: Cleaning up mods folder: F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\versions\测试版本\mods
+[15:58:30] [main/DEBUG] [FML]: Cleaning up mods folder: F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\versions\测试版本\mods\1.12.2
+[15:58:30] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[15:58:30] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[15:58:30] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[15:58:30] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[15:58:30] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[15:58:30] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[15:58:30] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[15:58:30] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[15:58:30] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[15:58:30] [main/DEBUG] [FML]: Discovering coremods
+[15:58:30] [main/INFO] [FML]: Searching F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\versions\测试版本\mods for mods
+[15:58:30] [main/INFO] [FML]: Searching F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\versions\测试版本\mods\1.12.2 for mods
+[15:58:30] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineTweaker
+[15:58:30] [main/INFO] [STDOUT]: [optifine.OptiFineTweaker:dbg:57]: OptiFineTweaker: acceptOptions
+[15:58:30] [main/INFO] [STDOUT]: [optifine.OptiFineTweaker:dbg:57]: OptiFineTweaker: injectIntoClassLoader
+[15:58:30] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[15:58:30] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: F:\Game\尓利雷特大陆RPG0.0.1\.minecraft\libraries\optifine\OptiFine\1.12.2_HD_U_F5\OptiFine-1.12.2_HD_U_F5-installer.jar
+[15:58:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:58:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:58:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:58:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:58:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:58:30] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[15:58:30] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[15:58:30] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:58:30] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[15:58:30] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[15:58:30] [main/DEBUG] [FML]: Injection complete
+[15:58:30] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[15:58:30] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[15:58:31] [main/DEBUG] [FML]: Read 1145 binary patches
+[15:58:31] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36083 records
+[15:58:31] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[15:58:31] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:58:31] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[15:58:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:58:31] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[15:58:31] [main/DEBUG] [FML]: Injection complete
+[15:58:31] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[15:58:31] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[15:58:31] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[15:58:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:58:31] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[15:58:31] [main/DEBUG] [FML]: Validating minecraft
+[15:58:32] [main/DEBUG] [FML]: Minecraft validated, launching...
+[15:58:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:58:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:58:32] [main/INFO] [STDOUT]: [optifine.OptiFineTweaker:dbg:57]: OptiFineTweaker: getLaunchArguments
+[15:58:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:58:32] [main/ERROR] [LaunchWrapper]: Unable to launch
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: joptsimple.MultipleArgumentsForOptionException: Found multiple arguments for option version, but you asked for only one
+	at joptsimple.OptionSet.valueOf(OptionSet.java:179) ~[OptionSet.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:86) ~[Main.class:?]
+	... 6 more
+[15:58:32] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException
+[15:58:32] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:49)
+[15:58:32] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.SecurityManager.checkExit(SecurityManager.java:761)
+[15:58:32] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Runtime.exit(Runtime.java:107)
+[15:58:32] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.System.exit(System.java:971)
+[15:58:32] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
+[15:58:32] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)

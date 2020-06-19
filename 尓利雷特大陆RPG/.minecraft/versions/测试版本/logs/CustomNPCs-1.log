@@ -1,0 +1,8 @@
+[14:24:27][FINE/CustomNPCs][noppes.npcs.controllers.ScriptController:87] Sun Jun 14 14:24:27 CST 2020
+[14:24:27][FINE/CustomNPCs][noppes.npcs.CustomNpcs:229] Script Engines Available:
+[14:24:27][FINE/CustomNPCs][noppes.npcs.CustomNpcs:229] ECMAScript: .js
+[14:25:05][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[14:25:05][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[14:25:08][FINE/CustomNPCs][noppes.npcs.CustomNpcs:282] Loading Dialogs
+[14:25:08][FINE/CustomNPCs][noppes.npcs.CustomNpcs:282] Done loading Dialogs
+[14:25:08][SEVERE/CustomNPCs][noppes.npcs.CustomNpcs:283] Duplicate id 1 from category Ïä×Ó
