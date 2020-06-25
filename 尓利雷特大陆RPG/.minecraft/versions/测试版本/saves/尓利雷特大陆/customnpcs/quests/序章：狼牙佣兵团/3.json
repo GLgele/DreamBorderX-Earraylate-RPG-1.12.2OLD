@@ -33,7 +33,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1592095677401L,
+        "TimePast": 1593056946378L,
         "Time": 0L,
         "Subject": ""
     },
@@ -143,9 +143,9 @@
                     "Unbreakable": 1b,
                     "AttributeModifiers": [
                         {
-                            "UUIDMost": 9187936287322464L,
-                            "UUIDLeast": 9187936287322464L,
-                            "Amount": 5.0d,
+                            "UUIDMost": 8716331958815217L,
+                            "UUIDLeast": 8716331958815217L,
+                            "Amount": 10.0d,
                             "Slot": "mainhand",
                             "AttributeName": "generic.attackDamage",
                             "Operation": 0,

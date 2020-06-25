@@ -697,6 +697,12 @@
     },
     "done": true
   },
+  "earraylate:first_died": {
+    "criteria": {
+      "tick": "2020-06-25 11:41:13 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-06-14 08:47:16 +0800",
@@ -780,7 +786,7 @@
   },
   "earraylate:root": {
     "criteria": {
-      "tick": "2020-06-20 12:27:31 +0800"
+      "tick": "2020-06-25 11:02:45 +0800"
     },
     "done": true
   },
@@ -2492,6 +2498,12 @@
     "criteria": {
       "has_the_recipe": "2020-06-14 08:47:16 +0800",
       "has_diamond": "2020-06-14 08:47:16 +0800"
+    },
+    "done": true
+  },
+  "earraylate:soldier": {
+    "criteria": {
+      "tick": "2020-06-25 11:40:49 +0800"
     },
     "done": true
   },

@@ -6,22 +6,6 @@
     "NpcsTimers": [
     ],
     "FactionData": [
-        {
-            "Points": 2000,
-            "Faction": 0
-        },
-        {
-            "Points": 0,
-            "Faction": 2
-        },
-        {
-            "Points": 500,
-            "Faction": 3
-        },
-        {
-            "Points": 2000,
-            "Faction": 4
-        }
     ],
     "BankData": [
     ],
