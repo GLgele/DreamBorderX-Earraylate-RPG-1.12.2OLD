@@ -691,16 +691,16 @@
     },
     "done": true
   },
+  "earraylate:first_died": {
+    "criteria": {
+      "tick": "2020-07-10 13:50:16 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
       "has_the_recipe": "2020-07-10 11:07:30 +0800",
       "has_minecart": "2020-07-10 11:07:30 +0800"
-    },
-    "done": true
-  },
-  "earraylate:first_died": {
-    "criteria": {
-      "tick": "2020-07-10 11:07:12 +0800"
     },
     "done": true
   },
@@ -788,7 +788,7 @@
   },
   "earraylate:root": {
     "criteria": {
-      "tick": "2020-07-10 11:06:46 +0800"
+      "tick": "2020-07-10 13:49:28 +0800"
     },
     "done": true
   },
@@ -1415,12 +1415,6 @@
     },
     "done": true
   },
-  "earraylate:1000th_died": {
-    "criteria": {
-      "tick": "2020-07-10 11:07:12 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/orange_banner": {
     "criteria": {
       "has_the_recipe": "2020-07-10 11:07:30 +0800",
@@ -1479,12 +1473,6 @@
     "criteria": {
       "has_prismarine_shard": "2020-07-10 11:07:30 +0800",
       "has_the_recipe": "2020-07-10 11:07:30 +0800"
-    },
-    "done": true
-  },
-  "earraylate:tenth_died": {
-    "criteria": {
-      "tick": "2020-07-10 11:07:12 +0800"
     },
     "done": true
   },
@@ -2522,7 +2510,7 @@
   },
   "earraylate:soldier": {
     "criteria": {
-      "tick": "2020-07-10 11:07:30 +0800"
+      "tick": "2020-07-10 13:50:30 +0800"
     },
     "done": true
   },
@@ -3398,12 +3386,6 @@
     "criteria": {
       "has_red_wool": "2020-07-10 11:07:30 +0800",
       "has_the_recipe": "2020-07-10 11:07:30 +0800"
-    },
-    "done": true
-  },
-  "earraylate:100th_died": {
-    "criteria": {
-      "tick": "2020-07-10 11:07:12 +0800"
     },
     "done": true
   },
