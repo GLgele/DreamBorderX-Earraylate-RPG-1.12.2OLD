@@ -222,3 +222,5 @@
 [13:49:28] [Server thread/INFO]: Baking listener list for ServerChatFilter with 0 listeners
 [13:49:53] [Client thread/INFO]: Baking listener list for PlayerClickListener with 0 listeners
 [13:49:53] [Server thread/INFO]: Baking listener list for PlayerInteractionListener with 0 listeners
+[16:22:49] [Client thread/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[16:22:49] [Client thread/INFO]: Baking listener list for ShutdownObserver with 3 listeners

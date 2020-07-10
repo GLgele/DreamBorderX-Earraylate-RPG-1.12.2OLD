@@ -1985,3 +1985,18 @@ Vertex info
 [14:08:21] [Client thread/INFO]: [CHAT] add, list, remove, setdisplay
 [14:08:25] [Server thread/INFO]: [GLgele: 成功地移除了记分项'trig']
 [14:08:25] [Client thread/INFO]: [CHAT] 成功地移除了记分项'trig'
+[16:22:44] [Server thread/INFO]: GLgele lost connection: 连接中止
+[16:22:44] [Server thread/INFO]: GLgele退出了游戏
+[16:22:44] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[16:22:44] [Server thread/INFO]: Stopping server
+[16:22:44] [Server thread/INFO]: Saving players
+[16:22:44] [Server thread/INFO]: Saving worlds
+[16:22:44] [Server thread/INFO]: Saving chunks for level '尓利雷特大陆'/overworld
+[16:22:44] [Server thread/INFO]: Unloading dimension 0
+[16:22:45] [Server thread/INFO]: Applying holder lookups
+[16:22:45] [Server thread/INFO]: Holder lookups applied
+[16:22:49] [Client thread/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[16:22:49] [Client thread/INFO]: Baking listener list for ShutdownObserver with 3 listeners
+[16:22:49] [Client thread/INFO]: Stopping!
+[16:22:49] [Client thread/INFO]: SoundSystem shutting down...
+[16:22:49] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
