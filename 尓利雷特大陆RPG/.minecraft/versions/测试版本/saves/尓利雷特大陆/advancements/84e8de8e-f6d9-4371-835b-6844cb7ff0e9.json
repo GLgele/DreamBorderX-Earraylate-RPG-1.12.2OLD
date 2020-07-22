@@ -510,6 +510,12 @@
     },
     "done": true
   },
+  "earraylate:select_job": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_carpet": {
     "criteria": {
       "has_magenta_wool": "2020-07-10 11:07:30 +0800",
@@ -691,16 +697,16 @@
     },
     "done": true
   },
-  "earraylate:first_died": {
-    "criteria": {
-      "tick": "2020-07-10 13:50:16 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
       "has_the_recipe": "2020-07-10 11:07:30 +0800",
       "has_minecart": "2020-07-10 11:07:30 +0800"
+    },
+    "done": true
+  },
+  "earraylate:first_died": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
     },
     "done": true
   },
@@ -758,6 +764,12 @@
     },
     "done": true
   },
+  "earraylate:do_work": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_stairs": {
     "criteria": {
       "has_quartz_block": "2020-07-10 11:07:30 +0800",
@@ -788,7 +800,7 @@
   },
   "earraylate:root": {
     "criteria": {
-      "tick": "2020-07-10 13:49:28 +0800"
+      "tick": "2020-07-22 20:18:15 +0800"
     },
     "done": true
   },
@@ -987,6 +999,12 @@
     "criteria": {
       "has_hardened_clay": "2020-07-10 11:07:30 +0800",
       "has_the_recipe": "2020-07-10 11:07:30 +0800"
+    },
+    "done": true
+  },
+  "earraylate:chapter0_finish": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
     },
     "done": true
   },
@@ -1633,6 +1651,12 @@
   "minecraft:nether/brew_potion": {
     "criteria": {
       "potion": "2020-07-10 11:07:30 +0800"
+    },
+    "done": true
+  },
+  "earraylate:chapter1_finish": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
     },
     "done": true
   },
@@ -2510,7 +2534,7 @@
   },
   "earraylate:soldier": {
     "criteria": {
-      "tick": "2020-07-10 13:50:30 +0800"
+      "tick": "2020-07-22 20:42:09 +0800"
     },
     "done": true
   },
@@ -2852,6 +2876,12 @@
     },
     "done": true
   },
+  "earraylate:another_job": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_at_least_9_gold_nugget": "2020-07-10 11:07:30 +0800",
@@ -2924,6 +2954,12 @@
     "criteria": {
       "has_the_recipe": "2020-07-10 11:07:30 +0800",
       "has_planks": "2020-07-10 11:07:30 +0800"
+    },
+    "done": true
+  },
+  "earraylate:continue": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
     },
     "done": true
   },
@@ -3069,6 +3105,12 @@
     },
     "done": true
   },
+  "earraylate:big_quest": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2020-07-10 11:07:30 +0800",
@@ -3172,6 +3214,12 @@
     "criteria": {
       "has_stone": "2020-07-10 11:07:30 +0800",
       "has_the_recipe": "2020-07-10 11:07:30 +0800"
+    },
+    "done": true
+  },
+  "earraylate:hero": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
     },
     "done": true
   },
@@ -3629,6 +3677,12 @@
     "criteria": {
       "has_the_recipe": "2020-07-10 11:07:30 +0800",
       "has_diamond": "2020-07-10 11:07:30 +0800"
+    },
+    "done": true
+  },
+  "earraylate:new_town": {
+    "criteria": {
+      "tick": "2020-07-22 20:42:09 +0800"
     },
     "done": true
   },
