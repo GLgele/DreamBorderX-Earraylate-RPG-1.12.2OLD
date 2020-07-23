@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["mcmap.cc-[FNI现实RPG材质包][16x16].zip","mcmap.cc-[史诗冒险材质包][32x32].zip"]
+resourcePacks:["mcmap.cc-[FNI现实RPG材质包][16x16].zip","mcmap.cc-[史诗冒险材质包][32x32].zip","Earraylate.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
