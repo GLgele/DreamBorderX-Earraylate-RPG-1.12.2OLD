@@ -782,7 +782,7 @@
   },
   "earraylate:root": {
     "criteria": {
-      "tick": "2020-07-23 10:42:31 +0800"
+      "tick": "2020-07-26 11:49:25 +0800"
     },
     "done": true
   },
@@ -3054,12 +3054,6 @@
     "criteria": {
       "has_glass": "2020-07-10 11:07:30 +0800",
       "has_the_recipe": "2020-07-10 11:07:30 +0800"
-    },
-    "done": true
-  },
-  "earraylate:big_quest": {
-    "criteria": {
-      "tick": "2020-07-23 11:02:46 +0800"
     },
     "done": true
   },
