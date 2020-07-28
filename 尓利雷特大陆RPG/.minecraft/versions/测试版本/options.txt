@@ -63,18 +63,18 @@ key_key.sneak:42
 key_key.sprint:29
 key_key.drop:16
 key_key.inventory:18
-key_key.chat:20
+key_key.chat:28
 key_key.playerlist:15
 key_key.pickItem:-98
 key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:63
-key_key.smoothCamera:88
+key_key.smoothCamera:0
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
 key_key.swapHands:33
 key_key.saveToolbarActivator:47
-key_key.loadToolbarActivator:41
+key_key.loadToolbarActivator:22
 key_key.advancements:62
 key_key.hotbar.1:2
 key_key.hotbar.2:3
@@ -93,17 +93,17 @@ key_Scene3 start/pause:81
 key_Scene reset:82
 key_Quest Log:38
 key_keybind.baublesinventory:48
-key_WorldEdit Reference:210
+key_WorldEdit Reference:211
 key_key.minimap.voxelmapmenu:50
-key_key.minimap.waypointmenu:0
+key_key.minimap.waypointmenu:41
 key_key.minimap.zoom:44
 key_key.minimap.togglefullscreen:45
-key_key.minimap.waypointhotkey:48
+key_key.minimap.waypointhotkey:49
 key_key.minimap.togglemobs:0
-key_key.minimap.toggleingamewaypoints:66
+key_key.minimap.toggleingamewaypoints:0
 key_key.portaitreposition:52
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

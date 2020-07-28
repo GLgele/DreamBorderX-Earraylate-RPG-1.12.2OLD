@@ -33,7 +33,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1593056946378L,
+        "TimePast": 1595912885426L,
         "Time": 0L,
         "Subject": ""
     },
@@ -167,6 +167,6 @@
             }
         ]
     },
-    "CompleteText": "",
+    "CompleteText": "你领取了装备",
     "NextQuestTitle": "序章：狼牙佣兵团3"
 }
