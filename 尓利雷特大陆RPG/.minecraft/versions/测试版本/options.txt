@@ -15,8 +15,8 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["mcmap.cc-[FNI现实RPG材质包][16x16].zip","mcmap.cc-[史诗冒险材质包][32x32].zip","Earraylate.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["msi_conversion.zip","PresenceFootstepsOfficial.zip","mcmap.cc-[FNI现实RPG材质包][16x16].zip","mcmap.cc-[史诗冒险材质包][32x32].zip","Earraylate.zip"]
+incompatibleResourcePacks:["msi_conversion.zip","PresenceFootstepsOfficial.zip"]
 lastServer:
 lang:zh_cn
 chatVisibility:0
@@ -103,7 +103,7 @@ key_key.minimap.togglemobs:0
 key_key.minimap.toggleingamewaypoints:0
 key_key.portaitreposition:52
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
