@@ -1,7 +1,9 @@
 {
     "CompleterNpc": "兰斯格",
     "NextQuestId": -1,
+    "QuestLocation3": "",
     "RandomReward": 0b,
+    "QuestLocation2": "",
     "QuestRepeat": 0,
     "QuestCompletion": 1,
     "Title": "序章：大任务",
@@ -16,10 +18,8 @@
     },
     "RewardExp": 0,
     "QuestCommand": "",
-    "QuestDialogs": [
-    ],
     "ModRev": 18,
-    "Type": 1,
+    "Type": 3,
     "QuestMail": {
         "Sender": "",
         "BeenRead": 0b,
@@ -28,7 +28,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1595903705984L,
+        "TimePast": 1596269076247L,
         "Time": 0L,
         "Subject": ""
     },
@@ -37,5 +37,6 @@
         ]
     },
     "CompleteText": "",
-    "NextQuestTitle": ""
+    "NextQuestTitle": "",
+    "QuestLocation": "离开洞穴"
 }

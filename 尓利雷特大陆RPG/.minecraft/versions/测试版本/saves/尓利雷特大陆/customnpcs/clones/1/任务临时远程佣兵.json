@@ -22,7 +22,7 @@
     "PositionOffsetX": 5.0f,
     "LootMode": 0,
     "TransformHasAI": 0b,
-    "AttackStrenght": 20,
+    "AttackStrenght": 10,
     "PersistenceRequired": 0b,
     "id": "customnpcs:customnpc",
     "IsStatue": 0b,
@@ -143,7 +143,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 6167,
+    "HurtByTimestamp": 3756,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -178,7 +178,7 @@
             "Name": "generic.followRange"
         },
         {
-            "Base": 20.0d,
+            "Base": 10.0d,
             "Name": "generic.attackDamage"
         },
         {
@@ -203,7 +203,17 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "variedcommodities:saber",
+            "id": "variedcommodities:crossbow",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "variedcommodities:crossbow_bolt",
             "Count": 1b,
             "Damage": 0s
         }
@@ -365,7 +375,7 @@
         "OptionFaction1Points": 100,
         "DecreaseFaction2Points": 0b
     },
-    "pDamage": 4,
+    "pDamage": 5,
     "KilledTime": 0L,
     "MercenaryDaysHired": 0,
     "AimWhileShooting": 0b,
@@ -397,14 +407,14 @@
     "MovementType": 0,
     "FiringSound": "minecraft:entity.arrow.shoot",
     "ModRev": 18,
-    "Accuracy": 60,
+    "Accuracy": 100,
     "MinExp": 0,
     "Armor": [
     ],
     "CloakTexture": "",
     "MercenaryIsFollowing": 1b,
     "GlowTexture": "",
-    "MaxFiringRange": 15,
+    "MaxFiringRange": 20,
     "pXlr8": 0b,
     "Scripts": [
     ],
@@ -414,7 +424,7 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 5,
     "Title": "",
-    "TotalTicksAlive": 785187L,
+    "TotalTicksAlive": 788956L,
     "Rotation": [
         41.101196f,
         0.0f

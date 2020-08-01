@@ -1,12 +1,12 @@
-[08:06:29][FINE/CustomNPCs][noppes.npcs.controllers.ScriptController:87] Wed Jul 29 08:06:29 CST 2020
-[08:06:29][FINE/CustomNPCs][noppes.npcs.CustomNpcs:229] Script Engines Available:
-[08:06:29][FINE/CustomNPCs][noppes.npcs.CustomNpcs:229] ECMAScript: .js
-[08:06:52][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
-[08:06:52][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
-[08:06:54][FINE/CustomNPCs][noppes.npcs.CustomNpcs:282] Loading Dialogs
-[08:06:54][SEVERE/CustomNPCs][noppes.npcs.controllers.DialogController:45] Duplicate id 6 from category –Ú’¬£∫¿«—¿”∂±¯Õ≈
-[08:06:54][SEVERE/CustomNPCs][noppes.npcs.controllers.DialogController:45] Duplicate id 7 from category –Ú’¬£∫¿«—¿”∂±¯Õ≈
-[08:06:54][SEVERE/CustomNPCs][noppes.npcs.controllers.DialogController:45] Duplicate id 8 from category –Ú’¬£∫¿«—¿”∂±¯Õ≈
-[08:06:54][FINE/CustomNPCs][noppes.npcs.CustomNpcs:282] Done loading Dialogs
-[08:06:54][SEVERE/CustomNPCs][noppes.npcs.CustomNpcs:283] Duplicate id 4 from category –Ú’¬£∫¿«—¿”∂±¯Õ≈
-[08:06:54][SEVERE/CustomNPCs][noppes.npcs.CustomNpcs:283] Duplicate id 1 from category œ‰◊”
+[08:12:04][FINE/CustomNPCs][noppes.npcs.controllers.ScriptController:87] Wed Jul 29 08:12:04 CST 2020
+[08:12:04][FINE/CustomNPCs][noppes.npcs.CustomNpcs:229] Script Engines Available:
+[08:12:04][FINE/CustomNPCs][noppes.npcs.CustomNpcs:229] ECMAScript: .js
+[08:12:35][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[08:12:35][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[08:12:37][FINE/CustomNPCs][noppes.npcs.CustomNpcs:282] Loading Dialogs
+[08:12:37][SEVERE/CustomNPCs][noppes.npcs.controllers.DialogController:45] Duplicate id 6 from category –Ú’¬£∫¿«—¿”∂±¯Õ≈
+[08:12:37][SEVERE/CustomNPCs][noppes.npcs.controllers.DialogController:45] Duplicate id 7 from category –Ú’¬£∫¿«—¿”∂±¯Õ≈
+[08:12:37][SEVERE/CustomNPCs][noppes.npcs.controllers.DialogController:45] Duplicate id 8 from category –Ú’¬£∫¿«—¿”∂±¯Õ≈
+[08:12:37][FINE/CustomNPCs][noppes.npcs.CustomNpcs:282] Done loading Dialogs
+[08:12:37][SEVERE/CustomNPCs][noppes.npcs.CustomNpcs:283] Duplicate id 4 from category –Ú’¬£∫¿«—¿”∂±¯Õ≈
+[08:12:37][SEVERE/CustomNPCs][noppes.npcs.CustomNpcs:283] Duplicate id 1 from category œ‰◊”

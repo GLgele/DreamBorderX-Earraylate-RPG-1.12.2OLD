@@ -12,7 +12,7 @@
         "Knockback": 1.0f,
         "Melee": 1.0f
     },
-    "BossBar": 0b,
+    "BossBar": 2b,
     "RespawnTime": 20,
     "NpcAngrySound": "",
     "ReactsToFire": 0b,
@@ -22,7 +22,7 @@
     "PositionOffsetX": 5.0f,
     "LootMode": 0,
     "TransformHasAI": 0b,
-    "AttackStrenght": 20,
+    "AttackStrenght": 10,
     "PersistenceRequired": 0b,
     "id": "customnpcs:customnpc",
     "IsStatue": 0b,
@@ -31,7 +31,7 @@
         "Lines": [
         ]
     },
-    "DefendFaction": 1b,
+    "DefendFaction": 0b,
     "FireIndirect": 0,
     "NpcVisible": 0,
     "LinkedNpcName": "",
@@ -39,7 +39,6 @@
         "Scenes": [
         ]
     },
-    "MercenaryHiredTime": 0L,
     "HitSound": "minecraft:entity.arrow.hit",
     "FindShelter": 2,
     "Air": 300s,
@@ -69,18 +68,16 @@
     },
     "HurtTime": 0s,
     "WalkingRange": 10,
-    "MercenaryInfiniteDays": 1b,
     "ShotCount": 1,
     "pDur": 5,
-    "AttackRange": 3,
+    "AttackRange": 2,
     "NpcKillLines": {
         "Lines": [
         ]
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "MercenaryDisableGui": 1b,
-    "Texture": "customnpcs:textures/entity/humanmale/guardsteve2.png",
+    "Texture": "customnpcs:textures/entity/humanmale/raggedybardsteve.png",
     "NpcJob": 0,
     "BurstCount": 1,
     "NpcAttackLines": {
@@ -93,18 +90,12 @@
     "pImpact": 0,
     "MoveState": 0,
     "pRender3D": 1b,
-    "MercenaryDayRates": [
-        {
-            "Integer": 30,
-            "Slot": 0
-        }
-    ],
     "Motion": [
         0.0d,
         -0.0784000015258789d,
         0.0d
     ],
-    "CombatRegen": 5,
+    "CombatRegen": 10,
     "NpcsTimers": [
     ],
     "pEffect": 0,
@@ -137,20 +128,20 @@
     "NpcInteractLines": {
         "Lines": [
             {
-                "Line": "你好，朋友",
+                "Line": "Hello @p",
                 "Song": "",
                 "Slot": 0
             }
         ]
     },
-    "HurtByTimestamp": 6167,
+    "HurtByTimestamp": 13307,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
     "CreatureType": 0,
     "Attributes": [
         {
-            "Base": 80.0d,
+            "Base": 160.0d,
             "Name": "generic.maxHealth"
         },
         {
@@ -178,7 +169,7 @@
             "Name": "generic.followRange"
         },
         {
-            "Base": 20.0d,
+            "Base": 10.0d,
             "Name": "generic.attackDamage"
         },
         {
@@ -191,11 +182,10 @@
     "NoFallDamage": 0b,
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
-    "Name": "佣兵",
+    "Name": "（精英）卡卡罗福",
     "FallDistance": 0.0f,
     "SkinColor": 16777215,
     "NpcIdleSound": "",
-    "MercenaryDialogHired": "让我们一起作战吧！",
     "Weapons": [
         {
             "Slot": 0b,
@@ -203,7 +193,7 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "variedcommodities:saber",
+            "id": "variedcommodities:combat_knive",
             "Count": 1b,
             "Damage": 0s
         }
@@ -212,22 +202,20 @@
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
-    "HealthRegen": 10,
-    "MercenaryRefuseSoulstone": 0b,
+    "HealthRegen": 15,
     "ForgeCaps": {
     },
     "HandDropChances": [
         0.085f,
         0.085f
     ],
-    "MercenaryDialogFarewell": "",
     "NpcModelData": {
         "LegsConfig": {
             "NotShared": 0b,
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": 0.012000002f,
+            "TransX": 0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -247,7 +235,7 @@
             "PositionY": 1,
             "SkinColor": 11830381,
             "PlayerTexture": 0b,
-            "Color": 16247203,
+            "Color": 10066329,
             "BrowColor": 5982516,
             "BrowThickness": 4
         },
@@ -264,7 +252,7 @@
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": -0.0f,
+            "TransX": 0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -288,37 +276,14 @@
     "Leashed": 0b,
     "SkinUrl": "",
     "CanSwim": 1b,
-    "MercenaryInv": {
-        "NpcMiscInv": [
-            {
-                "Slot": 0b,
-                "ForgeCaps": {
-                    "customnpcs:itemscripteddata": {
-                    }
-                },
-                "id": "variedcommodities:letter",
-                "Count": 1b,
-                "tag": {
-                    "HideFlags": 63b,
-                    "display": {
-                        "Lore": [
-                            "§6用于雇佣同伴，可由任务获得"
-                        ],
-                        "Name": "§3（任务物品）同伴契约"
-                    }
-                },
-                "Damage": 0s
-            }
-        ]
-    },
     "GroundSound": "minecraft:block.stone.break",
-    "MaxHealth": 80,
+    "MaxHealth": 160,
     "HideBodyWhenKilled": 0b,
     "AttackSpeed": 20,
     "PotionDuration": 5,
     "maxDelay": 40,
     "ScriptEnabled": 0b,
-    "Role": 2,
+    "Role": 0,
     "DropChance": [
         {
             "Integer": 100,
@@ -367,10 +332,9 @@
     },
     "pDamage": 4,
     "KilledTime": 0L,
-    "MercenaryDaysHired": 0,
     "AimWhileShooting": 0b,
     "CanPickUpLoot": 0b,
-    "AttackOtherFactions": 1b,
+    "AttackOtherFactions": 0b,
     "CanDrown": 1b,
     "pSize": 5,
     "CanSprint": 0b,
@@ -402,21 +366,20 @@
     "Armor": [
     ],
     "CloakTexture": "",
-    "MercenaryIsFollowing": 1b,
     "GlowTexture": "",
     "MaxFiringRange": 15,
     "pXlr8": 0b,
     "Scripts": [
     ],
-    "Health": 80.0f,
+    "Health": 160.0f,
     "pStick": 0b,
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
-    "FactionID": 5,
+    "FactionID": 2,
     "Title": "",
-    "TotalTicksAlive": 785187L,
+    "TotalTicksAlive": 13474L,
     "Rotation": [
-        41.101196f,
+        8.226326f,
         0.0f
     ],
     "ShowName": 0,
