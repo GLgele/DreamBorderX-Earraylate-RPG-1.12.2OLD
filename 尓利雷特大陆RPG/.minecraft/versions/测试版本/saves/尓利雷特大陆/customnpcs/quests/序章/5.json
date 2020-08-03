@@ -28,7 +28,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1596269076247L,
+        "TimePast": 1596423218672L,
         "Time": 0L,
         "Subject": ""
     },
@@ -38,5 +38,5 @@
     },
     "CompleteText": "",
     "NextQuestTitle": "",
-    "QuestLocation": "离开洞穴"
+    "QuestLocation": "洞穴底部"
 }

@@ -102,7 +102,7 @@ key_key.minimap.waypointhotkey:49
 key_key.minimap.togglemobs:0
 key_key.minimap.toggleingamewaypoints:0
 key_key.portaitreposition:52
-soundCategory_master:1.0
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
