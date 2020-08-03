@@ -1,0 +1,155 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  ForgePlugin (可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar)
+  LoadingPlugin (可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Ooh. Shiny.
+
+Time: 8/3/20 3:54 PM
+Description: Rendering screen
+
+java.lang.NullPointerException: Rendering screen
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:881)
+	at net.minecraft.client.gui.GuiScreen.func_191927_a(GuiScreen.java:143)
+	at net.minecraft.client.gui.GuiScreen.func_146285_a(GuiScreen.java:137)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_146285_a(GuiContainerCreative.java:737)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_191948_b(GuiContainer.java:175)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_73863_a(GuiContainerCreative.java:684)
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:396)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.optifine.reflect.Reflector.callVoid(Reflector.java:660)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1457)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:881)
+	at net.minecraft.client.gui.GuiScreen.func_191927_a(GuiScreen.java:143)
+	at net.minecraft.client.gui.GuiScreen.func_146285_a(GuiScreen.java:137)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_146285_a(GuiContainerCreative.java:737)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_191948_b(GuiContainer.java:175)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_73863_a(GuiContainerCreative.java:684)
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:396)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.optifine.reflect.Reflector.callVoid(Reflector.java:660)
+
+-- Screen render details --
+Details:
+	Screen name: net.minecraft.client.gui.inventory.GuiContainerCreative
+	Mouse location: Scaled: (186, 76). Absolute: (744, 713)
+	Screen size: Scaled: (480, 255). Absolute: (1920, 1018). Scale factor of 4
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['GLgele'/3018, l='MpServer', x=-251.30, y=70.63, z=250.26]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-244,64,256), Chunk: (at 12,4,0 in -16,16; contains blocks -256,0,256 to -241,255,271), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 21254 game time, 1279 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 62 total; [EntityChicken['鸡'/128, l='MpServer', x=-233.50, y=69.00, z=322.50], EntityChicken['鸡'/129, l='MpServer', x=-239.35, y=69.00, z=314.80], EntitySpider['蜘蛛'/3201, l='MpServer', x=-322.00, y=71.00, z=306.05], EntityChicken['鸡'/130, l='MpServer', x=-234.50, y=69.00, z=324.50], EntityZombie['僵尸'/3203, l='MpServer', x=-240.50, y=71.00, z=170.50], EntityHorse['马'/132, l='MpServer', x=-221.68, y=71.00, z=286.32], EntityHorse['马'/133, l='MpServer', x=-223.50, y=70.00, z=286.50], EntityHorse['马'/134, l='MpServer', x=-221.25, y=70.00, z=287.16], EntityCreeper['爬行者'/3462, l='MpServer', x=-183.14, y=21.00, z=208.35], EntityHorse['马'/135, l='MpServer', x=-221.85, y=70.00, z=288.23], EntityBat['蝙蝠'/3208, l='MpServer', x=-267.48, y=56.00, z=184.01], EntityCreeper['爬行者'/3464, l='MpServer', x=-181.50, y=21.00, z=204.50], EntityPlayerSP['GLgele'/3018, l='MpServer', x=-251.30, y=70.63, z=250.26], EntityZombie['僵尸'/3342, l='MpServer', x=-319.18, y=38.00, z=284.53], EntityZombie['僵尸'/3343, l='MpServer', x=-319.50, y=42.00, z=292.50], EntityZombie['僵尸'/1300, l='MpServer', x=-255.50, y=26.00, z=232.50], EntityItem['item.item.seeds'/410, l='MpServer', x=-233.05, y=70.00, z=227.57], EntitySpider['蜘蛛'/3226, l='MpServer', x=-299.50, y=70.00, z=203.50], EntityHorse['马'/157, l='MpServer', x=-201.56, y=71.00, z=172.77], EntityHorse['马'/158, l='MpServer', x=-200.40, y=71.00, z=172.25], EntityChicken['鸡'/160, l='MpServer', x=-206.50, y=69.00, z=294.50], EntityChicken['鸡'/161, l='MpServer', x=-202.50, y=69.00, z=293.50], EntityChicken['鸡'/162, l='MpServer', x=-209.16, y=70.00, z=289.50], EntitySpider['蜘蛛'/3117, l='MpServer', x=-306.01, y=68.00, z=268.00], EntityCreeper['爬行者'/3373, l='MpServer', x=-295.50, y=41.00, z=279.50], EntitySkeleton['骷髅'/3374, l='MpServer', x=-296.71, y=42.00, z=276.50], EntityZombie['僵尸'/3246, l='MpServer', x=-331.50, y=76.00, z=229.50], EntityZombie['僵尸'/3375, l='MpServer', x=-296.50, y=41.00, z=283.50], EntitySkeleton['骷髅'/3377, l='MpServer', x=-293.50, y=40.00, z=201.50], EntityZombie['僵尸'/3254, l='MpServer', x=-291.48, y=70.00, z=311.71], EntityCreeper['爬行者'/3127, l='MpServer', x=-209.50, y=72.00, z=218.50], EntityHorse['马'/59, l='MpServer', x=-331.14, y=67.00, z=173.37], EntityHorse['马'/60, l='MpServer', x=-328.50, y=68.00, z=172.35], EntityHorse['马'/61, l='MpServer', x=-328.50, y=68.00, z=173.68], EntityBat['蝙蝠'/3395, l='MpServer', x=-259.50, y=15.14, z=302.51], EntitySkeleton['骷髅'/3020, l='MpServer', x=-284.50, y=71.00, z=274.50], EntityHorse['马'/82, l='MpServer', x=-277.46, y=69.00, z=203.60], EntityHorse['马'/83, l='MpServer', x=-278.02, y=69.00, z=206.09], EntityHorse['马'/84, l='MpServer', x=-269.86, y=69.00, z=212.51], EntityHorse['马'/85, l='MpServer', x=-268.78, y=69.00, z=212.64], EntityHorse['马'/86, l='MpServer', x=-273.50, y=70.00, z=291.50], EntityHorse['马'/87, l='MpServer', x=-281.82, y=70.00, z=299.79], EntityBat['蝙蝠'/3416, l='MpServer', x=-178.21, y=15.02, z=218.53], EntityZombie['僵尸'/2141, l='MpServer', x=-186.78, y=37.00, z=182.47], EntityHorse['马'/96, l='MpServer', x=-277.87, y=69.00, z=226.01], EntityHorse['马'/97, l='MpServer', x=-265.83, y=69.00, z=231.61], EntitySkeleton['骷髅'/3169, l='MpServer', x=-281.50, y=70.00, z=293.50], EntityHorse['马'/98, l='MpServer', x=-266.69, y=69.00, z=228.35], EntitySkeleton['骷髅'/3170, l='MpServer', x=-280.50, y=70.00, z=294.50], EntityZombie['僵尸'/3299, l='MpServer', x=-272.50, y=44.00, z=224.50], EntityZombie['僵尸'/3179, l='MpServer', x=-213.46, y=42.00, z=325.75], EntitySkeleton['骷髅'/2029, l='MpServer', x=-331.50, y=27.00, z=281.50], EntityCreeper['爬行者'/3182, l='MpServer', x=-286.85, y=70.00, z=196.54], EntityZombie['僵尸'/3310, l='MpServer', x=-261.50, y=15.00, z=263.50], EntityHorse['马'/116, l='MpServer', x=-242.50, y=70.00, z=318.50], EntityHorse['马'/117, l='MpServer', x=-241.59, y=70.00, z=321.90], EntityHorse['马'/118, l='MpServer', x=-235.05, y=69.00, z=325.79], EntityHorse['马'/119, l='MpServer', x=-241.24, y=70.00, z=320.68], EntitySpider['蜘蛛'/3194, l='MpServer', x=-179.50, y=29.00, z=230.50], EntityHorse['马'/125, l='MpServer', x=-240.21, y=73.00, z=182.48], EntityHorse['马'/126, l='MpServer', x=-230.13, y=73.00, z=182.05], EntityChicken['鸡'/127, l='MpServer', x=-238.31, y=69.00, z=328.19]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:532)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:419)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2781154264 bytes (2652 MB) / 4294967296 bytes (4096 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4096m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 Optifine OptiFine_1.12.2_HD_U_F5 16 mods loaded, 16 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                  | Version         | Source                                                      | Signature |
+	|:------ |:------------------- |:--------------- |:----------------------------------------------------------- |:--------- |
+	| LCHIJA | minecraft           | 1.12.2          | minecraft.jar                                               | None      |
+	| LCHIJA | mcp                 | 9.42            | minecraft.jar                                               | None      |
+	| LCHIJA | FML                 | 8.0.99.99       | forge-1.12.2-14.23.5.2847.jar                               | None      |
+	| LCHIJA | forge               | 14.23.5.2847    | forge-1.12.2-14.23.5.2847.jar                               | None      |
+	| LCHIJA | earraylate          | 1.0.0           | Earraylate-1.0.jar                                          | None      |
+	| LCHIJA | worldedit           | 6.1.10-SNAPSHOT | 作者MOD-创世神-worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar | None      |
+	| LCHIJA | ptrmodellib         | 1.0.4           | 前置MOD-PTRLib-1.0.4.jar                                      | None      |
+	| LCHIJA | rpghud              | 3.6.6.2         | 可选MOD-RPGHUD-[1.12]+RPG-HUD-3.6.6.2.jar                     | None      |
+	| LCHIJA | chunkanimator       | 1.2             | 可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar                   | None      |
+	| LCHIJA | customskinloader    | 14.9            | 可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar                    | None      |
+	| LCHIJA | damageindicatorsmod | 1.0             | 可选MOD-血条&伤害显示-[1.12.2]DamageIndicatorsMod-3.5.1.jar         | None      |
+	| LCHIJA | cfm                 | 6.3.1           | 核心MOD-家具-furniture-6.3.1-1.12.2.jar                         | None      |
+	| LCHIJA | props               | 2.6.3           | 核心MOD-更多装饰-Decocraft-2.6.3_1.12.2.jar                       | None      |
+	| LCHIJA | customnpcs          | 1.12            | 核心MOD-自定义NPC-CustomNPCs_1.12.2-(01Oct19).jar                | None      |
+	| LCHIJA | variedcommodities   | 1.12.2          | 核心MOD-自定义NPC附属-VariedCommodities_1.12.2(21nov19).jar        | None      |
+	| LCHIJA | baubles             | 1.5.2           | 核心MOD-饰品栏-Baubles-1.12-1.5.2.jar                            | None      |
+
+	Loaded coremods (and transformers): 
+ForgePlugin (可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar)
+  customskinloader.forge.TransformerManager
+LoadingPlugin (可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar)
+  lumien.chunkanimator.asm.ClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 445.87' Renderer: 'GeForce GTX 960/PCIe/SSE2'
+	Launched Version: HMCL 3.3.172
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 960/PCIe/SSE2 GL version 4.6.0 NVIDIA 445.87, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge,LiteLoader'
+	Type: Client (map_client.txt)
+	Resource Packs: msi_conversion.zip (incompatible), PresenceFootstepsOfficial.zip (incompatible), mcmap.cc-[FNI现实RPG材质包][16x16].zip, mcmap.cc-[史诗冒险材质包][32x32].zip, Earraylate.zip
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_F5
+	OptiFine Build: 20191204-141934
+	Render Distance Chunks: 16
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: 光影.zip
+	OpenGlVersion: 4.6.0 NVIDIA 445.87
+	OpenGlRenderer: GeForce GTX 960/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 8

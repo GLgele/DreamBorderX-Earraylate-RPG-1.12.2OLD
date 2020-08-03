@@ -11,13 +11,13 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:false
 resourcePacks:["msi_conversion.zip","PresenceFootstepsOfficial.zip","mcmap.cc-[FNI现实RPG材质包][16x16].zip","mcmap.cc-[史诗冒险材质包][32x32].zip","Earraylate.zip"]
 incompatibleResourcePacks:["msi_conversion.zip","PresenceFootstepsOfficial.zip"]
-lastServer:
+lastServer:glgele.e1.luyouxia.net:31904
 lang:zh_cn
 chatVisibility:0
 chatColors:true
