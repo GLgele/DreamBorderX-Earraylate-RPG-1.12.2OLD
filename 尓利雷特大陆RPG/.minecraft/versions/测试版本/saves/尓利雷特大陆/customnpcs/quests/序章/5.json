@@ -1,6 +1,6 @@
 {
     "CompleterNpc": "兰斯格",
-    "NextQuestId": -1,
+    "NextQuestId": 7,
     "QuestLocation3": "",
     "RandomReward": 0b,
     "QuestLocation2": "",
@@ -28,7 +28,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1596423218672L,
+        "TimePast": 1598065906055L,
         "Time": 0L,
         "Subject": ""
     },
@@ -37,6 +37,6 @@
         ]
     },
     "CompleteText": "",
-    "NextQuestTitle": "",
+    "NextQuestTitle": "序章：大任务2",
     "QuestLocation": "洞穴底部"
 }

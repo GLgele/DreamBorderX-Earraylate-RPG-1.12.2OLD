@@ -13,7 +13,7 @@
         "Melee": 1.0f
     },
     "BossBar": 2b,
-    "RespawnTime": 20,
+    "RespawnTime": 120,
     "NpcAngrySound": "",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
@@ -127,14 +127,9 @@
     "TransformHasInv": 0b,
     "NpcInteractLines": {
         "Lines": [
-            {
-                "Line": "Hello @p",
-                "Song": "",
-                "Slot": 0
-            }
         ]
     },
-    "HurtByTimestamp": 13307,
+    "HurtByTimestamp": 4212,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -215,7 +210,7 @@
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransX": 0.012000002f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -252,7 +247,7 @@
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransX": -0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
@@ -377,9 +372,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 2,
     "Title": "",
-    "TotalTicksAlive": 13474L,
+    "TotalTicksAlive": 1726286L,
     "Rotation": [
-        8.226326f,
+        179.26202f,
         0.0f
     ],
     "ShowName": 0,
