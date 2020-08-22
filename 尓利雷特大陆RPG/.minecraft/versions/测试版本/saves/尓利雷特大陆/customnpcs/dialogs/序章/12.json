@@ -6,8 +6,38 @@
             "OptionSlot": 0,
             "Option": {
                 "DialogCommand": "",
-                "Dialog": 12,
-                "Title": "我还好，谢谢",
+                "Dialog": -1,
+                "Title": "谢谢你",
+                "DialogColor": 65280,
+                "OptionType": 0
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 13,
+                "Title": "你是谁？",
+                "DialogColor": 16768256,
+                "OptionType": 1
+            }
+        },
+        {
+            "OptionSlot": 2,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 14,
+                "Title": "只有你一个人吗？",
+                "DialogColor": 16768256,
+                "OptionType": 1
+            }
+        },
+        {
+            "OptionSlot": 3,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 15,
+                "Title": "我想离开这里",
                 "DialogColor": 65280,
                 "OptionType": 1
             }
@@ -17,7 +47,7 @@
     "DialogHideNPC": 0b,
     "AvailabilityFactionStance": 0,
     "AvailabilityScoreboard2Value": 1,
-    "DialogId": 11,
+    "DialogId": 12,
     "AvailabilityQuest": 0,
     "AvailabilityDialog4": 0,
     "AvailabilityScoreboardObjective": "",
@@ -38,16 +68,16 @@
     "AvailabilityScoreboardValue": 1,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "洞穴：赛格斯1",
-    "AvailabilityDialog": 2,
+    "DialogTitle": "洞穴：赛格斯2",
+    "AvailabilityDialog": 0,
     "AvailabilityScoreboard2Type": 1,
     "AvailabilityFaction2": 0,
     "AvailabilityFactionId": -1,
     "AvailabilityFaction2Stance": 0,
     "DialogCommand": "",
-    "AvailabilityDialogId": 11,
+    "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "天哪，你终于醒了。你还好吧？",
+    "DialogText": "天哪，我当时在下矿的时候就看见你倒在地上，吓死我了。",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -64,7 +94,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1598082575930L,
+        "TimePast": 1598082588979L,
         "Time": 0L,
         "Subject": ""
     }
