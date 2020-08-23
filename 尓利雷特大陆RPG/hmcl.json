@@ -73,10 +73,10 @@
   "accounts": [
     {
       "serverBaseURL": "https://littleskin.cn/api/yggdrasil/",
-      "clientToken": "b59337f3daa642869e807070b8aceaae",
+      "clientToken": "48cd8968e6954673905fb694b33304e1",
       "displayName": "GLgele",
       "userProperties": {},
-      "accessToken": "87905ddde7c6465ebcedcb7c9ff23bdf",
+      "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3ZTU3N2FlZWI1NDE1NWQyYmIzM2I0ODZhYmZiMTg2NyIsInlnZ3QiOiIxMzM4NTllN2JkZDM0OTE4YjE1NTFlZmU1NjMwN2Q1MiIsInNwciI6Ijg0ZThkZThlZjZkOTQzNzE4MzViNjg0NGNiN2ZmMGU5IiwiaXNzIjoiWWdnZHJhc2lsLUF1dGgiLCJleHAiOjE1OTg0MDY2MTcsImlhdCI6MTU5ODE0NzQxN30.MaJk1eJ49OcODgnCyL2hpIgtH1fq3UY9vyJRMk-SiqE",
       "profileProperties": {
         "textures": "eyJ0aW1lc3RhbXAiOjE1OTgxNDY4NjQxODIsInByb2ZpbGVJZCI6Ijg0ZThkZThlZjZkOTQzNzE4MzViNjg0NGNiN2ZmMGU5IiwicHJvZmlsZU5hbWUiOiJHTGdlbGUiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL21jc2tpbi5saXR0bGVzZXJ2aWNlLmNuL3RleHR1cmVzLzM5OTY4M2RkMWVlYmJlY2Q4YjQyZGUwYTgzOGE0MjdkM2FjZDEyZDFjYjZjMjE3YWFkYzIxMWYxMDE3MTU1MGQifSwiQ0FQRSI6eyJ1cmwiOiJodHRwczovL21jc2tpbi5saXR0bGVzZXJ2aWNlLmNuL3RleHR1cmVzL2YyN2Q5M2ZlOTc2NTNiZjcxZTE4YzA2NGYzZTZiNDY5MzkxZDRjNzQ4MjcwNjRhMDhjZWI1YjVhZTk4NWM1N2UifX19"
       },
