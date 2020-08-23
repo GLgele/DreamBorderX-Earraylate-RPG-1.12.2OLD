@@ -16,6 +16,10 @@
         },
         {
             "Points": 2000,
+            "Faction": 4
+        },
+        {
+            "Points": 2000,
             "Faction": 5
         }
     ],
@@ -28,10 +32,6 @@
     "PlayerName": "GLgele",
     "QuestData": {
         "CompletedQuests": [
-            {
-                "Quest": 7,
-                "Date": 1598066007155L
-            }
         ],
         "ActiveQuests": [
         ]
