@@ -31,3 +31,8 @@
 [09:44:03] [Server thread/INFO]: Unloading dimension 0
 [09:44:03] [Server thread/INFO]: Applying holder lookups
 [09:44:03] [Server thread/INFO]: Holder lookups applied
+[09:45:25] [Client thread/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[09:45:25] [Client thread/INFO]: Baking listener list for ShutdownObserver with 3 listeners
+[09:45:25] [Client thread/INFO]: Stopping!
+[09:45:25] [Client thread/INFO]: SoundSystem shutting down...
+[09:45:25] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
