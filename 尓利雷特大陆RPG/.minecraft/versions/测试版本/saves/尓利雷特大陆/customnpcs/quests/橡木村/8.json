@@ -18,7 +18,7 @@
     "QuestCommand": "",
     "QuestDialogs": [
         {
-            "Integer": 17,
+            "Integer": 22,
             "Slot": 0
         }
     ],
@@ -32,7 +32,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1598150219623L,
+        "TimePast": 1598156038323L,
         "Time": 0L,
         "Subject": ""
     },
@@ -173,12 +173,42 @@
                     },
                     "AttributeModifiers": [
                         {
-                            "UUIDMost": 9339937173818287L,
-                            "UUIDLeast": 9339937173818287L,
-                            "Amount": 5.0d,
+                            "UUIDMost": 6552153279989323L,
+                            "UUIDLeast": 6552153279989323L,
+                            "Amount": 10.0d,
                             "Slot": "mainhand",
                             "AttributeName": "generic.attackDamage",
                             "Operation": 0,
+                            "Name": "noName"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "variedcommodities:wooden_shield_round",
+                "Count": 1b,
+                "tag": {
+                    "Unbreakable": 1b,
+                    "display": {
+                        "Lore": [
+                            "§3木质的圆盾，用来防御不错"
+                        ],
+                        "Name": "§1[普通]圆木盾"
+                    },
+                    "AttributeModifiers": [
+                        {
+                            "UUIDMost": 6552153279989323L,
+                            "UUIDLeast": 6552153279989323L,
+                            "Amount": 0.1d,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 1,
                             "Name": "noName"
                         }
                     ]
