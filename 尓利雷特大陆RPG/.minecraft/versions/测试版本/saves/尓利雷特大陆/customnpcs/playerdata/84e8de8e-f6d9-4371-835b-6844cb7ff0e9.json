@@ -9,14 +9,6 @@
         {
             "Points": 2000,
             "Faction": 0
-        },
-        {
-            "Points": 500,
-            "Faction": 3
-        },
-        {
-            "Points": 2000,
-            "Faction": 5
         }
     ],
     "BankData": [
