@@ -698,12 +698,6 @@
     },
     "done": true
   },
-  "earraylate:first_died": {
-    "criteria": {
-      "tick": "2020-07-28 10:26:55 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-07-10 11:07:30 +0800",
@@ -783,12 +777,6 @@
     "criteria": {
       "entered_water": "2020-07-10 11:07:30 +0800",
       "has_the_recipe": "2020-07-10 11:07:30 +0800"
-    },
-    "done": true
-  },
-  "earraylate:root": {
-    "criteria": {
-      "tick": "2020-10-30 17:00:01 +0800"
     },
     "done": true
   },
@@ -987,12 +975,6 @@
     "criteria": {
       "has_hardened_clay": "2020-07-10 11:07:30 +0800",
       "has_the_recipe": "2020-07-10 11:07:30 +0800"
-    },
-    "done": true
-  },
-  "earraylate:chapter0_finish": {
-    "criteria": {
-      "tick": "2020-10-30 16:34:32 +0800"
     },
     "done": true
   },
@@ -2514,12 +2496,6 @@
     },
     "done": true
   },
-  "earraylate:soldier": {
-    "criteria": {
-      "tick": "2020-07-28 10:26:23 +0800"
-    },
-    "done": true
-  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2020-07-10 11:07:30 +0800"
@@ -3072,12 +3048,6 @@
     "criteria": {
       "has_glass": "2020-07-10 11:07:30 +0800",
       "has_the_recipe": "2020-07-10 11:07:30 +0800"
-    },
-    "done": true
-  },
-  "earraylate:big_quest": {
-    "criteria": {
-      "tick": "2020-07-28 10:37:50 +0800"
     },
     "done": true
   },
@@ -3641,12 +3611,6 @@
     "criteria": {
       "has_the_recipe": "2020-07-10 11:07:30 +0800",
       "has_diamond": "2020-07-10 11:07:30 +0800"
-    },
-    "done": true
-  },
-  "earraylate:new_town": {
-    "criteria": {
-      "tick": "2020-10-30 16:34:45 +0800"
     },
     "done": true
   },

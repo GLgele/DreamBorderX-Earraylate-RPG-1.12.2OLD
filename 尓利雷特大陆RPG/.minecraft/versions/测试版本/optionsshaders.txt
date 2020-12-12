@@ -1,5 +1,5 @@
-#Sat Aug 22 11:40:33 CST 2020
-shaderPack=光影.zip
+#Sat Dec 12 18:19:06 CST 2020
+shaderPack=只限水反.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
