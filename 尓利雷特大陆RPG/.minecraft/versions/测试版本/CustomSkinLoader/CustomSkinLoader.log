@@ -1,12 +1,12 @@
-[2020-12-13 08:52:10] [pool-4-thread-1 INFO] CustomSkinLoader 14.9
-[2020-12-13 08:52:10] [pool-4-thread-1 INFO] DataDir: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\CustomSkinLoader
-[2020-12-13 08:52:10] [pool-4-thread-1 INFO] Minecraft: null(测试版本)
-[2020-12-13 08:52:10] [pool-4-thread-1 INFO] Config File: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\CustomSkinLoader\CustomSkinLoader.json
-[2020-12-13 08:52:10] [pool-4-thread-1 INFO] Try to load config.
-[2020-12-13 08:52:10] [pool-4-thread-1 INFO] Successfully load config.
-[2020-12-13 08:52:10] [pool-4-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
-[2020-12-13 08:52:10] [GLgele INFO] Loading GLgele's profile.
-[2020-12-13 08:52:10] [GLgele INFO] 1/6 Try to load profile from 'Mojang'.
-[2020-12-13 08:52:10] [GLgele INFO] Default profile will be used.
-[2020-12-13 08:52:10] [GLgele INFO] GLgele's profile loaded.
-[2020-12-13 08:52:10] [GLgele INFO] (SkinUrl: https://mcskin.littleservice.cn/textures/399683dd1eebbecd8b42de0a838a427d3acd12d1cb6c217aadc211f10171550d , Model: default , CapeUrl: https://mcskin.littleservice.cn/textures/f27d93fe97653bf71e18c064f3e6b469391d4c74827064a08ceb5b5ae985c57e  , Expiry: 1607820765)
+[2021-01-29 15:24:51] [pool-4-thread-1 INFO] CustomSkinLoader 14.9
+[2021-01-29 15:24:51] [pool-4-thread-1 INFO] DataDir: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\CustomSkinLoader
+[2021-01-29 15:24:51] [pool-4-thread-1 INFO] Minecraft: null(测试版本)
+[2021-01-29 15:24:51] [pool-4-thread-1 INFO] Config File: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\CustomSkinLoader\CustomSkinLoader.json
+[2021-01-29 15:24:51] [pool-4-thread-1 INFO] Try to load config.
+[2021-01-29 15:24:51] [pool-4-thread-1 INFO] Successfully load config.
+[2021-01-29 15:24:51] [pool-4-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2021-01-29 15:24:51] [GLgele INFO] Loading GLgele's profile.
+[2021-01-29 15:24:51] [GLgele INFO] 1/6 Try to load profile from 'Mojang'.
+[2021-01-29 15:24:51] [GLgele INFO] Default profile will be used.
+[2021-01-29 15:24:51] [GLgele INFO] GLgele's profile loaded.
+[2021-01-29 15:24:51] [GLgele INFO] (SkinUrl: https://mcskin.littleservice.cn/textures/399683dd1eebbecd8b42de0a838a427d3acd12d1cb6c217aadc211f10171550d , Model: default , CapeUrl: https://mcskin.littleservice.cn/textures/f27d93fe97653bf71e18c064f3e6b469391d4c74827064a08ceb5b5ae985c57e  , Expiry: 1611905122)
