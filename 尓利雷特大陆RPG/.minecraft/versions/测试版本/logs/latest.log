@@ -1,39 +1,38 @@
-[11:00:15] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[11:00:15] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[11:00:15] [main/INFO]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker
-[11:00:15] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[11:00:15] [main/INFO]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[11:00:15] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_251\jre
-[11:00:16] [main/WARN]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
-[11:00:16] [main/WARN]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
-[11:00:16] [main/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods for mods
-[11:00:16] [main/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\1.12.2 for mods
-[11:00:16] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_F5.jar
-[11:00:16] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in 可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[11:00:16] [main/WARN]: The coremod lumien.chunkanimator.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[11:00:16] [main/WARN]: The coremod LoadingPlugin (lumien.chunkanimator.asm.LoadingPlugin) is not signed!
-[11:00:16] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in 可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[11:00:16] [main/WARN]: The coremod customskinloader.forge.ForgePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[11:00:16] [main/WARN]: The coremod ForgePlugin (customskinloader.forge.ForgePlugin) is not signed!
-[11:00:16] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in 核心MOD-BringMeTheRings-0.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[11:00:16] [main/WARN]: The coremod BringMeTheRings plugin (zabi.minecraft.bmtr.core.BMTRPlugin) is not signed!
-[11:00:16] [main/INFO]: Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker
-[11:00:16] [main/INFO]: Bootstrapping LiteLoader 1.12.2
-[11:00:16] [main/INFO]: Registering API provider class com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient
-[11:00:16] [main/INFO]: Spawning API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' ...
-[11:00:16] [main/INFO]: API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' provides API 'liteloader'
-[11:00:16] [main/INFO]: Initialising API 'liteloader' ...
-[11:00:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.5 Source=file:/D:/Users/Administrator/Documents/GitHub/DreamBorderX-Earraylate-RPG/%e5%b0%93%e5%88%a9%e9%9b%b7%e7%89%b9%e5%a4%a7%e9%99%86RPG/.minecraft/libraries/com/mumfrey/liteloader/1.12.2-20171128.144431-4/liteloader-1.12.2-20171128.144431-4.jar Service=LaunchWrapper Env=CLIENT
-[11:00:16] [main/INFO]: LiteLoader begin PREINIT...
-[11:00:16] [main/INFO]: Initialising Loader properties...
-[11:00:16] [main/INFO]: Setting up logger...
-[11:00:16] [main/INFO]: LiteLoader 1.12.2 starting up...
-[11:00:16] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
-[11:00:16] [main/INFO]: Java reports OS="windows 10"
-[11:00:16] [main/INFO]: Adding supported mod class prefix 'LiteMod'
-[11:00:16] [main/INFO]: Enumerating class path...
-[11:00:16] [main/INFO]: Class path separator=";"
-[11:00:16] [main/INFO]: Class path entries=(
+[13:07:13] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:07:13] [main/INFO]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[13:07:13] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:07:13] [main/INFO]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[13:07:13] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_251\jre
+[13:07:13] [main/WARN]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[13:07:13] [main/WARN]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[13:07:13] [main/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods for mods
+[13:07:13] [main/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\1.12.2 for mods
+[13:07:13] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_F5.jar
+[13:07:13] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in 可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[13:07:13] [main/WARN]: The coremod lumien.chunkanimator.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[13:07:13] [main/WARN]: The coremod LoadingPlugin (lumien.chunkanimator.asm.LoadingPlugin) is not signed!
+[13:07:13] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in 可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[13:07:13] [main/WARN]: The coremod customskinloader.forge.ForgePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[13:07:13] [main/WARN]: The coremod ForgePlugin (customskinloader.forge.ForgePlugin) is not signed!
+[13:07:13] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in 核心MOD-BringMeTheRings-0.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[13:07:14] [main/WARN]: The coremod BringMeTheRings plugin (zabi.minecraft.bmtr.core.BMTRPlugin) is not signed!
+[13:07:14] [main/INFO]: Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[13:07:14] [main/INFO]: Bootstrapping LiteLoader 1.12.2
+[13:07:14] [main/INFO]: Registering API provider class com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient
+[13:07:14] [main/INFO]: Spawning API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' ...
+[13:07:14] [main/INFO]: API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' provides API 'liteloader'
+[13:07:14] [main/INFO]: Initialising API 'liteloader' ...
+[13:07:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.5 Source=file:/D:/Users/Administrator/Documents/GitHub/DreamBorderX-Earraylate-RPG/%e5%b0%93%e5%88%a9%e9%9b%b7%e7%89%b9%e5%a4%a7%e9%99%86RPG/.minecraft/libraries/com/mumfrey/liteloader/1.12.2-20171128.144431-4/liteloader-1.12.2-20171128.144431-4.jar Service=LaunchWrapper Env=CLIENT
+[13:07:14] [main/INFO]: LiteLoader begin PREINIT...
+[13:07:14] [main/INFO]: Initialising Loader properties...
+[13:07:14] [main/INFO]: Setting up logger...
+[13:07:14] [main/INFO]: LiteLoader 1.12.2 starting up...
+[13:07:14] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
+[13:07:14] [main/INFO]: Java reports OS="windows 10"
+[13:07:14] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[13:07:14] [main/INFO]: Enumerating class path...
+[13:07:14] [main/INFO]: Class path separator=";"
+[13:07:14] [main/INFO]: Class path entries=(
    classpathEntry=d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
    classpathEntry=d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
    classpathEntry=d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\mumfrey\liteloader\1.12.2-20171128.144431-4\liteloader-1.12.2-20171128.144431-4.jar
@@ -88,78 +87,1131 @@
    classpathEntry=d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\测试版本.jar
    classpathEntry=C:\Users\Administrator\AppData\Roaming\.hmcl\authlib-injector.jar
 )
-[11:00:16] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
-[11:00:16] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods]
-[11:00:16] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\1.12.2]
-[11:00:16] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@288a4658]
-[11:00:16] [main/INFO]: Discovering valid mod files in folder d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods
-[11:00:16] [main/INFO]: Inspecting jar metadata in 'Earraylate-1.0.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\Earraylate-1.0.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in 'forge-1.12.2-14.23.5.2854-installer.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\forge-1.12.2-14.23.5.2854-installer.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in 'OptiFine_1.12.2_HD_U_F5.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\OptiFine_1.12.2_HD_U_F5.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '作者MOD-创世神-worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\作者MOD-创世神-worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '前置MOD-AutoRegLib-1.3-31.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\前置MOD-AutoRegLib-1.3-31.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '前置MOD-PTRLib-1.0.4.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\前置MOD-PTRLib-1.0.4.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '可选MOD-RPGHUD-[1.12]+RPG-HUD-3.6.6.2.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-RPGHUD-[1.12]+RPG-HUD-3.6.6.2.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar
-[11:00:16] [main/INFO]: Considering valid mod file: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod
-[11:00:16] [main/INFO]: Inspecting jar metadata in '可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '可选MOD-血条&伤害显示-[1.12.2]DamageIndicatorsMod-3.5.1.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-血条&伤害显示-[1.12.2]DamageIndicatorsMod-3.5.1.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '核心MOD-BringMeTheRings-0.4.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-BringMeTheRings-0.4.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '核心MOD-家具-furniture-6.3.1-1.12.2.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-家具-furniture-6.3.1-1.12.2.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '核心MOD-更多装饰-Decocraft-2.6.3_1.12.2.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-更多装饰-Decocraft-2.6.3_1.12.2.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '核心MOD-美妙指环-Baublelicious-1.4.0-4.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-美妙指环-Baublelicious-1.4.0-4.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '核心MOD-自定义NPC-CustomNPCs_1.12.2-(01Oct19).jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-自定义NPC-CustomNPCs_1.12.2-(01Oct19).jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '核心MOD-自定义NPC附属-VariedCommodities_1.12.2(21nov19).jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-自定义NPC附属-VariedCommodities_1.12.2(21nov19).jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '核心MOD-药水指环-PotionFingers-r1.0-8.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-药水指环-PotionFingers-r1.0-8.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '核心MOD-饰品栏-Baubles-1.12-1.5.2.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-饰品栏-Baubles-1.12-1.5.2.jar
-[11:00:16] [main/INFO]: Inspecting jar metadata in '补丁-中文补丁-i18nupdatemod-1.12.2-1.1.0.jar'
-[11:00:16] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\补丁-中文补丁-i18nupdatemod-1.12.2-1.1.0.jar
-[11:00:16] [main/INFO]: Discovering valid mod files in folder d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\1.12.2
-[11:00:16] [main/INFO]: Discovering tweaks on class path...
-[11:00:16] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
-[11:00:17] [main/INFO]: Registering discovered mod files in folder d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods
-[11:00:17] [main/INFO]: Adding newest valid mod file 'd:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod' at revision 1701.0000
-[11:00:17] [main/INFO]: Registering discovered mod files in folder d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\1.12.2
-[11:00:17] [main/INFO]: Registering mixin config mixins.oldnorth.json for 可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod
-[11:00:17] [main/INFO]: Registering mixin config mixins.voxelmap.json for 可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod
-[11:00:17] [main/INFO]: Initialising LiteLoader Mixins
-[11:00:17] [main/INFO]: Compatibility level set to JAVA_8
-[11:00:17] [main/INFO]: LiteLoader PREINIT complete
-[11:00:17] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.transformers.event.EventProxyTransformer'
-[11:00:17] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.launch.LiteLoaderTransformer'
-[11:00:17] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.client.transformers.CrashReportTransformer'
-[11:00:17] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.EventTransformer'
-[11:00:17] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.common.transformers.LiteLoaderPacketTransformer'
-[11:00:17] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.json.ModEventInjectionTransformer'
-[11:00:17] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:00:17] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
-[11:00:17] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[11:00:17] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[11:00:17] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[11:00:17] [main/INFO]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker$PreInitTweaker
-[11:00:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:00:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:00:17] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
-[11:00:17] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
-[11:00:17] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
-[11:00:17] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
-[11:00:17] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\OptiFine_1.12.2_HD_U_F5.jar
-[11:00:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:07:14] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[13:07:14] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods]
+[13:07:14] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\1.12.2]
+[13:07:14] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@452c8a40]
+[13:07:14] [main/INFO]: Discovering valid mod files in folder d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods
+[13:07:14] [main/INFO]: Inspecting jar metadata in 'Earraylate-1.0.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\Earraylate-1.0.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in 'forge-1.12.2-14.23.5.2854-installer.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\forge-1.12.2-14.23.5.2854-installer.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in 'OptiFine_1.12.2_HD_U_F5.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\OptiFine_1.12.2_HD_U_F5.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '作者MOD-创世神-worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\作者MOD-创世神-worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '前置MOD-AutoRegLib-1.3-31.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\前置MOD-AutoRegLib-1.3-31.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '前置MOD-PTRLib-1.0.4.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\前置MOD-PTRLib-1.0.4.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '可选MOD-RPGHUD-[1.12]+RPG-HUD-3.6.6.2.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-RPGHUD-[1.12]+RPG-HUD-3.6.6.2.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar
+[13:07:14] [main/INFO]: Considering valid mod file: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod
+[13:07:14] [main/INFO]: Inspecting jar metadata in '可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '可选MOD-血条&伤害显示-[1.12.2]DamageIndicatorsMod-3.5.1.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-血条&伤害显示-[1.12.2]DamageIndicatorsMod-3.5.1.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '核心MOD-BringMeTheRings-0.4.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-BringMeTheRings-0.4.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '核心MOD-家具-furniture-6.3.1-1.12.2.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-家具-furniture-6.3.1-1.12.2.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '核心MOD-更多装饰-Decocraft-2.6.3_1.12.2.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-更多装饰-Decocraft-2.6.3_1.12.2.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '核心MOD-美妙指环-Baublelicious-1.4.0-4.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-美妙指环-Baublelicious-1.4.0-4.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '核心MOD-自定义NPC-CustomNPCs_1.12.2-(01Oct19).jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-自定义NPC-CustomNPCs_1.12.2-(01Oct19).jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '核心MOD-自定义NPC附属-VariedCommodities_1.12.2(21nov19).jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-自定义NPC附属-VariedCommodities_1.12.2(21nov19).jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '核心MOD-药水指环-PotionFingers-r1.0-8.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-药水指环-PotionFingers-r1.0-8.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '核心MOD-饰品栏-Baubles-1.12-1.5.2.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\核心MOD-饰品栏-Baubles-1.12-1.5.2.jar
+[13:07:14] [main/INFO]: Inspecting jar metadata in '补丁-中文补丁-i18nupdatemod-1.12.2-1.1.0.jar'
+[13:07:14] [main/INFO]: Ignoring d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\补丁-中文补丁-i18nupdatemod-1.12.2-1.1.0.jar
+[13:07:14] [main/INFO]: Discovering valid mod files in folder d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\1.12.2
+[13:07:14] [main/INFO]: Discovering tweaks on class path...
+[13:07:15] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
+[13:07:15] [main/INFO]: Registering discovered mod files in folder d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods
+[13:07:15] [main/INFO]: Adding newest valid mod file 'd:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod' at revision 1701.0000
+[13:07:15] [main/INFO]: Registering discovered mod files in folder d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\1.12.2
+[13:07:15] [main/INFO]: Registering mixin config mixins.oldnorth.json for 可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod
+[13:07:15] [main/INFO]: Registering mixin config mixins.voxelmap.json for 可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod
+[13:07:15] [main/INFO]: Initialising LiteLoader Mixins
+[13:07:15] [main/INFO]: Compatibility level set to JAVA_8
+[13:07:15] [main/INFO]: LiteLoader PREINIT complete
+[13:07:15] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.transformers.event.EventProxyTransformer'
+[13:07:15] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.launch.LiteLoaderTransformer'
+[13:07:15] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.client.transformers.CrashReportTransformer'
+[13:07:15] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.EventTransformer'
+[13:07:15] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.common.transformers.LiteLoaderPacketTransformer'
+[13:07:15] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.json.ModEventInjectionTransformer'
+[13:07:15] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:07:15] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[13:07:15] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:07:15] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[13:07:15] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:07:15] [main/INFO]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker$PreInitTweaker
+[13:07:15] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:07:15] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:07:15] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[13:07:15] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[13:07:15] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[13:07:15] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[13:07:15] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\OptiFine_1.12.2_HD_U_F5.jar
+[13:07:15] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:07:17] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[13:07:17] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[13:07:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:07:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$InitTransformer
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(<init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V)
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinTransformer
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkin(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadProfileTexturesTransformer
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadProfileTextures(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinFromCacheTransformer
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkinFromCache(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.PlayerTabTransformer$ScoreObjectiveTransformer
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(renderPlayerlist(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SpectatorMenuTransformer$PlayerMenuObjectTransformer
+[13:07:17] [main/INFO]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.spectator.PlayerMenuObject(<init>(Lcom/mojang/authlib/GameProfile;)V)
+[13:07:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:07:17] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[13:07:17] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4cfa83f9
+[13:07:17] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:07:17] [main/INFO]: Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker$PreInitTweaker
+[13:07:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:07:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:07:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:07:18] [main/WARN]: Tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker has already been visited -- skipping
+[13:07:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:07:18] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[13:07:18] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:07:18] [main/INFO]: Injecting downstream transformers
+[13:07:18] [main/INFO]: Injecting additional class transformer class 'com.mumfrey.liteloader.transformers.event.EventTransformer'
+[13:07:18] [main/INFO]: Injecting additional class transformer class 'com.mumfrey.liteloader.common.transformers.LiteLoaderPacketTransformer'
+[13:07:18] [main/INFO]: Injecting additional class transformer class 'com.mumfrey.liteloader.transformers.event.json.ModEventInjectionTransformer'
+[13:07:18] [main/INFO]: FML detected, switching to searge mappings
+[13:07:19] [Client thread/INFO]: Setting user: GLgele
+[13:07:23] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[13:07:23] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[13:07:24] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[13:07:24] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] CLASS net.minecraft.client.resources.SkinManager will be transformed
+[13:07:24] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method <init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V in class cex(net.minecraft.client.resources.SkinManager)
+[13:07:24] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method <init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V in class cex(net.minecraft.client.resources.SkinManager)
+[13:07:24] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation; in class cex(net.minecraft.client.resources.SkinManager)
+[13:07:24] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation; in class cex(net.minecraft.client.resources.SkinManager)
+[13:07:24] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V in class cex(net.minecraft.client.resources.SkinManager)
+[13:07:24] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V in class cex(net.minecraft.client.resources.SkinManager)
+[13:07:24] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map; in class cex(net.minecraft.client.resources.SkinManager)
+[13:07:24] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map; in class cex(net.minecraft.client.resources.SkinManager)
+[13:07:24] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:07:25] [Client thread/INFO]: [OptiFine] 
+[13:07:25] [Client thread/INFO]: [OptiFine] OptiFine_1.12.2_HD_U_F5
+[13:07:25] [Client thread/INFO]: [OptiFine] Build: 20191204-141934
+[13:07:25] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[13:07:25] [Client thread/INFO]: [OptiFine] Java: 1.8.0_251, Oracle Corporation
+[13:07:25] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[13:07:25] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[13:07:25] [Client thread/INFO]: [OptiFine] OpenGL: GeForce GTX 1650/PCIe/SSE2, version 4.6.0 NVIDIA 431.65, NVIDIA Corporation
+[13:07:25] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[13:07:25] [Client thread/INFO]: [OptiFine] Maximum texture size: 32768x32768
+[13:07:25] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[13:07:25] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 431.65
+[13:07:25] [Client thread/INFO]: [Shaders] Vendor:  NVIDIA Corporation
+[13:07:25] [Client thread/INFO]: [Shaders] Renderer: GeForce GTX 1650/PCIe/SSE2
+[13:07:25] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[13:07:25] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[13:07:25] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[13:07:25] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[13:07:25] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[13:07:25] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[13:07:25] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[13:07:25] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[13:07:25] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[13:07:26] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_F5, enabling compatibility features
+[13:07:26] [Client thread/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 156511080 bytes (149 MB) / 335544320 bytes (320 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4096m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+BringMeTheRings plugin (核心MOD-BringMeTheRings-0.4.jar)
+  zabi.minecraft.bmtr.core.BaublesTransformer
+ForgePlugin (可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar)
+  customskinloader.forge.TransformerManager
+LoadingPlugin (可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar)
+  lumien.chunkanimator.asm.ClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 431.65' Renderer: 'GeForce GTX 1650/PCIe/SSE2'
+[13:07:26] [Client thread/INFO]: MinecraftForge v14.23.5.2847 Initialized
+[13:07:26] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[13:07:26] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[13:07:26] [Client thread/INFO]: Replaced 1227 ore ingredients
+[13:07:26] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods for mods
+[13:07:26] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\1.12.2 for mods
+[13:07:27] [VersionCheck/INFO]: [OptiFine] Version found: G5
+[13:07:28] [Client thread/WARN]: Mod damageindicatorsmod is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[13:07:28] [Client thread/INFO]: Forge Mod Loader has identified 21 mods to load
+[13:07:28] [Client thread/INFO]: FML has found a non-mod file forge-1.12.2-14.23.5.2854-installer.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[13:07:28] [Thread-4/INFO]: Using sync timing. 200 frames of Display.update took 179031700 nanos
+[13:07:28] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, earraylate, worldedit, autoreglib, ptrmodellib, rpghud, chunkanimator, customskinloader, damageindicatorsmod, bmtr, cfm, props, baublelicious, customnpcs, variedcommodities, potionfingers, baubles, i18nmod] at CLIENT
+[13:07:28] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, earraylate, worldedit, autoreglib, ptrmodellib, rpghud, chunkanimator, customskinloader, damageindicatorsmod, bmtr, cfm, props, baublelicious, customnpcs, variedcommodities, potionfingers, baubles, i18nmod] at SERVER
+[13:07:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Earraylate Mod, FMLFileResourcePack:WorldEdit, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:ptrmodellib, FMLFileResourcePack:RPG-Hud, FMLFileResourcePack:Chunk Animator, FMLFileResourcePack:CustomSkinLoader, FMLFileResourcePack:Damage Indicators Mod, FMLFileResourcePack:Bring me the rings!, FMLFileResourcePack:MrCrayfish's Furniture Mod, FMLFileResourcePack:Decocraft, FMLFileResourcePack:Baublelicious, FMLFileResourcePack:CustomNPCs, FMLFileResourcePack:Varied Commodities, FMLFileResourcePack:Potion Fingers, FMLFileResourcePack:Baubles, FMLFileResourcePack:I18n Update Mod, msi_conversion.zip, PresenceFootstepsOfficial.zip, mcmap.cc-[FNI现实RPG材质包][16x16].zip, mcmap.cc-[史诗冒险材质包][32x32].zip, Earraylate.zip, Minecraft-Mod-Language-Modpack.zip
+[13:07:45] [Client thread/INFO]: Processing ObjectHolder annotations
+[13:07:45] [Client thread/INFO]: Found 1094 ObjectHolder annotations
+[13:07:45] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[13:07:45] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[13:07:45] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[13:07:45] [Client thread/INFO]: [com.dreambx.Earraylate.Earraylate:preLoad:123]: Hello, Forge
+[13:07:45] [Forge Version Check/INFO]: [rpghud] Starting version check at http://download.spellcraftgaming.net/rpghud/version/update.json
+[13:07:45] [Client thread/INFO]: [com.dreambx.Earraylate.Earraylate:preLoad:124]: This is Earraylate RPG!
+[13:07:47] [Client thread/INFO]: Original locale was , switching to Locale.US
+[13:07:47] [Client thread/INFO]: Locale is now en_US
+[13:07:47] [Client thread/INFO]: Locale was restored to 
+[13:08:03] [Client thread/INFO]: Total mipmap : 3398 ms
+[13:08:04] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileredstoneblock`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:04] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileblockanvil`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:04] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilemailbox`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:04] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilewaypoint`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:04] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripted`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:04] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripteddoor`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:04] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcbuilder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:04] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpccopy`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:04] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcborder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:04] [Client thread/INFO]: Applying holder lookups
+[13:08:04] [Client thread/INFO]: Holder lookups applied
+[13:08:04] [Client thread/INFO]: Applying holder lookups
+[13:08:04] [Client thread/INFO]: Holder lookups applied
+[13:08:04] [Client thread/INFO]: Applying holder lookups
+[13:08:04] [Client thread/INFO]: Holder lookups applied
+[13:08:05] [Client thread/INFO]: Applying holder lookups
+[13:08:05] [Client thread/INFO]: Holder lookups applied
+[13:08:05] [Client thread/INFO]: Injecting itemstacks
+[13:08:05] [Client thread/INFO]: Itemstack injection complete
+[13:08:05] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[13:08:05] [Client thread/INFO]: [OptiFine] Resource packs: msi_conversion.zip, PresenceFootstepsOfficial.zip, mcmap.cc-[FNI现实RPG材质包][16x16].zip, mcmap.cc-[史诗冒险材质包][32x32].zip, Earraylate.zip, Minecraft-Mod-Language-Modpack.zip
+[13:08:06] [Client thread/WARN]: File minecraft:sounds/matmos_interactions/jumpina.ogg does not exist, cannot add it to event minecraft:matmos_interactions.jumpina
+[13:08:06] [Client thread/WARN]: File minecraft:sounds/matmos_msi/cave/woodb.ogg does not exist, cannot add it to event minecraft:matmos_msi.cave.woodb
+[13:08:06] [Client thread/WARN]: File minecraft:sounds/matmos_msi/cave/woodc.ogg does not exist, cannot add it to event minecraft:matmos_msi.cave.woodc
+[13:08:06] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:08:07] [Client thread/WARN]: Missing sound for event: cfm:channel_news
+[13:08:07] [Client thread/WARN]: Missing sound for event: cfm:channel_cooking
+[13:08:07] [Client thread/WARN]: Missing sound for event: cfm:channel_sam_tabor
+[13:08:07] [Client thread/WARN]: Missing sound for event: cfm:channel_heman
+[13:08:07] [Client thread/WARN]: Missing sound for event: cfm:channel_switch
+[13:08:07] [Client thread/WARN]: Missing sound for event: variedcommodities:gun.pistol.shot
+[13:08:07] [Client thread/WARN]: Missing sound for event: variedcommodities:gun.pistol.trigger
+[13:08:07] [Client thread/WARN]: Missing sound for event: variedcommodities:gun.empty
+[13:08:07] [Client thread/WARN]: Missing sound for event: variedcommodities:gun.ak47.load
+[13:08:07] [Client thread/WARN]: Missing sound for event: variedcommodities:magic.shot
+[13:08:07] [Client thread/WARN]: Missing sound for event: variedcommodities:magic.charge
+[13:08:07] [Client thread/WARN]: Missing sound for event: variedcommodities:misc.swosh
+[13:08:07] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:08:07] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[13:08:07] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:08:07] [Forge Version Check/INFO]: [forge] Found status: OUTDATED Target: 14.23.5.2854
+[13:08:07] [Thread-11/INFO]: OpenAL initialized.
+[13:08:07] [Sound Library Loader/INFO]: Sound engine started
+[13:08:10] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[13:08:10] [Client thread/INFO]: [OptiFine] Multitexture: false
+[13:08:10] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:10] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/03.dirt/dirt.properties
+[13:08:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/1_grass_overlay/grass.properties
+[13:08:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/1_grass_overlay/grass_overlay.properties
+[13:08:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/31.tallgrass/tallgrass.properties
+[13:08:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/39.brown_mushroom/mushroom_brown.properties
+[13:08:10] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/flower/flower_dandelion.properties
+[13:08:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/fnirandom/log_jungle.properties
+[13:08:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/fnirandom/planks_oak.properties
+[13:08:10] [Client thread/WARN]: [OptiFine] More weights defined than tiles, trimming weights: mcpatcher/ctm/fnirandom/planks_oak.properties
+[13:08:10] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/fnirandom/sand.properties
+[13:08:10] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:10] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:10] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:10] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:10] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[13:08:10] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/leaves_extra_acacia.png, java.io.FileNotFoundException
+[13:08:10] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/leaves_extra_big_oak.png, java.io.FileNotFoundException
+[13:08:10] [Client thread/INFO]: [OptiFine] Custom loader sprites: 3
+[13:08:10] [Client thread/INFO]: [OptiFine] Sprite dependencies: 5
+[13:08:10] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[13:08:10] [Client thread/INFO]: [OptiFine] Animated sprites: 26
+[13:08:12] [Client thread/ERROR]: Exception loading model for variant props:blockprops#facing=east
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model props:blockprops#facing=east with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:166) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[13:08:12] [Client thread/ERROR]: Exception loading blockstate for the variant props:blockprops#facing=east: 
+java.lang.Exception: Could not load model definition for variant props:blockprops
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:129) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model props:blockstates/blockprops.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:251) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:231) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: props:blockstates/blockprops.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_135056_b(FallbackResourceManager.java:104) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_135056_b(SimpleReloadableResourceManager.java:79) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:244) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:231) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+[13:08:12] [Client thread/ERROR]: Exception loading model for variant props:blockfake#facing=south
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model props:blockfake#facing=south with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:166) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[13:08:12] [Client thread/ERROR]: Exception loading blockstate for the variant props:blockfake#facing=south: 
+java.lang.Exception: Could not load model definition for variant props:blockfake
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:129) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model props:blockstates/blockfake.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:251) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:231) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: props:blockstates/blockfake.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_135056_b(FallbackResourceManager.java:104) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_135056_b(SimpleReloadableResourceManager.java:79) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:244) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:231) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 14 more
+[13:08:12] [Client thread/ERROR]: Exception loading model for variant props:blockprops#facing=west
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model props:blockprops#facing=west with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:166) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[13:08:12] [Client thread/ERROR]: Exception loading model for variant props:blockprops#facing=south
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model props:blockprops#facing=south with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:166) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[13:08:12] [Client thread/ERROR]: Exception loading model for variant baublelicious:item.itemmagiccore#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model baublelicious:item/item.itemmagiccore with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.io.FileNotFoundException: baublelicious:models/item/item.itemmagiccore.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177594_c(ModelBakery.java:365) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[13:08:12] [Client thread/ERROR]: Exception loading model for variant baublelicious:item.itemmagiccore#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model baublelicious:item.itemmagiccore#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:513) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 14 more
+[13:08:12] [Client thread/FATAL]: Suppressed additional 3 model loading errors for domain props
+[13:08:12] [Client thread/INFO]: JInput Component Registry is initialising...
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:12] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/ERROR]: The jar file D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[13:08:13] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Keyboard controller PS/2 ±ê??ü on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Mouse controller HID-compliant mouse on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Mouse controller HID-compliant mouse on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Mouse controller HID-compliant mouse on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Unknown controller Rapoo 2.4G Wireless Device on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Unknown controller Rapoo 2.4G Wireless Device on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Unknown controller HIDI2C Device on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Unknown controller ITE Device(8910) on Unknown...
+[13:08:13] [Client thread/INFO]: Inspecting Unknown controller ITE Device(8910) on Unknown...
+[13:08:13] [Client thread/INFO]: JInput Component Registry initialised, found 11 controller(s) 429 component(s)
+[13:08:13] [Client thread/INFO]: LiteLoader begin INIT...
+[13:08:13] [Client thread/INFO]: Baking listener list for CoreProvider with 2 listeners
+[13:08:13] [Client thread/INFO]: Injecting external mods into class path...
+[13:08:13] [Client thread/INFO]: Injecting external mods into class path...
+[13:08:13] [Client thread/INFO]: Discovering mods on class path...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\mumfrey\liteloader\1.12.2-20171128.144431-4\liteloader-1.12.2-20171128.144431-4.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2847\forge-1.12.2-14.23.5.2847.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\测试版本.jar...
+[13:08:13] [Client thread/INFO]: Searching C:\Users\Administrator\AppData\Roaming\.hmcl\authlib-injector.jar...
+[13:08:13] [Client thread/INFO]: Discovering mods in valid mod files...
+[13:08:13] [Client thread/INFO]: Searching d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod...
+[13:08:13] [Client thread/INFO]: Found 1 potential matches
+[13:08:13] [Client thread/INFO]: Discovering mods in valid mod files...
+[13:08:13] [Client thread/INFO]: Mod class discovery completed
+[13:08:13] [Client thread/INFO]: LiteLoader begin POSTINIT...
+[13:08:13] [Client thread/INFO]: Inhibiting sound handler reload
+[13:08:13] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient for API LiteLoader core API
+[13:08:13] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[13:08:13] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[13:08:13] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[13:08:13] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[13:08:13] [Client thread/INFO]: Discovered 1 total mod(s), injected 0 tweak(s)
+[13:08:13] [Client thread/INFO]: Loading mod from com.mamiyaotaru.voxelmap.litemod.LiteModVoxelMap
+[13:08:13] [Client thread/INFO]: Baking listener list for ModLoadObserver with 1 listeners
+[13:08:13] [Client thread/INFO]: Successfully added mod VoxelMap version 1.7.1
+[13:08:13] [Client thread/INFO]: Adding "d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod" to active resource pack set
+[13:08:13] [Client thread/INFO]: Setting up "可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod" as mod resource pack with identifier "VoxelMap"
+[13:08:13] [Client thread/INFO]: Successfully added "d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\mods\可选MOD-小地图-需要Liteload-mod_voxelMap_1.7.1_for_1.12.2.litemod" to active resource pack set
+[13:08:13] [Client thread/INFO]: Initialising mod VoxelMap version 1.7.1
+[13:08:13] [Client thread/INFO]: Baking listener list for InterfaceObserver with 0 listeners
+[13:08:14] [Client thread/INFO]: Applying holder lookups
+[13:08:14] [Client thread/INFO]: Holder lookups applied
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:14] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[13:08:15] [Client thread/INFO]: CustomNPC Permissions available:
+[13:08:15] [Client thread/INFO]: customnpcs.edit.blocks
+[13:08:15] [Client thread/INFO]: customnpcs.edit.villager
+[13:08:15] [Client thread/INFO]: customnpcs.global.bank
+[13:08:15] [Client thread/INFO]: customnpcs.global.dialog
+[13:08:15] [Client thread/INFO]: customnpcs.global.faction
+[13:08:15] [Client thread/INFO]: customnpcs.global.linked
+[13:08:15] [Client thread/INFO]: customnpcs.global.naturalspawn
+[13:08:15] [Client thread/INFO]: customnpcs.global.playerdata
+[13:08:15] [Client thread/INFO]: customnpcs.global.quest
+[13:08:15] [Client thread/INFO]: customnpcs.global.recipe
+[13:08:15] [Client thread/INFO]: customnpcs.global.transport
+[13:08:15] [Client thread/INFO]: customnpcs.npc.advanced
+[13:08:15] [Client thread/INFO]: customnpcs.npc.ai
+[13:08:15] [Client thread/INFO]: customnpcs.npc.clone
+[13:08:15] [Client thread/INFO]: customnpcs.npc.create
+[13:08:15] [Client thread/INFO]: customnpcs.npc.delete
+[13:08:15] [Client thread/INFO]: customnpcs.npc.display
+[13:08:15] [Client thread/INFO]: customnpcs.npc.freeze
+[13:08:15] [Client thread/INFO]: customnpcs.npc.gui
+[13:08:15] [Client thread/INFO]: customnpcs.npc.inventory
+[13:08:15] [Client thread/INFO]: customnpcs.npc.reset
+[13:08:15] [Client thread/INFO]: customnpcs.npc.stats
+[13:08:15] [Client thread/INFO]: customnpcs.scenes
+[13:08:15] [Client thread/INFO]: customnpcs.soulstone.all
+[13:08:15] [Client thread/INFO]: customnpcs.spawner.create
+[13:08:15] [Client thread/INFO]: customnpcs.spawner.mob
+[13:08:15] [Client thread/INFO]: customnpcs.tool.mounter
+[13:08:15] [Client thread/INFO]: customnpcs.tool.nbtbook
+[13:08:15] [Client thread/INFO]: customnpcs.tool.pather
+[13:08:15] [Client thread/INFO]: customnpcs.tool.scripter
+[13:08:15] [Client thread/INFO]: Injecting itemstacks
+[13:08:15] [Client thread/INFO]: Itemstack injection complete
+[13:08:15] [Client thread/INFO]: WorldEdit for Forge (version 6.1.10-SNAPSHOT) is loaded
+[13:08:16] [Client thread/INFO]: Forge Mod Loader has successfully loaded 21 mods
+[13:08:16] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] CLASS net.minecraft.client.gui.GuiPlayerTabOverlay will be transformed
+[13:08:16] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V in class bjq(net.minecraft.client.gui.GuiPlayerTabOverlay)
+[13:08:16] [Client thread/INFO]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V in class bjq(net.minecraft.client.gui.GuiPlayerTabOverlay)
+[13:08:16] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[13:08:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Earraylate Mod, FMLFileResourcePack:WorldEdit, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:ptrmodellib, FMLFileResourcePack:RPG-Hud, FMLFileResourcePack:Chunk Animator, FMLFileResourcePack:CustomSkinLoader, FMLFileResourcePack:Damage Indicators Mod, FMLFileResourcePack:Bring me the rings!, FMLFileResourcePack:MrCrayfish's Furniture Mod, FMLFileResourcePack:Decocraft, FMLFileResourcePack:Baublelicious, FMLFileResourcePack:CustomNPCs, FMLFileResourcePack:Varied Commodities, FMLFileResourcePack:Potion Fingers, FMLFileResourcePack:Baubles, FMLFileResourcePack:I18n Update Mod, LiteLoader, VoxelMap, msi_conversion.zip, PresenceFootstepsOfficial.zip, mcmap.cc-[FNI现实RPG材质包][16x16].zip, mcmap.cc-[史诗冒险材质包][32x32].zip, Earraylate.zip, Minecraft-Mod-Language-Modpack.zip
+[13:08:18] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:08:24] [Client thread/INFO]: Total mipmap : 2768 ms
+[13:08:24] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[13:08:24] [Client thread/INFO]: [OptiFine] Resource packs: msi_conversion.zip, PresenceFootstepsOfficial.zip, mcmap.cc-[FNI现实RPG材质包][16x16].zip, mcmap.cc-[史诗冒险材质包][32x32].zip, Earraylate.zip, Minecraft-Mod-Language-Modpack.zip
+[13:08:26] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[13:08:26] [Client thread/INFO]: [OptiFine] Multitexture: false
+[13:08:26] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:26] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:26] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/03.dirt/dirt.properties
+[13:08:26] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/1_grass_overlay/grass.properties
+[13:08:26] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/1_grass_overlay/grass_overlay.properties
+[13:08:26] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/31.tallgrass/tallgrass.properties
+[13:08:26] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/39.brown_mushroom/mushroom_brown.properties
+[13:08:26] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:26] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/flower/flower_dandelion.properties
+[13:08:26] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/fnirandom/log_jungle.properties
+[13:08:26] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/fnirandom/planks_oak.properties
+[13:08:26] [Client thread/WARN]: [OptiFine] More weights defined than tiles, trimming weights: mcpatcher/ctm/fnirandom/planks_oak.properties
+[13:08:26] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/fnirandom/sand.properties
+[13:08:26] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:26] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:26] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:26] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[13:08:26] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[13:08:26] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/leaves_extra_acacia.png, java.io.FileNotFoundException
+[13:08:26] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/leaves_extra_big_oak.png, java.io.FileNotFoundException
+[13:08:26] [Client thread/INFO]: [OptiFine] Custom loader sprites: 3
+[13:08:26] [Client thread/INFO]: [OptiFine] Sprite dependencies: 5
+[13:08:26] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[13:08:26] [Client thread/INFO]: [OptiFine] Animated sprites: 26
+[13:08:27] [Client thread/ERROR]: Exception loading model for variant props:blockprops#facing=east
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model props:blockprops#facing=east with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:166) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SimpleReloadableResourceManager.java:132) [cev.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SimpleReloadableResourceManager.java:112) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:808) [bib.class:?]
+	at com.mumfrey.liteloader.client.ResourcesClient.refreshResources(ResourcesClient.java:45) [ResourcesClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient.onStartupComplete(LiteLoaderEventBrokerClient.java:275) [LiteLoaderEventBrokerClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.client.Minecraft.handler$onStartupComplete$zzj000(Minecraft.java:3394) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:570) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[13:08:27] [Client thread/ERROR]: Exception loading blockstate for the variant props:blockprops#facing=east: 
+java.lang.Exception: Could not load model definition for variant props:blockprops
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:129) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SimpleReloadableResourceManager.java:132) [cev.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SimpleReloadableResourceManager.java:112) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:808) [bib.class:?]
+	at com.mumfrey.liteloader.client.ResourcesClient.refreshResources(ResourcesClient.java:45) [ResourcesClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient.onStartupComplete(LiteLoaderEventBrokerClient.java:275) [LiteLoaderEventBrokerClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.client.Minecraft.handler$onStartupComplete$zzj000(Minecraft.java:3394) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:570) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model props:blockstates/blockprops.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:251) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:231) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 19 more
+Caused by: java.io.FileNotFoundException: props:blockstates/blockprops.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_135056_b(FallbackResourceManager.java:104) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_135056_b(SimpleReloadableResourceManager.java:79) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:244) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:231) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 19 more
+[13:08:27] [Client thread/ERROR]: Exception loading model for variant props:blockfake#facing=south
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model props:blockfake#facing=south with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:166) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SimpleReloadableResourceManager.java:132) [cev.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SimpleReloadableResourceManager.java:112) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:808) [bib.class:?]
+	at com.mumfrey.liteloader.client.ResourcesClient.refreshResources(ResourcesClient.java:45) [ResourcesClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient.onStartupComplete(LiteLoaderEventBrokerClient.java:275) [LiteLoaderEventBrokerClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.client.Minecraft.handler$onStartupComplete$zzj000(Minecraft.java:3394) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:570) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[13:08:27] [Client thread/ERROR]: Exception loading blockstate for the variant props:blockfake#facing=south: 
+java.lang.Exception: Could not load model definition for variant props:blockfake
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:129) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SimpleReloadableResourceManager.java:132) [cev.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SimpleReloadableResourceManager.java:112) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:808) [bib.class:?]
+	at com.mumfrey.liteloader.client.ResourcesClient.refreshResources(ResourcesClient.java:45) [ResourcesClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient.onStartupComplete(LiteLoaderEventBrokerClient.java:275) [LiteLoaderEventBrokerClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.client.Minecraft.handler$onStartupComplete$zzj000(Minecraft.java:3394) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:570) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model props:blockstates/blockfake.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:251) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:231) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 19 more
+Caused by: java.io.FileNotFoundException: props:blockstates/blockfake.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_135056_b(FallbackResourceManager.java:104) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_135056_b(SimpleReloadableResourceManager.java:79) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:244) ~[cgb.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:231) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 19 more
+[13:08:27] [Client thread/ERROR]: Exception loading model for variant props:blockprops#facing=west
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model props:blockprops#facing=west with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:166) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SimpleReloadableResourceManager.java:132) [cev.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SimpleReloadableResourceManager.java:112) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:808) [bib.class:?]
+	at com.mumfrey.liteloader.client.ResourcesClient.refreshResources(ResourcesClient.java:45) [ResourcesClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient.onStartupComplete(LiteLoaderEventBrokerClient.java:275) [LiteLoaderEventBrokerClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.client.Minecraft.handler$onStartupComplete$zzj000(Minecraft.java:3394) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:570) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[13:08:27] [Client thread/ERROR]: Exception loading model for variant props:blockprops#facing=south
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model props:blockprops#facing=south with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:166) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SimpleReloadableResourceManager.java:132) [cev.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SimpleReloadableResourceManager.java:112) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:808) [bib.class:?]
+	at com.mumfrey.liteloader.client.ResourcesClient.refreshResources(ResourcesClient.java:45) [ResourcesClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient.onStartupComplete(LiteLoaderEventBrokerClient.java:275) [LiteLoaderEventBrokerClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.client.Minecraft.handler$onStartupComplete$zzj000(Minecraft.java:3394) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:570) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[13:08:27] [Client thread/ERROR]: Exception loading model for variant baublelicious:item.itemmagiccore#inventory, normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model baublelicious:item/item.itemmagiccore with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SimpleReloadableResourceManager.java:132) [cev.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SimpleReloadableResourceManager.java:112) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:808) [bib.class:?]
+	at com.mumfrey.liteloader.client.ResourcesClient.refreshResources(ResourcesClient.java:45) [ResourcesClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient.onStartupComplete(LiteLoaderEventBrokerClient.java:275) [LiteLoaderEventBrokerClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.client.Minecraft.handler$onStartupComplete$zzj000(Minecraft.java:3394) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:570) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.io.FileNotFoundException: baublelicious:models/item/item.itemmagiccore.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:69) ~[cei.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65) ~[cev.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177594_c(ModelBakery.java:365) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 19 more
+[13:08:27] [Client thread/ERROR]: Exception loading model for variant baublelicious:item.itemmagiccore#inventory, blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model baublelicious:item.itemmagiccore#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177590_d(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177577_b(ModelBakery.java:194) ~[cgb.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [cgc.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SimpleReloadableResourceManager.java:132) [cev.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SimpleReloadableResourceManager.java:112) [cev.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:808) [bib.class:?]
+	at com.mumfrey.liteloader.client.ResourcesClient.refreshResources(ResourcesClient.java:45) [ResourcesClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient.onStartupComplete(LiteLoaderEventBrokerClient.java:275) [LiteLoaderEventBrokerClient.class:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.client.Minecraft.handler$onStartupComplete$zzj000(Minecraft.java:3394) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:570) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:83) ~[bvv.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 19 more
+[13:08:27] [Client thread/FATAL]: Suppressed additional 3 model loading errors for domain props
+[13:08:27] [Client thread/INFO]: Calling late init for mod VoxelMap
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:291]: Error loading old block IDs config file from litemod!
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: java.io.FileNotFoundException: voxelmap:conf/blockids.txt
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(FallbackResourceManager.java:69)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:65)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at com.mamiyaotaru.voxelmap.util.g.for(Unknown Source)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at com.mamiyaotaru.voxelmap.a.<init>(Unknown Source)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at com.mamiyaotaru.voxelmap.t.do(Unknown Source)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at com.mamiyaotaru.voxelmap.litemod.LiteModVoxelMap.onInitCompleted(Unknown Source)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient.onStartupComplete(LiteLoaderEventBrokerClient.java:283)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at net.minecraft.client.Minecraft.handler$onStartupComplete$zzj000(Minecraft.java:3394)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:570)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[13:08:27] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.util.g:for:292]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[13:08:28] [Client thread/INFO]: [com.mamiyaotaru.voxelmap.k:<init>:414]: CATEGORY ORDER IS 7
+[13:08:28] [Client thread/INFO]: Created: 256x256 waypoints-atlas
+[13:08:28] [Client thread/INFO]: Created: 256x128 chooser-atlas
+[13:08:29] [Client thread/INFO]: Created: 2048x1024 mobs-atlas
+[13:08:29] [Client thread/INFO]: Baking listener list for ViewportListener with 0 listeners
+[13:08:29] [Client thread/INFO]: Sound handler reload inhibit removed
+[13:08:29] [Client thread/INFO]: Reloading sound handler
+[13:08:31] [Client thread/WARN]: File minecraft:sounds/matmos_interactions/jumpina.ogg does not exist, cannot add it to event minecraft:matmos_interactions.jumpina
+[13:08:31] [Client thread/WARN]: File minecraft:sounds/matmos_msi/cave/woodb.ogg does not exist, cannot add it to event minecraft:matmos_msi.cave.woodb
+[13:08:31] [Client thread/WARN]: File minecraft:sounds/matmos_msi/cave/woodc.ogg does not exist, cannot add it to event minecraft:matmos_msi.cave.woodc
+[13:08:31] [Client thread/WARN]: Missing sound for event: cfm:channel_news
+[13:08:31] [Client thread/WARN]: Missing sound for event: cfm:channel_cooking
+[13:08:31] [Client thread/WARN]: Missing sound for event: cfm:channel_sam_tabor
+[13:08:31] [Client thread/WARN]: Missing sound for event: cfm:channel_heman
+[13:08:31] [Client thread/WARN]: Missing sound for event: cfm:channel_switch
+[13:08:31] [Client thread/WARN]: Missing sound for event: variedcommodities:gun.pistol.shot
+[13:08:31] [Client thread/WARN]: Missing sound for event: variedcommodities:gun.pistol.trigger
+[13:08:31] [Client thread/WARN]: Missing sound for event: variedcommodities:gun.empty
+[13:08:31] [Client thread/WARN]: Missing sound for event: variedcommodities:gun.ak47.load
+[13:08:31] [Client thread/WARN]: Missing sound for event: variedcommodities:magic.shot
+[13:08:31] [Client thread/WARN]: Missing sound for event: variedcommodities:magic.charge
+[13:08:31] [Client thread/WARN]: Missing sound for event: variedcommodities:misc.swosh
+[13:08:31] [Client thread/INFO]: SoundSystem shutting down...
+[13:08:31] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:08:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:08:31] [Thread-16/INFO]: Initializing LWJGL OpenAL
+[13:08:31] [Thread-16/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:08:31] [Thread-16/INFO]: OpenAL initialized.
+[13:08:31] [Client thread/INFO]: Baking listener list for GameLoopListener with 0 listeners
+[13:08:32] [Client thread/INFO]: Baking listener list for RenderListener with 1 listeners
+[13:08:32] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[13:08:32] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
+[13:08:32] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky1.properties
+[13:08:32] [Sound Library Loader/INFO]: Sound engine started
+[13:08:32] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky2.properties
+[13:08:33] [Client thread/INFO]: Baking listener list for TickObserver with 3 listeners
+[13:08:33] [Client thread/INFO]: Baking listener list for PostRenderObserver with 3 listeners
+[13:08:33] [Client thread/INFO]: Baking listener list for Tickable with 1 listeners
+[13:08:33] [Client thread/INFO]: Baking listener list for FrameBufferListener with 0 listeners
+[13:09:01] [Client thread/INFO]: Baking listener list for ServerCommandProvider with 0 listeners
+[13:09:01] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[13:09:01] [Server thread/INFO]: Generating keypair
+[13:09:01] [Server thread/INFO]: Injecting existing registry data into this server instance
+[13:09:02] [Server thread/INFO]: Applying holder lookups
+[13:09:02] [Server thread/INFO]: Holder lookups applied
+[13:09:02] [Server thread/INFO]: Loading dimension 0 (尓利雷特大陆) (net.minecraft.server.integrated.IntegratedServer@193c46fd)
+[13:09:03] [Server thread/INFO]: Loaded 528 advancements
+[13:09:03] [Server thread/INFO]: Loading dimension -1 (尓利雷特大陆) (net.minecraft.server.integrated.IntegratedServer@193c46fd)
+[13:09:03] [Server thread/INFO]: Loading dimension 1 (尓利雷特大陆) (net.minecraft.server.integrated.IntegratedServer@193c46fd)
+[13:09:03] [Server thread/INFO]: Preparing start region for level 0
+[13:09:04] [Server thread/INFO]: Preparing spawn area: 32%
+[13:09:05] [Server thread/INFO]: Baking listener list for IEventState with 0 listeners
+[13:09:05] [Server thread/INFO]: Baking listener list for ServerTickable with 0 listeners
+[13:09:05] [Server thread/INFO]: Unloading dimension -1
+[13:09:05] [Server thread/INFO]: Unloading dimension 1
+[13:09:07] [Netty Server IO #1/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[13:09:07] [Netty Server IO #1/INFO]: Successfully generated event handler proxy class with 124 handlers(s) and 124 total invocations
+[13:09:10] [Netty Local Client IO #0/INFO]: Baking listener list for PostLoginListener with 0 listeners
+[13:09:10] [Server thread/INFO]: Baking listener list for ServerPlayerListener with 0 listeners
+[13:09:10] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[13:09:10] [Netty Server IO #1/INFO]: Client protocol version 2
+[13:09:10] [Netty Server IO #1/INFO]: Client attempting to join with 21 mods : minecraft@1.12.2,ptrmodellib@1.0.4,FML@8.0.99.99,baublelicious@1.4.0-4,customnpcs@1.12,bmtr@0.4,worldedit@6.1.10-SNAPSHOT,baubles@1.5.2,chunkanimator@1.2,cfm@6.3.1,customskinloader@14.9,rpghud@3.6.6.2,earraylate@0.0.1,props@2.6.3,damageindicatorsmod@1.0,i18nmod@1.12.2-1.1.0,forge@14.23.5.2847,potionfingers@r1.0-8,mcp@9.42,variedcommodities@1.12.2,autoreglib@1.3-31
+[13:09:10] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[13:09:10] [Server thread/INFO]: Baking listener list for IEventState with 1 listeners
+[13:09:10] [Server thread/INFO]: [Server thread] Server side modded connection established
+[13:09:10] [Server thread/INFO]: GLgele[local:E:507e7750] logged in with entity id 97 at (702.4024100486158, 74.0, 249.14108646356127)
+[13:09:10] [Server thread/INFO]: GLgele加入了游戏
+[13:09:10] [Client thread/INFO]: Baking listener list for PreJoinGameListener with 0 listeners
+[13:09:10] [Server thread/INFO]: [DamageIndicatorsMod.client.DIClientProxy:trysendmessage:78]: 1.12.2-1.1.0
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: java.io.FileNotFoundException: http://voidswrath.com/release/DamageIndicatorMod.txt
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1896)
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1488)
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at java.security.AccessController.doPrivileged(Native Method)
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1487)
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at java.net.URL.openStream(URL.java:1067)
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at DamageIndicatorsMod.client.DIClientProxy$1.run(DIClientProxy.java:83)
+[13:09:11] [Thread-24/INFO]: [DamageIndicatorsMod.client.DIClientProxy$1:run:153]: 	at java.lang.Thread.run(Thread.java:748)
+[13:09:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3144ms behind, skipping 62 tick(s)
+[13:09:17] [Server thread/INFO]: Saving and pausing game...
+[13:09:17] [Client thread/INFO]: Baking listener list for JoinGameListener with 1 listeners
+[13:09:17] [Thread-10/INFO]: [CHAT] §2CustomNpcs§f installed. For more info §9§nClick here
+[13:09:17] [Client thread/INFO]: [CHAT] 新的§eOptiFine§f版本现已可用：§e§nHD Ultra G5§r§f
+[13:09:17] [Netty Local Client IO #0/INFO]: [CHAT] [DamageIndicators] §2Mouseovers enabled.
+[13:09:17] [Netty Local Client IO #0/INFO]: [CHAT] [DamageIndicators] §2Potion Effects enabled.
+[13:09:17] [Netty Local Client IO #0/INFO]: [CHAT] [DamageIndicators] §2Popoffs enabled.
+[13:09:17] [Client thread/INFO]: Baking listener list for PreRenderListener with 0 listeners
+[13:09:17] [Server thread/INFO]: Saving chunks for level '尓利雷特大陆'/overworld
+[13:09:17] [Client thread/INFO]: Baking listener list for PostRenderListener with 1 listeners
+[13:09:17] [Client thread/INFO]: Baking listener list for HUDRenderListener with 1 listeners
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [pool-4-thread-1 INFO] CustomSkinLoader 14.9
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [pool-4-thread-1 INFO] DataDir: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\CustomSkinLoader
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [pool-4-thread-1 INFO] Minecraft: null(测试版本)
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [pool-4-thread-1 INFO] Config File: d:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\测试版本\CustomSkinLoader\CustomSkinLoader.json
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [pool-4-thread-1 INFO] Try to load config.
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [pool-4-thread-1 INFO] Successfully load config.
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [pool-4-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [GLgele INFO] Loading GLgele's profile.
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [GLgele INFO] 1/6 Try to load profile from 'Mojang'.
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [GLgele INFO] Default profile will be used.
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [GLgele INFO] GLgele's profile loaded.
+[13:09:17] [pool-4-thread-1/INFO]: [customskinloader.Logger:log:68]: [GLgele INFO] (SkinUrl: https://mcskin.littleservice.cn/textures/399683dd1eebbecd8b42de0a838a427d3acd12d1cb6c217aadc211f10171550d , Model: default , CapeUrl: https://mcskin.littleservice.cn/textures/f27d93fe97653bf71e18c064f3e6b469391d4c74827064a08ceb5b5ae985c57e  , Expiry: 1618636187)
+[13:09:19] [Client thread/INFO]: Baking listener list for WorldObserver with 2 listeners
+[13:09:19] [Client thread/INFO]: Baking listener list for ChatListener with 0 listeners
+[13:09:19] [Client thread/INFO]: [CHAT] [自动汉化更新]：如果你对翻译感兴趣，可点击[此处]加入我们
+[13:09:19] [Client thread/INFO]: [CHAT] [自动汉化更新]：如果发现了问题，可点击[此处]进行反馈
+[13:09:19] [Client thread/INFO]: [CHAT] 感谢下载 MrCrayfish 的家具模组。
+[13:09:19] [Client thread/INFO]: [CHAT] §6-> §a浏览家具模组维基。
+[13:09:19] [Client thread/INFO]: [CHAT] §6-> §rmrcrayfishs-furniture-mod.wikia.com
+[13:09:19] [Client thread/INFO]: Loaded 523 advancements
+[13:09:20] [Client thread/INFO]: [CHAT] Damage Indicators was unable to check for updates!
+[13:09:20] [Server thread/INFO]: Baking listener list for PlayerMoveListener with 0 listeners
+[13:09:20] [Client thread/INFO]: Baking listener list for EntityRenderListener with 0 listeners
+[13:09:32] [Server thread/INFO]: Saving and pausing game...
+[13:09:32] [Server thread/INFO]: Saving chunks for level '尓利雷特大陆'/overworld
+[13:09:34] [Server thread/INFO]: Saving and pausing game...
+[13:09:35] [Server thread/INFO]: Saving chunks for level '尓利雷特大陆'/overworld
+[13:09:49] [Server thread/INFO]: Saving and pausing game...
+[13:09:49] [Server thread/INFO]: Saving chunks for level '尓利雷特大陆'/overworld
+[13:09:54] [Server thread/INFO]: Saving and pausing game...
+[13:09:54] [Server thread/INFO]: Saving chunks for level '尓利雷特大陆'/overworld
+[13:09:56] [Client thread/INFO]: Using default channel type
+[13:09:56] [Client thread/INFO]: Started on 54098
+[13:09:56] [Client thread/INFO]: [CHAT] 本地游戏已在端口54098上开启
+[13:09:58] [Client thread/INFO]: [CHAT] cfm:bin_close, cfm:bin_open, cfm:blender, cfm:boing, cfm:bounce, cfm:cabinet_close, cfm:cabinet_open, cfm:channel_cooking, cfm:channel_heman, cfm:channel_news, cfm:channel_sam_tabor, cfm:channel_switch, cfm:dishwasher, cfm:door_bell, cfm:fart_1, cfm:fart_2, cfm:fart_3, cfm:fire_alarm, cfm:flush, cfm:knife_chop, cfm:light_switch, cfm:microwave_finish, cfm:microwave_running, cfm:shower, cfm:sizzle, cfm:sliding_door_close, cfm:sliding_door_open, cfm:tap, cfm:toaster_down, cfm:toaster_up, cfm:washing_machine, cfm:white_noise, cfm:zap, minecraft:ambient.cave, minecraft:block.anvil.break, minecraft:block.anvil.destroy, minecraft:block.anvil.fall, minecraft:block.anvil.hit, minecraft:block.anvil.land, minecraft:block.anvil.place, minecraft:block.anvil.step, minecraft:block.anvil.use, minecraft:block.brewing_stand.brew, minecraft:block.chest.close, minecraft:block.chest.locked, minecraft:block.chest.open, minecraft:block.chorus_flower.death, minecraft:block.chorus_flower.grow, minecraft:block.cloth.break, minecraft:block.cloth.fall, minecraft:block.cloth.hit, minecraft:block.cloth.place, minecraft:block.cloth.step, minecraft:block.comparator.click, minecraft:block.dispenser.dispense, minecraft:block.dispenser.fail, minecraft:block.dispenser.launch, minecraft:block.enchantment_table.use, minecraft:block.end_gateway.spawn, minecraft:block.end_portal.spawn, minecraft:block.end_portal_frame.fill, minecraft:block.enderchest.close, minecraft:block.enderchest.open, minecraft:block.fence_gate.close, minecraft:block.fence_gate.open, minecraft:block.fire.ambient, minecraft:block.fire.extinguish, minecraft:block.furnace.fire_crackle, minecraft:block.glass.break, minecraft:block.glass.fall, minecraft:block.glass.hit, minecraft:block.glass.place, minecraft:block.glass.step, minecraft:block.grass.break, minecraft:block.grass.fall, minecraft:block.grass.hit, minecraft:block.grass.place, minecraft:block.grass.step, minecraft:block.gravel.break, minecraft:block.gravel.fall, minecraft:block.gravel.hit, minecraft:block.gravel.place, minecraft:block.gravel.step, minecraft:block.iron_door.close, minecraft:block.iron_door.open, minecraft:block.iron_trapdoor.close, minecraft:block.iron_trapdoor.open, minecraft:block.ladder.break, minecraft:block.ladder.fall, minecraft:block.ladder.hit, minecraft:block.ladder.place, minecraft:block.ladder.step, minecraft:block.lava.ambient, minecraft:block.lava.extinguish, minecraft:block.lava.pop, minecraft:block.lever.click, minecraft:block.metal.break, minecraft:block.metal.fall, minecraft:block.metal.hit, minecraft:block.metal.place, minecraft:block.metal.step, minecraft:block.metal_pressureplate.click_off, minecraft:block.metal_pressureplate.click_on, minecraft:block.note.basedrum, minecraft:block.note.bass, minecraft:block.note.bell, minecraft:block.note.chime, minecraft:block.note.flute, minecraft:block.note.guitar, minecraft:block.note.harp, minecraft:block.note.hat, minecraft:block.note.pling, minecraft:block.note.snare, minecraft:block.note.xylophone, minecraft:block.piston.contract, minecraft:block.piston.extend, minecraft:block.portal.ambient, minecraft:block.portal.travel, minecraft:block.portal.trigger, minecraft:block.redstone_torch.burnout, minecraft:block.sand.break, minecraft:block.sand.fall, minecraft:block.sand.hit, minecraft:block.sand.place, minecraft:block.sand.step, minecraft:block.shulker_box.close, minecraft:block.shulker_box.open, minecraft:block.slime.break, minecraft:block.slime.fall, minecraft:block.slime.hit, minecraft:block.slime.place, minecraft:block.slime.step, minecraft:block.snow.break, minecraft:block.snow.fall, minecraft:block.snow.hit, minecraft:block.snow.place, minecraft:block.snow.step, minecraft:block.stone.break, minecraft:block.stone.fall, minecraft:block.stone.hit, minecraft:block.stone.place, minecraft:block.stone.step, minecraft:block.stone_button.click_off, minecraft:block.stone_button.click_on, minecraft:block.stone_pressureplate.click_off, minecraft:block.stone_pressureplate.click_on, minecraft:block.tripwire.attach, minecraft:block.tripwire.click_off, minecraft:block.tripwire.click_on, minecraft:block.tripwire.detach, minecraft:block.water.ambient, minecraft:block.waterlily.place, minecraft:block.wood.break, minecraft:block.wood.fall, minecraft:block.wood.hit, minecraft:block.wood.place, minecraft:block.wood.step, minecraft:block.wood_button.click_off, minecraft:block.wood_button.click_on, minecraft:block.wood_pressureplate.click_off, minecraft:block.wood_pressureplate.click_on, minecraft:block.wooden_door.close, minecraft:block.wooden_door.open, minecraft:block.wooden_trapdoor.close, minecraft:block.wooden_trapdoor.open, minecraft:enchant.thorns.hit, minecraft:entity.armorstand.break, minecraft:entity.armorstand.fall, minecraft:entity.armorstand.hit, minecraft:entity.armorstand.place, minecraft:entity.arrow.hit, minecraft:entity.arrow.hit_player, minecraft:entity.arrow.shoot, minecraft:entity.bat.ambient, minecraft:entity.bat.death, minecraft:entity.bat.hurt, minecraft:entity.bat.loop, minecraft:entity.bat.takeoff, minecraft:entity.blaze.ambient, minecraft:entity.blaze.burn, minecraft:entity.blaze.death, minecraft:entity.blaze.hurt, minecraft:entity.blaze.shoot, minecraft:entity.boat.paddle_land, minecraft:entity.boat.paddle_water, minecraft:entity.bobber.retrieve, minecraft:entity.bobber.splash, minecraft:entity.bobber.throw, minecraft:entity.cat.ambient, minecraft:entity.cat.death, minecraft:entity.cat.hiss, minecraft:entity.cat.hurt, minecraft:entity.cat.purr, minecraft:entity.cat.purreow, minecraft:entity.chicken.ambient, minecraft:entity.chicken.death, minecraft:entity.chicken.egg, minecraft:entity.chicken.hurt, minecraft:entity.chicken.step, minecraft:entity.cow.ambient, minecraft:entity.cow.death, minecraft:entity.cow.hurt, minecraft:entity.cow.milk, minecraft:entity.cow.step, minecraft:entity.creeper.death, minecraft:entity.creeper.hurt, minecraft:entity.creeper.primed, minecraft:entity.donkey.ambient, minecraft:entity.donkey.angry, minecraft:entity.donkey.chest, minecraft:entity.donkey.death, minecraft:entity.donkey.hurt, minecraft:entity.egg.throw, minecraft:entity.elder_guardian.ambient, minecraft:entity.elder_guardian.ambient_land, minecraft:entity.elder_guardian.curse, minecraft:entity.elder_guardian.death, minecraft:entity.elder_guardian.death_land, minecraft:entity.elder_guardian.flop, minecraft:entity.elder_guardian.hurt, minecraft:entity.elder_guardian.hurt_land, minecraft:entity.enderdragon.ambient, minecraft:entity.enderdragon.death, minecraft:entity.enderdragon.flap, minecraft:entity.enderdragon.growl, minecraft:entity.enderdragon.hurt, minecraft:entity.enderdragon.shoot, minecraft:entity.enderdragon_fireball.explode, minecraft:entity.endereye.death, minecraft:entity.endereye.launch, minecraft:entity.endermen.ambient, minecraft:entity.endermen.death, minecraft:entity.endermen.hurt, minecraft:entity.endermen.scream, minecraft:entity.endermen.stare, minecraft:entity.endermen.teleport, minecraft:entity.endermite.ambient, minecraft:entity.endermite.death, minecraft:entity.endermite.hurt, minecraft:entity.endermite.step, minecraft:entity.enderpearl.throw, minecraft:entity.evocation_fangs.attack, minecraft:entity.evocation_illager.ambient, minecraft:entity.evocation_illager.cast_spell, minecraft:entity.evocation_illager.death, minecraft:entity.evocation_illager.hurt, minecraft:entity.evocation_illager.prepare_attack, minecraft:entity.evocation_illager.prepare_summon, minecraft:entity.evocation_illager.prepare_wololo, minecraft:entity.experience_bottle.throw, minecraft:entity.experience_orb.pickup, minecraft:entity.firework.blast, minecraft:entity.firework.blast_far, minecraft:entity.firework.large_blast, minecraft:entity.firework.large_blast_far, minecraft:entity.firework.launch, minecraft:entity.firework.shoot, minecraft:entity.firework.twinkle, minecraft:entity.firework.twinkle_far, minecraft:entity.generic.big_fall, minecraft:entity.generic.burn, minecraft:entity.generic.death, minecraft:entity.generic.drink, minecraft:entity.generic.eat, minecraft:entity.generic.explode, minecraft:entity.generic.extinguish_fire, minecraft:entity.generic.hurt, minecraft:entity.generic.small_fall, minecraft:entity.generic.splash, minecraft:entity.generic.swim, minecraft:entity.ghast.ambient, minecraft:entity.ghast.death, minecraft:entity.ghast.hurt, minecraft:entity.ghast.scream, minecraft:entity.ghast.shoot, minecraft:entity.ghast.warn, minecraft:entity.guardian.ambient, minecraft:entity.guardian.ambient_land, minecraft:entity.guardian.attack, minecraft:entity.guardian.death, minecraft:entity.guardian.death_land, minecraft:entity.guardian.flop, minecraft:entity.guardian.hurt, minecraft:entity.guardian.hurt_land, minecraft:entity.horse.ambient, minecraft:entity.horse.angry, minecraft:entity.horse.armor, minecraft:entity.horse.breathe, minecraft:entity.horse.death, minecraft:entity.horse.eat, minecraft:entity.horse.gallop, minecraft:entity.horse.hurt, minecraft:entity.horse.jump, minecraft:entity.horse.land, minecraft:entity.horse.saddle, minecraft:entity.horse.step, minecraft:entity.horse.step_wood, minecraft:entity.hostile.big_fall, minecraft:entity.hostile.death, minecraft:entity.hostile.hurt, minecraft:entity.hostile.small_fall, minecraft:entity.hostile.splash, minecraft:entity.hostile.swim, minecraft:entity.husk.ambient, minecraft:entity.husk.death, minecraft:entity.husk.hurt, minecraft:entity.husk.step, minecraft:entity.illusion_illager.ambient, minecraft:entity.illusion_illager.cast_spell, minecraft:entity.illusion_illager.death, minecraft:entity.illusion_illager.hurt, minecraft:entity.illusion_illager.mirror_move, minecraft:entity.illusion_illager.prepare_blindness, minecraft:entity.illusion_illager.prepare_mirror, minecraft:entity.irongolem.attack, minecraft:entity.irongolem.death, minecraft:entity.irongolem.hurt, minecraft:entity.irongolem.step, minecraft:entity.item.break, minecraft:entity.item.pickup, minecraft:entity.itemframe.add_item, minecraft:entity.itemframe.break, minecraft:entity.itemframe.place, minecraft:entity.itemframe.remove_item, minecraft:entity.itemframe.rotate_item, minecraft:entity.leashknot.break, minecraft:entity.leashknot.place, minecraft:entity.lightning.impact, minecraft:entity.lightning.thunder, minecraft:entity.lingeringpotion.throw, minecraft:entity.llama.ambient, minecraft:entity.llama.angry, minecraft:entity.llama.chest, minecraft:entity.llama.death, minecraft:entity.llama.eat, minecraft:entity.llama.hurt, minecraft:entity.llama.spit, minecraft:entity.llama.step, minecraft:entity.llama.swag, minecraft:entity.magmacube.death, minecraft:entity.magmacube.hurt, minecraft:entity.magmacube.jump, minecraft:entity.magmacube.squish, minecraft:entity.minecart.inside, minecraft:entity.minecart.riding, minecraft:entity.mooshroom.shear, minecraft:entity.mule.ambient, minecraft:entity.mule.chest, minecraft:entity.mule.death, minecraft:entity.mule.hurt, minecraft:entity.painting.break, minecraft:entity.painting.place, minecraft:entity.parrot.ambient, minecraft:entity.parrot.death, minecraft:entity.parrot.eat, minecraft:entity.parrot.fly, minecraft:entity.parrot.hurt, minecraft:entity.parrot.imitate.blaze, minecraft:entity.parrot.imitate.creeper, minecraft:entity.parrot.imitate.elder_guardian, minecraft:entity.parrot.imitate.enderdragon, minecraft:entity.parrot.imitate.enderman, minecraft:entity.parrot.imitate.endermite, minecraft:entity.parrot.imitate.evocation_illager, minecraft:entity.parrot.imitate.ghast, minecraft:entity.parrot.imitate.husk, minecraft:entity.parrot.imitate.illusion_illager, minecraft:entity.parrot.imitate.magmacube, minecraft:entity.parrot.imitate.polar_bear, minecraft:entity.parrot.imitate.shulker, minecraft:entity.parrot.imitate.silverfish, minecraft:entity.parrot.imitate.skeleton, minecraft:entity.parrot.imitate.slime, minecraft:entity.parrot.imitate.spider, minecraft:entity.parrot.imitate.stray, minecraft:entity.parrot.imitate.vex, minecraft:entity.parrot.imitate.vindication_illager, minecraft:entity.parrot.imitate.witch, minecraft:entity.parrot.imitate.wither, minecraft:entity.parrot.imitate.wither_skeleton, minecraft:entity.parrot.imitate.wolf, minecraft:entity.parrot.imitate.zombie, minecraft:entity.parrot.imitate.zombie_pigman, minecraft:entity.parrot.imitate.zombie_villager, minecraft:entity.parrot.step, minecraft:entity.pig.ambient, minecraft:entity.pig.death, minecraft:entity.pig.hurt, minecraft:entity.pig.saddle, minecraft:entity.pig.step, minecraft:entity.player.attack.crit, minecraft:entity.player.attack.knockback, minecraft:entity.player.attack.nodamage, minecraft:entity.player.attack.strong, minecraft:entity.player.attack.sweep, minecraft:entity.player.attack.weak, minecraft:entity.player.big_fall, minecraft:entity.player.breath, minecraft:entity.player.burp, minecraft:entity.player.death, minecraft:entity.player.hurt, minecraft:entity.player.hurt_drown, minecraft:entity.player.hurt_on_fire, minecraft:entity.player.levelup, minecraft:entity.player.small_fall, minecraft:entity.player.splash, minecraft:entity.player.swim, minecraft:entity.polar_bear.ambient, minecraft:entity.polar_bear.baby_ambient, minecraft:entity.polar_bear.death, minecraft:entity.polar_bear.hurt, minecraft:entity.polar_bear.step, minecraft:entity.polar_bear.warning, minecraft:entity.rabbit.ambient, minecraft:entity.rabbit.attack, minecraft:entity.rabbit.death, minecraft:entity.rabbit.hurt, minecraft:entity.rabbit.jump, minecraft:entity.sheep.ambient, minecraft:entity.sheep.death, minecraft:entity.sheep.hurt, minecraft:entity.sheep.shear, minecraft:entity.sheep.step, minecraft:entity.shulker.ambient, minecraft:entity.shulker.close, minecraft:entity.shulker.death, minecraft:entity.shulker.hurt, minecraft:entity.shulker.hurt_closed, minecraft:entity.shulker.open, minecraft:entity.shulker.shoot, minecraft:entity.shulker.teleport, minecraft:entity.shulker_bullet.hit, minecraft:entity.shulker_bullet.hurt, minecraft:entity.silverfish.ambient, minecraft:entity.silverfish.death, minecraft:entity.silverfish.hurt, minecraft:entity.silverfish.step, minecraft:entity.skeleton.ambient, minecraft:entity.skeleton.death, minecraft:entity.skeleton.hurt, minecraft:entity.skeleton.shoot, minecraft:entity.skeleton.step, minecraft:entity.skeleton_horse.ambient, minecraft:entity.skeleton_horse.death, minecraft:entity.skeleton_horse.hurt, minecraft:entity.slime.attack, minecraft:entity.slime.death, minecraft:entity.slime.hurt, minecraft:entity.slime.jump, minecraft:entity.slime.squish, minecraft:entity.small_magmacube.death, minecraft:entity.small_magmacube.hurt, minecraft:entity.small_magmacube.squish, minecraft:entity.small_slime.death, minecraft:entity.small_slime.hurt, minecraft:entity.small_slime.jump, minecraft:entity.small_slime.squish, minecraft:entity.snowball.throw, minecraft:entity.snowman.ambient, minecraft:entity.snowman.death, minecraft:entity.snowman.hurt, minecraft:entity.snowman.shoot, minecraft:entity.spider.ambient, minecraft:entity.spider.death, minecraft:entity.spider.hurt, minecraft:entity.spider.step, minecraft:entity.splash_potion.break, minecraft:entity.splash_potion.throw, minecraft:entity.squid.ambient, minecraft:entity.squid.death, minecraft:entity.squid.hurt, minecraft:entity.stray.ambient, minecraft:entity.stray.death, minecraft:entity.stray.hurt, minecraft:entity.stray.step, minecraft:entity.tnt.primed, minecraft:entity.vex.ambient, minecraft:entity.vex.charge, minecraft:entity.vex.death, minecraft:entity.vex.hurt, minecraft:entity.villager.ambient, minecraft:entity.villager.death, minecraft:entity.villager.hurt, minecraft:entity.villager.no, minecraft:entity.villager.trading, minecraft:entity.villager.yes, minecraft:entity.vindication_illager.ambient, minecraft:entity.vindication_illager.death, minecraft:entity.vindication_illager.hurt, minecraft:entity.witch.ambient, minecraft:entity.witch.death, minecraft:entity.witch.drink, minecraft:entity.witch.hurt, minecraft:entity.witch.throw, minecraft:entity.wither.ambient, minecraft:entity.wither.break_block, minecraft:entity.wither.death, minecraft:entity.wither.hurt, minecraft:entity.wither.shoot, minecraft:entity.wither.spawn, minecraft:entity.wither_skeleton.ambient, minecraft:entity.wither_skeleton.death, minecraft:entity.wither_skeleton.hurt, minecraft:entity.wither_skeleton.step, minecraft:entity.wolf.ambient, minecraft:entity.wolf.death, minecraft:entity.wolf.growl, minecraft:entity.wolf.howl, minecraft:entity.wolf.hurt, minecraft:entity.wolf.pant, minecraft:entity.wolf.shake, minecraft:entity.wolf.step, minecraft:entity.wolf.whine, minecraft:entity.zombie.ambient, minecraft:entity.zombie.attack_door_wood, minecraft:entity.zombie.attack_iron_door, minecraft:entity.zombie.break_door_wood, minecraft:entity.zombie.death, minecraft:entity.zombie.hurt, minecraft:entity.zombie.infect, minecraft:entity.zombie.step, minecraft:entity.zombie_horse.ambient, minecraft:entity.zombie_horse.death, minecraft:entity.zombie_horse.hurt, minecraft:entity.zombie_pig.ambient, minecraft:entity.zombie_pig.angry, minecraft:entity.zombie_pig.death, minecraft:entity.zombie_pig.hurt, minecraft:entity.zombie_villager.ambient, minecraft:entity.zombie_villager.converted, minecraft:entity.zombie_villager.cure, minecraft:entity.zombie_villager.death, minecraft:entity.zombie_villager.hurt, minecraft:entity.zombie_villager.step, minecraft:item.armor.equip_chain, minecraft:item.armor.equip_diamond, minecraft:item.armor.equip_elytra, minecraft:item.armor.equip_generic, minecraft:item.armor.equip_gold, minecraft:item.armor.equip_iron, minecraft:item.armor.equip_leather, minecraft:item.bottle.empty, minecraft:item.bottle.fill, minecraft:item.bottle.fill_dragonbreath, minecraft:item.bucket.empty, minecraft:item.bucket.empty_lava, minecraft:item.bucket.fill, minecraft:item.bucket.fill_lava, minecraft:item.chorus_fruit.teleport, minecraft:item.elytra.flying, minecraft:item.firecharge.use, minecraft:item.flintandsteel.use, minecraft:item.hoe.till, minecraft:item.shield.block, minecraft:item.shield.break, minecraft:item.shovel.flatten, minecraft:item.totem.use, minecraft:music.creative, minecraft:music.credits, minecraft:music.dragon, minecraft:music.end, minecraft:music.game, minecraft:music.menu, minecraft:music.nether, minecraft:record.11, minecraft:record.13, minecraft:record.blocks, minecraft:record.cat, minecraft:record.chirp, minecraft:record.far, minecraft:record.mall, minecraft:record.mellohi, minecraft:record.stal, minecraft:record.strad, minecraft:record.wait, minecraft:record.ward, minecraft:ui.button.click, minecraft:ui.toast.challenge_complete, minecraft:ui.toast.in, minecraft:ui.toast.out, minecraft:weather.rain, minecraft:weather.rain.above, props:deco_baconsizzle, props:deco_firealarm, props:deco_heartmon, props:deco_iseethelight, variedcommodities:gun.ak47.load, variedcommodities:gun.empty, variedcommodities:gun.pistol.shot, variedcommodities:gun.pistol.trigger, variedcommodities:magic.charge, variedcommodities:magic.shot, variedcommodities:misc.swosh
+[13:10:01] [Client thread/INFO]: [CHAT] minecraft:enchant.thorns.hit, minecraft:entity.armorstand.break, minecraft:entity.armorstand.fall, minecraft:entity.armorstand.hit, minecraft:entity.armorstand.place, minecraft:entity.arrow.hit, minecraft:entity.arrow.hit_player, minecraft:entity.arrow.shoot, minecraft:entity.bat.ambient, minecraft:entity.bat.death, minecraft:entity.bat.hurt, minecraft:entity.bat.loop, minecraft:entity.bat.takeoff, minecraft:entity.blaze.ambient, minecraft:entity.blaze.burn, minecraft:entity.blaze.death, minecraft:entity.blaze.hurt, minecraft:entity.blaze.shoot, minecraft:entity.boat.paddle_land, minecraft:entity.boat.paddle_water, minecraft:entity.bobber.retrieve, minecraft:entity.bobber.splash, minecraft:entity.bobber.throw, minecraft:entity.cat.ambient, minecraft:entity.cat.death, minecraft:entity.cat.hiss, minecraft:entity.cat.hurt, minecraft:entity.cat.purr, minecraft:entity.cat.purreow, minecraft:entity.chicken.ambient, minecraft:entity.chicken.death, minecraft:entity.chicken.egg, minecraft:entity.chicken.hurt, minecraft:entity.chicken.step, minecraft:entity.cow.ambient, minecraft:entity.cow.death, minecraft:entity.cow.hurt, minecraft:entity.cow.milk, minecraft:entity.cow.step, minecraft:entity.creeper.death, minecraft:entity.creeper.hurt, minecraft:entity.creeper.primed, minecraft:entity.donkey.ambient, minecraft:entity.donkey.angry, minecraft:entity.donkey.chest, minecraft:entity.donkey.death, minecraft:entity.donkey.hurt, minecraft:entity.egg.throw, minecraft:entity.elder_guardian.ambient, minecraft:entity.elder_guardian.ambient_land, minecraft:entity.elder_guardian.curse, minecraft:entity.elder_guardian.death, minecraft:entity.elder_guardian.death_land, minecraft:entity.elder_guardian.flop, minecraft:entity.elder_guardian.hurt, minecraft:entity.elder_guardian.hurt_land, minecraft:entity.enderdragon.ambient, minecraft:entity.enderdragon.death, minecraft:entity.enderdragon.flap, minecraft:entity.enderdragon.growl, minecraft:entity.enderdragon.hurt, minecraft:entity.enderdragon.shoot, minecraft:entity.enderdragon_fireball.explode, minecraft:entity.endereye.death, minecraft:entity.endereye.launch, minecraft:entity.endermen.ambient, minecraft:entity.endermen.death, minecraft:entity.endermen.hurt, minecraft:entity.endermen.scream, minecraft:entity.endermen.stare, minecraft:entity.endermen.teleport, minecraft:entity.endermite.ambient, minecraft:entity.endermite.death, minecraft:entity.endermite.hurt, minecraft:entity.endermite.step, minecraft:entity.enderpearl.throw, minecraft:entity.evocation_fangs.attack, minecraft:entity.evocation_illager.ambient, minecraft:entity.evocation_illager.cast_spell, minecraft:entity.evocation_illager.death, minecraft:entity.evocation_illager.hurt, minecraft:entity.evocation_illager.prepare_attack, minecraft:entity.evocation_illager.prepare_summon, minecraft:entity.evocation_illager.prepare_wololo, minecraft:entity.experience_bottle.throw, minecraft:entity.experience_orb.pickup, minecraft:entity.firework.blast, minecraft:entity.firework.blast_far, minecraft:entity.firework.large_blast, minecraft:entity.firework.large_blast_far, minecraft:entity.firework.launch, minecraft:entity.firework.shoot, minecraft:entity.firework.twinkle, minecraft:entity.firework.twinkle_far, minecraft:entity.generic.big_fall, minecraft:entity.generic.burn, minecraft:entity.generic.death, minecraft:entity.generic.drink, minecraft:entity.generic.eat, minecraft:entity.generic.explode, minecraft:entity.generic.extinguish_fire, minecraft:entity.generic.hurt, minecraft:entity.generic.small_fall, minecraft:entity.generic.splash, minecraft:entity.generic.swim, minecraft:entity.ghast.ambient, minecraft:entity.ghast.death, minecraft:entity.ghast.hurt, minecraft:entity.ghast.scream, minecraft:entity.ghast.shoot, minecraft:entity.ghast.warn, minecraft:entity.guardian.ambient, minecraft:entity.guardian.ambient_land, minecraft:entity.guardian.attack, minecraft:entity.guardian.death, minecraft:entity.guardian.death_land, minecraft:entity.guardian.flop, minecraft:entity.guardian.hurt, minecraft:entity.guardian.hurt_land, minecraft:entity.horse.ambient, minecraft:entity.horse.angry, minecraft:entity.horse.armor, minecraft:entity.horse.breathe, minecraft:entity.horse.death, minecraft:entity.horse.eat, minecraft:entity.horse.gallop, minecraft:entity.horse.hurt, minecraft:entity.horse.jump, minecraft:entity.horse.land, minecraft:entity.horse.saddle, minecraft:entity.horse.step, minecraft:entity.horse.step_wood, minecraft:entity.hostile.big_fall, minecraft:entity.hostile.death, minecraft:entity.hostile.hurt, minecraft:entity.hostile.small_fall, minecraft:entity.hostile.splash, minecraft:entity.hostile.swim, minecraft:entity.husk.ambient, minecraft:entity.husk.death, minecraft:entity.husk.hurt, minecraft:entity.husk.step, minecraft:entity.illusion_illager.ambient, minecraft:entity.illusion_illager.cast_spell, minecraft:entity.illusion_illager.death, minecraft:entity.illusion_illager.hurt, minecraft:entity.illusion_illager.mirror_move, minecraft:entity.illusion_illager.prepare_blindness, minecraft:entity.illusion_illager.prepare_mirror, minecraft:entity.irongolem.attack, minecraft:entity.irongolem.death, minecraft:entity.irongolem.hurt, minecraft:entity.irongolem.step, minecraft:entity.item.break, minecraft:entity.item.pickup, minecraft:entity.itemframe.add_item, minecraft:entity.itemframe.break, minecraft:entity.itemframe.place, minecraft:entity.itemframe.remove_item, minecraft:entity.itemframe.rotate_item, minecraft:entity.leashknot.break, minecraft:entity.leashknot.place, minecraft:entity.lightning.impact, minecraft:entity.lightning.thunder, minecraft:entity.lingeringpotion.throw, minecraft:entity.llama.ambient, minecraft:entity.llama.angry, minecraft:entity.llama.chest, minecraft:entity.llama.death, minecraft:entity.llama.eat, minecraft:entity.llama.hurt, minecraft:entity.llama.spit, minecraft:entity.llama.step, minecraft:entity.llama.swag, minecraft:entity.magmacube.death, minecraft:entity.magmacube.hurt, minecraft:entity.magmacube.jump, minecraft:entity.magmacube.squish, minecraft:entity.minecart.inside, minecraft:entity.minecart.riding, minecraft:entity.mooshroom.shear, minecraft:entity.mule.ambient, minecraft:entity.mule.chest, minecraft:entity.mule.death, minecraft:entity.mule.hurt, minecraft:entity.painting.break, minecraft:entity.painting.place, minecraft:entity.parrot.ambient, minecraft:entity.parrot.death, minecraft:entity.parrot.eat, minecraft:entity.parrot.fly, minecraft:entity.parrot.hurt, minecraft:entity.parrot.imitate.blaze, minecraft:entity.parrot.imitate.creeper, minecraft:entity.parrot.imitate.elder_guardian, minecraft:entity.parrot.imitate.enderdragon, minecraft:entity.parrot.imitate.enderman, minecraft:entity.parrot.imitate.endermite, minecraft:entity.parrot.imitate.evocation_illager, minecraft:entity.parrot.imitate.ghast, minecraft:entity.parrot.imitate.husk, minecraft:entity.parrot.imitate.illusion_illager, minecraft:entity.parrot.imitate.magmacube, minecraft:entity.parrot.imitate.polar_bear, minecraft:entity.parrot.imitate.shulker, minecraft:entity.parrot.imitate.silverfish, minecraft:entity.parrot.imitate.skeleton, minecraft:entity.parrot.imitate.slime, minecraft:entity.parrot.imitate.spider, minecraft:entity.parrot.imitate.stray, minecraft:entity.parrot.imitate.vex, minecraft:entity.parrot.imitate.vindication_illager, minecraft:entity.parrot.imitate.witch, minecraft:entity.parrot.imitate.wither, minecraft:entity.parrot.imitate.wither_skeleton, minecraft:entity.parrot.imitate.wolf, minecraft:entity.parrot.imitate.zombie, minecraft:entity.parrot.imitate.zombie_pigman, minecraft:entity.parrot.imitate.zombie_villager, minecraft:entity.parrot.step, minecraft:entity.pig.ambient, minecraft:entity.pig.death, minecraft:entity.pig.hurt, minecraft:entity.pig.saddle, minecraft:entity.pig.step, minecraft:entity.player.attack.crit, minecraft:entity.player.attack.knockback, minecraft:entity.player.attack.nodamage, minecraft:entity.player.attack.strong, minecraft:entity.player.attack.sweep, minecraft:entity.player.attack.weak, minecraft:entity.player.big_fall, minecraft:entity.player.breath, minecraft:entity.player.burp, minecraft:entity.player.death, minecraft:entity.player.hurt, minecraft:entity.player.hurt_drown, minecraft:entity.player.hurt_on_fire, minecraft:entity.player.levelup, minecraft:entity.player.small_fall, minecraft:entity.player.splash, minecraft:entity.player.swim, minecraft:entity.polar_bear.ambient, minecraft:entity.polar_bear.baby_ambient, minecraft:entity.polar_bear.death, minecraft:entity.polar_bear.hurt, minecraft:entity.polar_bear.step, minecraft:entity.polar_bear.warning, minecraft:entity.rabbit.ambient, minecraft:entity.rabbit.attack, minecraft:entity.rabbit.death, minecraft:entity.rabbit.hurt, minecraft:entity.rabbit.jump, minecraft:entity.sheep.ambient, minecraft:entity.sheep.death, minecraft:entity.sheep.hurt, minecraft:entity.sheep.shear, minecraft:entity.sheep.step, minecraft:entity.shulker.ambient, minecraft:entity.shulker.close, minecraft:entity.shulker.death, minecraft:entity.shulker.hurt, minecraft:entity.shulker.hurt_closed, minecraft:entity.shulker.open, minecraft:entity.shulker.shoot, minecraft:entity.shulker.teleport, minecraft:entity.shulker_bullet.hit, minecraft:entity.shulker_bullet.hurt, minecraft:entity.silverfish.ambient, minecraft:entity.silverfish.death, minecraft:entity.silverfish.hurt, minecraft:entity.silverfish.step, minecraft:entity.skeleton.ambient, minecraft:entity.skeleton.death, minecraft:entity.skeleton.hurt, minecraft:entity.skeleton.shoot, minecraft:entity.skeleton.step, minecraft:entity.skeleton_horse.ambient, minecraft:entity.skeleton_horse.death, minecraft:entity.skeleton_horse.hurt, minecraft:entity.slime.attack, minecraft:entity.slime.death, minecraft:entity.slime.hurt, minecraft:entity.slime.jump, minecraft:entity.slime.squish, minecraft:entity.small_magmacube.death, minecraft:entity.small_magmacube.hurt, minecraft:entity.small_magmacube.squish, minecraft:entity.small_slime.death, minecraft:entity.small_slime.hurt, minecraft:entity.small_slime.jump, minecraft:entity.small_slime.squish, minecraft:entity.snowball.throw, minecraft:entity.snowman.ambient, minecraft:entity.snowman.death, minecraft:entity.snowman.hurt, minecraft:entity.snowman.shoot, minecraft:entity.spider.ambient, minecraft:entity.spider.death, minecraft:entity.spider.hurt, minecraft:entity.spider.step, minecraft:entity.splash_potion.break, minecraft:entity.splash_potion.throw, minecraft:entity.squid.ambient, minecraft:entity.squid.death, minecraft:entity.squid.hurt, minecraft:entity.stray.ambient, minecraft:entity.stray.death, minecraft:entity.stray.hurt, minecraft:entity.stray.step, minecraft:entity.tnt.primed, minecraft:entity.vex.ambient, minecraft:entity.vex.charge, minecraft:entity.vex.death, minecraft:entity.vex.hurt, minecraft:entity.villager.ambient, minecraft:entity.villager.death, minecraft:entity.villager.hurt, minecraft:entity.villager.no, minecraft:entity.villager.trading, minecraft:entity.villager.yes, minecraft:entity.vindication_illager.ambient, minecraft:entity.vindication_illager.death, minecraft:entity.vindication_illager.hurt, minecraft:entity.witch.ambient, minecraft:entity.witch.death, minecraft:entity.witch.drink, minecraft:entity.witch.hurt, minecraft:entity.witch.throw, minecraft:entity.wither.ambient, minecraft:entity.wither.break_block, minecraft:entity.wither.death, minecraft:entity.wither.hurt, minecraft:entity.wither.shoot, minecraft:entity.wither.spawn, minecraft:entity.wither_skeleton.ambient, minecraft:entity.wither_skeleton.death, minecraft:entity.wither_skeleton.hurt, minecraft:entity.wither_skeleton.step, minecraft:entity.wolf.ambient, minecraft:entity.wolf.death, minecraft:entity.wolf.growl, minecraft:entity.wolf.howl, minecraft:entity.wolf.hurt, minecraft:entity.wolf.pant, minecraft:entity.wolf.shake, minecraft:entity.wolf.step, minecraft:entity.wolf.whine, minecraft:entity.zombie.ambient, minecraft:entity.zombie.attack_door_wood, minecraft:entity.zombie.attack_iron_door, minecraft:entity.zombie.break_door_wood, minecraft:entity.zombie.death, minecraft:entity.zombie.hurt, minecraft:entity.zombie.infect, minecraft:entity.zombie.step, minecraft:entity.zombie_horse.ambient, minecraft:entity.zombie_horse.death, minecraft:entity.zombie_horse.hurt, minecraft:entity.zombie_pig.ambient, minecraft:entity.zombie_pig.angry, minecraft:entity.zombie_pig.death, minecraft:entity.zombie_pig.hurt, minecraft:entity.zombie_villager.ambient, minecraft:entity.zombie_villager.converted, minecraft:entity.zombie_villager.cure, minecraft:entity.zombie_villager.death, minecraft:entity.zombie_villager.hurt, minecraft:entity.zombie_villager.step
+[13:10:04] [Client thread/INFO]: Baking listener list for PlayerClickListener with 0 listeners
+[13:10:04] [Server thread/INFO]: Baking listener list for PlayerInteractionListener with 0 listeners
+[13:10:28] [Client thread/INFO]: Baking listener list for OutboundChatFilter with 1 listeners
+[13:10:28] [Server thread/INFO]: Baking listener list for ServerChatFilter with 0 listeners
+[13:10:28] [Client thread/INFO]: [CHAT] 用法：/stopsound <玩家> [声音来源] [声音]
+[13:10:31] [Server thread/INFO]: [GLgele: 为GLgele停止所有声音]
+[13:10:31] [Client thread/INFO]: [CHAT] 为GLgele停止所有声音
+[13:11:01] [Server thread/INFO]: GLgele lost connection: 连接中止
+[13:11:01] [Server thread/INFO]: GLgele退出了游戏
+[13:11:01] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[13:11:01] [Server thread/INFO]: Stopping server
+[13:11:01] [Server thread/INFO]: Saving players
+[13:11:01] [Server thread/INFO]: Saving worlds
+[13:11:01] [Server thread/INFO]: Saving chunks for level '尓利雷特大陆'/overworld
+[13:11:01] [Server thread/INFO]: Unloading dimension 0
+[13:11:02] [Server thread/INFO]: Applying holder lookups
+[13:11:02] [Server thread/INFO]: Holder lookups applied
+[13:11:09] [Client thread/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[13:11:09] [Client thread/INFO]: Baking listener list for ShutdownObserver with 3 listeners
+[13:11:09] [Client thread/INFO]: Stopping!
+[13:11:09] [Client thread/INFO]: SoundSystem shutting down...
+[13:11:09] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
