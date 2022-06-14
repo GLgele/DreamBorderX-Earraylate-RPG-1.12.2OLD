@@ -127,14 +127,9 @@
     "TransformHasInv": 0b,
     "NpcInteractLines": {
         "Lines": [
-            {
-                "Line": "Hello @p",
-                "Song": "",
-                "Slot": 0
-            }
         ]
     },
-    "HurtByTimestamp": 3541,
+    "HurtByTimestamp": 971,
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:entity.player.hurt",
     "pTrail": 0,
@@ -275,6 +270,42 @@
     "ScriptEnabled": 0b,
     "Role": 0,
     "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
     ],
     "FactionPoints": {
         "DecreaseFaction1Points": 0b,
@@ -331,9 +362,9 @@
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 2,
     "Title": "",
-    "TotalTicksAlive": 1759L,
+    "TotalTicksAlive": 3055L,
     "Rotation": [
-        0.91470337f,
+        354.51196f,
         0.0f
     ],
     "ShowName": 1,
