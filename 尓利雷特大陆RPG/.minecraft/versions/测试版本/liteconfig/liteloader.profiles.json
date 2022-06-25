@@ -150,6 +150,7 @@
       "netty-all-4.1.9.final": true,
       "oshi-core-1.1": true,
       "patchy-1.1": true,
+      "patchy-1.3.9": true,
       "platform-3.4.0": true,
       "realms-1.10.22": true,
       "scala-actors-migration_2.11-1.1.0": true,
