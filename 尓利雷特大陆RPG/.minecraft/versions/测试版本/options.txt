@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:1
 renderClouds:true
-resourcePacks:["Earraylate.zip","ChromaHills-128x-1.12.zip","Minecraft-Mod-Language-Modpack.zip"]
+resourcePacks:["Earraylate.zip","ChromaHills-128x-1.12","§3方正字体.zip","Minecraft-Mod-Language-Modpack.zip"]
 incompatibleResourcePacks:[]
 lastServer:glgele.e1.luyouxia.net:31904
 lang:zh_cn
