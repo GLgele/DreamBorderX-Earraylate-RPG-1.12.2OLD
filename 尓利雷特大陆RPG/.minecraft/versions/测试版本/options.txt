@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:1
 renderClouds:true
-resourcePacks:["Earraylate.zip","ChromaHills-128x-1.12.zip","Minecraft-Mod-Language-Modpack.zip"]
+resourcePacks:["§3方正字体.zip","Minecraft-Mod-Language-Modpack.zip"]
 incompatibleResourcePacks:[]
 lastServer:glgele.e1.luyouxia.net:31904
 lang:zh_cn
@@ -93,6 +93,7 @@ key_Scene2 start/pause:80
 key_Scene3 start/pause:81
 key_Scene reset:82
 key_Quest Log:38
+key_smoothfont.key.guiOpen:199
 key_WorldEdit Reference:211
 key_key.minimap.voxelmapmenu:50
 key_key.minimap.waypointmenu:41
@@ -101,6 +102,7 @@ key_key.minimap.togglefullscreen:45
 key_key.minimap.waypointhotkey:49
 key_key.minimap.togglemobs:0
 key_key.minimap.toggleingamewaypoints:0
+key_key.portaitreposition:52
 soundCategory_master:0.5066225
 soundCategory_music:1.0
 soundCategory_record:1.0
