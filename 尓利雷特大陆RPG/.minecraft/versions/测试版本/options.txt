@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:1
-renderClouds:true
+renderClouds:false
 resourcePacks:["Earraylate.zip","ChromaHills-128x-1.12","§3方正字体.zip","Minecraft-Mod-Language-Modpack.zip"]
 incompatibleResourcePacks:[]
 lastServer:glgele.e1.luyouxia.net:31904
@@ -93,6 +93,20 @@ key_Scene2 start/pause:80
 key_Scene3 start/pause:81
 key_Scene reset:82
 key_Quest Log:38
+key_key.ebwizardry.next_spell:49
+key_key.ebwizardry.previous_spell:48
+key_key.ebwizardry.spell_1:2:ALT
+key_key.ebwizardry.spell_2:3:ALT
+key_key.ebwizardry.spell_3:4:ALT
+key_key.ebwizardry.spell_4:5:ALT
+key_key.ebwizardry.spell_5:6:ALT
+key_key.ebwizardry.spell_6:7:ALT
+key_key.ebwizardry.spell_7:8:ALT
+key_key.ebwizardry.spell_8:9:ALT
+key_smoothfont.key.guiOpen:199
+key_key.infinity.desc:19
+key_key.infinitycopy.desc:75
+key_key.infinitysave.desc:76
 key_WorldEdit Reference:211
 key_key.minimap.voxelmapmenu:50
 key_key.minimap.waypointmenu:41

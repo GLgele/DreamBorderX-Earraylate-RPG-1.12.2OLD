@@ -1,0 +1,157 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  BringMeTheRings plugin (核心MOD-BringMeTheRings-0.4.jar)
+  ForgePlugin (可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar)
+  CorePlugin (优化MOD-平滑字体-SmoothFont-mc1.12.2-2.1.3.jar)
+  LoadingPlugin (可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Daisy, daisy...
+
+Time: 6/25/22 10:29 PM
+Description: Updating screen events
+
+java.lang.NullPointerException: Updating screen events
+	at ruukas.infinityeditor.tab.InfinityTabFireworks.func_78018_a(InfinityTabFireworks.java:59)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_147050_b(GuiContainerCreative.java:500)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_146286_b(GuiContainerCreative.java:443)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:543)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_146274_d(GuiContainerCreative.java:590)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1759)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at ruukas.infinityeditor.tab.InfinityTabFireworks.func_78018_a(InfinityTabFireworks.java:59)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_147050_b(GuiContainerCreative.java:500)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_146286_b(GuiContainerCreative.java:443)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:543)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_146274_d(GuiContainerCreative.java:590)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.inventory.GuiContainerCreative
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['GLgele'/96, l='MpServer', x=719.00, y=69.53, z=241.49]]
+	Chunk stats: MultiplayerChunkCache: 289, 289
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (250,151,502), Chunk: (at 10,9,6 in 15,31; contains blocks 240,0,496 to 255,255,511), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 9591474 game time, 24218 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 42 total; [EntityDonkey['驴'/128, l='MpServer', x=660.84, y=67.00, z=236.03], EntityDonkey['驴'/132, l='MpServer', x=698.17, y=70.00, z=293.81], EntityDonkey['驴'/1669, l='MpServer', x=734.97, y=67.00, z=166.12], EntityPig['猪'/1670, l='MpServer', x=721.47, y=74.00, z=202.73], EntityCow['牛'/1671, l='MpServer', x=731.79, y=71.00, z=203.42], EntityPig['猪'/1672, l='MpServer', x=734.26, y=68.00, z=194.55], EntityPig['猪'/1673, l='MpServer', x=734.80, y=68.00, z=183.37], EntityPig['猪'/1674, l='MpServer', x=720.16, y=75.00, z=191.50], EntityCustomNpc['音乐'/1678, l='MpServer', x=727.50, y=64.00, z=244.50], EntityCustomNpc['罗格'/1679, l='MpServer', x=724.50, y=64.00, z=244.50], EntityCustomNpc['渔夫'/1680, l='MpServer', x=729.50, y=64.00, z=244.50], EntityCow['牛'/1681, l='MpServer', x=748.15, y=66.00, z=289.63], EntityPig['猪'/1682, l='MpServer', x=747.27, y=67.00, z=303.21], EntityCow['牛'/1684, l='MpServer', x=736.58, y=68.00, z=180.84], EntityCow['牛'/154, l='MpServer', x=716.23, y=74.00, z=203.52], EntityCow['牛'/156, l='MpServer', x=719.60, y=74.00, z=196.80], EntityDonkey['驴'/163, l='MpServer', x=718.97, y=70.00, z=302.94], EntitySheep['羊'/1707, l='MpServer', x=755.55, y=66.00, z=284.20], EntityPig['猪'/1708, l='MpServer', x=753.20, y=66.00, z=282.77], EntityPig['猪'/1709, l='MpServer', x=756.51, y=65.00, z=270.78], EntityCow['牛'/1715, l='MpServer', x=661.48, y=72.00, z=306.18], EntityPig['猪'/1728, l='MpServer', x=783.50, y=64.00, z=290.76], EntityPig['猪'/1729, l='MpServer', x=774.03, y=66.00, z=311.50], EntityCow['牛'/1730, l='MpServer', x=783.20, y=66.00, z=251.50], EntitySheep['羊'/1731, l='MpServer', x=775.52, y=63.00, z=277.77], EntitySheep['羊'/1732, l='MpServer', x=767.67, y=64.00, z=278.21], EntityPlayerSP['GLgele'/96, l='MpServer', x=719.00, y=69.53, z=241.49], EntityDonkey['驴'/1735, l='MpServer', x=770.14, y=72.00, z=186.97], EntityPig['猪'/712, l='MpServer', x=640.27, y=71.00, z=205.78], EntityDonkey['驴'/1736, l='MpServer', x=769.01, y=72.00, z=181.16], EntityPig['猪'/1752, l='MpServer', x=790.86, y=69.00, z=317.09], EntityCow['牛'/1754, l='MpServer', x=794.18, y=66.00, z=276.50], EntityCow['牛'/1755, l='MpServer', x=792.03, y=66.00, z=266.65], EntitySheep['羊'/1756, l='MpServer', x=784.50, y=63.00, z=267.26], EntityCow['牛'/100, l='MpServer', x=659.21, y=72.00, z=194.43], EntityDonkey['驴'/101, l='MpServer', x=660.97, y=72.00, z=195.13], EntityCow['牛'/102, l='MpServer', x=661.50, y=73.00, z=205.82], EntityDonkey['驴'/108, l='MpServer', x=668.17, y=70.00, z=209.85], EntityDonkey['驴'/109, l='MpServer', x=686.16, y=72.00, z=198.13], EntityCow['牛'/112, l='MpServer', x=639.80, y=72.00, z=182.86], EntityPig['猪'/116, l='MpServer', x=652.53, y=70.00, z=220.04], EntityPig['猪'/120, l='MpServer', x=676.67, y=71.00, z=162.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:532)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:419)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_311, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1847023960 bytes (1761 MB) / 4294967296 bytes (4096 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4096m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 Optifine OptiFine_1.12.2_HD_U_F5 24 mods loaded, 24 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                  | Version         | Source                                                      | Signature |
+	|:------ |:------------------- |:--------------- |:----------------------------------------------------------- |:--------- |
+	| LCHIJA | minecraft           | 1.12.2          | minecraft.jar                                               | None      |
+	| LCHIJA | mcp                 | 9.42            | minecraft.jar                                               | None      |
+	| LCHIJA | FML                 | 8.0.99.99       | forge-1.12.2-14.23.5.2847.jar                               | None      |
+	| LCHIJA | forge               | 14.23.5.2847    | forge-1.12.2-14.23.5.2847.jar                               | None      |
+	| LCHIJA | smoothfontcore      | mc1.12.2-2.1.3  | minecraft.jar                                               | None      |
+	| LCHIJA | smoothfont          | mc1.12.2-2.1.3  | 优化MOD-平滑字体-SmoothFont-mc1.12.2-2.1.3.jar                    | None      |
+	| LCHIJA | earraylate          | 1.0             | Earraylate-1.0.jar                                          | None      |
+	| LCHIJA | infinityeditor      | 0.15            | 作者MOD-infinityeditor-0.15.jar                               | None      |
+	| LCHIJA | worldedit           | 6.1.10-SNAPSHOT | 作者MOD-创世神-worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar | None      |
+	| LCHIJA | autoreglib          | 1.3-31          | 前置MOD-AutoRegLib-1.3-31.jar                                 | None      |
+	| LCHIJA | ptrmodellib         | 1.0.4           | 前置MOD-PTRLib-1.0.4.jar                                      | None      |
+	| LCHIJA | rpghud              | 3.6.6.2         | 可选MOD-RPGHUD-[1.12]+RPG-HUD-3.6.6.2.jar                     | None      |
+	| LCHIJA | chunkanimator       | 1.2             | 可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar                   | None      |
+	| LCHIJA | customskinloader    | 14.9            | 可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar                    | None      |
+	| LCHIJA | damageindicatorsmod | 1.0             | 可选MOD-血条&伤害显示-[1.12.2]DamageIndicatorsMod-3.5.1.jar         | None      |
+	| LCHIJA | baubles             | 1.5.2           | 核心MOD-饰品栏-Baubles-1.12-1.5.2.jar                            | None      |
+	| LCHIJA | bmtr                | 0.4             | 核心MOD-BringMeTheRings-0.4.jar                               | None      |
+	| LCHIJA | cfm                 | 6.3.1           | 核心MOD-家具-furniture-6.3.1-1.12.2.jar                         | None      |
+	| LCHIJA | props               | 2.6.3           | 核心MOD-更多装饰-Decocraft-2.6.3_1.12.2.jar                       | None      |
+	| LCHIJA | baublelicious       | 1.4.0-4         | 核心MOD-美妙指环-Baublelicious-1.4.0-4.jar                        | None      |
+	| LCHIJA | customnpcs          | 1.12            | 核心MOD-自定义NPC-CustomNPCs_1.12.2-(01Oct19).jar                | None      |
+	| LCHIJA | variedcommodities   | 1.12.2          | 核心MOD-自定义NPC附属-VariedCommodities_1.12.2(21nov19).jar        | None      |
+	| LCHIJA | potionfingers       | r1.0-8          | 核心MOD-药水指环-PotionFingers-r1.0-8.jar                         | None      |
+	| LCHIJA | i18nmod             | 1.12.2-1.1.0    | 补丁-中文补丁-i18nupdatemod-1.12.2-1.1.0.jar                      | None      |
+
+	Loaded coremods (and transformers): 
+BringMeTheRings plugin (核心MOD-BringMeTheRings-0.4.jar)
+  zabi.minecraft.bmtr.core.BaublesTransformer
+ForgePlugin (可选MOD-皮肤-CustomSkinLoader_Forge-14.9.jar)
+  customskinloader.forge.TransformerManager
+CorePlugin (优化MOD-平滑字体-SmoothFont-mc1.12.2-2.1.3.jar)
+  bre.smoothfont.asm.Transformer
+LoadingPlugin (可选MOD-区块加载动画-ChunkAnimator-MC1.12-1.2.jar)
+  lumien.chunkanimator.asm.ClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 431.65' Renderer: 'GeForce GTX 1650/PCIe/SSE2'
+	Launched Version: HMCL 3.3.188
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 431.65, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge,LiteLoader'
+	Type: Client (map_client.txt)
+	Resource Packs: Earraylate.zip, ChromaHills-128x-1.12, §3方正字体.zip, Minecraft-Mod-Language-Modpack.zip
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_F5
+	OptiFine Build: 20191204-141934
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: 只限水反.zip
+	OpenGlVersion: 4.6.0 NVIDIA 431.65
+	OpenGlRenderer: GeForce GTX 1650/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 8

@@ -1,5 +1,5 @@
-#Tue Jun 14 16:17:06 CST 2022
-shaderPack=只限水反.zip
+#Sat Jun 25 22:37:19 CST 2022
+shaderPack=(internal)
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
