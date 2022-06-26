@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2022-06-26 14:19:21 +0800"
+    },
+    "done": true
+  },
   "earraylate:first_died": {
     "criteria": {
       "tick": "2022-06-14 17:12:48 +0800"

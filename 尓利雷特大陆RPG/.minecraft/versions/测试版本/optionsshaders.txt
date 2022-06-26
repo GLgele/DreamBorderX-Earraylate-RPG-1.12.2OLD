@@ -1,5 +1,5 @@
-#Sat Jun 25 22:37:19 CST 2022
-shaderPack=(internal)
+#Sun Jun 26 14:24:00 CST 2022
+shaderPack=OFF
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
