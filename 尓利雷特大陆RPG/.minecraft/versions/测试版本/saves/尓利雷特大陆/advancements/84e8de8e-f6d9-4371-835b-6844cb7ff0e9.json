@@ -5,6 +5,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-06-25 22:28:23 +0800"
@@ -29,9 +41,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "witch": "2022-06-25 22:28:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
     },
     "done": true
   },
@@ -59,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2022-06-25 22:19:03 +0800"
@@ -77,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2022-06-26 14:19:21 +0800"
@@ -92,7 +128,15 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2022-06-14 17:14:04 +0800",
+      "birch_forest": "2022-07-02 19:27:22 +0800",
+      "deep_ocean": "2022-07-02 19:25:48 +0800",
+      "beaches": "2022-07-02 19:25:40 +0800",
       "plains": "2022-06-14 17:12:49 +0800",
+      "redwood_taiga": "2022-07-02 19:25:36 +0800",
+      "taiga": "2022-07-02 19:25:39 +0800",
+      "taiga_hills": "2022-07-02 19:26:39 +0800",
+      "birch_forest_hills": "2022-07-02 19:27:14 +0800",
+      "ocean": "2022-07-02 19:25:42 +0800",
       "extreme_hills": "2022-06-14 17:15:18 +0800",
       "river": "2022-06-14 17:33:12 +0800"
     },
@@ -107,6 +151,12 @@
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2022-06-14 22:08:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
     },
     "done": true
   },
@@ -152,6 +202,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2022-06-25 22:19:03 +0800"
@@ -185,6 +241,12 @@
   "cfm:install": {
     "criteria": {
       "tick": "2022-06-14 17:12:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
     },
     "done": true
   },
@@ -254,6 +316,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2022-07-02 19:23:21 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sign": {
     "criteria": {
       "has_planks": "2022-06-14 22:08:11 +0800"
@@ -290,6 +358,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:end/dragon_egg": {
     "criteria": {
       "dragon_egg": "2022-06-25 22:27:30 +0800"
@@ -299,6 +373,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2022-06-14 17:33:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
     },
     "done": true
   },
@@ -323,6 +403,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "entered_water": "2022-06-14 22:16:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
     },
     "done": true
   },
@@ -386,6 +472,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2022-07-02 19:52:11 +0800"
+    },
+    "done": true
+  },
   "earraylate:chapter0_finish": {
     "criteria": {
       "tick": "2022-06-14 17:33:12 +0800"
@@ -422,6 +520,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2022-06-25 22:19:03 +0800"
@@ -434,9 +544,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
+    },
+    "done": true
+  },
   "earraylate:tenth_died": {
     "criteria": {
       "tick": "2022-06-14 17:12:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_sand": "2022-07-02 19:38:14 +0800"
     },
     "done": true
   }
