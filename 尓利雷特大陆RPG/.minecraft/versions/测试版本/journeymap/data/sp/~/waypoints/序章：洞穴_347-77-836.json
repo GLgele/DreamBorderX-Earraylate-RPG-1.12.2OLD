@@ -1,0 +1,18 @@
+{
+  "id": "序章：洞穴_347-77-836",
+  "name": "序章：洞穴",
+  "icon": "waypoint-normal.png",
+  "x": 347,
+  "y": 77,
+  "z": 836,
+  "r": 60,
+  "g": 110,
+  "b": 127,
+  "enable": false,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

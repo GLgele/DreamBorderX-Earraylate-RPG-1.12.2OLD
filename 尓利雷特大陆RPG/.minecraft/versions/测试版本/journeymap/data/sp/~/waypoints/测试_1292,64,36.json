@@ -1,0 +1,18 @@
+{
+  "id": "测试_1292,64,36",
+  "name": "测试",
+  "icon": "waypoint-normal.png",
+  "x": 1292,
+  "y": 64,
+  "z": 36,
+  "r": 21,
+  "g": 160,
+  "b": 83,
+  "enable": false,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

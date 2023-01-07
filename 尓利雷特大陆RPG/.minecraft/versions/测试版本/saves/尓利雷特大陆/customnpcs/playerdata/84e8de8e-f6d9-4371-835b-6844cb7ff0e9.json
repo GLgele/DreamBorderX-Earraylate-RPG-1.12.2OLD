@@ -21,6 +21,10 @@
         {
             "Points": 2000,
             "Faction": 4
+        },
+        {
+            "Points": 2000,
+            "Faction": 5
         }
     ],
     "BankData": [
@@ -32,8 +36,18 @@
     "PlayerName": "GLgele",
     "QuestData": {
         "CompletedQuests": [
+            {
+                "Quest": 10,
+                "Date": 9816671L
+            }
         ],
         "ActiveQuests": [
+            {
+                "QuestCompleted": 0b,
+                "ExtraData": {
+                },
+                "Quest": 10
+            }
         ]
     },
     "UUID": "84e8de8e-f6d9-4371-835b-6844cb7ff0e9",

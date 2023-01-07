@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:1
 renderClouds:false
-resourcePacks:["Earraylate.zip","ChromaHills-128x-1.12","§3方正字体.zip","Minecraft-Mod-Language-Modpack.zip"]
+resourcePacks:["Earraylate.zip","ChromaHills-128x-1.12","CustomNPCsFix.zip","§3方正字体.zip","Minecraft-Mod-Language-Modpack.zip"]
 incompatibleResourcePacks:[]
 lastServer:glgele.e1.luyouxia.net:31904
 lang:zh_cn
@@ -93,8 +93,8 @@ key_Scene2 start/pause:80
 key_Scene3 start/pause:81
 key_Scene reset:82
 key_Quest Log:38
-key_key.ebwizardry.next_spell:49
-key_key.ebwizardry.previous_spell:48
+key_key.ebwizardry.next_spell:50
+key_key.ebwizardry.previous_spell:49
 key_key.ebwizardry.spell_1:2:ALT
 key_key.ebwizardry.spell_2:3:ALT
 key_key.ebwizardry.spell_3:4:ALT
@@ -108,13 +108,36 @@ key_key.infinity.desc:19
 key_key.infinitycopy.desc:75
 key_key.infinitysave.desc:76
 key_WorldEdit Reference:211
-key_key.minimap.voxelmapmenu:50
-key_key.minimap.waypointmenu:41
-key_key.minimap.zoom:44
-key_key.minimap.togglefullscreen:45
-key_key.minimap.waypointhotkey:49
-key_key.minimap.togglemobs:0
-key_key.minimap.toggleingamewaypoints:0
+key_gui.xaero_switch_waypoint_set:0
+key_gui.xaero_instant_waypoint:0
+key_gui.xaero_toggle_slime:0
+key_gui.xaero_toggle_grid:0
+key_gui.xaero_toggle_waypoints:0
+key_gui.xaero_toggle_map_waypoints:0
+key_gui.xaero_toggle_map:35
+key_gui.xaero_enlarge_map:44
+key_gui.xaero_waypoints_key:0
+key_gui.xaero_zoom_in:301
+key_gui.xaero_zoom_out:317
+key_gui.xaero_new_waypoint:0
+key_gui.xaero_display_all_sets:0
+key_gui.xaero_minimap_settings:21
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
+key_key.journeymap.fullscreen_create_waypoint:48
+key_key.journeymap.fullscreen_chat_position:0
+key_key.journeymap.map_toggle_alt:36
+key_key.journeymap.fullscreen_waypoints:41
+key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.fullscreen_options:24
+key_key.journeymap.fullscreen.north:200
+key_key.journeymap.fullscreen.south:208
+key_key.journeymap.fullscreen.east:205
+key_key.journeymap.fullscreen.west:203
+key_key.portaitreposition:52
 soundCategory_master:0.5066225
 soundCategory_music:1.0
 soundCategory_record:1.0
