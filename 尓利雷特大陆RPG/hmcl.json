@@ -25,7 +25,7 @@
         "javaDir": "",
         "precalledCommand": "",
         "serverIp": "",
-        "java": "1.8.0_102",
+        "java": "1.8.0_311",
         "wrapper": "",
         "fullscreen": false,
         "noJVMArgs": false,
@@ -33,15 +33,15 @@
         "notCheckJVM": false,
         "showLogs": false,
         "gameDir": "",
-        "launcherVisibility": 1,
+        "launcherVisibility": 2,
         "gameDirType": 0,
-        "defaultJavaPath": "C:\\Program Files\\Java\\jdk1.8.0_102\\jre\\bin\\java.exe",
+        "defaultJavaPath": "C:\\Program Files\\Java\\jdk1.8.0_311\\jre\\bin\\java.exe",
         "nativesDir": "",
         "nativesDirType": 0
       },
       "gameDir": ".minecraft",
       "useRelativePath": true,
-      "selectedMinecraftVersion": "测试版本"
+      "selectedMinecraftVersion": "1.16.5"
     },
     "Home": {
       "global": {
@@ -77,12 +77,12 @@
   "accounts": [
     {
       "serverBaseURL": "https://littleskin.cn/api/yggdrasil/",
-      "clientToken": "1514db40ee56432688e152e2530f39f9",
+      "clientToken": "683051d9daf54ed4b8d35aa95e40a73b",
       "displayName": "GLgele",
       "userProperties": {},
-      "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3ZTU3N2FlZWI1NDE1NWQyYmIzM2I0ODZhYmZiMTg2NyIsInlnZ3QiOiIzMmI1MDk1YWMyZDQ0ZTgzYTM4NGI2NTVjY2E4YTQ5MCIsInNwciI6Ijg0ZThkZThlZjZkOTQzNzE4MzViNjg0NGNiN2ZmMGU5IiwiaXNzIjoiWWdnZHJhc2lsLUF1dGgiLCJleHAiOjE2NTYzODU1MzQuMDA1MTU1LCJpYXQiOjE2NTYxMjYzMzQuMDA1MTU1fQ.MGkGgvuvjMlrlTKeHrV9KvC4olqll0kNGdVVjbJZ6Pk",
+      "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3ZTU3N2FlZWI1NDE1NWQyYmIzM2I0ODZhYmZiMTg2NyIsInlnZ3QiOiI3N2Y4NjlkYWExZjk0YWVmOWYwMDRmNTViYzNkYzgxMSIsInNwciI6Ijg0ZThkZThlZjZkOTQzNzE4MzViNjg0NGNiN2ZmMGU5IiwiaXNzIjoiWWdnZHJhc2lsLUF1dGgiLCJleHAiOjE2NzM1MTE5MDQuMjU4MTI3LCJpYXQiOjE2NzMyNTI3MDQuMjU4MTI3fQ.g4HuXrvUzWjwNQbTBNG6XlHP5mLA0SgxnZRI32KhXx4",
       "profileProperties": {
-        "textures": "eyJ0aW1lc3RhbXAiOjE2NTYxMjMzODIwMzAsInByb2ZpbGVJZCI6Ijg0ZThkZThlZjZkOTQzNzE4MzViNjg0NGNiN2ZmMGU5IiwicHJvZmlsZU5hbWUiOiJHTGdlbGUiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL2xpdHRsZXNraW4uY24vdGV4dHVyZXMvMzk5NjgzZGQxZWViYmVjZDhiNDJkZTBhODM4YTQyN2QzYWNkMTJkMWNiNmMyMTdhYWRjMjExZjEwMTcxNTUwZCJ9LCJDQVBFIjp7InVybCI6Imh0dHBzOi8vbGl0dGxlc2tpbi5jbi90ZXh0dXJlcy9mMjdkOTNmZTk3NjUzYmY3MWUxOGMwNjRmM2U2YjQ2OTM5MWQ0Yzc0ODI3MDY0YTA4Y2ViNWI1YWU5ODVjNTdlIn19fQ\u003d\u003d",
+        "textures": "eyJ0aW1lc3RhbXAiOjE2NzI5NjUzNzgwMTQsInByb2ZpbGVJZCI6Ijg0ZThkZThlZjZkOTQzNzE4MzViNjg0NGNiN2ZmMGU5IiwicHJvZmlsZU5hbWUiOiJHTGdlbGUiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL2xpdHRsZXNraW4uY24vdGV4dHVyZXMvMzk5NjgzZGQxZWViYmVjZDhiNDJkZTBhODM4YTQyN2QzYWNkMTJkMWNiNmMyMTdhYWRjMjExZjEwMTcxNTUwZCJ9LCJDQVBFIjp7InVybCI6Imh0dHBzOi8vbGl0dGxlc2tpbi5jbi90ZXh0dXJlcy9mMjdkOTNmZTk3NjUzYmY3MWUxOGMwNjRmM2U2YjQ2OTM5MWQ0Yzc0ODI3MDY0YTA4Y2ViNWI1YWU5ODVjNTdlIn19fQ\u003d\u003d",
         "uploadableTextures": "skin,cape"
       },
       "type": "authlibInjector",
@@ -98,7 +98,7 @@
     {
       "url": "https://littleskin.cn/api/yggdrasil/",
       "metadataResponse": "{\"meta\":{\"serverName\":\"LittleSkin\",\"implementationName\":\"Yggdrasil API for Blessing Skin\",\"implementationVersion\":\"5.1.1\",\"links\":{\"homepage\":\"https:\\/\\/littleskin.cn\",\"register\":\"https:\\/\\/littleskin.cn\\/auth\\/register\"},\"feature.non_email_login\":true},\"skinDomains\":[\"skin.prinzeugen.net\",\"littleskin.cn\"],\"signaturePublickey\":\"-----BEGIN PUBLIC KEY-----\\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArGcNOOFIqLJSqoE3u0hj\\ntOEnOcET3wj9Drss1BE6sBqgPo0bMulOULhqjkc\\/uH\\/wyosYnzw3xaazJt87jTHh\\nJ8BPMxCeQMoyEdRoS3Jnj1G0Kezj4A2b61PJJM1DpvDAcqQBYsrSdpBJ+52MjoGS\\nvJoeQO5XUlJVQm21\\/HmJnqsPhzcA6HgY71RHYE5xnhpWJiPxLKUPtmt6CNYUQQoS\\no2v36XWgMmLBZhAbNOPxYX+1ioxKamjhLO29UhwtgY9U6PWEO7\\/SBfXzyRPTzhPV\\n2nHq7KJqd8IIrltslv6i\\/4FEM81ivS\\/mm+PN3hYlIYK6z6Ymii1nrQAplsJ67OGq\\nYHtWKOvpfTzOollugsRihkAG4OB6hM0Pr45jjC3TIc7eO7kOgIcGUGUQGuuugDEz\\nJ1N9FFWnN\\/H6P9ukFeg5SmGC5+wmUPZZCtNBLr8o8sI5H7QhK7NgwCaGFoYuiAGL\\ngz3k\\/3YwJ40BbwQayQ2gIqenz+XOFIAlajv+\\/nyfcDvZH9vGNKP9lVcHXUT5YRnS\\nZSHo5lwvVrYUrqEAbh\\/zDz8QMEyiujWvUkPhZs9fh6fimUGxtm8mFIPCtPJVXjeY\\nwD3Lvt3aIB1JHdUTJR3eEc4eIaTKMwMPyJRzVn5zKsitaZz3nn\\/cOA\\/wZC9oqyEU\\nmc9h6ZMRTRUEE4TtaJyg9lMCAwEAAQ\u003d\u003d\\n-----END PUBLIC KEY-----\\n\"}",
-      "metadataTimestamp": 1656126258998
+      "metadataTimestamp": 1673253113581
     }
   ],
   "updateChannel": "STABLE",
