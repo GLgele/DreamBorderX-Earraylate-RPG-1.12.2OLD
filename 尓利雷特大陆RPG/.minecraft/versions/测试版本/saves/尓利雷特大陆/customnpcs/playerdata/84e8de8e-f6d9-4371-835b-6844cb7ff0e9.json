@@ -38,16 +38,10 @@
         "CompletedQuests": [
             {
                 "Quest": 10,
-                "Date": 9816671L
+                "Date": 9831415L
             }
         ],
         "ActiveQuests": [
-            {
-                "QuestCompleted": 0b,
-                "ExtraData": {
-                },
-                "Quest": 10
-            }
         ]
     },
     "UUID": "84e8de8e-f6d9-4371-835b-6844cb7ff0e9",

@@ -28,7 +28,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1673083246125L,
+        "TimePast": 1673248206981L,
         "Time": 0L,
         "Subject": ""
     },
@@ -45,9 +45,9 @@
         "x": 1292,
         "y": 64,
         "z": 36,
-        "SetName": "gui.xaero_default"
+        "SetName": "ui.waypoint"
     },
-    "CompleteText": "",
+    "CompleteText": "1",
     "NextQuestTitle": "",
-    "QuestLocation": "测试"
+    "QuestLocation": "test"
 }
