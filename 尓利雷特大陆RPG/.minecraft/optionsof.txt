@@ -6,7 +6,7 @@ ofSmoothFps:false
 ofSmoothWorld:true
 ofAoLevel:1.0
 ofClouds:0
-ofCloudsHeight:0.0
+ofCloudsHeight:0.5046948194503784
 ofTrees:0
 ofDroppedItems:0
 ofRain:0
@@ -31,7 +31,7 @@ ofLagometer:false
 ofShowFps:true
 ofAutoSaveTicks:4000
 ofBetterGrass:3
-ofConnectedTextures:2
+ofConnectedTextures:1
 ofWeather:true
 ofSky:true
 ofStars:true

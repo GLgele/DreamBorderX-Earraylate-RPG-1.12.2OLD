@@ -1,0 +1,1384 @@
+OpenJDK 64-Bit Server VM warning: Option --illegal-access is deprecated and will be removed in a future release.
+[authlib-injector] [INFO] Logging file: F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\authlib-injector.log
+[authlib-injector] [INFO] Version: 1.2.1
+[authlib-injector] [INFO] Authentication server: https://littleskin.cn/api/yggdrasil/
+2023-01-10 18:35:37,877 main WARN Advanced terminal features are not available in this environment
+[18:35:38] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, <player>, --version, HMCL 3.3.188, --gameDir, F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft, --assetsDir, F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\assets, --assetIndex, 1.16, --uuid, <uuid>, --accessToken, ????????, --userType, mojang, --versionType, HMCL 3.3.188, --width, 854, --height, 480, --tweakClass, optifine.OptiFineTweaker, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.39, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[18:35:38] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 16.0.1 by Microsoft
+[18:35:38] [main/INFO] [op.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[18:35:38] [main/INFO] [op.OptiFineTransformationService/]: OptiFine ZIP file: F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\libraries\optifine\OptiFine\1.16.5_HD_U_G8\OptiFine-1.16.5_HD_U_G8.jar
+[18:35:38] [main/INFO] [op.OptiFineTransformer/]: Target.PRE_CLASS is available
+[18:35:38] [main/INFO] [ne.mi.fm.lo.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[18:35:38] [main/INFO] [MixinBootstrap Launch/]: MixinBootstrap v1.1.0
+[18:35:38] [main/INFO] [MixinBootstrap Launch/]: Mixin v0.8.4
+[18:35:38] [main/INFO] [MixinBootstrap Launch/]: ModLauncher v8.1.3+8.1.3+main-8.1.x.c94d18ec (7.0)
+[18:35:39] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/F:/GitHub/DreamBorderX-Earraylate-RPG/%e5%b0%93%e5%88%a9%e9%9b%b7%e7%89%b9%e5%a4%a7%e9%99%86RPG/.minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[18:35:39] [main/INFO] [op.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[18:35:41] [main/INFO] [op.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[18:35:41] [main/INFO] [op.OptiFineTransformer/]: Targets: 311
+[18:35:42] [main/INFO] [op.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[18:35:42] [main/ERROR] [mixin/]: Mixin config notenoughcrashes.mixins.json does not specify "minVersion" property
+[18:35:42] [main/ERROR] [mixin/]: Mixin config notenoughcrashes.forge.mixins.json does not specify "minVersion" property
+[18:35:42] [main/ERROR] [mixin/]: Mixin config better_loading_screen-common.mixins.json does not specify "minVersion" property
+[18:35:42] [main/ERROR] [mixin/]: Mixin config better_loading_screen.mixins.json does not specify "minVersion" property
+[18:35:42] [main/ERROR] [mixin/]: Mixin config infinityitemeditor.mixins.json does not specify "minVersion" property
+[18:35:42] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[18:35:42] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [icyllis.modernui.forge.MixinConnector]
+[18:35:42] [main/INFO] [mixin/]: Compatibility level set to JAVA_11
+[18:35:42] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, HMCL 3.3.188, --gameDir, F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft, --assetsDir, F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\assets, --uuid, <uuid>, --username, <player>, --assetIndex, 1.16, --accessToken, ????????, --userType, mojang, --versionType, HMCL 3.3.188, --width, 854, --height, 480, --tweakClass, optifine.OptiFineTweaker]
+[18:35:42] [main/WARN] [mixin/]: Reference map 'yungsbridges.refmap.json' for yungsbridges.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\config\supplementaries-registry.toml is not correct. Correcting
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.general.creative_tab was corrected from null to its default, false. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.general.dispensers was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.general.jar_tab was corrected from null to its default, false. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.general.custom_configured_screen was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.planter was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.clock_block was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.pedestal was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.wind_vane was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.redstone_illuminator was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.notice_board was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.crank was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.jar was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.faucet was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.turn_table was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.spring_launcher was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.speaker_block was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.sign_post was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.hanging_sign was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.bellows was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.sconce was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.sconce_green was corrected from null to its default, false. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.candelabra was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.cage was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.item_shelf was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.sconce_lever was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.cog_block was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.candle_holder was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.globe was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.hourglass was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.sack was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.blackboard was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.safe was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.wrench was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.copper_lantern was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.flute was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.gold_trapdoor was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.gold_door was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.bamboo_spikes was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.bamboo_spikes_tipped was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.stone_lamp was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.end_stone_lamp was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.blackstone_lamp was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.deepslate_lamp was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.checker_block was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.netherite_door was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.netherite_trapdoor was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.pancake was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.lock_block was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.flax was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.rope was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.rope_arrow was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.pulley_block was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.fodder was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.bomb was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.crimson_lantern was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.magma_cream_block was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.stick was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.blaze_rod was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.daub was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.wattle_and_daub was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.timber_frame was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.flag was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.stone_tile was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.goblet was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.raked_gravel was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.statue was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.iron_gate was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.feather_block was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.flint_block was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.slingshot was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.shulker_shell was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.candy was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.amethyst_arrow was corrected from null to its default, false. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.present was corrected from null to its default, true. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.blocks.laser_block was corrected from null to its default, false. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.entities was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:35:43] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key initialization.entities.firefly was corrected from null to its default, true. 
+[18:35:44] [main/WARN] [mixin/]: Error loading class: vazkii/patchouli/client/book/BookContents (java.lang.ClassNotFoundException: null)
+[18:35:44] [main/WARN] [mixin/]: @Mixin target vazkii.patchouli.client.book.BookContents was not found i18n.mixin.cfg.json:MixinBookContents
+[18:35:45] [main/WARN] [mixin/]: Error loading class: yesman/epicfight/client/renderer/patched/entity/PatchedLivingEntityRenderer (java.lang.ClassNotFoundException: null)
+############ Journeymap Coremod Potion Effects Renderer: Injected ############
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 核心MOD-装饰方块-decorative_blocks-1.16.4-1.7.2.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 前置MOD-YungsApi-1.16.4-Forge-13.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 核心MOD-更多栏杆-1.16.5-additionalbars-2.0.3.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 优化MOD-汉化-i18nupdatemod-1.16.5-2.0.4.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 可选MOD-旅行地图-journeymap-1.16.5-5.8.5p6.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 核心MOD-锦致装饰-supplementaries-1.16.5-0.18.0.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of forge-1.16.5-36.2.39-universal.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 作者MOD-物品编辑器-infinityitemeditor-1.2.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 优化MOD-FPS减速器-FpsReducer-forge-1.24-mc1.16.5.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 前置MOD-cloth-config-4.16.91-forge.jar
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 核心MOD-动态的树-DynamicTrees-1.16.5-0.10.2.jar
+[18:35:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 核心MOD-动态的树拓展-DynamicTreesPlus-1.16.5-0.1.0-Beta12.jar
+[18:35:48] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 可选MOD-动态环绕-DynamicSurroundings-1.16.5-4.0.5.0.jar
+[18:35:48] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 核心MOD-自定义NPC附属-VariedCommodities-1.16.5.20220618snapshot.jar
+[18:35:48] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 核心MOD-动态的树真实地形拓展-DynamicTreesTerraForged-1.16.5-1.0.0.jar
+[18:35:48] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Completed deep scan of 前置MOD-selene-1.16.5-1.9.0.jar
+[18:35:48] [main/INFO] [STDOUT/]: [net.minecraft.client.main.Main:main:80]: Completely ignored arguments: [--tweakClass, optifine.OptiFineTweaker]
+############ Journeymap Coremod Potion Effects Renderer: Injected ############
+[authlib-injector] [INFO] Httpd is running on port 10896
+[authlib-injector] [INFO] Transformed [net.minecraft.client.entity.player.AbstractClientPlayerEntity] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[18:35:53] [pool-3-thread-1/INFO] [FerriteCore - class definer/]: Using Java 9+ class definer
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by net.minecraftforge.fml.common.ObfuscationReflectionHelper (modjar://forge) to method java.util.BitSet.trimToSize()
+WARNING: Please consider reporting this to the maintainers of net.minecraftforge.fml.common.ObfuscationReflectionHelper
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
+[18:36:00] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://littleskin.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:10896/https/api.mojang.com', sessionHost='http://127.0.0.1:10896/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:10896/https/api.minecraftservices.com', name='PROD'
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
+[18:36:00] [Render thread/INFO] [minecraft/Minecraft]: Setting user: <player>
+[18:36:01] [Render thread/INFO] [ne.op.Log/]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[18:36:01] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.2.2 build 10
+[18:36:01] [Early Visualization/INFO] [me.sh.be.la.EarlyWindow/]: Set render to false
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] 
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] OptiFine_1.16.5_HD_U_G8
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Build: 20210515-161946
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Java: 16.0.1, Microsoft
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] OpenGL: NVIDIA GeForce GTX 1650/PCIe/SSE2, version 4.6.0 NVIDIA 516.59, NVIDIA Corporation
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] OpenGL Version: 4.6.0
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Maximum texture size: 32768x32768
+[18:36:01] [VersionCheck/INFO] [ne.op.Config/]: [OptiFine] Checking for new version
+[18:36:01] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 516.59
+[18:36:01] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Vendor:  NVIDIA Corporation
+[18:36:01] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+[18:36:01] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[18:36:01] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[18:36:01] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[18:36:01] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[18:36:01] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Load shaders configuration.
+[18:36:01] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Loaded shaderpack: 只限水反.zip
+[18:36:01] [Render thread/INFO] [ne.op.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Using legacy block aliases: flattening_ids.txt
+[18:36:01] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Legacy block aliases: 2751
+[18:36:01] [Render thread/INFO] [ne.op.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.itemConsumer
+[18:36:01] [Render thread/INFO] [ne.op.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.tessellator
+[18:36:02] [VersionCheck/INFO] [ne.op.Config/]: [OptiFine] Version found: G7
+[18:36:02] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Waiting for scan to complete
+[18:36:02] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Loading mods
+[18:36:02] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Building Mod List
+[18:36:03] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Constructing 38 mods
+[18:36:03] [modloading-worker-1/INFO] [TerraForged/]: Environment: dev=false, stable=true, vanilla=false
+[18:36:03] [modloading-worker-1/INFO] [TerraForged/]: Signature:  7b:73:d0:a2:c3:40:13:84:35:4f:c9:0e:2b:85:8c:08:ea:3c:3c:eb:f1:98:8b:5b:6e:ca:8a:a0:9a:cf:12:b3
+[18:36:03] [modloading-worker-1/INFO] [TerraForged/]: Trust Data: CN=TerraForged self-signed
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: 
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: ******************************************************************************************
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: 
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: WorldEdit CUI Forge Edition 3 version 3.0.9 for Minecraft 1.16.5
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: Built with forge 36.0.13
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: 
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: Environment :
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: 		 OS :Windows 10 (amd64) 
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: 		 Java: 16.0.1
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: 		 Language :CN_zh
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: 
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: ******************************************************************************************
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: 
+[18:36:03] [modloading-worker-6/INFO] [worldeditcuife3/]: WorldEdit CUI Forge Edition 3 is loading ...
+[18:36:03] [modloading-worker-3/WARN] [mixin/]: Injection warning: LVT in net/minecraft/client/renderer/texture/AtlasTexture::func_229220_a_(Lnet/minecraft/resources/IResourceManager;Ljava/util/stream/Stream;Lnet/minecraft/profiler/IProfiler;I)Lnet/minecraft/client/renderer/texture/AtlasTexture$SheetData; has incompatible changes at opcode 183 in callback better_loading_screen-common.mixins.json:MixinTextureAtlas->@Inject::prepareToStitch(Lnet/minecraft/resources/IResourceManager;Ljava/util/stream/Stream;Lnet/minecraft/profiler/IProfiler;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Ljava/util/Set;)V.
+ Expected: [Ljava/util/Set;]
+    Found: [I]
+Available: [I, Ljava/util/Set;, Ljava/util/Set;, I, Lnet/minecraft/client/renderer/texture/Stitcher;, I, I, I]
+[18:36:03] [modloading-worker-3/WARN] [mixin/]: Injection warning: LVT in net/minecraft/client/renderer/texture/AtlasTexture::func_229220_a_(Lnet/minecraft/resources/IResourceManager;Ljava/util/stream/Stream;Lnet/minecraft/profiler/IProfiler;I)Lnet/minecraft/client/renderer/texture/AtlasTexture$SheetData; has incompatible changes at opcode 482 in callback better_loading_screen-common.mixins.json:MixinTextureAtlas->@Inject::stitch(Lnet/minecraft/resources/IResourceManager;Ljava/util/stream/Stream;Lnet/minecraft/profiler/IProfiler;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Ljava/util/Set;ILnet/minecraft/client/renderer/texture/Stitcher;)V.
+ Expected: [Ljava/util/Set;, I, Lnet/minecraft/client/renderer/texture/Stitcher;]
+    Found: [I, Ljava/util/Set;, Ljava/util/Set;]
+Available: [I, Ljava/util/Set;, Ljava/util/Set;, I, Lnet/minecraft/client/renderer/texture/Stitcher;, I, I, I, I, I, I, Lnet/minecraft/client/renderer/texture/TextureAtlasSprite$Info;, I, I]
+[18:36:03] [modloading-worker-1/INFO] [TerraForged/]: Initializing tags
+[18:36:03] [modloading-worker-4/INFO] [in.InfinityItemEditor/]: Registering config
+[18:36:03] [modloading-worker-7/INFO] [ModernUI/Core]: Initialized Modern UI, FML mods: 36
+[18:36:03] [modloading-worker-1/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[18:36:03] [modloading-worker-1/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[18:36:03] [modloading-worker-4/INFO] [in.InfinityItemEditor/]: Initializing keybindings
+[18:36:03] [modloading-worker-4/INFO] [in.InfinityItemEditor/]: Adding Creative Tabs
+[18:36:03] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Forge version 36.2.39
+[18:36:04] [modloading-worker-4/INFO] [in.InfinityItemEditor/]: Registering events
+[18:36:07] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Creating registries
+[18:36:08] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Populating registries
+[18:36:08] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Adding custom tag types
+[18:36:08] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:block
+[18:36:08] [Render thread/INFO] [STDOUT/]: [infinityitemeditor.registry.RegistryHandler:registerBlocks:17]: Registering barrier
+[18:36:08] [Render thread/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `barrier`, expected `infinityitemeditor`. This could be a intended override, but in most cases indicates a broken mod.
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:item
+[18:36:09] [Render thread/INFO] [ne.mi.re.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
+[18:36:09] [Render thread/INFO] [TerraForged/]: Registering level types
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING forge:world_types
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING forge:loot_modifier_serializers
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:activity
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:block_entity_type
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:attribute
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:chunk_status
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:entity_type
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:enchantment
+[18:36:09] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:data_serializers
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:fluid
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:menu
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:memory_module_type
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:particle_type
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:motive
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:mob_effect
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:recipe_serializer
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:potion
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:point_of_interest_type
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:stat_type
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:sound_event
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:sensor_type
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:schedule
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/biome
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:villager_profession
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/decorator
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/carver
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/block_state_provider_type
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/block_placer_type
+[18:36:10] [Render thread/INFO] [TerraForged/]: Registering decorators
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/feature
+[18:36:10] [Render thread/INFO] [TerraForged/]: Registering features
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/tree_decorator_type
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/surface_builder
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/structure_feature
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: REGISTERING minecraft:worldgen/foliage_placer_type
+[18:36:10] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Early mod loading complete
+[18:36:10] [Render thread/WARN] [ne.op.Config/]: [OptiFine] java.lang.ClassNotFoundException: sun.misc.SharedSecrets
+[18:36:10] [Render thread/WARN] [ne.op.Config/]: [OptiFine] java.lang.ClassNotFoundException: jdk.internal.misc.SharedSecrets
+[18:36:10] [Render thread/WARN] [ne.op.Config/]: [OptiFine] java.lang.ClassNotFoundException: sun.misc.VM
+[18:36:10] [Render thread/WARN] [ne.op.Config/]: [OptiFine] java.lang.reflect.InaccessibleObjectException: Unable to make public static long jdk.internal.misc.VM.maxDirectMemory() accessible: module java.base does not "exports jdk.internal.misc" to unnamed module @16ee9aa7
+[18:36:11] [Render thread/INFO] [ModernUI/Graphics]: Graphics API: OpenGL 4.6.0 NVIDIA 516.59
+[18:36:11] [Render thread/INFO] [ModernUI/Graphics]: OpenGL Renderer: NVIDIA Corporation NVIDIA GeForce GTX 1650/PCIe/SSE2
+[18:36:11] [Render thread/INFO] [ModernUI/Canvas]: GLCanvas initialized
+[18:36:11] [Render thread/INFO] [ModernUI/UIManager]: UI system initialized
+[18:36:11] [UI thread/INFO] [ModernUI/UIManager]: View system initialized
+[18:36:11] [Render thread/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[18:36:11] [Render thread/INFO] [BRRP/ReloadableResourceManagerImplMixin/]: BRRP register - before vanilla
+[18:36:11] [Render thread/INFO] [BRRP/ReloadableResourceManagerImplMixin/]: BRRP register - after vanilla
+[18:36:11] [Render thread/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, Mod Resources, Programmer Art, ChromaHills-128x-1.16-v2.zip, Minecraft-Mod-Language-Modpack-1-16.zip
+[18:36:12] [Render thread/INFO] [ne.op.Config/]: [OptiFine] *** Reloading textures ***
+[18:36:12] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Resource packs: Mod Resources, Programmer Art, ChromaHills-128x-1.16-v2.zip, Minecraft-Mod-Language-Modpack-1-16.zip
+[18:36:12] [Render thread/INFO] [ne.op.Config/]: [OptiFine] EmissiveTextures: Loading optifine/emissive.properties
+[18:36:12] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Loading mod config
+[18:36:12] [Render thread/INFO] [ne.op.re.Reflector/]: [OptiFine] *** Reflector Forge ***
+[18:36:12] [Render thread/INFO] [ne.op.Log/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[18:36:12] [Render thread/INFO] [ne.op.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[18:36:12] [Render thread/INFO] [ne.op.re.Reflector/]: [OptiFine] *** Reflector Vanilla ***
+[18:36:12] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Loading optifine/color.properties
+[18:36:12] [Render thread/INFO] [ModernUI/Core]: Loaded text layout engine, res level: 2.0
+[18:36:13] [Worker-Main2/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:14] [modloading-worker-2/INFO] [ModernUI/Core]: Font Noto Sans failed to load or invalid
+[18:36:14] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/particles.png
+[18:36:14] [modloading-worker-2/INFO] [ModernUI/Core]: Font San Francisco failed to load or invalid
+[18:36:14] [Worker-Main4/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:15] [modloading-worker-2/INFO] [ModernUI/Core]: Font STHeiti failed to load or invalid
+[18:36:15] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/paintings.png
+[18:36:15] [modloading-worker-2/INFO] [ModernUI/Core]: Loaded typeface: Typeface{Segoe UI, Source Han Sans CN Medium, Open Sans, Calibri, Microsoft YaHei UI, SimHei, SansSerif}
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\config\supplementaries-client.toml is not correct. Correcting
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.globe was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.globe.random_world was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.globe.globe_colors was corrected from null to its default, [[minecraft:overworld, 23658d, 25527d, 1d396d, 2d8a5c, 34a03a, 6ea14b, 89a83d, b5ba65, ccd7d5, 83b4c6, 2f83a2, 826e71], [minecraft:the_nether, 941818, 7b0000, 6a0400, 16615b, 941818, ca4e06, e66410, f48522, 5a0000, 32333d, 118066, 100c1c], [minecraft:the_end, 061914, 000000, 2a0d2a, 000000, d5da94, cdc68b, 061914, 2a0d2a, cdc68b, 000000, eef6b4, b286b2]]. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.clock_block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.clock_block.24h_format was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.firefly_jar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.firefly_jar.spawn_period was corrected from null to its default, 8. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.firefly_jar.spawn_chance was corrected from null to its default, 0.3. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.pedestal was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.pedestal.spin was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.pedestal.speed was corrected from null to its default, 2.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.pedestal.fancy_renderers was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.item_shelf was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.item_shelf.supported_blocks was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.wind_vane was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.wind_vane.power_scaling was corrected from null to its default, 3.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.wind_vane.max_angle_1 was corrected from null to its default, 30.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.wind_vane.max_angle_2 was corrected from null to its default, 10.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.wind_vane.period_1 was corrected from null to its default, 450.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.wind_vane.period_2 was corrected from null to its default, 150.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.flag was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.flag.slowness was corrected from null to its default, 100. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.flag.wavyness was corrected from null to its default, 4.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.flag.intensity was corrected from null to its default, 1.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.flag.intensity_increment was corrected from null to its default, 0.3. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.flag.fanciness was corrected from null to its default, FABULOUS. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.captured_mobs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.captured_mobs.tickable_inside_jars was corrected from null to its default, [iceandfire:pixie, druidcraft:dreadfish, druidcraft:lunar_moth, alexsmobs:hummingbird]. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.captured_mobs.rendering_parameters was corrected from null to its default, [[minecraft:bee, 0.3125, 0.0], [minecraft:vex, 0.0, 0.125, 0, FLOATING], [minecraft:silverfish, 0.0, 0.25], [minecraft:chicken, 0.25, 0.3125], [minecraft:endermite, 0.0, 0.0, 5], [minecraft:fox, 0.0, 0.2], [supplementaries:firefly, 0.0, 0.0, 9, FLOATING], [druidcraft:lunar_moth, 0.375, 0.1375, 10, FLOATING], [iceandfire:pixie, 0.0, 0.0, 10], [feywild:winter_pixie, 0.125, 0.0, 8, FLOATING], [feywild:summer_pixie, 0.125, 0.0, 8, FLOATING], [feywild:spring_pixie, 0.125, 0.0, 8, FLOATING], [feywild:autumn_pixie, 0.25, 0.0, 8, FLOATING], [minecraft:fish, 0.0, 0.125, 0, 1], [minecraft:tropical_fish, 0.0, 0.125, 0, 2], [minecraft:salmon, 0.0, 0.125, 0, 3], [minecraft:cod, 0.0, 0.125, 0, 4], [minecraft:pufferfish, 0.0, 0.125, 0, 5], [minecraft:axolotl, 0.0, 0.125, 0, 6], [fins:pea_wee, 0.0, 0.125, 0, 7], [fins:wee_wee, 0.0, 0.125, 0, 8], [fins:vibra_wee, 0.0, 0.125, 0, 9], [fins:blu_wee, 0.0, 0.125, 0, 10], [fins:ornate_bugfish, 0.0, 0.125, 0, 11], [fins:spindly_gem_crab, 0.0, 0.125, 0, 12], [fins:phantom_nudibranch, 0.0, 0.125, 0, 13], [fins:high_finned_blue, 0.0, 0.125, 0, 14], [fins:teal_arrowfish, 0.0, 0.125, 0, 15], [fins:midnight_squid, 0.0, 0.125, 0, 16], [fins:banded_redback_shrimp, 0.0, 0.125, 0, 17], [fins:flatback_sucker, 0.0, 0.125, 0, 18], [fins:swamp_mucker, 0.0, 0.125, 0, 19], [upgrade_aquatic:lionfish, 0.0, 0.125, 0, 20], [upgrade_aquatic:nautilus, 0.0, 0.125, 0, 21], [upgrade_aquatic:pike, 0.0, 0.125, 0, 22], [alexsmobs:stradpole, 0.0, 0.125, 0, 23], [alexsmobs:blobfish, 0.0, 0.125, 0, 24], [unnamedanimalmod:flashlight_fish, 0.0, 0.125, 0, 25], [unnamedanimalmod:elephantnose_fish, 0.0, 0.125, 0, 26], [unnamedanimalmod:black_diamond_stingray, 0.0, 0.125, 0, 27], [unnamedanimalmod:humphead_parrotfish, 0.0, 0.125, 0, 28], [unnamedanimalmod:tomato_frog, 0.0, 0.125, 0, 29], [unnamedanimalmod:pacman_frog, 0.0, 0.125, 0, 30], [bettas:betta_fish, 0.0, 0.125, 0, 31], [pogfish:pogfish, 0.0, 0.125, 0, 32], [undergarden:gwibling, 0.0, 0.125, 0, 33], [environmental:koi, 0.0, 0.125, 0, 34], [betterendforge:end_fish, 0.0, 0.125, 0, 35], [betteranimalsplus:flying_fish, 0.0, 0.125, 0, 36], [betteranimalsplus:nautilus, 0.0, 0.125, 0, 37], [betteranimalsplus:eel_freshwater, 0.0, 0.125, 0, 38], [betteranimalsplus:eel_saltwater, 0.0, 0.125, 0, 39], [betteranimalsplus:lamprey, 0.0, 0.125, 0, 40], [betteranimalsplus:piranha, 0.0, 0.125, 0, 41], [betteranimalsplus:barracuda, 0.0, 0.125, 0, 42], [rediscovered:fish, 0.0, 0.125, 0, 1]]. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.wall_lantern was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.wall_lantern.fast_lanterns was corrected from null to its default, false. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.bamboo_spikes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.bamboo_spikes.populate_creative_tab was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.turn_table was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.turn_table.turn_particles was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key particles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key particles.firefly_glow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key particles.firefly_glow.scale was corrected from null to its default, 0.075. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key particles.firefly_glow.max_age was corrected from null to its default, 40. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key entities was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key entities.firefly was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key entities.firefly.intensity was corrected from null to its default, 0.2. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key entities.firefly.exponent was corrected from null to its default, 0.5. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.config_button was corrected from null to its default, false. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.tooltip_hints was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.anti_reposting_warning was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.test1 was corrected from null to its default, 0.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.test2 was corrected from null to its default, 0.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.test3 was corrected from null to its default, 0.0. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.brewing_stand_colors was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.crossbows_colors was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.clock_right_click was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books_glint was corrected from null to its default, false. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot.overlay was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot.stasis_block_outline was corrected from null to its default, true. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot.block_outline_color was corrected from null to its default, ffffff66. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot.projectile_scale was corrected from null to its default, 0.5. 
+[18:36:15] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\config\dsurround\environs-client.toml is not correct. Correcting
+[18:36:16] [modloading-worker-2/WARN] [SoundControl/MOD]: Unable to locate sound 'minecraft:entity.sheep.ambient'
+[18:36:16] [modloading-worker-2/WARN] [SoundControl/MOD]: Unable to locate sound 'minecraft:entity.chicken.ambient'
+[18:36:16] [modloading-worker-2/WARN] [SoundControl/MOD]: Unable to locate sound 'minecraft:entity.cow.ambient'
+[18:36:16] [modloading-worker-2/WARN] [SoundControl/MOD]: Unable to locate sound 'minecraft:entity.pig.ambient'
+[18:36:16] [modloading-worker-2/WARN] [SoundControl/MOD]: Unable to locate sound 'minecraft:entity.llama.ambient'
+[18:36:16] [modloading-worker-2/WARN] [SoundControl/MOD]: Unable to locate sound 'minecraft:entity.wither.spawn'
+[18:36:16] [modloading-worker-2/WARN] [SoundControl/MOD]: Unable to locate sound 'minecraft:entity.wither.death'
+[18:36:16] [modloading-worker-2/WARN] [SoundControl/MOD]: Unable to locate sound 'minecraft:entity.ender_dragon.death'
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file F:\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\config\supplementaries-common.toml is not correct. Correcting
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.globe was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.globe.chance was corrected from null to its default, 2. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.speaker_block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.speaker_block.range was corrected from null to its default, 64. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.speaker_block.narrator_enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.bellows was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.bellows.base_period was corrected from null to its default, 78. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.bellows.power_scaling was corrected from null to its default, 2.0. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.bellows.base_velocity_scaling was corrected from null to its default, 5.0. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.bellows.velocity_changed_flag was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.bellows.range was corrected from null to its default, 5. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.spring_launcher was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.spring_launcher.velocity was corrected from null to its default, 1.5. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.spring_launcher.fall_height_required was corrected from null to its default, 5. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.turn_table was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.turn_table.rotate_entities was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.turn_table.blacklist was corrected from null to its default, [minecraft:end_portal_frame]. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.jar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.jar.capacity was corrected from null to its default, 12. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.jar.drink_from_jar was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.jar.drink_from_jar_item was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.jar.jar_auto_detect was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.cage was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.cage.allow_all_mobs was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.cage.cage_allow_all_babies was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.cage.cage_auto_detect was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.notice_board was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.notice_board.allow_any_item was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.sack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.sack.sack_penalty was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.sack.sack_increment was corrected from null to its default, 2. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.sack.slots was corrected from null to its default, 9. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.safe was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.safe.prevent_breaking was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.safe.simple_safes was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.blackboard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.blackboard.colored_blackboard was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.candle_holder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.candle_holder.light_level was corrected from null to its default, 12. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.timber_frame was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.timber_frame.replace_daub was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.timber_frame.swap_on_shift was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass.sugar_time was corrected from null to its default, 40. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass.sand_time was corrected from null to its default, 70. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass.concrete_time was corrected from null to its default, 105. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass.dust_time was corrected from null to its default, 150. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass.glowstone_time was corrected from null to its default, 190. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass.blaze_powder_time was corrected from null to its default, 277. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass.redstone_time was corrected from null to its default, 400. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass.slime_time was corrected from null to its default, 1750. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.hourglass.honey_time was corrected from null to its default, 2000. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.item_shelf was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.item_shelf.climbable_shelves was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.iron_gate was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.iron_gate.double_opening was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.iron_gate.door-like_gates was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.flag was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.flag.stick_pole was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key blocks.flag.pole_length was corrected from null to its default, 16. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.firefly was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.firefly.biomes was corrected from null to its default, [minecraft:swamp, minecraft:swamp_hills, minecraft:plains, minecraft:sunflower_plains, minecraft:dark_forest, minecraft:dark_forest_hills, byg:bayou, byg:cypress_swamplands, byg:glowshroom_bayou, byg:mangrove_marshes, byg:vibrant_swamplands, byg:fresh_water_lake, byg:grassland_plateau, byg:wooded_grassland_plateau, byg:flowering_grove, byg:guiana_shield, byg:guiana_clearing, byg:meadow, byg:orchard, byg:seasonal_birch_forest, byg:seasonal_deciduous_forest, byg:seasonal_forest, biomesoplenty:flower_meadow, biomesoplenty:fir_clearing, biomesoplenty:grove_lakes, biomesoplenty:grove, biomesoplenty:highland_moor, biomesoplenty:wetland_marsh, biomesoplenty:deep_bayou, biomesoplenty:wetland]. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.firefly.mod_whitelist was corrected from null to its default, []. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.firefly.weight was corrected from null to its default, 3. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.firefly.min was corrected from null to its default, 5. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.firefly.max was corrected from null to its default, 9. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.structures was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.structures.way_sign was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.structures.way_sign.average_distance was corrected from null to its default, 19. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.structures.way_sign.minimum_distance was corrected from null to its default, 10. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.structures.way_sign.show_distance_text was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.structures.way_sign.villages was corrected from null to its default, [minecraft:village, repurposed_structures:village_badlands, repurposed_structures:village_dark_oak, repurposed_structures:village_birch, repurposed_structures:village_giant_taiga, repurposed_structures:village_mushroom, repurposed_structures:village_jungle, repurposed_structures:village_mountains, repurposed_structures:village_oak, repurposed_structures:village_swamp, pokecube:village, pokecube_legends:village, pokecube_legends:village/ocean, valhelsia_structures:castle, valhelsia_structures:castle_ruin, valhelsia_structures:small_castle, valhelsia_structures:tower_ruin, stoneholm:underground_village, blue_skies:gatekeeper_house, feywild:library, feywild:blacksmith]. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.structures.wild_flax was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key spawns.structures.wild_flax.enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key entities was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key entities.firefly was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key entities.firefly.period was corrected from null to its default, 65. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key entities.firefly.speed was corrected from null to its default, 0.3. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key entities.firefly.despawn was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.cake_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.cake_tweaks.double_cake was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.cake_tweaks.directional_cake was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.hanging_flower_pots was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.hanging_flower_pots.enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.throwable_bricks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.throwable_bricks.enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.wall_lantern was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.wall_lantern.enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.wall_lantern.high_priority was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.wall_lantern.mod_blacklist was corrected from null to its default, [extlights, betterendforge, tconstruct]. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.bells_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.bells_tweaks.chain_ringing was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.bells_tweaks.chain_length was corrected from null to its default, 16. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_sticks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_sticks.sticks was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_sticks.blaze_rods was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder.enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder.speed was corrected from null to its default, 2. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder.spread_age was corrected from null to its default, 2. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.raked_gravel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.raked_gravel.enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp.enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp.cost was corrected from null to its default, 2. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.custom_adventurer_maps was corrected from null to its default, [[]]. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.random_adventurer_maps was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.block_map_markers was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.ceiling_banners was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.ceiling_banners.enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.enabled was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.mixed_books was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.written_books was corrected from null to its default, false. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.book_power was corrected from null to its default, 1.0. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.enchanted_book_power was corrected from null to its default, 1.334. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.zombie_horse_conversion was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.rotten_flesh was corrected from null to its default, 64. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.rideable_underwater was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.rope_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.rope_arrow.rope_arrow_override was corrected from null to its default, supplementaries:rope. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.rope_arrow.capacity was corrected from null to its default, 24. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.flute was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.flute.unbound_radius was corrected from null to its default, 64. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.flute.bound_distance was corrected from null to its default, 64. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.bomb was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.bomb.explosion_radius was corrected from null to its default, 2.0. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.bomb.break_blocks was corrected from null to its default, WEAK. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.blue_bomb was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.blue_bomb.explosion_radius was corrected from null to its default, 5.15. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.blue_bomb.break_blocks was corrected from null to its default, WEAK. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot.range_multiplier was corrected from null to its default, 1.0. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot.charge_time was corrected from null to its default, 20. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot.stasis_deceleration was corrected from null to its default, 0.9625. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key items.slingshot.unrestricted_enderman_intercept was corrected from null to its default, true. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18:36:16] [modloading-worker-2/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.server_protection was corrected from null to its default, false. 
+[18:36:16] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Mod setup: SETUP
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/tube_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=east': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/tube_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=south': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/tube_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=north': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/tube_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=west': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/brain_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=east': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/brain_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=south': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/brain_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=north': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/brain_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=west': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/bubble_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=east': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/bubble_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=south': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/bubble_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=north': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/bubble_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=west': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/fire_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=east': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/fire_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=south': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/fire_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=north': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/fire_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=west': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/horn_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=east': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/horn_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=south': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/horn_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=north': Unknown blockstate property: 'facing'
+[18:36:17] [Worker-Main5/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'minecraft:blockstates/horn_coral_fan.json' in resourcepack: 'ChromaHills-128x-1.16-v2.zip' for variant: 'facing=west': Unknown blockstate property: 'facing'
+[18:36:19] [Worker-Main5/WARN] [minecraft/ModelBakery]: Unable to load model: 'decorative_blocks:block/crimson_support_down' referenced from: decorative_blocks:crimson_support#facing=north,up=true,waterlogged=true: {}
+[18:36:19] [Worker-Main5/WARN] [minecraft/ModelBakery]: java.io.FileNotFoundException: decorative_blocks:models/block/crimson_support_down.json
+[18:36:19] [Worker-Main5/WARN] [minecraft/ModelBakery]: Unable to load model: 'decorative_blocks:block/warped_support_down' referenced from: decorative_blocks:warped_support#facing=north,up=true,waterlogged=true: {}
+[18:36:19] [Worker-Main5/WARN] [minecraft/ModelBakery]: java.io.FileNotFoundException: decorative_blocks:models/block/warped_support_down.json
+[18:36:19] [Worker-Main3/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:19] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/mob_effects.png
+[18:36:22] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:36:22] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:36:22] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:36:22] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:36:24] [Worker-Main5/WARN] [minecraft/ModelBakery]: Unable to resolve texture reference: #missing in minecraft:block/activator_rail_on
+[18:36:24] [Worker-Main5/WARN] [minecraft/ModelBakery]: Unable to resolve texture reference: #missing in minecraft:block/powered_rail
+[18:36:24] [Worker-Main5/WARN] [minecraft/ModelBakery]: Unable to resolve texture reference: #missing in minecraft:block/detector_rail
+[18:36:24] [Worker-Main5/WARN] [minecraft/ModelBakery]: Unable to resolve texture reference: #missing in minecraft:block/detector_rail_on
+[18:36:24] [Worker-Main5/WARN] [minecraft/ModelBakery]: Unable to resolve texture reference: #missing in minecraft:block/rail
+[18:36:24] [Worker-Main5/WARN] [minecraft/ModelBakery]: Unable to resolve texture reference: #missing in minecraft:block/powered_rail_on
+[18:36:24] [Worker-Main5/WARN] [minecraft/ModelBakery]: Unable to resolve texture reference: #missing in minecraft:block/activator_rail
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multipass connected textures: false
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/glow stone/glowstone.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: nether
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/hardclay/mesa clay/terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/hardclay/terracotta.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Swampland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Hell
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Sky
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IcePlains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IceMountains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIsland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIslandShore
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ForestHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHillsEdge
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/ice/ice.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/jungle leaves/jungle_leaves.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/quartz pillars/quartz_pillar.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/chiseled_sandstone.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/cobble/cobblestone.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/cobwebs/cobweb.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/crafting table/crafting_table_front.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] No matchBlocks or matchTiles specified: optifine/ctm/random/crafting table/crafting_table_front.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/crafting table/crafting_table_side.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] No matchBlocks or matchTiles specified: optifine/ctm/random/crafting table/crafting_table_side.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/crafting table/crafting_table_top.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] No matchBlocks or matchTiles specified: optifine/ctm/random/crafting table/crafting_table_top.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/deadbush/dead_bush.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/dirt/dirt.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/grass-random/grass_block_top.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/path/grass_path_top.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] Less weights defined than tiles, expanding weights: optifine/ctm/random/path/grass_path_top.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/sand/sand.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] More weights defined than tiles, trimming weights: optifine/ctm/random/sand/sand.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/sandstone.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/sandstone_smooth.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] No matchBlocks or matchTiles specified: optifine/ctm/random/sandstone_smooth.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/sandstone_top.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/snowdirt/grass_block_snow.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/random/xmas chests/normal.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] No matchBlocks or matchTiles specified: optifine/ctm/random/xmas chests/normal.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/repeat/packed ice/packed_ice.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/black/black_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/blue/blue_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/brown/brown_terracotta.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Swampland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Hell
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Sky
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IcePlains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IceMountains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIsland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIslandShore
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ForestHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHillsEdge
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/brown/mesabrown/brown_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/cyan/cyan_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/green/green_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/grey/gray_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/light blue/light_blue_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/light grey/light_gray_terracotta.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Swampland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Hell
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Sky
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IcePlains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IceMountains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIsland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIslandShore
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ForestHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHillsEdge
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/light grey/mesagrey/light_gray_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/lime/lime_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/magenta/magenta_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/orange/mesaorange/orange_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/orange/orange_terracotta.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Swampland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Hell
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Sky
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IcePlains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IceMountains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIsland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIslandShore
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ForestHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHillsEdge
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/pink/pink_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/purple/purple_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/red/mesared/red_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/red/red_terracotta.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Swampland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Hell
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Sky
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IcePlains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IceMountains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIsland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIslandShore
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ForestHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHillsEdge
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/white/mesawhite/white_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/white/white_terracotta.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Swampland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Hell
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Sky
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IcePlains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IceMountains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIsland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIslandShore
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ForestHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHillsEdge
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/yellow/mesayellow/yellow_terracotta.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained clay/yellow/yellow_terracotta.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Swampland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Hell
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: Sky
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IcePlains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: IceMountains
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIsland
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: MushroomIslandShore
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ForestHills
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Biome not found: ExtremeHillsEdge
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained glass/blue/blue_stained_glass.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained glass/green/green_stained_glass.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained glass/orange/orange_stained_glass.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained glass/purple/purple_stained_glass.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/stained glass/red/red_stained_glass.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/sugarcane/sugar_cane.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/acacia_planks.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/acacia_stairs.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] No matchBlocks or matchTiles specified: optifine/ctm/wood planks/acacia_stairs.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/birch_planks.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/birch_stairs.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:135
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/dark_oak_planks.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/dark_oak_stairs.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:164
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] File not found: optifine/ctm/wood planks/29.png
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/jungle_planks.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/jungle_stairs.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:136
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/oak_planks.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/oak_stairs.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] No matchBlocks or matchTiles specified: optifine/ctm/wood planks/oak_stairs.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/spruce_planks.properties
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/wood planks/spruce_stairs.properties
+[18:36:24] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:134
+[18:36:24] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multipass connected textures: false
+[18:36:25] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multipass connected textures: false
+[18:36:25] [Worker-Main5/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:36:25] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multipass connected textures: false
+[18:36:25] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multipass connected textures: false
+[18:36:25] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[18:36:37] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Mipmap levels: 4
+[18:36:37] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/blocks.png
+[18:36:37] [Worker-Main6/ERROR] [minecraft/AtlasTexture]: Using missing texture, unable to load customnpcs:textures/blocks/mailbox3.png : java.io.FileNotFoundException: customnpcs:textures/blocks/mailbox3.png
+[18:36:37] [Worker-Main6/ERROR] [minecraft/AtlasTexture]: Using missing texture, unable to load customnpcs:textures/blocks/mailbox2.png : java.io.FileNotFoundException: customnpcs:textures/blocks/mailbox2.png
+[18:36:37] [Worker-Main6/ERROR] [minecraft/AtlasTexture]: Using missing texture, unable to load customnpcs:textures/blocks/mailbox1.png : java.io.FileNotFoundException: customnpcs:textures/blocks/mailbox1.png
+[18:36:37] [Worker-Main6/ERROR] [minecraft/AtlasTexture]: Using missing texture, unable to load minecraft:optifine/ctm/wood planks/29.png : java.io.FileNotFoundException: minecraft:optifine/ctm/wood planks/29.png
+[18:36:38] [Worker-Main6/ERROR] [minecraft/AtlasTexture]: Using missing texture, unable to load customnpcs:textures/block/carpentrybench.png : java.io.FileNotFoundException: customnpcs:textures/block/carpentrybench.png
+[18:36:38] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled non power of 2: minecraft:block/cake_bottom, 120 -> 128
+[18:36:38] [Worker-Main6/INFO] [TerraForged/]: Common setup
+[18:36:38] [Worker-Main3/INFO] [journeymap/]: No plugins for JourneyMap API discovered.
+[18:36:38] [Worker-Main3/INFO] [co.sk.wo.fo.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.5+57d5ac9) is loaded
+[18:36:38] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [chunkanimator] Starting version check at https://github.com/Harleyoc1/ChunkAnimator/blob/1.16.5/version_info.json?raw=true
+[18:36:38] [Forge Version Check/WARN] [ne.mi.fm.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:369) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:312) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:307) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?] {}
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?] {}
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:199) ~[?:?] {}
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1416) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:451) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:422) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:574) ~[?:?] {}
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1653) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577) ~[?:?] {}
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308) ~[?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?] {re:classloading}
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?] {re:classloading}
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?] {}
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?] {}
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+[18:36:38] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[18:36:39] [Forge Version Check/WARN] [ne.mi.fm.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.net.HttpURLConnection.getContentEncoding()" is null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?] {re:classloading}
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?] {re:classloading}
+[18:36:39] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[18:36:40][FINE/customnpcs][noppes.npcs.shared.common.util.LogWriter:73] Tue Jan 10 18:36:40 CST 2023
+[18:36:40][FINE/customnpcs][noppes.npcs.controllers.ScriptController:53] Script Engines Available:
+[18:36:40][FINE/customnpcs][noppes.npcs.controllers.ScriptController:112] ECMAScript: .js
+[18:36:40][SEVERE/customnpcs][noppes.npcs.ScriptPlayerEventHandler:380] java.lang.NoSuchFieldException: classes
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+	at noppes.npcs.ScriptPlayerEventHandler.registerForgeEvents(ScriptPlayerEventHandler.java:319)
+	at noppes.npcs.CustomNpcs.setup(CustomNpcs.java:250)
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1792)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: CustomNPC Permissions available:
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.edit.blocks
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.edit.villager
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.global.bank
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.global.dialog
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.global.faction
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.global.linked
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.global.naturalspawn
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.global.playerdata
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.global.quest
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.global.recipe
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.global.transport
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.advanced
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.ai
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.clone
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.create
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.delete
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.display
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.freeze
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.gui
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.inventory
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.reset
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.npc.stats
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.scenes
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.soulstone.all
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.spawner.create
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.spawner.mob
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.tool.mounter
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.tool.nbtbook
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.tool.pather
+[18:36:40] [Worker-Main6/INFO] [no.np.CustomNpcs/]: customnpcs.tool.scripter
+[18:36:44] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:44] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Sprite size: 512
+[18:36:44] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Mipmap levels: 9
+[18:36:44] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/signs.png
+[18:36:44] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: infinityitemeditor:item/empty_armor_slot_sword, 16 -> 512
+[18:36:44] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:44] [Render thread/INFO] [journeymap/]: Initializing Packet Registries
+[18:36:45] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Mod setup: SIDED SETUP
+[18:36:45] [Worker-Main4/INFO] [TerraForged/]: Client setup
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Sprite size: 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Mipmap levels: 9
+[18:36:45] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/banner_patterns.png
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/half_vertical, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/square_top_right, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/triangle_bottom, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/stripe_downleft, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: minecraft:entity/banner/globe, 64 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/half_vertical_right, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/triangles_bottom, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/stripe_downright, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/base, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/globe, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/diagonal_up_left, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/square_bottom_right, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/circle, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/creeper, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/triangle_top, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/half_horizontal_bottom, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/flower, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/rhombus, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/triangles_top, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/mojang, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/gradient, 32 -> 512
+[18:36:45] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/straight_cross, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/gradient_up, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/stripe_left, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/curly_border, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/stripe_top, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/stripe_middle, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/border, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/bricks, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/stripe_center, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: minecraft:entity/banner/piglin, 64 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/square_top_left, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/diagonal_right, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/stripe_right, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/diagonal_left, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: infinityitemeditor:item/empty_armor_slot_sword, 16 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/small_stripes, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/stripe_bottom, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/diagonal_up_right, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/square_bottom_left, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/piglin, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/half_horizontal, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/cross, 32 -> 512
+[18:36:46] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/flags/skull, 32 -> 512
+[18:36:46] [Render thread/INFO] [journeymap/]: Journeymap Initializing
+[18:36:46] [Render thread/INFO] [journeymap/]: JourneyMap log initialized.
+[18:36:46] [Render thread/INFO] [journeymap/]: initialize ENTER
+[18:36:46] [Render thread/INFO] [journeymap/]: [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[18:36:46] [Render thread/INFO] [journeymap/]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[18:36:47] [Render thread/WARN] [journeymap/]: core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[18:36:47] [Render thread/WARN] [journeymap/]: core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[18:36:47] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:47] [Render thread/INFO] [journeymap/]: initialize EXIT, elapsed count 1 avg 563.07ms
+[18:36:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Mod setup complete
+[18:36:47] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Sprite size: 512
+[18:36:47] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Mipmap levels: 9
+[18:36:47] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/shield_patterns.png
+[18:36:47] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: minecraft:entity/shield/globe, 64 -> 512
+[18:36:47] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: minecraft:entity/shield/piglin, 64 -> 512
+[18:36:47] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: infinityitemeditor:item/empty_armor_slot_sword, 16 -> 512
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Sprite size: 64
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Mipmap levels: 6
+[18:36:48] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/chest.png
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: infinityitemeditor:item/empty_armor_slot_sword, 16 -> 64
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Sprite size: 512
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Mipmap levels: 9
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: infinityitemeditor:item/empty_armor_slot_sword, 16 -> 512
+[18:36:48] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/beds.png
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Multitexture: false
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Sprite size: 512
+[18:36:48] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Mipmap levels: 9
+[18:36:48] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Atlas Stitching : minecraft:textures/atlas/shulker_boxes.png
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_black, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_orange, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_green, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_pink, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_written, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_brown, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_antique, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_white, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_enchanted, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_light_blue, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_lime, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_light_gray, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_tome, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_yellow, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: infinityitemeditor:item/empty_armor_slot_sword, 16 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_red, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_blue, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_gray, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_cyan, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_purple, 32 -> 512
+[18:36:49] [Worker-Main5/INFO] [ne.op.Config/]: [OptiFine] Scaled too small texture: supplementaries:entity/books/book_magenta, 32 -> 512
+[18:36:49] [Render thread/INFO] [ModernUI/Canvas]: Loaded shader programs
+[18:36:49] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Mod setup: ENQUEUE IMC
+[18:36:49] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Mod setup: PROCESS IMC
+[18:36:49] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Mod setup: Final completion
+[18:36:49] [Worker-Main2/INFO] [TerraForged/]: Loaded TerraForged version 0.2.16
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: Number of SoundEvents cached: 1269
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: Individual Sound Configurations
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: ===============================
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: minecraft:entity.sheep.ambient cull
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: minecraft:entity.chicken.ambient cull
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: minecraft:entity.cow.ambient cull
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: minecraft:entity.pig.ambient cull
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: minecraft:entity.llama.ambient cull
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: minecraft:entity.wither.spawn cull 10
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: minecraft:entity.wither.death cull 10
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: minecraft:entity.ender_dragon.death cull 10
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: Category Occlusion
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: ==================
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: voice -> true
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: biomes -> true
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: hostile -> true
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: neutral -> true
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: ambient -> true
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: footsteps -> true
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: master -> false
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: CONFIG -> false
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: toolbar -> true
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: music -> false
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: waterfall -> false
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: record -> false
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: spot -> true
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: weather -> false
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: block -> true
+[18:36:49] [Worker-Main4/INFO] [SoundControl/SoundLibrary]: player -> true
+[18:36:50] [Worker-Main4/INFO] [DynamicSurroundings/Lib]: Processing mobeffects:acoustics.json (/assets/dsurround/configs/mobeffects/acoustics.json)
+[18:36:50] [Worker-Main4/INFO] [DynamicSurroundings/Lib]: Processing environs:acoustics.json (/assets/dsurround/configs/environs/acoustics.json)
+[18:36:50] [Worker-Main4/WARN] [SoundControl/MOD]: Unable to locate sound 'mobeffects:jump'
+[18:36:50] [Render thread/INFO] [journeymap/]: Journeymap PostInit
+[18:36:50] [Forge Version Check/WARN] [ne.mi.fm.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.net.HttpURLConnection.getContentEncoding()" is null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?] {re:classloading}
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?] {re:classloading}
+[18:36:50] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18:36:50] [Render thread/INFO] [journeymap/]: Preloaded theme textures: 73
+[18:36:50] [Render thread/INFO] [journeymap/]: postInitialize EXIT, elapsed count 1 avg 736.76ms
+[18:36:50] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Freezing data
+[18:36:51] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.39 Target: null
+[18:36:51] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[18:36:51] [Forge Version Check/WARN] [ne.mi.fm.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:369) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:312) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:307) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?] {}
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?] {}
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:199) ~[?:?] {}
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1416) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:451) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:422) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:574) ~[?:?] {}
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1653) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577) ~[?:?] {}
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308) ~[?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?] {re:classloading}
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?] {re:classloading}
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?] {}
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?] {}
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+[18:36:51] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [dynamictreesplus] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTreesPlus.json?raw=true
+[18:36:51] [Forge Version Check/WARN] [ne.mi.fm.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:369) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:312) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:307) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?] {}
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?] {}
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:199) ~[?:?] {}
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1416) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:451) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:422) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:574) ~[?:?] {}
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1653) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577) ~[?:?] {}
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308) ~[?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?] {re:classloading}
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?] {re:classloading}
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?] {}
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?] {}
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+[18:36:51] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [dsurround] Starting version check at https://raw.githubusercontent.com/OreCruncher/DynamicSurroundings2/master/version.json
+[18:36:52] [Forge Version Check/WARN] [ne.mi.fm.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:369) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:312) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:307) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?] {}
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?] {}
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:199) ~[?:?] {}
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1416) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:451) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:422) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:574) ~[?:?] {}
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1653) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577) ~[?:?] {}
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308) ~[?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?] {re:classloading}
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?] {re:classloading}
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?] {}
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?] {}
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+[18:36:52] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [dtterraforged] Starting version check at https://github.com/Harleyoc1/DynamicTreesTerraForged/blob/1.16.5/version_info.json?raw=true
+[18:36:52] [Forge Version Check/WARN] [ne.mi.fm.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:369) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:312) ~[?:?] {}
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:307) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369) ~[?:?] {}
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?] {}
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?] {}
+	at sun.security.ssl.TransportContext.dispatch(TransportContext.java:199) ~[?:?] {}
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1416) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:451) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:422) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:574) ~[?:?] {}
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1653) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577) ~[?:?] {}
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308) ~[?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?] {re:classloading}
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?] {re:classloading}
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:?] {}
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:?] {}
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434) ~[?:?] {}
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?] {}
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?] {}
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?] {}
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638) ~[?:?] {}
+	... 21 more
+[18:36:57] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Mod loading complete - 38 mods loaded
+[18:36:57] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Remap complete
+[18:36:57] [Thread-2/INFO] [me.sh.be.fo.BetterLoadingScreenForgeMessageHandler/]: Remapping mod data
+[18:37:01] [Render thread/INFO] [minecraft/SoundSystem]: OpenAL initialized.
+[18:37:01] [Render thread/INFO] [SoundControl/SoundUtils]: Enhanced sounds are enabled.  Will perform sound engine reconfiguration.
+[18:37:01] [Render thread/INFO] [SoundControl/SoundUtils]: HRTF status report before configuration: ALC_HRTF_DISABLED_SOFT
+[18:37:01] [Render thread/INFO] [SoundControl/SoundUtils]: HRTF is already configured or Dynamic Surroundings is not configured to enable
+[18:37:01] [Render thread/INFO] [SoundControl/SoundUtils]: Vendor: OpenAL Community
+[18:37:01] [Render thread/INFO] [SoundControl/SoundUtils]: Version: 1.1 ALSOFT 1.19.1
+[18:37:01] [Render thread/INFO] [SoundControl/SoundUtils]: Renderer: OpenAL Soft
+[18:37:01] [SoundControl Sound Processor/INFO] [SoundControl/SoundFXProcessor]: Threads allocated to SoundControl sound processor: 2
+[18:37:01] [Render thread/INFO] [SoundControl/SoundUtils]: Extensions: AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFTX_events AL_SOFTX_filter_gain_ex AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFTX_map_buffer AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+[18:37:01] [Render thread/INFO] [minecraft/SoundEngine]: Sound engine started
+[18:37:02] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 8192x8192x4 minecraft:textures/atlas/blocks.png-atlas
+[18:37:02] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 8192x8192, mipmaps: 4
+[18:37:02] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 8192x8192, mipmaps: 4
+[18:37:02] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 103
+[18:37:03] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 2048x1024x4 minecraft:textures/atlas/signs.png-atlas
+[18:37:03] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 2048x1024, mipmaps: 4
+[18:37:03] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 2048x1024, mipmaps: 4
+[18:37:03] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 0
+[18:37:03] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 4096x4096x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:37:03] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 4096x4096, mipmaps: 4
+[18:37:03] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 4096x4096, mipmaps: 4
+[18:37:03] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 0
+[18:37:04] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 4096x4096x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:37:04] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 4096x4096, mipmaps: 4
+[18:37:04] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 4096x4096, mipmaps: 4
+[18:37:04] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 0
+[18:37:04] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 2048x1024x4 minecraft:textures/atlas/chest.png-atlas
+[18:37:04] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 2048x1024, mipmaps: 4
+[18:37:04] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 2048x1024, mipmaps: 4
+[18:37:04] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 0
+[18:37:04] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 4096x2048x4 minecraft:textures/atlas/beds.png-atlas
+[18:37:04] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 4096x2048, mipmaps: 4
+[18:37:04] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 4096x2048, mipmaps: 4
+[18:37:04] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 0
+[18:37:05] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 4096x4096x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:37:05] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 4096x4096, mipmaps: 4
+[18:37:05] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 4096x4096, mipmaps: 4
+[18:37:05] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 0
+[18:37:25] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 1024x1024x0 minecraft:textures/atlas/particles.png-atlas
+[18:37:25] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 1024x1024, mipmaps: 0
+[18:37:25] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 1024x1024, mipmaps: 0
+[18:37:25] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 0
+[18:37:25] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 2048x2048x0 minecraft:textures/atlas/paintings.png-atlas
+[18:37:25] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 2048x2048, mipmaps: 0
+[18:37:25] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 2048x2048, mipmaps: 0
+[18:37:25] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 0
+[18:37:25] [Render thread/INFO] [minecraft/AtlasTexture]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:37:25] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map normal: 128x128, mipmaps: 0
+[18:37:25] [Render thread/INFO] [ne.op.sh.SMCLog/]: [Shaders] Allocate texture map specular: 128x128, mipmaps: 0
+[18:37:25] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Animated sprites: 0
+[18:37:26] [Render thread/INFO] [ne.op.Config/]: [OptiFine] *** Reloading custom textures ***
+[18:37:27] [Render thread/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:37:29] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: Colormap optifine/colormap/swampgrass.png
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: Colormap optifine/colormap/swampfoliage.png
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: Colormap optifine/colormap/fog0.png
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: Colormap optifine/colormap/underwater.png
+[18:37:30] [Render thread/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: Loading optifine/color.properties
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: drop.water = 93b9f1
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: fog.nether = 4d0b0b
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: fog.end = 150018
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: sky.end = 000000
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: Block palette: palette.block.~/colormap/sand.png = 12 82
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomColors: Colormap optifine/colormap/sand.png
+[18:37:30] [Render thread/WARN] [ne.op.Config/]: [OptiFine] CustomColors: Block not found for name: minecraft:12
+[18:37:30] [Render thread/WARN] [ne.op.Config/]: [OptiFine] CustomColors: Block not found for name: minecraft:82
+[18:37:30] [Render thread/WARN] [ne.op.Config/]: [OptiFine] CustomColors: Invalid match blocks: 12 82
+[18:37:30] [Render thread/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomSky properties: optifine/sky/world0/sky1.properties
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomSky properties: optifine/sky/world0/sky2.properties
+[18:37:30] [Render thread/INFO] [ne.op.Config/]: [OptiFine] CustomSky properties: optifine/sky/world0/sky3.properties
+[18:38:04] [SoundControl Sound Processor/WARN] [SoundControl/SoundFXProcessor]: SoundControl Sound Processor is lagging; behind 1143 msecs
+[18:38:15] [Render thread/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:38:15] [Render thread/INFO] [ne.op.Config/]: [OptiFine] RandomEntities: textures/entity/chicken.png, variants: 4
+[18:38:15] [Render thread/INFO] [ne.op.Config/]: [OptiFine] RandomEntities: textures/entity/creeper/creeper.png, variants: 5
+[18:38:15] [Render thread/INFO] [ne.op.Config/]: [OptiFine] RandomEntities: textures/entity/pig/pig.png, variants: 3
+[18:38:15] [Render thread/INFO] [ne.op.Config/]: [OptiFine] RandomEntities: textures/entity/spider/spider.png, variants: 3
+[18:38:15] [Render thread/INFO] [ne.op.Config/]: [OptiFine] RandomEntities: textures/entity/zombie/zombie.png, variants: 3
+[18:38:16] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Texture pack clouds: fast
+[18:38:16] [Render thread/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:38:16] [Render thread/WARN] [ne.op.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18:38:17] [Render thread/INFO] [ne.op.Config/]: [OptiFine] Disable Forge light pipeline
+[18:38:17] [Render thread/INFO] [ne.op.Log/]: [OptiFine] Set ForgeConfig.CLIENT.forgeLightPipelineEnabled=false
+[18:38:20] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[18:38:50] [Render thread/INFO] [TerraForged/]: Adding DataPackFinder
+[18:38:50] [Render thread/INFO] [TerraForged/]: Registering /terra command
+[18:38:50] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [noppes, mark, clear] and [noppes, mark, entities] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:38:50] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [noppes, mark, entities] and [noppes, mark, clear] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:38:50] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:38:50] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:38:50] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:38:50] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:38:50] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:38:50] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [waypoint, create, name, dimension, location, color, announce] and [waypoint, create, name, dimension, location, color, player] with inputs: [true, false]
+[18:38:50] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [waypoint, delete, name, announce] and [waypoint, delete, name, player] with inputs: [true, false]
+[18:38:50] [Render thread/INFO] [BRRP/ReloadableResourceManagerImplMixin/]: BRRP register - before vanilla
+[18:38:50] [Render thread/INFO] [BRRP/ReloadableResourceManagerImplMixin/]: BRRP register - after vanilla
+[18:38:50] [Render thread/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, 优化MOD-崩溃优化-notenoughcrashes-4.1.4+1.16.5-forge.jar, 核心MOD-锁链连接-connectiblechains-1.2.0.jar, 可选MOD-区块加载动画-ChunkAnimator-1.16.5-1.2.4.jar, 核心MOD-YUNG的桥-YungsBridges-Forge-1.16.4-1.0.1.jar, 优化MOD-流畅加载-smoothboot-forge-1.16.4-1.2.2.jar, 核心MOD-拓展方块形状-extshape-forge-1.8.0-mc1.16.5.jar, 核心MOD-真实地形-TerraForged-1.16.5-0.2.16.jar, 可选MOD-旅行地图-journeymap-1.16.5-5.8.5p6.jar, 优化MOD-汉化-i18nupdatemod-1.16.5-2.0.4.jar, 核心MOD-更多栏杆-1.16.5-additionalbars-2.0.3.jar, 前置MOD-YungsApi-1.16.4-Forge-13.jar, 核心MOD-装饰方块-decorative_blocks-1.16.4-1.7.2.jar, 核心MOD-时装工坊-armourersworkshop-forge-1.16.5-2.0.0-beta.8.jar, 作者MOD-建筑生成-mightyarchitect-mc1.16.3_v0.5.jar, 核心MOD-自定义NPC-CustomNPCs-1.16.5.20220728snapshot.jar, 可选MOD-加载画面改良-better-loading-screen-1.4.0.jar, 作者MOD-创世神CUI-WorldEdit-CUI-FE3-1.16.5-3.0.9.jar, 作者MOD-创世神-worldedit-mod-7.2.5-dist.jar, 前置MOD-更好的运行时资源包-brrp-forge-0.8.2-1.16.5.jar, 优化MOD-星光-starlight-forge-0.0.3.jar, 核心MOD-龙虾先生家具-cfm-7.0.0pre22-1.16.3.jar, 优化MOD-铁氧体磁芯-ferritecore-2.1.1-forge.jar, 可选MOD-现代化UI-ModernUI-1.16.5-2.7.1.105-universal.jar, 前置MOD-cloth-config-4.16.91-forge.jar, 优化MOD-FPS减速器-FpsReducer-forge-1.24-mc1.16.5.jar, 作者MOD-物品编辑器-infinityitemeditor-1.2.jar, forge-1.16.5-36.2.39-universal.jar, 核心MOD-锦致装饰-supplementaries-1.16.5-0.18.0.jar, 核心MOD-动态的树-DynamicTrees-1.16.5-0.10.2.jar, 核心MOD-动态的树拓展-DynamicTreesPlus-1.16.5-0.1.0-Beta12.jar, 可选MOD-动态环绕-DynamicSurroundings-1.16.5-4.0.5.0.jar, 核心MOD-自定义NPC附属-VariedCommodities-1.16.5.20220618snapshot.jar, 前置MOD-selene-1.16.5-1.9.0.jar, 核心MOD-动态的树真实地形拓展-DynamicTreesTerraForged-1.16.5-1.0.0.jar
+[18:38:52] [Render thread/ERROR] [minecraft/TagCollectionReader]: Couldn't load block tag farmersdelight:mushroom_colony_growable_on as it is missing following references: supplementaries:planter_rich (from 核心MOD-锦致装饰-supplementaries-1.16.5-0.18.0.jar)
+[18:38:52] [Render thread/WARN] [minecraft/Minecraft]: Failed to load datapacks, can't proceed with server load
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Missing required tags: minecraft:block:extshape:snow
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2069) ~[?:?] {}
+	at net.minecraft.client.Minecraft.func_238189_a_(Minecraft.java:1866) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1714) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_238192_a_(Minecraft.java:1687) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.CreateWorldScreen.func_195352_j(CreateWorldScreen.java:260) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.CreateWorldScreen.lambda$init$11(CreateWorldScreen.java:205) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.button.Button.func_230930_b_(SourceFile:33) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.gui.widget.button.AbstractButton.func_230982_a_(SourceFile:16) ~[?:?] {re:classloading}
+	at net.minecraft.client.gui.widget.Widget.func_231044_a_(Widget.java:136) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.func_231044_a_(SourceFile:27) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.client.MouseHelper.func_198033_b(MouseHelper.java:87) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:customnpcs.mixins.json:MouseHelperMixin,pl:mixin:APP:variedcommodities.mixins.json:MouseHelperMixin,pl:mixin:APP:mixins.modernui-forge.json:MixinMouseHandler,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.func_231153_a_(Screen.java:427) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:mixins.modernui-forge.json:MixinScreen,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_198023_a(MouseHelper.java:85) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:customnpcs.mixins.json:MouseHelperMixin,pl:mixin:APP:variedcommodities.mixins.json:MouseHelperMixin,pl:mixin:APP:mixins.modernui-forge.json:MixinMouseHandler,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_228030_c_(MouseHelper.java:181) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:customnpcs.mixins.json:MouseHelperMixin,pl:mixin:APP:variedcommodities.mixins.json:MouseHelperMixin,pl:mixin:APP:mixins.modernui-forge.json:MixinMouseHandler,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:111) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:OptiFine:default,re:computing_frames,pl:accesstransformer:B,xf:OptiFine:default,re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.client.MouseHelper.func_228028_b_(MouseHelper.java:180) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:customnpcs.mixins.json:MouseHelperMixin,pl:mixin:APP:variedcommodities.mixins.json:MouseHelperMixin,pl:mixin:APP:mixins.modernui-forge.json:MixinMouseHandler,pl:mixin:A,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallback$Container.invoke(GLFWMouseButtonCallback.java:81) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at bre2el.fpsreducer.handler.glfw.InputEventHandler$MouseButtonEventHandler.invoke(InputEventHandler.java:133) ~[fpsreducer:1.24-mc1.16.5] {re:classloading}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.handler$zee000$handleWaitEventsTimeout(SourceFile:1559) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:fpsreducer.mixins.json:RenderSystemMixin,pl:mixin:A}
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(SourceFile) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:fpsreducer.mixins.json:RenderSystemMixin,pl:mixin:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:1000) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[1.16.5.jar:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {re:classloading}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?] {re:classloading}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {re:classloading}
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37) ~[forge-1.16.5-36.2.39.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {re:classloading}
+Caused by: java.lang.IllegalStateException: Missing required tags: minecraft:block:extshape:snow
+	at net.minecraft.tags.NetworkTagManager.lambda$reload$1(NetworkTagManager.java:47) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?] {}
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?] {re:computing_frames,re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:189) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:OptiFine:default,re:computing_frames,pl:accesstransformer:B,xf:OptiFine:default,re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?] {re:mixin,re:computing_frames,re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:151) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:OptiFine:default,re:computing_frames,pl:accesstransformer:B,xf:OptiFine:default,re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:167) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:OptiFine:default,re:computing_frames,pl:accesstransformer:B,xf:OptiFine:default,re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.client.Minecraft.func_238189_a_(Minecraft.java:1865) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	... 34 more
+[18:42:03] [Render thread/INFO] [TerraForged/]: Adding DataPackFinder
+[18:42:03] [Render thread/INFO] [TerraForged/]: Registering /terra command
+[18:42:03] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [noppes, mark, clear] and [noppes, mark, entities] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:42:03] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [noppes, mark, entities] and [noppes, mark, clear] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:42:03] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:42:03] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:42:03] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:42:03] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:42:03] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:42:03] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [waypoint, create, name, dimension, location, color, announce] and [waypoint, create, name, dimension, location, color, player] with inputs: [true, false]
+[18:42:03] [Render thread/WARN] [minecraft/Commands]: Ambiguity between arguments [waypoint, delete, name, announce] and [waypoint, delete, name, player] with inputs: [true, false]
+[18:42:03] [Render thread/INFO] [BRRP/ReloadableResourceManagerImplMixin/]: BRRP register - before vanilla
+[18:42:03] [Render thread/INFO] [BRRP/ReloadableResourceManagerImplMixin/]: BRRP register - after vanilla
+[18:42:03] [Render thread/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, 优化MOD-崩溃优化-notenoughcrashes-4.1.4+1.16.5-forge.jar, 核心MOD-锁链连接-connectiblechains-1.2.0.jar, 可选MOD-区块加载动画-ChunkAnimator-1.16.5-1.2.4.jar, 核心MOD-YUNG的桥-YungsBridges-Forge-1.16.4-1.0.1.jar, 优化MOD-流畅加载-smoothboot-forge-1.16.4-1.2.2.jar, 核心MOD-拓展方块形状-extshape-forge-1.8.0-mc1.16.5.jar, 核心MOD-真实地形-TerraForged-1.16.5-0.2.16.jar, 可选MOD-旅行地图-journeymap-1.16.5-5.8.5p6.jar, 优化MOD-汉化-i18nupdatemod-1.16.5-2.0.4.jar, 核心MOD-更多栏杆-1.16.5-additionalbars-2.0.3.jar, 前置MOD-YungsApi-1.16.4-Forge-13.jar, 核心MOD-装饰方块-decorative_blocks-1.16.4-1.7.2.jar, 核心MOD-时装工坊-armourersworkshop-forge-1.16.5-2.0.0-beta.8.jar, 作者MOD-建筑生成-mightyarchitect-mc1.16.3_v0.5.jar, 核心MOD-自定义NPC-CustomNPCs-1.16.5.20220728snapshot.jar, 可选MOD-加载画面改良-better-loading-screen-1.4.0.jar, 作者MOD-创世神CUI-WorldEdit-CUI-FE3-1.16.5-3.0.9.jar, 作者MOD-创世神-worldedit-mod-7.2.5-dist.jar, 前置MOD-更好的运行时资源包-brrp-forge-0.8.2-1.16.5.jar, 优化MOD-星光-starlight-forge-0.0.3.jar, 核心MOD-龙虾先生家具-cfm-7.0.0pre22-1.16.3.jar, 优化MOD-铁氧体磁芯-ferritecore-2.1.1-forge.jar, 可选MOD-现代化UI-ModernUI-1.16.5-2.7.1.105-universal.jar, 前置MOD-cloth-config-4.16.91-forge.jar, 优化MOD-FPS减速器-FpsReducer-forge-1.24-mc1.16.5.jar, 作者MOD-物品编辑器-infinityitemeditor-1.2.jar, forge-1.16.5-36.2.39-universal.jar, 核心MOD-锦致装饰-supplementaries-1.16.5-0.18.0.jar, 核心MOD-动态的树-DynamicTrees-1.16.5-0.10.2.jar, 核心MOD-动态的树拓展-DynamicTreesPlus-1.16.5-0.1.0-Beta12.jar, 可选MOD-动态环绕-DynamicSurroundings-1.16.5-4.0.5.0.jar, 核心MOD-自定义NPC附属-VariedCommodities-1.16.5.20220618snapshot.jar, 前置MOD-selene-1.16.5-1.9.0.jar, 核心MOD-动态的树真实地形拓展-DynamicTreesTerraForged-1.16.5-1.0.0.jar
+[18:42:04] [Render thread/ERROR] [minecraft/TagCollectionReader]: Couldn't load block tag farmersdelight:mushroom_colony_growable_on as it is missing following references: supplementaries:planter_rich (from 核心MOD-锦致装饰-supplementaries-1.16.5-0.18.0.jar)
+[18:42:04] [Render thread/WARN] [minecraft/Minecraft]: Failed to load datapacks, can't proceed with server load
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Missing required tags: minecraft:block:extshape:snow
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2069) ~[?:?] {}
+	at net.minecraft.client.Minecraft.func_238189_a_(Minecraft.java:1866) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadWorld(Minecraft.java:1714) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_238192_a_(Minecraft.java:1687) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.CreateWorldScreen.func_195352_j(CreateWorldScreen.java:260) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.CreateWorldScreen.lambda$init$11(CreateWorldScreen.java:205) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.button.Button.func_230930_b_(SourceFile:33) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.gui.widget.button.AbstractButton.func_230982_a_(SourceFile:16) ~[?:?] {re:classloading}
+	at net.minecraft.client.gui.widget.Widget.func_231044_a_(Widget.java:136) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.func_231044_a_(SourceFile:27) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.client.MouseHelper.func_198033_b(MouseHelper.java:87) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:customnpcs.mixins.json:MouseHelperMixin,pl:mixin:APP:variedcommodities.mixins.json:MouseHelperMixin,pl:mixin:APP:mixins.modernui-forge.json:MixinMouseHandler,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.func_231153_a_(Screen.java:427) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:mixins.modernui-forge.json:MixinScreen,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_198023_a(MouseHelper.java:85) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:customnpcs.mixins.json:MouseHelperMixin,pl:mixin:APP:variedcommodities.mixins.json:MouseHelperMixin,pl:mixin:APP:mixins.modernui-forge.json:MixinMouseHandler,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_228030_c_(MouseHelper.java:181) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:customnpcs.mixins.json:MouseHelperMixin,pl:mixin:APP:variedcommodities.mixins.json:MouseHelperMixin,pl:mixin:APP:mixins.modernui-forge.json:MixinMouseHandler,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:111) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:OptiFine:default,re:computing_frames,pl:accesstransformer:B,xf:OptiFine:default,re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.client.MouseHelper.func_228028_b_(MouseHelper.java:180) ~[?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:customnpcs.mixins.json:MouseHelperMixin,pl:mixin:APP:variedcommodities.mixins.json:MouseHelperMixin,pl:mixin:APP:mixins.modernui-forge.json:MixinMouseHandler,pl:mixin:A,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallback$Container.invoke(GLFWMouseButtonCallback.java:81) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at bre2el.fpsreducer.handler.glfw.InputEventHandler$MouseButtonEventHandler.invoke(InputEventHandler.java:133) ~[fpsreducer:1.24-mc1.16.5] {re:classloading}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.handler$zee000$handleWaitEventsTimeout(SourceFile:1559) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:fpsreducer.mixins.json:RenderSystemMixin,pl:mixin:A}
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(SourceFile) ~[?:?] {re:mixin,re:classloading,pl:mixin:APP:fpsreducer.mixins.json:RenderSystemMixin,pl:mixin:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:1000) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[1.16.5.jar:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {re:classloading}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?] {re:classloading}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {re:classloading}
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37) ~[forge-1.16.5-36.2.39.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {re:classloading}
+Caused by: java.lang.IllegalStateException: Missing required tags: minecraft:block:extshape:snow
+	at net.minecraft.tags.NetworkTagManager.lambda$reload$1(NetworkTagManager.java:47) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?] {}
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?] {re:computing_frames,re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:189) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:OptiFine:default,re:computing_frames,pl:accesstransformer:B,xf:OptiFine:default,re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?] {re:mixin,re:computing_frames,re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:151) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:OptiFine:default,re:computing_frames,pl:accesstransformer:B,xf:OptiFine:default,re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:167) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:OptiFine:default,re:computing_frames,pl:accesstransformer:B,xf:OptiFine:default,re:classloading,pl:accesstransformer:B,xf:OptiFine:default}
+	at net.minecraft.client.Minecraft.func_238189_a_(Minecraft.java:1865) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:better_loading_screen-common.mixins.json:MixinMinecraft,pl:mixin:A,pl:runtimedistcleaner:A}
+	... 34 more

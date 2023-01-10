@@ -1,19 +1,19 @@
-#Mon Jan 09 16:33:15 CST 2023
-shaderPack=只限水反.zip
-antialiasingLevel=0
-normalMapEnabled=true
-specularMapEnabled=true
-renderResMul=1.0
-shadowResMul=1.0
+#Tue Jan 10 19:16:02 CST 2023
 handDepthMul=0.125
-cloudShadow=false
-oldHandLight=default
-oldLighting=default
-tweakBlockDamage=false
-shadowClipFrustrum=true
 TexMinFilB=0
-TexMinFilN=0
-TexMinFilS=0
-TexMagFilB=0
+oldLighting=default
 TexMagFilN=0
+tweakBlockDamage=false
+cloudShadow=false
 TexMagFilS=0
+shaderPack=只限水反.zip
+TexMinFilN=0
+specularMapEnabled=true
+normalMapEnabled=true
+renderResMul=1.0
+oldHandLight=default
+TexMinFilS=0
+shadowResMul=1.0
+shadowClipFrustrum=true
+TexMagFilB=0
+antialiasingLevel=0
