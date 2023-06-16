@@ -5905,12 +5905,6 @@
     },
     "done": true
   },
-  "arcanecraft:magical_stick": {
-    "criteria": {
-      "magical_stick": "2023-01-10 21:50:47 +0800"
-    },
-    "done": true
-  },
   "extshape:recipes/building_blocks/light_gray_concrete_vertical_quarter_piece_from_vertical_slab": {
     "criteria": {
       "has_vertical_slab": "2023-01-10 21:16:15 +0800",
@@ -19166,12 +19160,6 @@
     },
     "done": true
   },
-  "arcanecraft:your_soul_is_mine": {
-    "criteria": {
-      "your_soul_is_mine": "2023-01-10 21:51:49 +0800"
-    },
-    "done": true
-  },
   "extshape:recipes/building_blocks/chiseled_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2023-01-10 21:16:20 +0800",
@@ -20583,12 +20571,6 @@
     "criteria": {
       "has_vertical_slab": "2023-01-10 21:16:20 +0800",
       "has_the_recipe": "2023-01-10 21:16:20 +0800"
-    },
-    "done": true
-  },
-  "arcanecraft:arcane_craft_advancement": {
-    "criteria": {
-      "arcane_craft_advancement": "2023-01-10 21:50:10 +0800"
     },
     "done": true
   },
@@ -27809,12 +27791,6 @@
     "criteria": {
       "has_slab": "2023-01-10 21:16:22 +0800",
       "has_the_recipe": "2023-01-10 21:16:22 +0800"
-    },
-    "done": true
-  },
-  "arcanecraft:woo_magic": {
-    "criteria": {
-      "woo_magic": "2023-01-10 21:50:47 +0800"
     },
     "done": true
   },

@@ -1,0 +1,20 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:source/volcanic_accumulator",
+        "ars_nouveau:apparatus/jar_of_light",
+        "ars_nouveau:rituals/flight"
+      ],
+      "bookmarks": [],
+      "history": [
+        "ars_nouveau:rituals/flight",
+        "ars_nouveau:apparatus/jar_of_light",
+        "ars_nouveau:source/volcanic_accumulator"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

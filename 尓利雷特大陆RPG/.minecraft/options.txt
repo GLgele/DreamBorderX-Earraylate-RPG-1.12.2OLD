@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","programer_art","file/Lithos+v1.53+for+1.16.3+.zip","file/Minecraft-Mod-Language-Modpack-1-16.zip"]
+resourcePacks:["vanilla","mod_resources","programer_art","file/Patrix_1.16_32x_basic.zip","file/Minecraft-Mod-Language-Modpack-1-16.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -89,7 +89,7 @@ key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
 key_key.saveToolbarActivator:key.keyboard.print.screen
-key_key.loadToolbarActivator:key.keyboard.x
+key_key.loadToolbarActivator:key.keyboard.right.alt
 key_key.advancements:key.keyboard.f4
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
@@ -105,9 +105,9 @@ key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
 key_key.journeymap.minimap_preset:key.keyboard.backslash
-key_key.journeymap.create_waypoint:key.keyboard.b
-key_key.journeymap.toggle_waypoints:key.keyboard.z
-key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
+key_key.journeymap.create_waypoint:key.keyboard.unknown
+key_key.journeymap.toggle_waypoints:key.keyboard.unknown
+key_key.journeymap.fullscreen_create_waypoint:key.keyboard.unknown
 key_key.journeymap.fullscreen_chat_position:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.j
 key_key.journeymap.fullscreen_waypoints:key.keyboard.b:CONTROL
@@ -120,7 +120,7 @@ key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
 key_key.editor:key.keyboard.u
 key_key.offhandswing:key.keyboard.unknown
-key_key.headcollection:key.keyboard.v
+key_key.headcollection:key.keyboard.right.bracket
 key_key.barriertoggle:key.keyboard.semicolon
 key_keys.armourers_workshop.open-wardrobe:key.keyboard.p:CONTROL
 key_keys.armourers_workshop.undo:key.keyboard.z:CONTROL
@@ -129,6 +129,7 @@ key_Scene2 start/pause:key.keyboard.keypad.2
 key_Scene3 start/pause:key.keyboard.keypad.3
 key_Scene reset:key.keyboard.keypad.0
 key_Quest Log:key.keyboard.l
+key_key.curios.open.desc:key.keyboard.grave.accent
 key_Start composing:key.keyboard.g
 key_Tool Menu (Hold):key.keyboard.left.alt
 key_worldeditcuife3.key.cui.options:key.keyboard.f9
@@ -140,16 +141,20 @@ key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.delete:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
-soundCategory_master:0.5066225
-soundCategory_music:1.0
-soundCategory_record:1.0
-soundCategory_weather:1.0
-soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:1.0
-soundCategory_player:1.0
-soundCategory_ambient:1.0
-soundCategory_voice:1.0
+key_key.ars_nouveau.open_book:key.keyboard.period
+key_key.ars_nouveau.selection_hud:key.keyboard.v
+key_key.ars_nouveau.previous_slot:key.keyboard.z
+key_key.ars_nouveau.next_slot:key.keyboard.x
+soundCategory_master:0.50551873
+soundCategory_music:0.8028169
+soundCategory_record:0.80046946
+soundCategory_weather:0.8028169
+soundCategory_block:0.80046946
+soundCategory_hostile:0.8028169
+soundCategory_neutral:0.80751175
+soundCategory_player:0.80751175
+soundCategory_ambient:0.80751175
+soundCategory_voice:0.80751175
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
