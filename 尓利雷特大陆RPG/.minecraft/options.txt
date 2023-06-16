@@ -139,12 +139,12 @@ key_worldeditcuife3.key.chunk.toggle.visibility:key.keyboard.f7
 key_worldeditcuife3.key.distance.toggle.visibility:key.keyboard.k
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
-key_sndctrl.text.quickvolumemenu.open:key.keyboard.delete:CONTROL
-key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 key_key.ars_nouveau.open_book:key.keyboard.period
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
 key_key.ars_nouveau.next_slot:key.keyboard.x
+key_sndctrl.text.quickvolumemenu.open:key.keyboard.delete:CONTROL
+key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 soundCategory_master:0.50551873
 soundCategory_music:0.8028169
 soundCategory_record:0.80046946
