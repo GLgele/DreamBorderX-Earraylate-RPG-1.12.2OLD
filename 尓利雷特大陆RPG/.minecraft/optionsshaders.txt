@@ -1,12 +1,12 @@
-#Fri Jun 16 13:12:18 CST 2023
+#Sat Jun 17 15:21:28 CST 2023
 handDepthMul=0.125
 TexMinFilB=0
-oldLighting=default
+oldLighting=false
 TexMagFilN=0
 tweakBlockDamage=false
 cloudShadow=false
 TexMagFilS=0
-shaderPack=只限水反.zip
+shaderPack=MakeUp-UltraFast-6.61L(zh-CN by xz_seer).zip
 TexMinFilN=0
 specularMapEnabled=true
 normalMapEnabled=true

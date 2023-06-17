@@ -122,6 +122,8 @@ key_key.editor:key.keyboard.u
 key_key.offhandswing:key.keyboard.unknown
 key_key.headcollection:key.keyboard.right.bracket
 key_key.barriertoggle:key.keyboard.semicolon
+key_key.tlot_magic_wand.change_magic_next:key.keyboard.z
+key_key.tlot_magic_wand.change_magic_previous:key.keyboard.x
 key_keys.armourers_workshop.open-wardrobe:key.keyboard.p:CONTROL
 key_keys.armourers_workshop.undo:key.keyboard.z:CONTROL
 key_Scene1 start/pause:key.keyboard.keypad.1
@@ -139,10 +141,6 @@ key_worldeditcuife3.key.chunk.toggle.visibility:key.keyboard.f7
 key_worldeditcuife3.key.distance.toggle.visibility:key.keyboard.k
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
-key_key.ars_nouveau.open_book:key.keyboard.period
-key_key.ars_nouveau.selection_hud:key.keyboard.v
-key_key.ars_nouveau.previous_slot:key.keyboard.z
-key_key.ars_nouveau.next_slot:key.keyboard.x
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.delete:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 soundCategory_master:0.50551873

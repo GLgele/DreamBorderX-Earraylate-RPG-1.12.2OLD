@@ -15,6 +15,16 @@
         "ars_nouveau:source/volcanic_accumulator"
       ],
       "completedManualQuests": []
+    },
+    "tlot_magic_wand:mw_guide_book": {
+      "viewedEntries": [
+        "tlot_magic_wand:4element1"
+      ],
+      "bookmarks": [],
+      "history": [
+        "tlot_magic_wand:4element1"
+      ],
+      "completedManualQuests": []
     }
   }
 }

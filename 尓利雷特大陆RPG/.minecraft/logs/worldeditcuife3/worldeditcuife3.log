@@ -331,3 +331,159 @@
 [2023-06-16 14:43:33] [Render thread/DEBUG] [fY] Received CUI event from server: s|cuboid
 [2023-06-16 14:43:33] [Render thread/DEBUG] [q] Received command from WE : s - Params: cuboid
 [2023-06-16 14:43:33] [Render thread/DEBUG] [gg] Cuboid command :s|cuboid
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] 
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] ******************************************************************************************
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] 
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] WorldEdit CUI Forge Edition 3 version 3.0.9 for Minecraft 1.16.5
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] Built with forge 36.0.13
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] 
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] Environment :
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] 		 OS :Windows 10 (amd64) 
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] 		 Java: 16.0.1
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] 		 Language :CN_zh
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] 
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] ******************************************************************************************
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [aT] 
+[2023-06-17 13:48:49] [modloading-worker-6/INFO] [a] WorldEdit CUI Forge Edition 3 is loading ...
+[2023-06-17 13:49:53] [Worker-Main2/DEBUG] [aM] Handler registered: com.github.hexomod.worldeditcuife3.aN
+[2023-06-17 13:52:15] [Render thread/DEBUG] [fY] Received CUI event from server: s|cuboid
+[2023-06-17 13:52:15] [Render thread/DEBUG] [q] Received command from WE : s - Params: cuboid
+[2023-06-17 13:52:15] [Render thread/DEBUG] [gg] Cuboid command :s|cuboid
+[2023-06-17 14:05:38] [Render thread/DEBUG] [fY] Received CUI event from server: s|cuboid
+[2023-06-17 14:05:38] [Render thread/DEBUG] [q] Received command from WE : s - Params: cuboid
+[2023-06-17 14:05:38] [Render thread/DEBUG] [gg] Cuboid command :s|cuboid
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] ******************************************************************************************
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] WorldEdit CUI Forge Edition 3 version 3.0.9 for Minecraft 1.16.5
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] Built with forge 36.0.13
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] Environment :
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] 		 OS :Windows 10 (amd64) 
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] 		 Java: 16.0.1
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] 		 Language :CN_zh
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] ******************************************************************************************
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:12:29] [modloading-worker-5/INFO] [a] WorldEdit CUI Forge Edition 3 is loading ...
+[2023-06-17 14:14:07] [Worker-Main3/DEBUG] [aM] Handler registered: com.github.hexomod.worldeditcuife3.aN
+[2023-06-17 14:20:10] [Render thread/DEBUG] [fY] Received CUI event from server: s|cuboid
+[2023-06-17 14:20:10] [Render thread/DEBUG] [q] Received command from WE : s - Params: cuboid
+[2023-06-17 14:20:10] [Render thread/DEBUG] [gg] Cuboid command :s|cuboid
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] 
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] ******************************************************************************************
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] 
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] WorldEdit CUI Forge Edition 3 version 3.0.9 for Minecraft 1.16.5
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] Built with forge 36.0.13
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] 
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] Environment :
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] 		 OS :Windows 10 (amd64) 
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] 		 Java: 16.0.1
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] 		 Language :CN_zh
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] 
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] ******************************************************************************************
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [aT] 
+[2023-06-17 14:26:03] [modloading-worker-0/INFO] [a] WorldEdit CUI Forge Edition 3 is loading ...
+[2023-06-17 14:27:16] [Worker-Main5/DEBUG] [aM] Handler registered: com.github.hexomod.worldeditcuife3.aN
+[2023-06-17 14:30:58] [Render thread/DEBUG] [fY] Received CUI event from server: s|cuboid
+[2023-06-17 14:30:58] [Render thread/DEBUG] [q] Received command from WE : s - Params: cuboid
+[2023-06-17 14:30:58] [Render thread/DEBUG] [gg] Cuboid command :s|cuboid
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] ******************************************************************************************
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] WorldEdit CUI Forge Edition 3 version 3.0.9 for Minecraft 1.16.5
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] Built with forge 36.0.13
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] Environment :
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] 		 OS :Windows 10 (amd64) 
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] 		 Java: 16.0.1
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] 		 Language :CN_zh
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] ******************************************************************************************
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [aT] 
+[2023-06-17 14:40:31] [modloading-worker-5/INFO] [a] WorldEdit CUI Forge Edition 3 is loading ...
+[2023-06-17 14:41:25] [Worker-Main6/DEBUG] [aM] Handler registered: com.github.hexomod.worldeditcuife3.aN
+[2023-06-17 14:43:54] [Render thread/DEBUG] [fY] Received CUI event from server: s|cuboid
+[2023-06-17 14:43:54] [Render thread/DEBUG] [q] Received command from WE : s - Params: cuboid
+[2023-06-17 14:43:54] [Render thread/DEBUG] [gg] Cuboid command :s|cuboid
+[2023-06-17 14:49:44] [Render thread/DEBUG] [fY] Received CUI event from server: p|0|2140|83|2374|-1
+[2023-06-17 14:49:44] [Render thread/DEBUG] [q] Received command from WE : p - Params: 0, 2140, 83, 2374, -1
+[2023-06-17 14:49:44] [Render thread/DEBUG] [gg] Cuboid command :p|0|2140|83|2374|-1
+[2023-06-17 14:49:48] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2131|87|2381|400
+[2023-06-17 14:49:48] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2131, 87, 2381, 400
+[2023-06-17 14:49:48] [Render thread/DEBUG] [gg] Cuboid command :p|1|2131|87|2381|400
+[2023-06-17 14:50:16] [Render thread/DEBUG] [fY] Received CUI event from server: p|0|2145|72|2384|960
+[2023-06-17 14:50:16] [Render thread/DEBUG] [q] Received command from WE : p - Params: 0, 2145, 72, 2384, 960
+[2023-06-17 14:50:16] [Render thread/DEBUG] [gg] Cuboid command :p|0|2145|72|2384|960
+[2023-06-17 14:50:23] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2131|87|2373|2880
+[2023-06-17 14:50:23] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2131, 87, 2373, 2880
+[2023-06-17 14:50:23] [Render thread/DEBUG] [gg] Cuboid command :p|1|2131|87|2373|2880
+[2023-06-17 14:50:32] [Render thread/DEBUG] [fY] Received CUI event from server: p|0|2130|71|2364|340
+[2023-06-17 14:50:32] [Render thread/DEBUG] [q] Received command from WE : p - Params: 0, 2130, 71, 2364, 340
+[2023-06-17 14:50:32] [Render thread/DEBUG] [gg] Cuboid command :p|0|2130|71|2364|340
+[2023-06-17 14:50:36] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2148|91|2400|14763
+[2023-06-17 14:50:36] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2148, 91, 2400, 14763
+[2023-06-17 14:50:36] [Render thread/DEBUG] [gg] Cuboid command :p|1|2148|91|2400|14763
+[2023-06-17 14:51:36] [Render thread/DEBUG] [fY] Received CUI event from server: p|0|2137|82|2378|2760
+[2023-06-17 14:51:36] [Render thread/DEBUG] [q] Received command from WE : p - Params: 0, 2137, 82, 2378, 2760
+[2023-06-17 14:51:36] [Render thread/DEBUG] [gg] Cuboid command :p|0|2137|82|2378|2760
+[2023-06-17 14:51:37] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2137|83|2379|4
+[2023-06-17 14:51:37] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2137, 83, 2379, 4
+[2023-06-17 14:51:37] [Render thread/DEBUG] [gg] Cuboid command :p|1|2137|83|2379|4
+[2023-06-17 14:51:40] [Render thread/DEBUG] [fY] Received CUI event from server: p|0|2151|71|2365|2925
+[2023-06-17 14:51:40] [Render thread/DEBUG] [q] Received command from WE : p - Params: 0, 2151, 71, 2365, 2925
+[2023-06-17 14:51:40] [Render thread/DEBUG] [gg] Cuboid command :p|0|2151|71|2365|2925
+[2023-06-17 14:51:41] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2152|71|2366|4
+[2023-06-17 14:51:41] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2152, 71, 2366, 4
+[2023-06-17 14:51:41] [Render thread/DEBUG] [gg] Cuboid command :p|1|2152|71|2366|4
+[2023-06-17 14:53:19] [Render thread/DEBUG] [fY] Received CUI event from server: p|0|2149|72|2360|56
+[2023-06-17 14:53:19] [Render thread/DEBUG] [q] Received command from WE : p - Params: 0, 2149, 72, 2360, 56
+[2023-06-17 14:53:19] [Render thread/DEBUG] [gg] Cuboid command :p|0|2149|72|2360|56
+[2023-06-17 14:53:21] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2154|72|2363|24
+[2023-06-17 14:53:21] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2154, 72, 2363, 24
+[2023-06-17 14:53:21] [Render thread/DEBUG] [gg] Cuboid command :p|1|2154|72|2363|24
+[2023-06-17 14:53:22] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2151|71|2364|30
+[2023-06-17 14:53:22] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2151, 71, 2364, 30
+[2023-06-17 14:53:22] [Render thread/DEBUG] [gg] Cuboid command :p|1|2151|71|2364|30
+[2023-06-17 14:53:22] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2151|71|2365|36
+[2023-06-17 14:53:22] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2151, 71, 2365, 36
+[2023-06-17 14:53:22] [Render thread/DEBUG] [gg] Cuboid command :p|1|2151|71|2365|36
+[2023-06-17 14:53:23] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2153|71|2365|60
+[2023-06-17 14:53:23] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2153, 71, 2365, 60
+[2023-06-17 14:53:23] [Render thread/DEBUG] [gg] Cuboid command :p|1|2153|71|2365|60
+[2023-06-17 14:53:23] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2154|72|2366|42
+[2023-06-17 14:53:23] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2154, 72, 2366, 42
+[2023-06-17 14:53:23] [Render thread/DEBUG] [gg] Cuboid command :p|1|2154|72|2366|42
+[2023-06-17 14:53:23] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2155|72|2366|49
+[2023-06-17 14:53:23] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2155, 72, 2366, 49
+[2023-06-17 14:53:23] [Render thread/DEBUG] [gg] Cuboid command :p|1|2155|72|2366|49
+[2023-06-17 14:53:24] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2156|72|2366|56
+[2023-06-17 14:53:24] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2156, 72, 2366, 56
+[2023-06-17 14:53:24] [Render thread/DEBUG] [gg] Cuboid command :p|1|2156|72|2366|56
+[2023-06-17 14:53:24] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2158|72|2367|80
+[2023-06-17 14:53:24] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2158, 72, 2367, 80
+[2023-06-17 14:53:24] [Render thread/DEBUG] [gg] Cuboid command :p|1|2158|72|2367|80
+[2023-06-17 14:53:24] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2159|71|2367|176
+[2023-06-17 14:53:24] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2159, 71, 2367, 176
+[2023-06-17 14:53:24] [Render thread/DEBUG] [gg] Cuboid command :p|1|2159|71|2367|176
+[2023-06-17 14:53:24] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2160|72|2368|108
+[2023-06-17 14:53:24] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2160, 72, 2368, 108
+[2023-06-17 14:53:24] [Render thread/DEBUG] [gg] Cuboid command :p|1|2160|72|2368|108
+[2023-06-17 14:53:30] [Render thread/DEBUG] [fY] Received CUI event from server: p|0|2152|74|2357|324
+[2023-06-17 14:53:30] [Render thread/DEBUG] [q] Received command from WE : p - Params: 0, 2152, 74, 2357, 324
+[2023-06-17 14:53:30] [Render thread/DEBUG] [gg] Cuboid command :p|0|2152|74|2357|324
+[2023-06-17 14:53:53] [Render thread/DEBUG] [fY] Received CUI event from server: s|cuboid
+[2023-06-17 14:53:53] [Render thread/DEBUG] [q] Received command from WE : s - Params: cuboid
+[2023-06-17 14:53:53] [Render thread/DEBUG] [gg] Cuboid command :s|cuboid
+[2023-06-17 14:53:53] [Render thread/DEBUG] [fY] Received CUI event from server: p|0|2144|0|2352|65536
+[2023-06-17 14:53:53] [Render thread/DEBUG] [q] Received command from WE : p - Params: 0, 2144, 0, 2352, 65536
+[2023-06-17 14:53:53] [Render thread/DEBUG] [gg] Cuboid command :p|0|2144|0|2352|65536
+[2023-06-17 14:53:53] [Render thread/DEBUG] [fY] Received CUI event from server: p|1|2159|255|2367|65536
+[2023-06-17 14:53:53] [Render thread/DEBUG] [q] Received command from WE : p - Params: 1, 2159, 255, 2367, 65536
+[2023-06-17 14:53:53] [Render thread/DEBUG] [gg] Cuboid command :p|1|2159|255|2367|65536
+[2023-06-17 15:00:51] [Render thread/DEBUG] [fY] Received CUI event from server: s|cuboid
+[2023-06-17 15:00:51] [Render thread/DEBUG] [q] Received command from WE : s - Params: cuboid
+[2023-06-17 15:00:51] [Render thread/DEBUG] [gg] Cuboid command :s|cuboid
+[2023-06-17 15:02:04] [Render thread/DEBUG] [fY] Received CUI event from server: s|cuboid
+[2023-06-17 15:02:04] [Render thread/DEBUG] [q] Received command from WE : s - Params: cuboid
+[2023-06-17 15:02:04] [Render thread/DEBUG] [gg] Cuboid command :s|cuboid
