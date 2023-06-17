@@ -1,0 +1,10 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 17, 2023, 9:44:52 PM
+
+#minecraft:tick
+- #earraylate:basic/tick
+
+#earraylate:load
+- earraylate:load
+
+#minecraft:load
+- #earraylate:load

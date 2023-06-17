@@ -1,7 +1,7 @@
-[14:14:06][FINE/customnpcs][noppes.npcs.controllers.ScriptController:53] Sat Jun 17 14:14:06 CST 2023
-[14:14:06][FINE/customnpcs][noppes.npcs.CustomNpcs:247] Script Engines Available:
-[14:14:06][FINE/customnpcs][noppes.npcs.CustomNpcs:247] ECMAScript: .js
-[14:14:06][SEVERE/customnpcs][noppes.npcs.CustomNpcs:250] java.lang.NoSuchFieldException: classes
+[14:27:12][FINE/customnpcs][noppes.npcs.controllers.ScriptController:53] Sat Jun 17 14:27:12 CST 2023
+[14:27:12][FINE/customnpcs][noppes.npcs.CustomNpcs:247] Script Engines Available:
+[14:27:12][FINE/customnpcs][noppes.npcs.CustomNpcs:247] ECMAScript: .js
+[14:27:12][SEVERE/customnpcs][noppes.npcs.CustomNpcs:250] java.lang.NoSuchFieldException: classes
 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
 	at noppes.npcs.ScriptPlayerEventHandler.registerForgeEvents(ScriptPlayerEventHandler.java:319)
 	at noppes.npcs.CustomNpcs.setup(CustomNpcs.java:250)
@@ -18,7 +18,7 @@
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-[14:19:30][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
-[14:19:30][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
-[14:19:51][FINE/customnpcs][noppes.npcs.CustomNpcs:297] Loading Dialogs
-[14:19:51][FINE/customnpcs][noppes.npcs.CustomNpcs:297] Done loading Dialogs
+[14:30:29][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Loading Linked Npcs
+[14:30:29][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:28] Done loading Linked Npcs
+[14:30:47][FINE/customnpcs][noppes.npcs.CustomNpcs:297] Loading Dialogs
+[14:30:47][FINE/customnpcs][noppes.npcs.CustomNpcs:297] Done loading Dialogs

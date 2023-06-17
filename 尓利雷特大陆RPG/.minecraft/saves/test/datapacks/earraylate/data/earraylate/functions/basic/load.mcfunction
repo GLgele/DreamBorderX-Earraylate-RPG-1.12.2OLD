@@ -1,0 +1,1 @@
+tellraw @a {"text":"Earraylate datapack load succeeded.","color": "yellow"}
