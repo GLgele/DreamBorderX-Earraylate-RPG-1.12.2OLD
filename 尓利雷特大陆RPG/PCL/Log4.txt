@@ -1,0 +1,661 @@
+[20:27:21.572] [Start] 程序版本：Release 2.6.1（293）
+[20:27:21.577] [Start] 识别码：626A-87C3-407B-7191
+[20:27:21.577] [Start] 程序路径：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\Plain Craft Launcher 2.exe
+[20:27:21.589] [Start] 第一阶段加载用时：157 ms
+[20:27:21.787] [Start] 版本号从 272 升高到 293
+[20:27:21.791] [Start] 最高版本号从 272 升高到 293
+[20:27:21.907] [UI] 页面状态切换为 ContentStay
+[20:27:21.921] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[20:27:21.922] [Start] 第二阶段加载用时：313 ms
+[20:27:21.923] [Loader] 加载线程 Minecraft Folder List (9) 已启动
+[20:27:21.948] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[20:27:23.174] [System] 窗口已置顶，位置：(362.4, 167.2), 810.4 x 500
+[20:27:23.182] [Start] 第三阶段加载用时：172 ms
+[20:27:23.182] [Animation] 动画线程开始
+[20:27:23.185] [Start] 加载 DLL：Json
+[20:27:23.185] [System] 获取资源：Json
+[20:27:23.198] [Java] 要求 Java 列表缓存更新
+[20:27:23.198] [Java] 初始化未找到可用的 Java，将自动触发搜索
+[20:27:23.199] [Loader] 加载器 查找 Java 状态改变：Loading
+[20:27:23.199] [Loader] 加载线程 查找 Java (13) 已启动
+[20:27:23.204] [Launch] 没有已储存的 Minecraft 文件夹
+[20:27:23.205] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[20:27:23.206] [Loader] 加载线程 Minecraft Folder List (15) 已启动
+[20:27:23.225] [Java] 开始部分遍历查找：C:\
+[20:27:23.230] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[20:27:23.248] [Java] 遍历查找 Java 时遭遇无权限的文件夹：C:\IntelOptaneData
+[20:27:23.249] [Java] 遍历查找 Java 时遭遇无权限的文件夹：C:\MSOCache
+[20:27:23.249] [Setup] 当前选择的 Minecraft 文件夹：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\
+[20:27:23.249] [Launch] Minecraft 文件夹：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\
+[20:27:23.249] [Launch] Minecraft 版本无效，没有有效版本
+[20:27:23.265] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[20:27:23.269] [Loader] 加载线程 Minecraft Version List (16) 已启动
+[20:27:23.279] [Minecraft] 文件夹列表变更，重载所有版本
+[20:27:23.387] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[20:27:23.390] [Loader] 加载线程 Loader Skin Legacy (18) 已启动
+[20:27:23.401] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[20:27:23.413] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[20:27:23.417] [Loader] 加载线程 DlClientList Mojang (20) 已启动
+[20:27:23.427] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[20:27:23.442] [Java] 遍历查找 Java 时遭遇无权限的文件夹：C:\ProgramData\Microsoft\MapData\mapscache\BitsTemp
+[20:27:23.443] [Java] 遍历查找 Java 时遭遇无权限的文件夹：C:\ProgramData\Microsoft\Network\Downloader
+[20:27:23.457] [UI] 弹出提示：[调试模式] PCL 正以调试模式运行，这可能会造成性能的下降，若无必要请不要开启！
+[20:27:23.461] [Loader] 加载器 PCL 服务 状态改变：Loading
+[20:27:23.461] [Loader] 加载线程 PCL 服务 (21) 已启动
+[20:27:23.463] [Server] 正在连接到 PCL 服务器
+[20:27:23.499] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1687091243-558bed95-0-6233d70c8b5cae74163cc2aff66fb85c，最大超时 10000
+[20:27:23.517] [Java] 遍历查找 Java 时遭遇无权限的文件夹：C:\ProgramData\Packages
+[20:27:23.624] [Server] 服务器公告：108|294|293|5，无需更新
+[20:27:23.653] [Loader] 加载器 PCL 服务 状态改变：Finished
+[20:27:23.712] [Setup] 版本隔离使用全局设置：1.16.5
+[20:27:23.739] [Setup] 当前选择的 Minecraft 版本：1.16.5
+[20:27:23.741] [Launch] 自动选择 Minecraft 版本：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\
+[20:27:23.741] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[20:27:23.742] [Launch] 自动选择 Minecraft 版本：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\
+[20:27:23.855] [Animation] 两个动画帧间隔 609 ms
+[20:27:23.893] [Minecraft] 启动按钮：正在加载 Minecraft 版本
+[20:27:23.900] [System] DPI：120，系统版本：10.0.17763.0，PCL 位置：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\Plain Craft Launcher 2.exe
+[20:27:23.919] [Skin] 载入头像成功：Loader Skin Legacy
+[20:27:23.924] [Minecraft] 启动按钮：Minecraft 版本：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\
+[20:27:23.934] [Loader] 加载器 登录 状态改变：Loading
+[20:27:23.936] [Loader] 加载线程 登录 (23) 已启动
+[20:27:23.940] [Launch] 登录加载已开始
+[20:27:23.949] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[20:27:23.949] [Loader] 加载线程 Loader Login Legacy (24) 已启动
+[20:27:23.950] [Launch] 登录方式：离线（GLgele）
+[20:27:23.953] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[20:27:23.960] [Launch] 登录加载已结束
+[20:27:23.960] [Loader] 加载器 登录 状态改变：Finished
+[20:27:23.962] [Control] 普通弹窗：PCL 已更新至 Release 2.6.1
+· 支持搜索、安装 Modrinth 的 Mod 与整合包
+· 支持在多个正版账号间切换
+· 在缺少 Java 时会自动下载所需的 Java
+· 增加 在游戏启动前执行命令 设置
+· 重新制作正版登录页面
+· 彻底移除 Mojang 登录
+· 添加 CurseForge / Modrinth 来源筛选
+· 资源搜索页面支持翻页
+· 在全局启动设置中添加了 启动前执行命令 选项
+· 在百宝箱添加了清理 MC 日志、崩溃报告的按钮
+· 其他 92 项小调整与修改，修复了 132 个 Bug，详见完整更新日志
+[20:27:24.134] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[20:27:24.182] [Java] 开始部分遍历查找：D:\
+[20:27:24.434] [Java] 开始部分遍历查找：E:\
+[20:27:24.466] [Java] 开始部分遍历查找：F:\
+[20:27:24.486] [Java] 开始部分遍历查找：C:\Users\Administrator\AppData\Roaming\
+[20:27:24.502] [Java] 开始部分遍历查找：C:\Users\Administrator\AppData\Local\
+[20:27:24.621] [Java] 开始完全遍历查找：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\
+[20:27:24.622] [Java] 开始完全遍历查找：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\
+[20:27:24.630] [Java] 位于 C:\Program Files (x86)\Common Files\Oracle\Java\javapath\ 的 Java 包含符号链接
+[20:27:24.631] [Java] 位于 C:\Program Files\Java\jdk1.8.0_311\bin\ 的 Java 不含符号链接
+[20:27:24.631] [Java] 位于 C:\Program Files\Java\jdk1.8.0_311\jre\bin\ 的 Java 不含符号链接
+[20:27:24.631] [Java] 位于 C:\Program Files\Java\jre1.8.0_311\bin\ 的 Java 不含符号链接
+[20:27:24.631] [Java] 位于 C:\Program Files (x86)\Common Files\Oracle\Java\javapath_target_769158359\ 的 Java 不含符号链接
+[20:27:24.632] [Java] 位于 C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\ 的 Java 不含符号链接
+[20:27:24.632] [Java] 位于 C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-beta\windows-x64\java-runtime-beta\bin\ 的 Java 不含符号链接
+[20:27:24.632] [Java] 位于 D:\MCLDownload\ext\jre-v64-170307\jre7\bin\ 的 Java 不含符号链接
+[20:27:24.632] [Java] 位于 D:\MCLDownload\ext\jre-v64-170307\jre8\bin\ 的 Java 不含符号链接
+[20:27:24.633] [Java] 位于 D:\MCLDownload\ext\jre-v64-220420\jdk17\bin\ 的 Java 不含符号链接
+[20:27:24.633] [Java] 位于 D:\MCLDownload\ext\jre-v64-220420\jre8\bin\ 的 Java 不含符号链接
+[20:27:24.633] [Java] 位于 C:\Program Files\Java\jdk1.8.0_311\bin\ 的 Java 不含特殊引用
+[20:27:24.633] [Java] 位于 C:\Program Files\Java\jdk1.8.0_311\jre\bin\ 的 Java 不含特殊引用
+[20:27:24.633] [Java] 位于 C:\Program Files\Java\jre1.8.0_311\bin\ 的 Java 不含特殊引用
+[20:27:24.633] [Java] 位于 C:\Program Files (x86)\Common Files\Oracle\Java\javapath_target_769158359\ 的 Java 包含特殊引用
+[20:27:24.633] [Java] 位于 C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\ 的 Java 不含特殊引用
+[20:27:24.633] [Java] 位于 C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-beta\windows-x64\java-runtime-beta\bin\ 的 Java 不含特殊引用
+[20:27:24.633] [Java] 位于 D:\MCLDownload\ext\jre-v64-170307\jre7\bin\ 的 Java 不含特殊引用
+[20:27:24.633] [Java] 位于 D:\MCLDownload\ext\jre-v64-170307\jre8\bin\ 的 Java 不含特殊引用
+[20:27:24.633] [Java] 位于 D:\MCLDownload\ext\jre-v64-220420\jdk17\bin\ 的 Java 不含特殊引用
+[20:27:24.633] [Java] 位于 D:\MCLDownload\ext\jre-v64-220420\jre8\bin\ 的 Java 不含特殊引用
+[20:27:24.643] [Java] 开始确认列表 Java 状态，共 9 项
+[20:27:24.649] [System] 执行外部命令并等待返回结果：C:\Program Files\Java\jdk1.8.0_311\bin\java.exe -version
+[20:27:24.649] [System] 执行外部命令并等待返回结果：D:\MCLDownload\ext\jre-v64-170307\jre7\bin\java.exe -version
+[20:27:24.649] [System] 执行外部命令并等待返回结果：D:\MCLDownload\ext\jre-v64-220420\jdk17\bin\java.exe -version
+[20:27:24.649] [System] 执行外部命令并等待返回结果：D:\MCLDownload\ext\jre-v64-170307\jre8\bin\java.exe -version
+[20:27:24.649] [System] 执行外部命令并等待返回结果：C:\Program Files\Java\jre1.8.0_311\bin\java.exe -version
+[20:27:24.649] [System] 执行外部命令并等待返回结果：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\java.exe -version
+[20:27:24.649] [System] 执行外部命令并等待返回结果：C:\Program Files\Java\jdk1.8.0_311\jre\bin\java.exe -version
+[20:27:24.650] [System] 执行外部命令并等待返回结果：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-beta\windows-x64\java-runtime-beta\bin\java.exe -version
+[20:27:24.651] [System] 执行外部命令并等待返回结果：D:\MCLDownload\ext\jre-v64-220420\jre8\bin\java.exe -version
+[20:27:25.199] [Java] Java 检查输出：C:\Program Files\Java\jdk1.8.0_311\bin\java.exe
+java version "1.8.0_311"
+java(tm) se runtime environment (build 1.8.0_311-b11)
+java hotspot(tm) 64-bit server vm (build 25.311-b11, mixed mode)
+
+[20:27:25.201] [Java] JDK 8 (8.0.311)，64 位：C:\Program Files\Java\jdk1.8.0_311\bin\
+[20:27:25.317] [Java] Java 检查输出：C:\Program Files\Java\jre1.8.0_311\bin\java.exe
+java version "1.8.0_311"
+java(tm) se runtime environment (build 1.8.0_311-b11)
+java hotspot(tm) 64-bit server vm (build 25.311-b11, mixed mode)
+
+[20:27:25.317] [Java] JRE 8 (8.0.311)，64 位：C:\Program Files\Java\jre1.8.0_311\bin\
+[20:27:25.426] [Animation] 两个动画帧间隔 313 ms
+[20:27:25.487] [Java] Java 检查输出：C:\Program Files\Java\jdk1.8.0_311\jre\bin\java.exe
+java version "1.8.0_311"
+java(tm) se runtime environment (build 1.8.0_311-b11)
+java hotspot(tm) 64-bit server vm (build 25.311-b11, mixed mode)
+
+[20:27:25.487] [Java] JRE 8 (8.0.311)，64 位：C:\Program Files\Java\jdk1.8.0_311\jre\bin\
+[20:27:25.527] [Java] Java 检查输出：D:\MCLDownload\ext\jre-v64-170307\jre7\bin\java.exe
+java version "1.7.0"
+java(tm) se runtime environment (build 1.7.0-b147)
+java hotspot(tm) 64-bit server vm (build 21.0-b17, mixed mode)
+
+[20:27:25.527] [Java] JRE 7 (7.0.0)，64 位：D:\MCLDownload\ext\jre-v64-170307\jre7\bin\
+[20:27:25.572] [Java] Java 检查输出：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-beta\windows-x64\java-runtime-beta\bin\java.exe
+openjdk version "17.0.1" 2021-10-19 lts
+openjdk runtime environment microsoft-28056 (build 17.0.1+12-lts)
+openjdk 64-bit server vm microsoft-28056 (build 17.0.1+12-lts, mixed mode)
+
+[20:27:25.572] [Java] JDK 17 (17.0.1)，64 位：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-beta\windows-x64\java-runtime-beta\bin\
+[20:27:25.682] [Java] Java 检查输出：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\java.exe
+openjdk version "16.0.1" 2021-04-20
+openjdk runtime environment microsoft-22300 (build 16.0.1+9)
+openjdk 64-bit server vm microsoft-22300 (build 16.0.1+9, mixed mode)
+
+[20:27:25.682] [Java] JDK 16 (16.0.1)，64 位：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\
+[20:27:25.789] [Java] Java 检查输出：D:\MCLDownload\ext\jre-v64-170307\jre8\bin\java.exe
+java version "1.8.0_60"
+java(tm) se runtime environment (build 1.8.0_60-b27)
+java hotspot(tm) 64-bit server vm (build 25.60-b23, mixed mode)
+
+[20:27:25.789] [Java] JRE 8 (8.0.60)，64 位：D:\MCLDownload\ext\jre-v64-170307\jre8\bin\
+[20:27:25.819] [Java] Java 检查输出：D:\MCLDownload\ext\jre-v64-220420\jre8\bin\java.exe
+java version "1.8.0_60"
+java(tm) se runtime environment (build 1.8.0_60-b27)
+java hotspot(tm) 64-bit server vm (build 25.60-b23, mixed mode)
+
+[20:27:25.819] [Java] JRE 8 (8.0.60)，64 位：D:\MCLDownload\ext\jre-v64-220420\jre8\bin\
+[20:27:25.846] [Java] Java 检查输出：D:\MCLDownload\ext\jre-v64-220420\jdk17\bin\java.exe
+openjdk version "17.0.2" 2022-01-18
+openjdk runtime environment temurin-17.0.2+8 (build 17.0.2+8)
+openjdk 64-bit server vm temurin-17.0.2+8 (build 17.0.2+8, mixed mode, sharing)
+
+[20:27:25.846] [Java] JDK 17 (17.0.2)，64 位：D:\MCLDownload\ext\jre-v64-220420\jdk17\bin\
+[20:27:25.853] [Java] Java 搜索完成，发现 9 个 Java
+[20:27:25.853] [Loader] 加载器 查找 Java 状态改变：Finished
+[20:27:28.166] [Report] FPS 58, 动画 2, 下载中 0（0 B/s）
+[20:27:28.262] [Control] 按下按钮：确定
+[20:27:28.264] [Control] 普通弹框返回：1
+[20:27:29.317] [UI] 已触发 PageOnExit
+[20:27:29.317] [UI] 页面状态切换为 PageExit
+[20:27:29.324] [Control] 切换主要页面：Setup, 0
+[20:27:29.336] [UI] 已触发 PageOnForceExit
+[20:27:29.336] [UI] 页面状态切换为 Empty
+[20:27:29.478] [UI] 已触发 PageOnEnter
+[20:27:29.478] [UI] 页面状态切换为 ContentEnter
+[20:27:29.962] [UI] 已触发 PageOnEnterAnimationFinished
+[20:27:29.962] [UI] 页面状态切换为 ContentStay
+[20:27:31.909] [Control] 按下单选框：自定义
+[20:27:32.471] [Animation] 两个动画帧间隔 359 ms
+[20:27:32.931] [Report] FPS 22, 动画 6, 下载中 0（0 B/s）
+[20:27:33.669] [UI] 选择文件返回：
+[20:27:42.749] [Control] 按下单选按钮：启动
+[20:27:42.749] [UI] 已触发 PageOnExit
+[20:27:42.749] [UI] 页面状态切换为 PageExit
+[20:27:42.749] [Control] 切换主要页面：Launch, -1
+[20:27:42.884] [UI] 已触发 PageOnForceExit
+[20:27:42.884] [UI] 页面状态切换为 Empty
+[20:27:42.914] [UI] 已触发 PageOnEnter
+[20:27:42.914] [UI] 页面状态切换为 ContentEnter
+[20:27:43.290] [UI] 已触发 PageOnEnterAnimationFinished
+[20:27:43.290] [UI] 页面状态切换为 ContentStay
+[20:27:45.230] [Control] 按下按钮：版本选择
+[20:27:45.282] [UI] 已触发 PageOnExit
+[20:27:45.282] [UI] 页面状态切换为 PageExit
+[20:27:45.282] [Control] 切换主要页面：VersionSelect, 0
+[20:27:45.353] [UI] 已触发 PageOnExitAnimationFinished
+[20:27:45.353] [UI] 页面状态切换为 Empty
+[20:27:45.396] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[20:27:45.396] [Minecraft] 启动按钮：正在加载 Minecraft 版本
+[20:27:45.398] [UI] 已触发 PageLoaderState (Start/Refresh)
+[20:27:45.399] [Loader] 加载线程 Minecraft Version List (3) 已启动
+[20:27:45.409] [Minecraft] 选择该文件夹储存的 Minecraft 版本：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\
+[20:27:45.433] [Minecraft] 有效的 Minecraft 文件夹：当前文件夹 > d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\
+[20:27:45.436] [Minecraft] 有效的 Minecraft 文件夹：官方启动器文件夹 > C:\Users\Administrator\AppData\Roaming\.minecraft\
+[20:27:45.461] [UI] 已触发 PageOnEnter
+[20:27:45.462] [UI] 页面状态切换为 LoaderWait
+[20:27:45.473] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[20:27:45.475] [UI] 已触发 PageLoaderState (Stop/Abort)
+[20:27:45.475] [UI] 页面状态切换为 ContentEnter
+[20:27:45.837] [UI] 已触发 PageOnEnterAnimationFinished
+[20:27:45.837] [UI] 页面状态切换为 ContentStay
+[20:27:49.365] [Control] 按下图标按钮：BtnTitleInner
+[20:27:49.365] [UI] 已触发 PageOnExit
+[20:27:49.365] [UI] 页面状态切换为 PageExit
+[20:27:49.365] [Control] 切换主要页面：Launch, -1
+[20:27:49.462] [UI] 已触发 PageOnExitAnimationFinished
+[20:27:49.462] [UI] 页面状态切换为 Empty
+[20:27:49.497] [Minecraft] 启动按钮：Minecraft 版本：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\
+[20:27:49.525] [UI] 已触发 PageOnEnter
+[20:27:49.525] [UI] 页面状态切换为 ContentEnter
+[20:27:49.899] [UI] 已触发 PageOnEnterAnimationFinished
+[20:27:49.899] [UI] 页面状态切换为 ContentStay
+[20:27:50.092] [Control] 按下按钮：版本设置
+[20:27:50.140] [UI] 已触发 PageOnExit
+[20:27:50.140] [UI] 页面状态切换为 PageExit
+[20:27:50.140] [Control] 切换主要页面：VersionSetup, 0
+[20:27:50.211] [UI] 已触发 PageOnExitAnimationFinished
+[20:27:50.211] [UI] 页面状态切换为 Empty
+[20:27:50.322] [UI] 已触发 PageOnEnter
+[20:27:50.322] [UI] 页面状态切换为 ContentEnter
+[20:27:50.806] [UI] 已触发 PageOnEnterAnimationFinished
+[20:27:50.806] [UI] 页面状态切换为 ContentStay
+[20:28:00.325] [Control] 按下图标按钮
+[20:28:00.336] [Control] 普通弹窗：初始化确认
+是否要初始化该版本的版本独立设置？该操作不可撤销。
+[20:28:01.701] [Control] 按下按钮：取消
+[20:28:01.701] [Control] 普通弹框返回：2
+[20:28:02.724] [Control] 按下单选列表项：设置
+[20:28:02.765] [UI] 已触发 PageOnExit
+[20:28:02.765] [UI] 页面状态切换为 PageExit
+[20:28:02.868] [UI] 已触发 PageOnForceExit
+[20:28:02.868] [UI] 页面状态切换为 Empty
+[20:28:02.944] [UI] 已触发 PageOnEnter
+[20:28:02.944] [UI] 页面状态切换为 ContentEnter
+[20:28:03.430] [UI] 已触发 PageOnEnterAnimationFinished
+[20:28:03.430] [UI] 页面状态切换为 ContentStay
+[20:28:03.587] [Report] FPS 60, 动画 3, 下载中 0（0 B/s）
+[20:28:06.226] [Report] FPS 60, 动画 3, 下载中 0（0 B/s）
+[20:28:07.524] [Report] FPS 64, 动画 7, 下载中 0（0 B/s）
+[20:28:10.356] [Java] 修改版本 Java 选择设置：JDK 16 (16.0.1)，64 位：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\
+[20:29:44.072] [Report] FPS 18, 动画 3, 下载中 0（0 B/s）
+[20:29:46.414] [Report] FPS 54, 动画 3, 下载中 0（0 B/s）
+[20:30:59.351] [Report] FPS 64, 动画 5, 下载中 0（0 B/s）
+[20:31:05.029] [Control] 按下按钮：设置为 LittleSkin
+[20:31:05.059] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[20:31:05.059] [UI] 已触发 PageLoaderState (Start/Refresh)
+[20:31:05.059] [Loader] 加载线程 Minecraft Version List (22) 已启动
+[20:31:05.060] [Minecraft] 文件夹列表变更，重载所有版本
+[20:31:05.082] [Minecraft] 选择该文件夹储存的 Minecraft 版本：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\
+[20:31:05.105] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[20:31:05.106] [UI] 已触发 PageLoaderState (Stop/Abort)
+[20:31:09.316] [Control] 按下单选列表项：Mod 管理
+[20:31:09.333] [UI] 已触发 PageOnExit
+[20:31:09.333] [UI] 页面状态切换为 PageExit
+[20:31:09.445] [UI] 已触发 PageOnForceExit
+[20:31:09.445] [UI] 页面状态切换为 Empty
+[20:31:09.455] [Loader] 加载器 Mod List Loader 状态改变：Loading
+[20:31:09.455] [UI] 已触发 PageLoaderState (Start/Refresh)
+[20:31:09.455] [System] 已刷新 Mod 列表
+[20:31:09.455] [Loader] 加载线程 Mod List Loader (27) 已启动
+[20:31:09.476] [UI] 已触发 PageOnEnter
+[20:31:09.476] [UI] 页面状态切换为 LoaderWait
+[20:31:09.486] [Loader] 加载器 Mod List Loader 状态改变：Finished
+[20:31:09.486] [UI] 已触发 PageLoaderState (Stop/Abort)
+[20:31:09.486] [UI] 页面状态切换为 ContentEnter
+[20:31:09.853] [UI] 已触发 PageOnEnterAnimationFinished
+[20:31:09.853] [UI] 页面状态切换为 ContentStay
+[20:31:10.436] [Control] 按下单选列表项：设置
+[20:31:10.436] [UI] 已触发 PageOnExit
+[20:31:10.436] [UI] 页面状态切换为 PageExit
+[20:31:10.539] [UI] 已触发 PageOnExitAnimationFinished
+[20:31:10.539] [UI] 页面状态切换为 Empty
+[20:31:10.605] [UI] 已触发 PageOnEnter
+[20:31:10.605] [UI] 页面状态切换为 ContentEnter
+[20:31:10.925] [Control] 按下单选列表项：Mod 管理
+[20:31:10.925] [UI] 已触发 PageOnExit
+[20:31:10.925] [UI] 页面状态切换为 PageExit
+[20:31:11.056] [UI] 已触发 PageOnForceExit
+[20:31:11.056] [UI] 页面状态切换为 Empty
+[20:31:11.086] [UI] 已触发 PageOnEnter
+[20:31:11.086] [UI] 页面状态切换为 ContentEnter
+[20:31:11.462] [UI] 已触发 PageOnEnterAnimationFinished
+[20:31:11.462] [UI] 页面状态切换为 ContentStay
+[20:31:11.980] [Control] 按下按钮：打开 Mod 文件夹
+[20:31:11.982] [System] 执行外部命令：explorer.exe "d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\mods\"
+[20:31:14.357] [Animation] 两个动画帧间隔 328 ms
+[20:31:14.559] [Animation] 两个动画帧间隔 312 ms
+[20:31:14.780] [Animation] 两个动画帧间隔 203 ms
+[20:31:14.801] [Animation] 两个动画帧间隔 219 ms
+[20:31:15.832] [Animation] 两个动画帧间隔 328 ms
+[20:31:15.943] [Animation] 两个动画帧间隔 344 ms
+[20:31:16.526] [Animation] 两个动画帧间隔 281 ms
+[20:31:16.685] [Animation] 两个动画帧间隔 297 ms
+[20:31:17.350] [Animation] 两个动画帧间隔 203 ms
+[20:31:17.598] [Animation] 两个动画帧间隔 234 ms
+[20:31:17.830] [Animation] 两个动画帧间隔 235 ms
+[20:31:17.995] [Animation] 两个动画帧间隔 234 ms
+[20:31:19.481] [Animation] 两个动画帧间隔 343 ms
+[20:31:19.888] [Control] 按下单选列表项：Mod 管理
+[20:31:20.711] [Control] 按下单选列表项：设置
+[20:31:20.711] [UI] 已触发 PageOnExit
+[20:31:20.711] [UI] 页面状态切换为 PageExit
+[20:31:20.809] [UI] 已触发 PageOnExitAnimationFinished
+[20:31:20.809] [UI] 页面状态切换为 Empty
+[20:31:20.958] [UI] 已触发 PageOnEnter
+[20:31:20.959] [UI] 页面状态切换为 ContentEnter
+[20:31:21.370] [UI] 已触发 PageOnEnterAnimationFinished
+[20:31:21.370] [UI] 页面状态切换为 ContentStay
+[20:31:27.909] [Control] 按下图标按钮：BtnTitleInner
+[20:31:27.909] [UI] 已触发 PageOnExit
+[20:31:27.909] [UI] 页面状态切换为 PageExit
+[20:31:27.909] [Control] 切换主要页面：Launch, -1
+[20:31:28.040] [UI] 已触发 PageOnForceExit
+[20:31:28.040] [UI] 页面状态切换为 Empty
+[20:31:28.062] [Loader] 加载器 Loader Skin Auth 状态改变：Loading
+[20:31:28.063] [Loader] 加载线程 Loader Skin Auth (29) 已启动
+[20:31:28.071] [Loader] 加载器 Loader Skin Auth 状态改变：Finished
+[20:31:28.072] [UI] 已触发 PageOnEnter
+[20:31:28.072] [UI] 页面状态切换为 ContentEnter
+[20:31:28.074] [Skin] 载入头像成功：Loader Skin Auth
+[20:31:28.446] [UI] 已触发 PageOnEnterAnimationFinished
+[20:31:28.446] [UI] 页面状态切换为 ContentStay
+[20:31:29.380] [Control] 按下单选按钮：设置
+[20:31:29.381] [UI] 已触发 PageOnExit
+[20:31:29.381] [UI] 页面状态切换为 PageExit
+[20:31:29.381] [Control] 切换主要页面：Setup, -1
+[20:31:29.477] [UI] 已触发 PageOnExitAnimationFinished
+[20:31:29.477] [UI] 页面状态切换为 Empty
+[20:31:29.539] [UI] 已触发 PageOnEnter
+[20:31:29.539] [UI] 页面状态切换为 ContentEnter
+[20:31:30.040] [UI] 已触发 PageOnEnterAnimationFinished
+[20:31:30.040] [UI] 页面状态切换为 ContentStay
+[20:31:32.284] [Control] 按下单选列表项：个性化
+[20:31:32.397] [UI] 已触发 PageOnExit
+[20:31:32.397] [UI] 页面状态切换为 PageExit
+[20:31:32.430] [UI] 已触发 PageOnForceExit
+[20:31:32.430] [UI] 页面状态切换为 Empty
+[20:31:32.501] [UI] 已触发 PageOnEnter
+[20:31:32.501] [UI] 页面状态切换为 ContentEnter
+[20:31:32.774] [Report] FPS 64, 动画 12, 下载中 0（0 B/s）
+[20:31:33.024] [UI] 已触发 PageOnEnterAnimationFinished
+[20:31:33.024] [UI] 页面状态切换为 ContentStay
+[20:31:33.116] [Control] 按下单选列表项：游戏
+[20:31:33.116] [UI] 已触发 PageOnExit
+[20:31:33.116] [UI] 页面状态切换为 PageExit
+[20:31:33.242] [UI] 已触发 PageOnForceExit
+[20:31:33.242] [UI] 页面状态切换为 Empty
+[20:31:33.274] [UI] 已触发 PageOnEnter
+[20:31:33.274] [UI] 页面状态切换为 ContentEnter
+[20:31:33.773] [UI] 已触发 PageOnEnterAnimationFinished
+[20:31:33.773] [UI] 页面状态切换为 ContentStay
+[20:31:36.976] [Report] FPS 64, 动画 10, 下载中 0（0 B/s）
+[20:31:54.429] [Control] 按下单选框：自定义
+[20:32:00.588] [Control] 展开卡片：高级设置
+[20:32:08.797] [Control] 折叠卡片：高级设置
+[20:32:28.741] [Report] FPS 62, 动画 7, 下载中 0（0 B/s）
+[20:32:30.587] [Report] FPS 62, 动画 15, 下载中 0（0 B/s）
+[20:32:31.517] [Java] 修改 Java 选择设置：JDK 16 (16.0.1)，64 位：C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\
+[20:32:31.637] [Report] FPS 64, 动画 11, 下载中 0（0 B/s）
+[20:32:35.284] [Control] 按下单选按钮：下载
+[20:32:35.352] [Loader] 加载器 DlClientList Main 状态改变：Loading
+[20:32:35.352] [UI] 已触发 PageLoaderState (Start/Refresh)
+[20:32:35.353] [Loader] 加载线程 DlClientList Main (28) 已启动
+[20:32:35.353] [UI] 已触发 PageOnExit
+[20:32:35.353] [UI] 页面状态切换为 PageExit
+[20:32:35.354] [Control] 切换主要页面：Download, -1
+[20:32:35.365] [Loader] 加载器 DlClientList Bmclapi 状态改变：Loading
+[20:32:35.366] [Loader] 加载器 DlClientList Mojang 状态改变：Waiting
+[20:32:35.366] [Loader] 加载线程 DlClientList Bmclapi (6) 已启动
+[20:32:35.368] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/mc/game/version_manifest.json，最大超时 10000
+[20:32:35.430] [UI] 已触发 PageOnForceExit
+[20:32:35.430] [UI] 页面状态切换为 Empty
+[20:32:35.449] [Loader] 加载器 DlOptiFineList Main 状态改变：Loading
+[20:32:35.451] [Loader] 加载线程 DlOptiFineList Main (16) 已启动
+[20:32:35.452] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Loading
+[20:32:35.454] [Loader] 加载线程 DlLiteLoaderList Main (26) 已启动
+[20:32:35.454] [Loader] 加载器 DlFabricList Main 状态改变：Loading
+[20:32:35.456] [Loader] 加载器 DlOptiFineList Bmclapi 状态改变：Loading
+[20:32:35.457] [Loader] 加载线程 DlOptiFineList Bmclapi (9) 已启动
+[20:32:35.457] [Loader] 加载线程 DlFabricList Main (25) 已启动
+[20:32:35.459] [Loader] 加载器 DlLiteLoaderList Bmclapi 状态改变：Loading
+[20:32:35.459] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/optifine/versionList，最大超时 10000
+[20:32:35.460] [Loader] 加载线程 DlLiteLoaderList Bmclapi (11) 已启动
+[20:32:35.462] [Loader] 加载器 DlFabricList Bmclapi 状态改变：Loading
+[20:32:35.463] [Loader] 加载线程 DlFabricList Bmclapi (32) 已启动
+[20:32:35.463] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/maven/com/mumfrey/liteloader/versions.json，最大超时 10000
+[20:32:35.463] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/fabric-meta/v2/versions，最大超时 10000
+[20:32:35.471] [Download] 刷新 Forge 推荐版本缓存开始
+[20:32:35.477] [Loader] 加载器 源码获取 2406# 状态改变：Loading
+[20:32:35.492] [UI] 已触发 PageOnEnter
+[20:32:35.492] [UI] 页面状态切换为 LoaderWait
+[20:32:35.493] [Download] -1798645995_2405：已加入列表，剩余文件 1
+[20:32:35.506] [Download] 检查线程分配文件数：1
+[20:32:35.524] [Download] -1798645995_2405 2429#：开始，起始点 0，https://bmclapi2.bangbang93.com/forge/promos
+[20:32:35.617] [Loader] 加载器 DlLiteLoaderList Bmclapi 状态改变：Finished
+[20:32:35.623] [Loader] 加载器 DlClientList Bmclapi 状态改变：Finished
+[20:32:35.624] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Finished
+[20:32:35.703] [UI] 已触发 PageOnLoaderWaitFinished
+[20:32:35.703] [UI] 页面状态切换为 LoaderEnter
+[20:32:35.706] [Loader] 加载器 DlOptiFineList Bmclapi 状态改变：Finished
+[20:32:35.709] [Loader] 加载器 DlOptiFineList Main 状态改变：Finished
+[20:32:35.721] [Loader] 加载器 DlClientList Main 状态改变：Finished
+[20:32:35.722] [UI] 已触发 PageLoaderState (Stop/Abort)
+[20:32:35.798] [Download] -1798645995_2405：文件大小 46748 B（45.7 K）
+[20:32:35.819] [Download] -1798645995_2405 2429#：完成，已下载 45.7 K
+[20:32:35.824] [Download] -1798645995_2405：正在合并文件
+[20:32:35.828] [Download] -1798645995_2405：已完成，剩余文件 0
+[20:32:35.828] [Loader] 加载器 源码获取 2406# 状态改变：Finished
+[20:32:35.837] [Download] 刷新 Forge 推荐版本缓存成功
+[20:32:35.859] [Loader] 加载器 DlFabricList Bmclapi 状态改变：Finished
+[20:32:35.870] [Loader] 加载器 DlFabricList Main 状态改变：Finished
+[20:32:36.025] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:36.025] [UI] 页面状态切换为 LoaderStayForce
+[20:32:36.414] [UI] 已触发 PageOnLoaderStayFinished
+[20:32:36.414] [UI] 页面状态切换为 LoaderExit
+[20:32:36.507] [UI] 已触发 PageOnExitAnimationFinished
+[20:32:36.507] [UI] 页面状态切换为 ContentEnter
+[20:32:37.025] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:37.025] [UI] 页面状态切换为 ContentStay
+[20:32:37.532] [Control] 按下单选列表项：Mod
+[20:32:37.555] [Loader] 加载器 CompProject Mod 状态改变：Loading
+[20:32:37.555] [UI] 已触发 PageLoaderState (Start/Refresh)
+[20:32:37.556] [Loader] 加载线程 CompProject Mod (30) 已启动
+[20:32:37.557] [UI] 已触发 PageOnExit
+[20:32:37.557] [UI] 页面状态切换为 PageExit
+[20:32:37.580] [Comp] 工程列表搜索原始文本：
+[20:32:37.580] [Comp] 工程列表搜索最终文本：
+[20:32:37.585] [Comp] 开始从 CurseForge 获取工程列表：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0
+[20:32:37.585] [Net] 获取网络结果：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6&categoryId=0，最大超时 10000
+[20:32:37.587] [Comp] 开始从 Modrinth 获取工程列表：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]
+[20:32:37.587] [Net] 获取网络结果：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]，最大超时 10000
+[20:32:37.680] [UI] 已触发 PageOnForceExit
+[20:32:37.680] [UI] 页面状态切换为 Empty
+[20:32:37.711] [UI] 已触发 PageOnEnter
+[20:32:37.711] [UI] 页面状态切换为 LoaderWait
+[20:32:37.898] [UI] 已触发 PageOnLoaderWaitFinished
+[20:32:37.898] [UI] 页面状态切换为 LoaderEnter
+[20:32:38.221] [Comp] 从 CurseForge 获取到了 40 个工程（已获取 40 个，共 43730 个）
+[20:32:38.290] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:38.290] [UI] 页面状态切换为 LoaderStayForce
+[20:32:38.487] [Comp] 从 Modrinth 获取到了 40 个工程（已获取 40 个，共 10012 个）
+[20:32:38.503] [System] 获取资源：ModData
+[20:32:38.532] [Comp] 将 Fabric API (fabric-api) 与 Fabric API (fabric-api) 认定为相似工程
+[20:32:38.535] [Comp] 将 Cloth Config API (cloth-config) 与 Cloth Config API (Fabric/Forge) (cloth-config) 认定为相似工程
+[20:32:38.536] [Comp] 将 Architectury API (architectury-api) 与 Architectury API (Fabric/Forge) (architectury-api) 认定为相似工程
+[20:32:38.537] [Comp] 去重后累计新增结果 77 个
+[20:32:38.559] [Comp] 开始可视化 Mod 列表，已储藏 77 个结果，当前在第 1 页
+[20:32:38.590] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/29/69/64/64/635838945588716414.jpeg
+[20:32:38.592] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/9/144/64/64/635421614078544069.png
+[20:32:38.595] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/467/691/64/64/637749969243449870.png
+[20:32:38.599] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/47/527/64/64/636066936394500688.png
+[20:32:38.602] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/49/603/64/64/636079972364045115.png
+[20:32:38.611] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/197/186/64/64/636890440894617244.png
+[20:32:38.614] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/142/108/64/64/636546700830987709.png
+[20:32:38.619] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/588/688/64/64/637958999303347142.png
+[20:32:38.622] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/84/193/64/64/636193647832736518_animated.gif
+[20:32:38.625] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/102/452/64/64/636330854499701192.png
+[20:32:38.628] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/588/295/64/64/637958240318838626.png
+[20:32:38.631] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/134/260/64/64/636490526725752670.png
+[20:32:38.635] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/32/419/64/64/635880199659979425.png
+[20:32:38.638] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/42/418/64/64/636008504954894502.png
+[20:32:38.642] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/588/685/64/64/637958998949519797.png
+[20:32:38.664] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/14/212/64/64/635589178760357568.png
+[20:32:38.668] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/54/102/64/64/636131217371752080.png
+[20:32:38.671] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/106/654/64/64/636360849723336023.png
+[20:32:38.675] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/49/636/64/64/636080292232708069.png
+[20:32:38.678] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/282/467/64/64/637289313020452406.png
+[20:32:38.681] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/313/420/64/64/637408811378175814.png
+[20:32:38.684] [Net] 直接下载文件：https://cdn.modrinth.com/data/AANobbMI/icon.png
+[20:32:38.688] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/195/772/64/64/636881112930494939.png
+[20:32:38.695] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/203/105/64/64/636930549407382137.png
+[20:32:38.699] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/610/296/64/64/637992132031410062.png
+[20:32:38.702] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/92/854/64/64/636258666554688823.png
+[20:32:38.704] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/185/822/64/64/636829723898798601.png
+[20:32:38.708] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/128/0/64/64/636443677885740239.png
+[20:32:38.713] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/183/63/64/64/636812486536100113.png
+[20:32:38.718] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/275/363/64/64/637261948352026071.png
+[20:32:38.721] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/86/225/64/64/636207446427836220.png
+[20:32:38.728] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/214/988/64/64/636995179309161946.png
+[20:32:38.732] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/296/125/64/64/637339523674599205.png
+[20:32:38.736] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/393/435/64/64/637588742363737916.png
+[20:32:38.741] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/358/166/64/64/637518566737953306_animated.gif
+[20:32:38.744] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/601/893/64/64/637981624482095236.png
+[20:32:38.747] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/495/151/64/64/637808085409071880.png
+[20:32:38.751] [Net] 直接下载文件：https://cdn.modrinth.com/data/YL57xq9U/dc558eece920db435f9823ce86de0c4cde89800b.png
+[20:32:38.755] [Net] 直接下载文件：https://media.forgecdn.net/avatars/thumbnails/402/662/64/64/637610797055895331.png
+[20:32:38.763] [Net] 直接下载文件：https://cdn.modrinth.com/data/gvQqBUqZ/icon.png
+[20:32:38.785] [Loader] 加载器 CompProject Mod 状态改变：Finished
+[20:32:38.844] [Animation] 两个动画帧间隔 203 ms
+[20:32:38.844] [UI] 已触发 PageOnLoaderStayFinished
+[20:32:38.844] [UI] 页面状态切换为 LoaderExit
+[20:32:38.874] [UI] 已触发 PageLoaderState (Stop/Abort)
+[20:32:38.883] [UI] 已触发 PageOnExitAnimationFinished
+[20:32:38.883] [UI] 页面状态切换为 ContentEnter
+[20:32:39.273] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:39.273] [UI] 页面状态切换为 ContentStay
+[20:32:41.572] [Control] 按下单选按钮：设置
+[20:32:41.572] [UI] 已触发 PageOnExit
+[20:32:41.572] [UI] 页面状态切换为 PageExit
+[20:32:41.572] [Control] 切换主要页面：Setup, -1
+[20:32:41.712] [UI] 已触发 PageOnForceExit
+[20:32:41.712] [UI] 页面状态切换为 Empty
+[20:32:41.749] [UI] 已触发 PageOnEnter
+[20:32:41.749] [UI] 页面状态切换为 ContentEnter
+[20:32:42.229] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:42.229] [UI] 页面状态切换为 ContentStay
+[20:32:43.268] [Control] 按下单选列表项：启动器
+[20:32:43.299] [UI] 已触发 PageOnExit
+[20:32:43.299] [UI] 页面状态切换为 PageExit
+[20:32:43.414] [UI] 已触发 PageOnForceExit
+[20:32:43.414] [UI] 页面状态切换为 Empty
+[20:32:43.459] [UI] 已触发 PageOnEnter
+[20:32:43.459] [UI] 页面状态切换为 ContentEnter
+[20:32:43.930] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:43.930] [UI] 页面状态切换为 ContentStay
+[20:32:44.725] [Control] 按下单选按钮：启动
+[20:32:44.725] [UI] 已触发 PageOnExit
+[20:32:44.725] [UI] 页面状态切换为 PageExit
+[20:32:44.725] [Control] 切换主要页面：Launch, -1
+[20:32:44.853] [UI] 已触发 PageOnForceExit
+[20:32:44.853] [UI] 页面状态切换为 Empty
+[20:32:44.885] [UI] 已触发 PageOnEnter
+[20:32:44.885] [UI] 页面状态切换为 ContentEnter
+[20:32:44.885] [Report] FPS 64, 动画 23, 下载中 0（0 B/s）
+[20:32:45.243] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:45.243] [UI] 页面状态切换为 ContentStay
+[20:32:45.588] [Control] 按下按钮：版本设置
+[20:32:45.598] [UI] 已触发 PageOnExit
+[20:32:45.598] [UI] 页面状态切换为 PageExit
+[20:32:45.599] [UI] 已触发 PageOnExit
+[20:32:45.599] [Control] 切换主要页面：VersionSetup, 0
+[20:32:45.696] [UI] 已触发 PageOnExitAnimationFinished
+[20:32:45.696] [UI] 页面状态切换为 Empty
+[20:32:45.757] [UI] 已触发 PageOnEnter
+[20:32:45.757] [UI] 页面状态切换为 ContentEnter
+[20:32:46.243] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:46.243] [UI] 页面状态切换为 ContentStay
+[20:32:46.806] [Control] 按下单选列表项：Mod 管理
+[20:32:46.806] [UI] 已触发 PageOnExit
+[20:32:46.806] [UI] 页面状态切换为 PageExit
+[20:32:46.947] [UI] 已触发 PageOnForceExit
+[20:32:46.947] [UI] 页面状态切换为 Empty
+[20:32:46.953] [Loader] 加载器 Mod List Loader 状态改变：Loading
+[20:32:46.953] [UI] 已触发 PageLoaderState (Start/Refresh)
+[20:32:46.954] [System] 已刷新 Mod 列表
+[20:32:46.954] [Loader] 加载线程 Mod List Loader (67) 已启动
+[20:32:46.977] [UI] 已触发 PageOnEnter
+[20:32:46.977] [UI] 页面状态切换为 LoaderWait
+[20:32:47.166] [UI] 已触发 PageOnLoaderWaitFinished
+[20:32:47.166] [UI] 页面状态切换为 LoaderEnter
+[20:32:47.352] Mod Class 信息不可用（d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\mods\前置MOD-_MixinBootstrap-1.1.0.jar）：未找到 Mod 入口点
+   在 PCL.ModMinecraft.McMod.LoadWithClass(ZipArchive Jar)
+错误类型：System.IO.FileNotFoundException
+[20:32:47.524] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:47.524] [UI] 页面状态切换为 LoaderStayForce
+[20:32:47.833] [Loader] 加载器 Mod List Loader 状态改变：Finished
+[20:32:47.833] [UI] 已触发 PageLoaderState (Stop/Abort)
+[20:32:47.915] [UI] 已触发 PageOnLoaderStayFinished
+[20:32:47.915] [UI] 页面状态切换为 LoaderExit
+[20:32:48.008] [UI] 已触发 PageOnExitAnimationFinished
+[20:32:48.008] [UI] 页面状态切换为 ContentEnter
+[20:32:48.446] [UI] 已触发 PageOnEnterAnimationFinished
+[20:32:48.446] [UI] 页面状态切换为 ContentStay
+[20:32:51.726] [Report] FPS 64, 动画 12, 下载中 0（0 B/s）
+[20:32:52.585] [Control] 按下单击列表项：作者MOD-物品编辑器-infinityitemeditor-1.2
+[20:32:53.226] [Control] 按下单击列表项：作者MOD-物品编辑器-infinityitemeditor-1.2（已禁用）
+[20:32:53.685] [Control] 普通弹窗：Infinity Item Editor
+An in-game item editor that strives to provide the best tools for item spawning and editing.
+It strives to be user-friendly, and usable with minimal knowledge of the internal data tags.
+Perhaps best of all, the goal is to provide you with the creative freedom to create any items you can imagine, even while playing on a server.
+
+文件：作者MOD-物品编辑器-infinityitemeditor-1.2.jar（389 K）
+版本：1.2
+
+—————— 调试信息 ——————
+Mod ID：infinityitemeditor
+依赖于：
+ - forge
+ - minecraft，版本：[1.14.4]
+[20:32:55.286] [Control] 按下按钮：返回
+[20:32:55.286] [Control] 普通弹框返回：2
+[20:32:56.412] [Control] 按下图标按钮
+[20:32:56.413] [System] 执行外部命令：explorer.exe /select,"d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\mods\作者MOD-物品编辑器-infinityitemeditor-1.2.jar"
+[20:32:58.150] [Report] FPS 52, 动画 0, 下载中 0（0 B/s）
+[20:33:01.040] [Control] 按下单击列表项：作者MOD-物品编辑器-infinityitemeditor-1.2
+[20:33:10.719] [Control] 按下单击列表项：作者MOD-物品编辑器-infinityitemeditor-1.2（已禁用）
+[20:33:15.363] [Report] FPS 64, 动画 15, 下载中 0（0 B/s）
+[20:33:17.876] [Control] 按下图标按钮：BtnTitleInner
+[20:33:17.876] [UI] 已触发 PageOnExit
+[20:33:17.876] [UI] 页面状态切换为 PageExit
+[20:33:17.877] [Control] 切换主要页面：Launch, -1
+[20:33:18.008] [UI] 已触发 PageOnForceExit
+[20:33:18.009] [UI] 页面状态切换为 Empty
+[20:33:18.038] [UI] 已触发 PageOnEnter
+[20:33:18.038] [UI] 页面状态切换为 ContentEnter
+[20:33:18.398] [UI] 已触发 PageOnEnterAnimationFinished
+[20:33:18.398] [UI] 页面状态切换为 ContentStay
+[20:33:18.989] [Control] 按下图标按钮：BtnTitleMin
+[20:33:33.809] [Animation] 两个动画帧间隔 203 ms
+[20:33:33.998] [Animation] 两个动画帧间隔 234 ms
+[20:33:34.226] [Report] FPS 8, 动画 0, 下载中 0（0 B/s）
+[20:33:35.184] [Animation] 两个动画帧间隔 484 ms
+[20:33:35.476] [Animation] 两个动画帧间隔 453 ms
+[20:33:35.728] [Animation] 两个动画帧间隔 297 ms
+[20:33:35.916] [Animation] 两个动画帧间隔 250 ms
+[20:33:36.557] [Animation] 两个动画帧间隔 265 ms
+[20:33:36.742] [Animation] 两个动画帧间隔 250 ms
+[20:33:37.422] [Animation] 两个动画帧间隔 219 ms
+[20:33:37.868] [Animation] 两个动画帧间隔 453 ms
+[20:33:38.161] [Animation] 两个动画帧间隔 453 ms
+[20:33:38.672] [Animation] 两个动画帧间隔 281 ms
+[20:33:38.903] [Animation] 两个动画帧间隔 516 ms
+[20:33:39.040] [Animation] 两个动画帧间隔 234 ms
+[20:33:41.115] [Animation] 两个动画帧间隔 266 ms
+[20:33:42.790] [Animation] 两个动画帧间隔 344 ms
+[20:33:43.530] [Animation] 两个动画帧间隔 204 ms
+[20:37:48.440] [Animation] 两个动画帧间隔 203 ms
+[20:37:49.367] [Animation] 两个动画帧间隔 312 ms
+[20:37:49.653] [Animation] 两个动画帧间隔 344 ms
+[20:37:49.732] [Animation] 两个动画帧间隔 281 ms
+[20:37:50.883] [Animation] 两个动画帧间隔 203 ms
+[20:37:51.659] [Animation] 两个动画帧间隔 219 ms
+[20:37:51.715] [Animation] 两个动画帧间隔 234 ms
+[20:37:52.483] [Animation] 两个动画帧间隔 219 ms
+[20:38:21.041] [Report] FPS 48, 动画 0, 下载中 0（0 B/s）
+[20:48:46.519] [Animation] 两个动画帧间隔 203 ms
+[20:48:46.789] [Animation] 两个动画帧间隔 234 ms
+[20:48:47.049] [Animation] 两个动画帧间隔 282 ms
+[20:48:47.294] [Animation] 两个动画帧间隔 250 ms
+[20:48:47.556] [Animation] 两个动画帧间隔 250 ms
+[20:48:47.950] [Animation] 两个动画帧间隔 265 ms
+[20:48:48.311] [Animation] 两个动画帧间隔 391 ms
+[20:48:48.622] [Animation] 两个动画帧间隔 359 ms
+[20:48:48.950] [Animation] 两个动画帧间隔 313 ms
+[20:48:49.311] [Animation] 两个动画帧间隔 328 ms
+[20:48:49.726] [Animation] 两个动画帧间隔 359 ms
+[20:48:50.049] [Animation] 两个动画帧间隔 422 ms
+[20:48:50.109] [Animation] 两个动画帧间隔 313 ms
+[20:48:52.771] [System] 收到关闭指令
+[20:48:53.083] [System] 程序已退出，返回值：Success
