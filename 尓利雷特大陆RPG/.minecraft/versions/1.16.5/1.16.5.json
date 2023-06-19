@@ -50,7 +50,7 @@
         ]
       },
       "--tweakClass",
-      "optifine.OptiFineTweaker",
+      "optifine.OptiFineForgeTweaker",
       "--launchTarget",
       "fmlclient",
       "--fml.forgeVersion",
@@ -3385,7 +3385,7 @@
       "arguments": {
         "game": [
           "--tweakClass",
-          "optifine.OptiFineTweaker"
+          "optifine.OptiFineForgeTweaker"
         ]
       },
       "mainClass": "net.minecraft.launchwrapper.Launch",

@@ -6,11 +6,29 @@
       "viewedEntries": [
         "ars_nouveau:source/volcanic_accumulator",
         "ars_nouveau:apparatus/jar_of_light",
-        "ars_nouveau:rituals/flight"
+        "ars_nouveau:rituals/flight",
+        "ars_nouveau:spells/projectile",
+        "ars_nouveau:rituals/ritual_howto",
+        "ars_nouveau:machines/scribes_table",
+        "ars_nouveau:apparatus/dull_items",
+        "ars_nouveau:machines/ritual",
+        "ars_nouveau:source/mana_jar",
+        "ars_nouveau:rituals/fertility",
+        "ars_nouveau:rituals/sunrise",
+        "ars_nouveau:rituals/moonfall"
       ],
       "bookmarks": [],
       "history": [
+        "ars_nouveau:machines/ritual",
+        "ars_nouveau:rituals/ritual_howto",
+        "ars_nouveau:rituals/moonfall",
+        "ars_nouveau:rituals/sunrise",
         "ars_nouveau:rituals/flight",
+        "ars_nouveau:rituals/fertility",
+        "ars_nouveau:source/mana_jar",
+        "ars_nouveau:machines/scribes_table",
+        "ars_nouveau:apparatus/dull_items",
+        "ars_nouveau:spells/projectile",
         "ars_nouveau:apparatus/jar_of_light",
         "ars_nouveau:source/volcanic_accumulator"
       ],

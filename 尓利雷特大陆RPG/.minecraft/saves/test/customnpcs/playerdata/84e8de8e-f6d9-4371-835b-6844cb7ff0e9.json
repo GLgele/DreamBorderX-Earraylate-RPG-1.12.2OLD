@@ -4,6 +4,10 @@
     "NpcsTimers": [
     ],
     "FactionData": [
+        {
+            "Points": 1000,
+            "Faction": 1
+        }
     ],
     "BankData": [
     ],
@@ -17,6 +21,15 @@
     },
     "PlayerCompanionId": 0,
     "DialogData": [
+        {
+            "Dialog": 1
+        },
+        {
+            "Dialog": 2
+        },
+        {
+            "Dialog": 3
+        }
     ],
     "ItemGiverChained": [
     ],

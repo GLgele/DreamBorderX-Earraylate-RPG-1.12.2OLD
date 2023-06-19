@@ -1,0 +1,235 @@
+[11:01:57.062] [Start] 程序版本：Release 2.6.1（293）
+[11:01:57.067] [Start] 识别码：626A-87C3-407B-7191
+[11:01:57.067] [Start] 程序路径：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\PCL2启动器.exe
+[11:01:57.087] [Start] 第一阶段加载用时：250 ms
+[11:01:57.380] [UI] 页面状态切换为 ContentStay
+[11:01:57.396] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[11:01:57.397] [Start] 第二阶段加载用时：281 ms
+[11:01:57.398] [Loader] 加载线程 Minecraft Folder List (8) 已启动
+[11:01:57.426] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[11:01:57.989] [System] 窗口已置顶，位置：(362.4, 167.2), 810.4 x 500
+[11:01:57.998] [Animation] 动画线程开始
+[11:01:57.998] [Start] 第三阶段加载用时：110 ms
+[11:01:58.004] [Start] 加载 DLL：Json
+[11:01:58.005] [System] 获取资源：Json
+[11:01:58.018] [Launch] Minecraft 文件夹：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\
+[11:01:58.091] [Loader] 加载器 Loader Skin Auth 状态改变：Loading
+[11:01:58.094] [Loader] 加载线程 Loader Skin Auth (13) 已启动
+[11:01:58.105] [Loader] 加载器 Loader Skin Auth 状态改变：Finished
+[11:01:58.155] [UI] 弹出提示：[调试模式] PCL 正以调试模式运行，这可能会造成性能的下降，若无必要请不要开启！
+[11:01:58.197] [Java] 缓存中有 9 个可用的 Java
+[11:01:58.239] [Skin] 载入头像成功：Loader Skin Auth
+[11:01:58.276] [Minecraft] 启动按钮：Minecraft 版本：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\
+[11:01:58.285] [Loader] 加载器 登录 状态改变：Loading
+[11:01:58.293] [Loader] 加载线程 登录 (15) 已启动
+[11:01:58.299] [Launch] 登录加载已开始
+[11:01:58.301] [Loader] 加载器 Loader Login Auth 状态改变：Loading
+[11:01:58.301] [Loader] 加载线程 Loader Login Auth (16) 已启动
+[11:01:58.311] [Launch] 登录方式：Authlib-Injector（ai_minecraft@163.com）
+[11:01:58.313] [Launch] 验证登录开始（Validate, Auth）
+[11:01:58.324] [Net] 发起网络请求（POST，https://littleskin.cn/api/yggdrasil/authserver/validate），最大超时 15000
+[11:01:58.408] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[11:01:58.411] [Loader] 加载器 PCL 服务 状态改变：Loading
+[11:01:58.411] [Loader] 加载线程 PCL 服务 (11) 已启动
+[11:01:58.412] [Loader] 加载线程 DlClientList Mojang (12) 已启动
+[11:01:58.412] [Server] 正在连接到 PCL 服务器
+[11:01:58.419] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[11:01:58.436] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1687143718-464ccfb5-0-55ac2e5f819eae19575ca2168afda79f，最大超时 10000
+[11:01:58.544] [Server] 服务器公告：108|294|293|5，无需更新
+[11:01:58.561] [Loader] 加载器 PCL 服务 状态改变：Finished
+[11:01:58.619] [Launch] 验证登录成功（Validate, Auth）
+[11:01:58.622] [Loader] 加载器 Loader Login Auth 状态改变：Finished
+[11:01:58.627] [Launch] 登录加载已结束
+[11:01:58.627] [Loader] 加载器 登录 状态改变：Finished
+[11:01:58.716] [System] DPI：120，系统版本：10.0.17763.0，PCL 位置：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\PCL2启动器.exe
+[11:01:58.824] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[11:02:02.196] [Control] 按下单选按钮：下载
+[11:02:02.340] [Loader] 加载器 DlClientList Main 状态改变：Loading
+[11:02:02.341] [UI] 已触发 PageLoaderState (Start/Refresh)
+[11:02:02.341] [Loader] 加载线程 DlClientList Main (10) 已启动
+[11:02:02.347] [UI] 已触发 PageOnExit
+[11:02:02.347] [UI] 页面状态切换为 PageExit
+[11:02:02.350] [Loader] 加载器 DlClientList Bmclapi 状态改变：Loading
+[11:02:02.351] [Loader] 加载器 DlClientList Mojang 状态改变：Waiting
+[11:02:02.351] [Loader] 加载线程 DlClientList Bmclapi (19) 已启动
+[11:02:02.352] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/mc/game/version_manifest.json，最大超时 10000
+[11:02:02.353] [Control] 切换主要页面：Download, -1
+[11:02:02.361] [UI] 已触发 PageOnForceExit
+[11:02:02.362] [UI] 页面状态切换为 Empty
+[11:02:02.373] [Loader] 加载器 DlOptiFineList Main 状态改变：Loading
+[11:02:02.375] [Loader] 加载线程 DlOptiFineList Main (20) 已启动
+[11:02:02.375] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Loading
+[11:02:02.379] [Loader] 加载线程 DlLiteLoaderList Main (21) 已启动
+[11:02:02.379] [Loader] 加载器 DlFabricList Main 状态改变：Loading
+[11:02:02.382] [Loader] 加载线程 DlFabricList Main (22) 已启动
+[11:02:02.383] [Loader] 加载器 DlOptiFineList Bmclapi 状态改变：Loading
+[11:02:02.383] [Loader] 加载线程 DlOptiFineList Bmclapi (23) 已启动
+[11:02:02.386] [Loader] 加载器 DlLiteLoaderList Bmclapi 状态改变：Loading
+[11:02:02.387] [Loader] 加载线程 DlLiteLoaderList Bmclapi (24) 已启动
+[11:02:02.390] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/optifine/versionList，最大超时 10000
+[11:02:02.391] [Loader] 加载器 DlFabricList Bmclapi 状态改变：Loading
+[11:02:02.391] [Loader] 加载线程 DlFabricList Bmclapi (29) 已启动
+[11:02:02.392] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/maven/com/mumfrey/liteloader/versions.json，最大超时 10000
+[11:02:02.393] [Net] 获取网络结果：https://bmclapi2.bangbang93.com/fabric-meta/v2/versions，最大超时 10000
+[11:02:02.400] [Download] 刷新 Forge 推荐版本缓存开始
+[11:02:02.407] [Loader] 加载器 源码获取 159# 状态改变：Loading
+[11:02:02.423] [Download] -1798645995_158：已加入列表，剩余文件 1
+[11:02:02.432] [Download] 检查线程分配文件数：1
+[11:02:02.443] [UI] 已触发 PageOnEnter
+[11:02:02.443] [UI] 页面状态切换为 LoaderWait
+[11:02:02.470] [Download] -1798645995_158 172#：开始，起始点 0，https://bmclapi2.bangbang93.com/forge/promos
+[11:02:02.477] [Loader] 加载器 DlLiteLoaderList Bmclapi 状态改变：Finished
+[11:02:02.485] [Loader] 加载器 DlLiteLoaderList Main 状态改变：Finished
+[11:02:02.497] [Loader] 加载器 DlClientList Bmclapi 状态改变：Finished
+[11:02:02.586] [Loader] 加载器 DlOptiFineList Bmclapi 状态改变：Finished
+[11:02:02.593] [Loader] 加载器 DlOptiFineList Main 状态改变：Finished
+[11:02:02.604] [Download] -1798645995_158：文件大小 46748 B（45.7 K）
+[11:02:02.618] [Download] -1798645995_158 172#：完成，已下载 45.7 K
+[11:02:02.621] [UI] 已触发 PageOnLoaderWaitFinished
+[11:02:02.621] [UI] 页面状态切换为 LoaderEnter
+[11:02:02.623] [Download] -1798645995_158：正在合并文件
+[11:02:02.629] [Download] -1798645995_158：已完成，剩余文件 0
+[11:02:02.629] [Loader] 加载器 源码获取 159# 状态改变：Finished
+[11:02:02.638] [Loader] 加载器 DlClientList Main 状态改变：Finished
+[11:02:02.639] [UI] 已触发 PageLoaderState (Stop/Abort)
+[11:02:02.643] [Download] 刷新 Forge 推荐版本缓存成功
+[11:02:02.649] [Loader] 加载器 DlFabricList Bmclapi 状态改变：Finished
+[11:02:02.660] [Loader] 加载器 DlFabricList Main 状态改变：Finished
+[11:02:02.883] [UI] 已触发 PageOnEnterAnimationFinished
+[11:02:02.883] [UI] 页面状态切换为 LoaderStayForce
+[11:02:03.275] [UI] 已触发 PageOnLoaderStayFinished
+[11:02:03.275] [UI] 页面状态切换为 LoaderExit
+[11:02:03.347] [Control] 按下单选按钮：设置
+[11:02:03.489] [UI] 已触发 PageOnExit
+[11:02:03.489] [UI] 页面状态切换为 PageExit
+[11:02:03.489] [Control] 切换主要页面：Setup, -1
+[11:02:03.494] [UI] 已触发 PageOnExitAnimationFinished
+[11:02:03.494] [UI] 页面状态切换为 Empty
+[11:02:03.584] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[11:02:03.584] [Loader] 加载线程 Loader Skin Legacy (31) 已启动
+[11:02:03.587] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[11:02:03.631] [UI] 已触发 PageOnEnter
+[11:02:03.631] [UI] 页面状态切换为 ContentEnter
+[11:02:04.054] [UI] 已触发 PageOnEnterAnimationFinished
+[11:02:04.054] [UI] 页面状态切换为 ContentStay
+[11:02:04.146] [Control] 按下单选按钮：更多
+[11:02:04.174] [Loader] 加载器 Help Page 状态改变：Loading
+[11:02:04.174] [UI] 已触发 PageLoaderState (Start/Refresh)
+[11:02:04.175] [UI] 已触发 PageOnExit
+[11:02:04.175] [UI] 页面状态切换为 PageExit
+[11:02:04.175] [Control] 切换主要页面：Other, -1
+[11:02:04.177] [Loader] 加载线程 Help Page (27) 已启动
+[11:02:04.222] [System] 获取资源：Help
+[11:02:04.290] [UI] 已触发 PageOnForceExit
+[11:02:04.290] [UI] 页面状态切换为 Empty
+[11:02:04.321] [UI] 已触发 PageOnEnter
+[11:02:04.321] [UI] 页面状态切换为 LoaderWait
+[11:02:04.334] [Help] 已解压内置帮助文件，目前状态：True
+[11:02:04.336] [Help] 已扫描 PCL 文件夹下的帮助文件，目前总计 0 条
+[11:02:04.339] [Help] 已扫描缓存文件夹下的帮助文件，目前总计 33 条
+[11:02:04.346] [Help] 已加载的帮助条目：存档损坏的解决方案 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\存档损坏.json
+[11:02:04.346] [Help] 已加载的帮助条目：安装 Mod ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\安装 Mod.json
+[11:02:04.346] [Help] 已加载的帮助条目：安装存档 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\安装世界.json
+[11:02:04.347] [Help] 已加载的帮助条目：安装光影 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\安装光影.json
+[11:02:04.347] [Help] 已加载的帮助条目：微软登录卡死或失败的解决方案 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\微软账号登录失败.json
+[11:02:04.347] [Help] 已加载的帮助条目：安装数据包 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\数据包安装.json
+[11:02:04.347] [Help] 已加载的帮助条目：安装整合包 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\整合包安装.json
+[11:02:04.347] [Help] 已加载的帮助条目：Minecraft 新手指南 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\新手教程.json
+[11:02:04.348] [Help] 已加载的帮助条目：设置游戏内存大小 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\设置分配内存大小.json
+[11:02:04.348] [Help] 已加载的帮助条目：购买 Minecraft 正版 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\购买正版.json
+[11:02:04.348] [Help] 已加载的帮助条目：安装资源包 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\Minecraft\资源包安装.json
+[11:02:04.349] [Help] 已加载的帮助条目：自定义主页与帮助 XAML 格式 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\个性化\XAML 格式.json
+[11:02:04.349] [Help] 已加载的帮助条目：设置 LittleSkin 的外置登录 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\启动器\LittleSkin 外置登录使用教程.json
+[11:02:04.349] [Help] 已加载的帮助条目：备份启动器设置 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\启动器\备份设置.json
+[11:02:04.349] [Help] 已加载的帮助条目：手动选择 Java ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\启动器\手动选择 Java 路径.json
+[11:02:04.350] [Help] 已加载的帮助条目：设置外置登录、限制登录方式 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\启动器\指定登录方式.json
+[11:02:04.350] [Help] 已加载的帮助条目：导出角色皮肤 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\启动器\角色皮肤导出.json
+[11:02:04.350] [Help] 已加载的帮助条目：解锁主题使用 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\启动器\解锁主题 - Public.json
+[11:02:04.350] [Help] 已加载的帮助条目：解锁隐藏主题 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\启动器\解锁主题 - Snapshot.json
+[11:02:04.350] [Help] 已加载的帮助条目：使用 Git 获取帮助库 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\帮助\提交帮助 - Git.json
+[11:02:04.351] [Help] 已加载的帮助条目：使用 GitHub Desktop 获取帮助库 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\帮助\提交帮助 - GitHub Desktop.json
+[11:02:04.351] [Help] 已加载的帮助条目：使用 VSCode 获取帮助库 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\帮助\提交帮助 - VSCode.json
+[11:02:04.351] [Help] 已加载的帮助条目：PCL2 帮助库编写规范 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\帮助\提交帮助 - 编写规范.json
+[11:02:04.352] [Help] 已加载的帮助条目：参与完善 PCL2 帮助库 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\帮助\提交帮助.json
+[11:02:04.352] [Help] 已加载的帮助条目：帮助 JSON 格式 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\帮助\自定义帮助 - JSON 格式.json
+[11:02:04.352] [Help] 已加载的帮助条目：自定义帮助页面 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\帮助\自定义帮助.json
+[11:02:04.352] [Help] 已加载的帮助条目：整合包制作指南 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\指南\整合包制作 - Public.json
+[11:02:04.353] [Help] 已加载的帮助条目：整合包制作指南 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\指南\整合包制作 - Snapshot.json
+[11:02:04.353] [Help] 已加载的帮助条目：资源安装指南 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\指南\资源安装指南.json
+[11:02:04.353] [Help] 已加载的帮助条目：赞助与内测指南 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\指南\赞助与内测指南.json
+[11:02:04.353] [Help] 已加载的帮助条目：MC 百科 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\百科\MCMOD.json
+[11:02:04.354] [Help] 已加载的帮助条目：原版百科 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\百科\Minecraft Wiki.json
+[11:02:04.354] [Help] 已加载的帮助条目：插件百科 ← C:\Users\Administrator\AppData\Local\Temp\PCL\Help\百科\Mineplugin Wiki.json
+[11:02:04.390] [Loader] 加载器 Help Page 状态改变：Finished
+[11:02:04.391] [UI] 已触发 PageLoaderState (Stop/Abort)
+[11:02:04.391] [UI] 页面状态切换为 ContentEnter
+[11:02:04.963] [UI] 已触发 PageOnEnterAnimationFinished
+[11:02:04.963] [UI] 页面状态切换为 ContentStay
+[11:02:08.805] [Report] FPS 64, 动画 10, 下载中 0（0 B/s）
+[11:02:09.200] [Control] 展开卡片：Minecraft
+[11:02:11.971] [Control] 折叠卡片：Minecraft
+[11:02:12.529] [Control] 普通弹窗：提醒
+是否要打开新功能投票网页？
+如果无法打开该网页，请尝试使用加速器或 VPN。
+[11:02:14.309] [Control] 按下按钮：取消
+[11:02:14.314] [Control] 普通弹框返回：2
+[11:02:14.314] [Control] 按下单击列表项：新功能投票
+[11:02:14.917] [Control] 按下单选列表项：百宝箱
+[11:02:14.936] [UI] 已触发 PageOnExit
+[11:02:14.936] [UI] 页面状态切换为 PageExit
+[11:02:15.055] [UI] 已触发 PageOnForceExit
+[11:02:15.055] [UI] 页面状态切换为 Empty
+[11:02:15.104] [UI] 已触发 PageOnEnter
+[11:02:15.104] [UI] 页面状态切换为 ContentEnter
+[11:02:15.523] [UI] 已触发 PageOnEnterAnimationFinished
+[11:02:15.523] [UI] 页面状态切换为 ContentStay
+[11:02:16.562] [Control] 按下按钮：今日人品
+[11:02:16.573] [Control] 普通弹窗：今日人品 - 2023/6/19
+你今天的人品值是：93！好评如潮！
+[11:02:17.436] [Control] 按下按钮：我知道了
+[11:02:18.131] [Control] 按下按钮：今日人品
+[11:02:18.139] [Control] 普通弹窗：今日人品 - 2023/6/19
+你今天的人品值是：93！好评如潮！
+[11:02:18.691] [Control] 按下按钮：我知道了
+[11:02:22.916] [Control] 按下单选列表项：关于与鸣谢
+[11:02:22.954] [UI] 已触发 PageOnExit
+[11:02:22.954] [UI] 页面状态切换为 PageExit
+[11:02:23.070] [UI] 已触发 PageOnForceExit
+[11:02:23.070] [UI] 页面状态切换为 Empty
+[11:02:23.165] [UI] 已触发 PageOnEnter
+[11:02:23.165] [UI] 页面状态切换为 ContentEnter
+[11:02:23.616] [UI] 已触发 PageOnEnterAnimationFinished
+[11:02:23.616] [UI] 页面状态切换为 ContentStay
+[11:02:30.715] [Control] 按下单选列表项：帮助
+[11:02:30.715] [UI] 已触发 PageOnExit
+[11:02:30.715] [UI] 页面状态切换为 PageExit
+[11:02:30.853] [UI] 已触发 PageOnForceExit
+[11:02:30.853] [UI] 页面状态切换为 Empty
+[11:02:30.882] [UI] 已触发 PageOnEnter
+[11:02:30.882] [UI] 页面状态切换为 ContentEnter
+[11:02:31.461] [UI] 已触发 PageOnEnterAnimationFinished
+[11:02:31.461] [UI] 页面状态切换为 ContentStay
+[11:02:32.803] [Control] 按下单选按钮：设置
+[11:02:32.803] [UI] 已触发 PageOnExit
+[11:02:32.803] [UI] 页面状态切换为 PageExit
+[11:02:32.803] [Control] 切换主要页面：Setup, -1
+[11:02:32.930] [UI] 已触发 PageOnForceExit
+[11:02:32.930] [UI] 页面状态切换为 Empty
+[11:02:32.960] [UI] 已触发 PageOnEnter
+[11:02:32.960] [UI] 页面状态切换为 ContentEnter
+[11:02:33.445] [UI] 已触发 PageOnEnterAnimationFinished
+[11:02:33.445] [UI] 页面状态切换为 ContentStay
+[11:02:33.922] [Control] 按下单选列表项：启动器
+[11:02:33.952] [UI] 已触发 PageOnExit
+[11:02:33.952] [UI] 页面状态切换为 PageExit
+[11:02:34.071] [UI] 已触发 PageOnForceExit
+[11:02:34.071] [UI] 页面状态切换为 Empty
+[11:02:34.110] [UI] 已触发 PageOnEnter
+[11:02:34.110] [UI] 页面状态切换为 ContentEnter
+[11:02:34.586] [UI] 已触发 PageOnEnterAnimationFinished
+[11:02:34.586] [UI] 页面状态切换为 ContentStay
+[11:02:44.122] [Control] 展开卡片：调试选项
+[11:02:47.035] [Control] 按下复选框（False）：调试模式
+[11:02:49.621] [Control] 按下图标按钮：BtnTitleClose
+[11:02:49.629] [System] 收到关闭指令
+[11:02:49.873] [System] 程序已退出，返回值：Success

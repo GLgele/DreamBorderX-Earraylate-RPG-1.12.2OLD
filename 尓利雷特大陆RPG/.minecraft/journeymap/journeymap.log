@@ -1,9 +1,9 @@
-[21:43:22] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[21:43:22] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[21:43:22] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[21:43:22] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[21:43:22] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[21:43:23] [Render thread/INFO] [?] Version: JourneyMap 1.16.5-5.8.5p6, built with Forge 1.16.5-36.2.22
+[11:13:45] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[11:13:45] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[11:13:45] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[11:13:45] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[11:13:45] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[11:13:45] [Render thread/INFO] [?] Version: JourneyMap 1.16.5-5.8.5p6, built with Forge 1.16.5-36.2.22
 Forge: 36.2.39
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=en_us
 Features: 
@@ -21,27 +21,25 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.5p6, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.8.5p6, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.5p6, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.8.5p6, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.8.5p6, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, glErrorChecking=false, autoMapPoll=2000}
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.HudOverlayHandler
-[21:43:23] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PopupMenuEventHandler
-[21:43:23] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed§8 count §r1§8 avg §r597.56§8ms§r
-[21:43:28] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[21:43:28] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[21:43:28] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[21:43:29] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[21:43:29] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r883.15§8ms§r
-[21:45:08] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[21:45:08] [Thread-0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[21:45:08] [Thread-0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[21:45:42] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\journeymap\data\sp\test\waypoints
-[21:45:42] [Render thread/INFO] [JourneymapClient] Mapping started in d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\journeymap\data\sp\test\overworld. Memory: 3584MB total, 1906MB free 
-[21:45:43] [Render thread/INFO] [ChatLog] 
-[21:49:51] [Render thread/INFO] [JourneymapClient] Mapping halted in d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.HudOverlayHandler
+[11:13:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PopupMenuEventHandler
+[11:13:45] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed§8 count §r1§8 avg §r543.25§8ms§r
+[11:13:51] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[11:13:51] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[11:13:52] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[11:13:52] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[11:13:52] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r720.53§8ms§r
+[11:17:45] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[11:18:16] [Render thread/INFO] [ChatLog] 
+[11:18:17] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\journeymap\data\sp\test\waypoints
+[11:18:17] [Render thread/INFO] [JourneymapClient] Mapping started in d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\journeymap\data\sp\test\overworld. Memory: 2930MB total, 1025MB free 
+[11:19:10] [Render thread/INFO] [JourneymapClient] Mapping halted in d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\journeymap\data\mp\offline\minecraft:overworld

@@ -22,7 +22,7 @@
 [internal]
 	#Which tab the editor was last on.
 	#Range: 0 ~ 2
-	mainRightTab = 1
+	mainRightTab = 0
 	#Which style is currently being used.
 	#Range: 0 ~ 20
 	activeStyle = 0
