@@ -765,3 +765,9 @@
 [11:19:57.309] [Launch] [12884] Minecraft 已退出，返回值：0
 [11:19:57.309] [Launch] [全局] 已无运行中的 Minecraft
 [11:19:57.503] [Launch] [12884] Minecraft 日志监控已退出
+[11:41:24.414] [Animation] 两个动画帧间隔 312 ms
+[11:44:21.418] [Animation] 两个动画帧间隔 812 ms
+[11:51:01.933] [Control] 按下图标按钮：BtnTitleMin
+[11:51:43.902] [Control] 按下图标按钮：BtnTitleClose
+[11:51:43.964] [System] 收到关闭指令
+[11:51:44.211] [System] 程序已退出，返回值：Success
