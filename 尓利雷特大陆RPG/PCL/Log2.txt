@@ -1,40 +1,120 @@
-[12:58:29.551] [Start] 程序版本：Release 2.6.1（293）
-[12:58:29.555] [Start] 识别码：626A-87C3-407B-7191
-[12:58:29.555] [Start] 程序路径：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\PCL2启动器.exe
-[12:58:29.569] [Start] 第一阶段加载用时：218 ms
-[12:58:29.843] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
-[12:58:29.843] [Start] 第二阶段加载用时：266 ms
-[12:58:29.870] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
-[12:58:30.818] [System] 窗口已置顶，位置：(362.4, 167.2), 810.4 x 500
-[12:58:30.830] [Animation] 动画线程开始
-[12:58:30.831] [Start] 第三阶段加载用时：188 ms
-[12:58:30.843] [Start] 加载 DLL：Json
-[12:58:30.844] [System] 获取资源：Json
-[12:58:30.858] [Launch] Minecraft 文件夹：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\
-[12:58:31.036] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
-[12:58:31.047] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
-[12:58:31.078] [Java] 缓存中有 9 个可用的 Java
-[12:58:31.227] [Skin] 载入头像成功：Loader Skin Legacy
-[12:58:31.227] [Animation] 两个动画帧间隔 343 ms
-[12:58:31.259] [Minecraft] 启动按钮：Minecraft 版本：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\
-[12:58:31.269] [Loader] 加载器 登录 状态改变：Loading
-[12:58:31.294] [Launch] 登录加载已开始
-[12:58:31.298] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
-[12:58:31.306] [Loader] 加载器 PCL 服务 状态改变：Loading
-[12:58:31.308] [Server] 正在连接到 PCL 服务器
-[12:58:31.309] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
-[12:58:31.313] [Launch] 登录方式：离线（GLgele）
-[12:58:31.321] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
-[12:58:31.332] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
-[12:58:31.341] [Launch] 登录加载已结束
-[12:58:31.341] [Loader] 加载器 登录 状态改变：Finished
-[12:58:31.347] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1687150711-51876064-0-8d3655bb18505b3ced412db375ce866a，最大超时 10000
-[12:58:31.540] [System] DPI：120，系统版本：10.0.17763.0，PCL 位置：d:\Users\Administrator\Documents\Github\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\PCL2启动器.exe
-[12:58:31.572] [Server] 服务器公告：108|294|293|5，无需更新
-[12:58:31.587] [Loader] 加载器 PCL 服务 状态改变：Finished
-[12:58:31.846] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
-[12:58:32.745] [Control] 按下单选按钮：设置
-[12:58:32.917] [Control] 切换主要页面：Setup, -1
-[12:59:54.879] [Control] 按下图标按钮：BtnTitleClose
-[12:59:54.888] [System] 收到关闭指令
-[12:59:55.147] [System] 程序已退出，返回值：Success
+[10:20:41.284] [Start] 程序版本：Release 2.6.1（293）
+[10:20:41.306] [Start] 识别码：3166-964E-BD2B-382C
+[10:20:41.306] [Start] 程序路径：D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\PCL2启动器.exe
+[10:20:41.375] [Start] 第一阶段加载用时：438 ms
+[10:20:42.184] [Start] 版本号从 0 升高到 293
+[10:20:42.185] [Start] 最高版本号从 0 升高到 293
+[10:20:42.200] [Start] 已解除帮助页面的隐藏
+[10:20:42.342] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[10:20:42.343] [Start] 第二阶段加载用时：813 ms
+[10:20:42.373] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[10:20:43.564] [System] 窗口已置顶，位置：(530, 260), 860 x 520
+[10:20:43.571] [Animation] 动画线程开始
+[10:20:43.571] [Start] 第三阶段加载用时：187 ms
+[10:20:43.576] [Start] 加载 DLL：Json
+[10:20:43.576] [System] 获取资源：Json
+[10:20:43.591] [Launch] Minecraft 文件夹：D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\
+[10:20:44.006] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[10:20:44.014] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[10:20:44.100] [Animation] 两个动画帧间隔 515 ms
+[10:20:44.121] [Minecraft] 启动按钮：Minecraft 版本：D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\versions\1.16.5\
+[10:20:44.175] [Skin] 载入头像成功：Loader Skin Legacy
+[10:20:44.207] [Control] 普通弹窗：协议授权
+在使用 PCL 前，请同意 PCL 的用户协议与免责声明。
+[10:20:44.311] [System] DPI：96，系统版本：10.0.19045.0，PCL 位置：D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\PCL2启动器.exe
+[10:20:45.625] [Control] 按下按钮：同意
+[10:20:45.627] [Control] 普通弹框返回：1
+[10:20:45.630] [Java] 要求 Java 列表缓存更新
+[10:20:45.630] [Java] 初始化未找到可用的 Java，将自动触发搜索
+[10:20:45.631] [Loader] 加载器 查找 Java 状态改变：Loading
+[10:20:45.640] [Java] 开始部分遍历查找：C:\
+[10:20:45.777] [Java] 遍历查找 Java 时遭遇无权限的文件夹：C:\ProgramData\Microsoft\Network\Downloader
+[10:20:45.851] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[10:20:45.852] [Loader] 加载器 PCL 服务 状态改变：Loading
+[10:20:45.853] [Server] 正在连接到 PCL 服务器
+[10:20:45.856] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，最大超时 10000
+[10:20:45.863] [Java] 遍历查找 Java 时遭遇无权限的文件夹：C:\ProgramData\Packages
+[10:20:45.864] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1689387646-64ea8099-0-e0e088ed0ff247dc323f9544e8c03c81，最大超时 10000
+[10:20:46.244] [Java] 开始部分遍历查找：D:\
+[10:20:46.278] [Server] 服务器公告：111|297|296|5，本地公告编号：0，需更新
+[10:20:46.283] [Java] 开始部分遍历查找：E:\
+[10:20:46.285] [Loader] 加载器 源码获取 112# 状态改变：Loading
+[10:20:46.388] [Java] 开始部分遍历查找：F:\
+[10:20:46.405] [Java] 开始部分遍历查找：G:\
+[10:20:46.428] [Download] 1805801698_111 116#：开始，起始点 0，https://pcl2-server-1253424809.file.myqcloud.com/minecraft/download.json?sign=1689387646-66da222d-0-29062d03851faab5d4e0180a981f59d0
+[10:20:46.429] [Java] 开始部分遍历查找：H:\
+[10:20:46.437] [Java] 开始部分遍历查找：I:\
+[10:20:46.503] [Download] 1805801698_111：文件大小 3896 B（3.8 K）
+[10:20:46.517] [Download] 1805801698_111：已完成，剩余文件 0
+[10:20:46.517] [Loader] 加载器 源码获取 112# 状态改变：Finished
+[10:20:46.520] [Java] 开始部分遍历查找：J:\
+[10:20:46.524] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.json?sign=1689387647-0e32e15c-0-ba324677508a4d433e528f1271438470，最大超时 10000
+[10:20:46.574] [Server] 重要等级 0，更新公告 True
+[10:20:46.574] [System] 更新已开始，静默：True
+[10:20:46.574] [Server] 重要等级 1，更新公告 True
+[10:20:46.574] [Loader] 加载器 PCL 服务 状态改变：Finished
+[10:20:46.577] [Loader] 加载器 启动器更新 状态改变：Loading
+[10:20:46.580] [Loader] 加载器 下载更新文件 状态改变：Loading
+[10:20:46.619] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[10:20:46.662] [Download] Update.zip 128#：开始，起始点 0，https://pcl2-server-1253424809.file.myqcloud.com/update/PubliT.zip?sign=1689387647-4a1138f5-0-240c2399b9502c257292f791c9977d46
+[10:20:46.708] [Download] Update.zip：文件大小 2016670 B（1.92 M）
+[10:20:47.395] [Java] 开始部分遍历查找：C:\Users\GLgel\AppData\Roaming\
+[10:20:47.420] [Java] 开始部分遍历查找：C:\Users\GLgel\AppData\Local\
+[10:20:47.592] [Java] 开始完全遍历查找：D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\
+[10:20:47.595] [Java] 开始完全遍历查找：D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\.minecraft\
+[10:20:47.605] [Java] 位于 C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\ 的 Java 不含符号链接
+[10:20:47.606] [Java] 位于 C:\Users\GLgel\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\ 的 Java 不含符号链接
+[10:20:47.607] [Java] 位于 C:\Users\GLgel\AppData\Roaming\.minecraft\cache\java\java-runtime-beta\windows-x64\java-runtime-beta\bin\ 的 Java 不含符号链接
+[10:20:47.607] [Java] 位于 I:\Game\MinecraftJavaEdition\runtime\jre-x64\bin\ 的 Java 不含符号链接
+[10:20:47.607] [Java] 位于 C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\ 的 Java 不含特殊引用
+[10:20:47.607] [Java] 位于 C:\Users\GLgel\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\ 的 Java 不含特殊引用
+[10:20:47.607] [Java] 位于 C:\Users\GLgel\AppData\Roaming\.minecraft\cache\java\java-runtime-beta\windows-x64\java-runtime-beta\bin\ 的 Java 不含特殊引用
+[10:20:47.607] [Java] 位于 I:\Game\MinecraftJavaEdition\runtime\jre-x64\bin\ 的 Java 不含特殊引用
+[10:20:47.613] [Java] 开始确认列表 Java 状态，共 4 项
+[10:20:47.617] [System] 执行外部命令并等待返回结果：C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\java.exe -version
+[10:20:47.617] [System] 执行外部命令并等待返回结果：C:\Users\GLgel\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\java.exe -version
+[10:20:47.617] [System] 执行外部命令并等待返回结果：I:\Game\MinecraftJavaEdition\runtime\jre-x64\bin\java.exe -version
+[10:20:47.617] [System] 执行外部命令并等待返回结果：C:\Users\GLgel\AppData\Roaming\.minecraft\cache\java\java-runtime-beta\windows-x64\java-runtime-beta\bin\java.exe -version
+[10:20:48.058] [Java] JRE 8 (8.0.51)，64 位：I:\Game\MinecraftJavaEdition\runtime\jre-x64\bin\
+[10:20:48.219] [Java] 疑似 X.0.X.X 格式版本号：11.0.16.1
+[10:20:48.219] [Java] JDK 11 (11.16.1)，64 位：C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\
+[10:20:48.270] [Java] JDK 16 (16.0.1)，64 位：C:\Users\GLgel\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\
+[10:20:48.307] [Java] JDK 17 (17.0.1)，64 位：C:\Users\GLgel\AppData\Roaming\.minecraft\cache\java\java-runtime-beta\windows-x64\java-runtime-beta\bin\
+[10:20:48.321] [Java] Java 搜索完成，发现 4 个 Java
+[10:20:48.321] [Loader] 加载器 查找 Java 状态改变：Finished
+[10:20:49.947] [Download] Update.zip：已完成，剩余文件 0
+[10:20:49.947] [Loader] 加载器 下载更新文件 状态改变：Finished
+[10:20:49.950] [Loader] 加载器 安装更新 状态改变：Loading
+[10:20:49.953] [System] 无需清理目标更新文件：D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\PCL\Plain Craft Launcher 2.exe
+[10:20:50.003] [System] 更新文件解压完成
+[10:20:50.003] [Loader] 加载器 安装更新 状态改变：Finished
+[10:20:50.006] [Loader] 加载器 启动器更新 状态改变：Finished
+[10:20:51.443] [Control] 按下单选按钮：正版
+[10:20:51.629] [Report] FPS 0, 动画 7, 下载中 0（0 B/s）
+[10:20:52.172] [Control] 按下单选按钮：离线
+[10:20:53.174] [Control] 按下单选按钮：设置
+[10:20:53.362] [Control] 切换主要页面：Setup, -1
+[10:20:53.379] [Animation] 两个动画帧间隔 204 ms
+[10:20:58.462] [Control] 按下单选按钮：启动
+[10:20:58.463] [Control] 切换主要页面：Launch, -1
+[10:21:07.760] [Control] 按下单选按钮：设置
+[10:21:07.760] [Control] 切换主要页面：Setup, -1
+[10:21:08.736] [Control] 按下单选按钮：启动
+[10:21:08.737] [Control] 切换主要页面：Launch, -1
+[10:21:10.744] [Control] 按下单选按钮：设置
+[10:21:10.744] [Control] 切换主要页面：Setup, -1
+[10:21:12.347] [Control] 按下单选按钮：启动
+[10:21:12.347] [Control] 切换主要页面：Launch, -1
+[10:21:14.023] [Control] 按下按钮：版本设置
+[10:21:14.048] [Control] 切换主要页面：VersionSetup, 0
+[10:21:17.694] [Control] 按下图标按钮：BtnTitleClose
+[10:21:17.698] [System] 收到关闭指令
+[10:21:17.944] [System] 更新程序启动，参数：--update 7008 "PCL2启动器.exe" "PCL2启动器.exe" False
+[10:21:18.058] 自动更新时触发 Win32 错误，疑似被拦截：文件或目录损坏且无法读取。
+   在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   在 PCL.ModMain.UpdateRestart(Boolean TriggerRestartAndByEnd)
+错误类型：System.ComponentModel.Win32Exception
+[10:21:18.059] [System] 由于被 Windows 防火墙拦截，或者存在其他权限问题，导致 PCL 无法完成更新。
+请将 PCL 加入白名单，或者手动用 D:\Users\Administrator\Documents\GitHub\DreamBorderX-Earraylate-RPG\尓利雷特大陆RPG\PCL\Plain Craft Launcher 2.exe 替换当前文件！
+[10:21:18.059] [System] 程序已退出，返回值：Success
